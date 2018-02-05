@@ -1,0 +1,30 @@
+.topic_reply {
+	display: table;
+	width: 90%;
+}
+
+.topic_reply_author {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
+
+.topic_reply_content {
+	display: table-cell;
+	width: 75%;
+}
+
+.topic_reply_author img {
+	width: 75px;
+	border: 1px solid #c3dbf1;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	z-index: 10;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.topic_date {
+	float: right;
+}

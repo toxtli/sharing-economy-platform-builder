@@ -75,18 +75,26 @@ $file_types = wp_get_theme_file_editable_extensions( $theme );
 foreach ( $file_types as $type ) {
 	switch ( $type ) {
 		case 'php':
-			$allowed_files += $theme->get_files( 'php', 1 );
+			$allowed_files += $theme->get_files( 'php', -1 );
 			$has_templates = ! empty( $allowed_files );
 			break;
 		case 'css':
-			$style_files = $theme->get_files( 'css' );
+			$style_files = $theme->get_files( 'css', -1 );
 			$allowed_files['style.css'] = $style_files['style.css'];
 			$allowed_files += $style_files;
 			break;
 		default:
-			$allowed_files += $theme->get_files( $type );
+			$allowed_files += $theme->get_files( $type, -1 );
 			break;
 	}
+}
+
+// Move functions.php and style.css to the top.
+if ( isset( $allowed_files['functions.php'] ) ) {
+	$allowed_files = array( 'functions.php' => $allowed_files['functions.php'] ) + $allowed_files;
+}
+if ( isset( $allowed_files['style.css'] ) ) {
+	$allowed_files = array( 'style.css' => $allowed_files['style.css'] ) + $allowed_files;
 }
 
 if ( empty( $file ) ) {
@@ -177,6 +185,20 @@ if ( $file_description != $file_show ) {
 		<pre><?php echo esc_html( $edit_error->get_error_message() ? $edit_error->get_error_message() : $edit_error->get_error_code() ); ?></pre>
 	</div>
 <?php endif; ?>
+<?php if ( preg_match( '/\.css$/', $file ) ) : ?>
+	<div id="message" class="notice-info notice">
+		<p><strong><?php _e( 'Did you know?' ); ?></strong></p>
+		<p>
+			<?php
+			echo sprintf(
+				/* translators: %s: link to Custom CSS section in the Customizer */
+				__( 'There&#8217;s no need to change your CSS here &mdash; you can edit and live preview CSS changes in the <a href="%s">built-in CSS editor</a>.' ),
+				esc_url( add_query_arg( 'autofocus[section]', 'custom_css', admin_url( 'customize.php' ) ) )
+			);
+			?>
+		</p>
+	</div>
+<?php endif; ?>
 
 <div class="fileedit-sub">
 <div class="alignleft">
@@ -205,63 +227,30 @@ foreach ( wp_get_themes( array( 'errors' => null ) ) as $a_stylesheet => $a_them
 if ( $theme->errors() )
 	echo '<div class="error"><p><strong>' . __( 'This theme is broken.' ) . '</strong> ' . $theme->errors()->get_error_message() . '</p></div>';
 ?>
-	<div id="templateside">
-<?php
-if ( $allowed_files ) :
-	$previous_file_type = '';
-
-	foreach ( $allowed_files as $filename => $absolute_filename ) :
-		$file_type = substr( $filename, strrpos( $filename, '.' ) );
-
-		if ( $file_type !== $previous_file_type ) {
-			if ( '' !== $previous_file_type ) {
-				echo "\t</ul>\n";
-			}
-
-			switch ( $file_type ) {
-				case '.php':
-					if ( $has_templates || $theme->parent() ) :
-						echo "\t<h2>" . __( 'Templates' ) . "</h2>\n";
-						if ( $theme->parent() ) {
-							echo '<p class="howto">' . sprintf( __( 'This child theme inherits templates from a parent theme, %s.' ),
-								sprintf( '<a href="%s">%s</a>',
-									self_admin_url( 'theme-editor.php?theme=' . urlencode( $theme->get_template() ) ),
-									$theme->parent()->display( 'Name' )
-								)
-							) . "</p>\n";
-						}
-					endif;
-					break;
-				case '.css':
-					echo "\t<h2>" . _x( 'Styles', 'Theme stylesheets in theme editor' ) . "</h2>\n";
-					break;
-				default:
-					/* translators: %s: file extension */
-					echo "\t<h2>" . sprintf( __( '%s files' ), $file_type ) . "</h2>\n";
-					break;
-			}
-
-			echo "\t<ul>\n";
-		}
-
-		$file_description = esc_html( get_file_description( $filename ) );
-		if ( $filename !== basename( $absolute_filename ) || $file_description !== $filename ) {
-			$file_description .= '<br /><span class="nonessential">(' . esc_html( $filename ) . ')</span>';
-		}
-
-		if ( $absolute_filename === $file ) {
-			$file_description = '<span class="notice notice-info">' . $file_description . '</span>';
-		}
-
-		$previous_file_type = $file_type;
-?>
-		<li><a href="theme-editor.php?file=<?php echo urlencode( $filename ) ?>&amp;theme=<?php echo urlencode( $stylesheet ) ?>"><?php echo $file_description; ?></a></li>
-<?php
-	endforeach;
-?>
-</ul>
-<?php endif; ?>
+<div id="templateside">
+	<h2 id="theme-files-label"><?php _e( 'Theme Files' ); ?></h2>
+	<ul role="tree" aria-labelledby="theme-files-label">
+		<?php if ( ( $has_templates || $theme->parent() ) && $theme->parent() ) : ?>
+			<li class="howto">
+				<?php
+				/* translators: %s: link to edit parent theme */
+				echo sprintf( __( 'This child theme inherits templates from a parent theme, %s.' ),
+					sprintf( '<a href="%s">%s</a>',
+						self_admin_url( 'theme-editor.php?theme=' . urlencode( $theme->get_template() ) ),
+						$theme->parent()->display( 'Name' )
+					)
+				);
+				?>
+			</li>
+		<?php endif; ?>
+		<li role="treeitem" tabindex="-1" aria-expanded="true" aria-level="1" aria-posinset="1" aria-setsize="1">
+			<ul role="group">
+				<?php wp_print_theme_file_tree( wp_make_theme_file_tree( $allowed_files ) ); ?>
+			</ul>
+		</li>
+	</ul>
 </div>
+
 <?php if ( $error ) :
 	echo '<div class="error"><p>' . __('Oops, no such file exists! Double check the name and try again, merci.') . '</p></div>';
 else : ?>
@@ -312,23 +301,38 @@ endif; // $error
 <?php
 $dismissed_pointers = explode( ',', (string) get_user_meta( get_current_user_id(), 'dismissed_wp_pointers', true ) );
 if ( ! in_array( 'theme_editor_notice', $dismissed_pointers, true ) ) :
+	// Get a back URL
+	$referer = wp_get_referer();
+	$excluded_referer_basenames = array( 'theme-editor.php', 'wp-login.php' );
+
+	if ( $referer && ! in_array( basename( parse_url( $referer, PHP_URL_PATH ) ), $excluded_referer_basenames, true ) ) {
+		$return_url = $referer;
+	} else {
+		$return_url = admin_url( '/' );
+	}
 ?>
-<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js">
+<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js hidden">
 	<div class="notification-dialog-background"></div>
-	<div class="notification-dialog" role="dialog" aria-labelledby="file-editor-warning-title" tabindex="0">
+	<div class="notification-dialog">
 		<div class="file-editor-warning-content">
-			<h1 id="file-editor-warning-title"><?php _e( 'Heads up!' ); ?></h1>
+			<div class="file-editor-warning-message">
+				<h1><?php _e( 'Heads up!' ); ?></h1>
+				<p>
+					<?php
+					echo sprintf(
+						/* translators: %s: Codex URL */
+						__( 'You appear to be making direct edits to your theme in the WordPress dashboard. We recommend that you don&#8217;t! Editing your theme directly could break your site and your changes may be lost in future updates. If you need to tweak more than your theme&#8217;s CSS, you might want to try <a href="%s">making a child theme</a>.' ),
+						esc_url( __( 'https://codex.wordpress.org/Child_Themes' ) )
+					);
+					?>
+				</p>
+				<p><?php _e( 'If you decide to go ahead with direct edits anyway, use a file manager to create a copy with a new name and hang on to the original. That way, you can re-enable a functional version if something goes wrong.' ); ?></p>
+				
+			</div>
 			<p>
-				<?php
-				echo sprintf(
-					/* translators: %s is a link to Custom CSS section in the Customizer. */
-					__( 'You appear to be making direct edits to your theme in the WordPress Dashboard. We recommend that you don&#8217;t! Editing this code directly is dangerous, and can leave you unable to log back in to WordPress and undo changes. There&#8217;s no need to change your CSS here &mdash; you can edit and live preview CSS changes in WordPress&#8217;s <a href="%s">built in CSS editor</a>.' ),
-					esc_url( add_query_arg( 'autofocus[section]', 'custom_css', admin_url( 'customize.php' ) ) )
-				);
-				?>
+				<a class="button file-editor-warning-go-back" href="<?php echo esc_url( $return_url ); ?>"><?php _e( 'Go back' ); ?></a>
+				<button type="button" class="file-editor-warning-dismiss button button-primary"><?php _e( 'I understand' ); ?></button>
 			</p>
-			<p><?php _e( 'If you decide to go ahead with direct edits anyway, make sure to back up all your site&#8217;s files before making changes so you can restore a functional version if something goes wrong.' ); ?></p>
-			<p><button type="button" class="file-editor-warning-dismiss button-primary"><?php _e( 'I understand' ); ?></button></p>
 		</div>
 	</div>
 </div>

@@ -46,7 +46,7 @@ class WP_Widget_Media_Gallery extends WP_Widget_Media {
 	 * @return array Schema for properties.
 	 */
 	public function get_instance_schema() {
-		return array(
+		$schema = array(
 			'title' => array(
 				'type' => 'string',
 				'default' => '',
@@ -75,8 +75,8 @@ class WP_Widget_Media_Gallery extends WP_Widget_Media {
 			),
 			'link_type' => array(
 				'type' => 'string',
-				'enum' => array( 'none', 'file', 'post' ),
-				'default' => 'none',
+				'enum' => array( 'post', 'file', 'none' ),
+				'default' => 'post',
 				'media_prop' => 'link',
 				'should_preview_update' => false,
 			),
@@ -87,6 +87,11 @@ class WP_Widget_Media_Gallery extends WP_Widget_Media {
 				'should_preview_update' => false,
 			),
 		);
+
+		/** This filter is documented in wp-includes/widgets/class-wp-widget-media.php */
+		$schema = apply_filters( "widget_{$this->id_base}_instance_schema", $schema, $this );
+
+		return $schema;
 	}
 
 	/**
@@ -100,11 +105,11 @@ class WP_Widget_Media_Gallery extends WP_Widget_Media {
 	public function render_media( $instance ) {
 		$instance = array_merge( wp_list_pluck( $this->get_instance_schema(), 'default' ), $instance );
 
-		$shortcode_atts = array(
-			'ids'     => $instance['ids'],
-			'columns' => $instance['columns'],
-			'link'    => $instance['link_type'],
-			'size'    => $instance['size'],
+		$shortcode_atts = array_merge(
+			$instance,
+			array(
+				'link' => $instance['link_type'],
+			)
 		);
 
 		// @codeCoverageIgnoreStart

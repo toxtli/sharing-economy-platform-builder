@@ -1,0 +1,4520 @@
+{
+    "_last_updated": "Fri, 26 Jan 2018 20:06:18 +0000",
+    "ID": "CF5a6b81b18c2dc",
+    "cf_version": "1.5.9",
+    "name": "TestForm02",
+    "scroll_top": 0,
+    "success": "Form has been successfully submitted. Thank you.\t\t\t\t\t\t",
+    "db_support": 1,
+    "pinned": 0,
+    "hide_form": 1,
+    "check_honey": 1,
+    "avatar_field": null,
+    "form_ajax": 1,
+    "custom_callback": "",
+    "layout_grid":
+    {
+        "fields":
+        {
+            "fld_983298": "1:1",
+            "fld_6252878": "2:1",
+            "fld_1162002": "2:1",
+            "fld_9991540": "2:1",
+            "fld_2773044": "3:1",
+            "fld_7886172": "4:1",
+            "fld_9978204": "5:1",
+            "fld_4148664": "6:1",
+            "fld_5212978": "6:1",
+            "fld_2219403": "6:1",
+            "fld_3669830": "7:1",
+            "fld_8105032": "7:2",
+            "fld_5287818": "8:1",
+            "fld_8908587": "9:1",
+            "fld_6086368": "9:1",
+            "fld_3673222": "9:1",
+            "fld_1226200": "9:1",
+            "fld_3958433": "9:1",
+            "fld_9556107": "9:1",
+            "fld_1176623": "9:1",
+            "fld_5522615": "9:1",
+            "fld_7016252": "9:1",
+            "fld_4398172": "9:1",
+            "fld_8003782": "9:1",
+            "fld_1485296": "9:1",
+            "fld_4654944": "9:1",
+            "fld_1217018": "9:1",
+            "fld_5515872": "9:1",
+            "fld_2223315": "9:1",
+            "fld_8111608": "10:1",
+            "fld_8219167": "10:2",
+            "fld_9639162": "11:1",
+            "fld_6185980": "12:1",
+            "fld_4710926": "12:1",
+            "fld_8148659": "12:1",
+            "fld_7378201": "12:1",
+            "fld_9698151": "12:1",
+            "fld_568149": "12:1",
+            "fld_9976037": "12:1",
+            "fld_8701632": "12:1",
+            "fld_7228849": "12:1",
+            "fld_523180": "12:1",
+            "fld_1692216": "12:1",
+            "fld_5342067": "12:1",
+            "fld_8240728": "12:1",
+            "fld_6967863": "13:1",
+            "fld_5788882": "13:2",
+            "fld_9262829": "14:1",
+            "fld_1464857": "15:1",
+            "fld_1326076": "15:1",
+            "fld_8467134": "15:1",
+            "fld_8294843": "15:1",
+            "fld_8636446": "15:1",
+            "fld_6566635": "16:1",
+            "fld_6675156": "16:1",
+            "fld_4233652": "16:1",
+            "fld_479473": "16:1",
+            "fld_9386503": "16:1",
+            "fld_3084368": "17:1",
+            "fld_560400": "17:1",
+            "fld_6157858": "17:1",
+            "fld_7488554": "17:1",
+            "fld_4444035": "17:1",
+            "fld_4679107": "18:1",
+            "fld_1060675": "18:2",
+            "fld_1781266": "19:1",
+            "fld_9205981": "20:1",
+            "fld_4369300": "21:1",
+            "fld_3096553": "21:2",
+            "fld_4292319": "22:1",
+            "fld_1434158": "23:1",
+            "fld_5486259": "23:1",
+            "fld_653000": "23:1",
+            "fld_3169061": "23:1",
+            "fld_3496966": "23:1",
+            "fld_6871814": "23:1",
+            "fld_1884801": "23:1",
+            "fld_7422417": "23:1",
+            "fld_5217621": "23:1",
+            "fld_8371755": "24:1",
+            "fld_7373054": "24:2",
+            "fld_4961638": "25:1",
+            "fld_2593421": "26:1",
+            "fld_2497480": "26:1",
+            "fld_5127244": "26:1",
+            "fld_1549754": "26:1",
+            "fld_3459468": "26:1",
+            "fld_5069646": "26:1",
+            "fld_5898556": "27:1",
+            "fld_5837975": "27:2",
+            "fld_4272443": "28:1",
+            "fld_3991247": "29:1",
+            "fld_9793505": "29:1",
+            "fld_182261": "29:1",
+            "fld_7172368": "29:1",
+            "fld_8278037": "30:1",
+            "fld_4462262": "30:2"
+        },
+        "structure": "12|12|12|12#12|12|6:6#12|12|6:6#12|12|6:6#12|12|12|12|6:6#12|12|6:6#12|12|6:6|12#12|6:6#12|12|6:6"
+    },
+    "fields":
+    {
+        "fld_983298":
+        {
+            "ID": "fld_983298",
+            "type": "html",
+            "label": "Instructions",
+            "slug": "instructions",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Instructions<\/h2>"
+            }
+        },
+        "fld_6252878":
+        {
+            "ID": "fld_6252878",
+            "type": "html",
+            "label": "Instructions details",
+            "slug": "instructions_details",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<p>\nYou will be asked to create a crowd marketplace (e.g., like Uber or Amazon Mechanical Turk) using our system. We will provide an example of a crowd marketplace idea to show you the structure that you will follow to describe your idea. After defining an idea, you will complete forms on our platform to start to create this marketplace. The forms will ask you to customize and create a crowd market following your crowd market idea.  It is important to complete the forms carefully, especially think about how your selected options could affect the overall design of the crowd market you will create. If an option in the forms is not present in your description, try to infer the answer based on what you are trying to create.\n<\/p>\n\n<p><b>\nCrowd Market Example:\n<\/b><i>\nThis is a crowd market that focuses on delivering rides through an app. The crowd market connects people who need a ride (passengers) with people who can offer a ride (drivers). This crowd market offers two main services: X, that are rides from drivers who drive a non-luxury vehicle and Black that are provided from drivers who drive luxury vehicles. The crowd market charges passengers a fee calculated by their platform once the service has ended. The Crowd market platform takes a percentage for every ride income and the rest goes to the driver. The service is available only in some cities and countries.\n<\/i><\/p>\n<p>\nNow is your turn to describe an idea different than the example. As the example shows you will describe how your crowd marketplace connects \"Who offers\" with \"Who needs\" and how this enables people to collaborate. The idea should describe what is offered and how it\u2019s accomplished by both sides. Try to cover at least the points covered by the example. \nSome other examples of crowd markets are: Platforms that connect patients with doctors, Pet walkers with pet owners, buyers with sellers, people who have an extra room with travelers, restaurants who have excess of food with assistance centers, etc. Think about what is needed in your region and describe it in the same format as the example.\n<\/p>"
+            }
+        },
+        "fld_1162002":
+        {
+            "ID": "fld_1162002",
+            "type": "paragraph",
+            "label": "Describe your idea",
+            "slug": "describe_your_idea",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_9991540":
+        {
+            "ID": "fld_9991540",
+            "type": "paragraph",
+            "label": "What is your motivation to propose that idea?",
+            "slug": "what_is_your_motivation_to_propose_that_idea",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_2773044":
+        {
+            "ID": "fld_2773044",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable next_1",
+                "type": "next",
+                "class": "btn btn-default",
+                "label_space": 1,
+                "target": ""
+            }
+        },
+        "fld_7886172":
+        {
+            "ID": "fld_7886172",
+            "type": "html",
+            "label": "Special Functions",
+            "slug": "special_functions",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<script>\nvar userId = uuidv4();\n\njQuery(function(){\n  jQuery('body').on('DOMNodeInserted', '.fillable', function(e) {\n    if (e.target.tagName != \"LABEL\") {\n      gigConnectFields(this);\n    }\n  });\n  jQuery(\".fillable\").each(function(){\n    gigConnectFields(this);\n  });\n  jQuery(\".trackable\").focusin(function(){\n    ga('send', {\n      hitType: 'event',\n      eventCategory: userId,\n      eventAction: jQuery(this).attr('id'),\n      eventLabel: 'focusin'\n    });\n  });\n  jQuery(\".trackable\").focusout(function(){\n    ga('send', {\n      hitType: 'event',\n      eventCategory: userId,\n      eventAction: jQuery(this).attr('id'),\n      eventLabel: 'focusout'\n    });\n  });\n  jQuery(\".next_6\").click(function(){\n    jQuery(\".borderColors\").find(\"input\").val(userId);\n  });\n});\n\nfunction gigConnectFields(source) {\n  var inputs = jQuery(source).find(\"input\");\n  if (inputs.length > 0) {\n    inputs.each(function(){\n      var option = this;\n      var parentElement = jQuery(this).parent().parent();\n      var fieldValue = jQuery(option).val();\n      var matches = fieldValue.match(\/{local:(.*?)}\/);\n      if (matches.length > 1) {\n        var field = matches.pop();\n        var fieldQuery = \".\" + field + \" input\";\n        var fieldObject = jQuery(fieldQuery);\n        var fieldValue = \"\";\n        if (fieldObject.length > 0) {\n          fieldValue = fieldObject.val();\n          jQuery(option).val(fieldValue);\n          jQuery(\"label[for='\" + option.id + \"']\").contents().last().replaceWith(\" \" + fieldValue);\n        }\n        if (fieldValue == \"\") {\n          parentElement.hide();\n        } else {\n          parentElement.show();\n        }\n        jQuery(document).on(\"input\", fieldQuery, function() {\n          var fieldObject = jQuery(fieldQuery);\n          var fieldValue = fieldObject.val();\n          jQuery(option).val(fieldValue);\n          jQuery(\"label[for='\" + option.id + \"']\").contents().last().replaceWith(\" \" + fieldValue);\n          if (fieldValue == \"\") {\n            parentElement.hide();\n          } else {\n            parentElement.show();\n          }\n        });\n      }\n    });  \n  }\n}\n\nfunction uuidv4() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(\/[xy]\/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}\n<\/script>\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-109364223-1\"><\/script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'UA-109364223-1');\n<\/script>\n\n<!-- Google Analytics -->\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','https:\/\/www.google-analytics.com\/analytics.js','ga');\n  ga('create', 'UA-109364223-1', 'auto');\n  ga('send', 'pageview');\n<\/script>\n<!-- End Google Analytics -->\n\n<script>\n(function(h,e,a,t,m,p) {\nm=e.createElement(a);m.async=!0;m.src=t;\np=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);\n})(window,document,'script','https:\/\/u.heatmap.it\/log.js');\n<\/script>\n"
+            }
+        },
+        "fld_9978204":
+        {
+            "ID": "fld_9978204",
+            "type": "html",
+            "label": "Header",
+            "slug": "header_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Basic Information about the crowd market<\/h3>"
+            }
+        },
+        "fld_4148664":
+        {
+            "ID": "fld_4148664",
+            "type": "text",
+            "label": "Name of the crowd market",
+            "slug": "project_name",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "It is usually the name of the company",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_5212978":
+        {
+            "ID": "fld_5212978",
+            "type": "text",
+            "label": "One sentence description of the crowd market",
+            "slug": "one_sentence_description",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "Try to explain in one sentence how do you connect offerers with requesters.",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_2219403":
+        {
+            "ID": "fld_2219403",
+            "type": "checkbox",
+            "label": "What is offered in your crowd market?",
+            "slug": "are_you_",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "Only one option is usually selected, but there are some complex models where the 2 applies.",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1736691":
+                    {
+                        "calc_value": "Goods",
+                        "value": "Goods",
+                        "label": "Goods"
+                    },
+                    "opt1315100":
+                    {
+                        "calc_value": "Services",
+                        "value": "Services",
+                        "label": "Services"
+                    }
+                }
+            }
+        },
+        "fld_3669830":
+        {
+            "ID": "fld_3669830",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_2",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "prev",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_8105032":
+        {
+            "ID": "fld_8105032",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_2",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "next",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_5287818":
+        {
+            "ID": "fld_5287818",
+            "type": "html",
+            "label": "Header",
+            "slug": "header_2",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Categories of what is offered ...<\/h2>\nThe different types of services\/goods offered by workers. Depending the context workers are also called sellers, hosts, landlords, providers, suppliers, volunteers, employees, etc."
+            }
+        },
+        "fld_8908587":
+        {
+            "ID": "fld_8908587",
+            "type": "html",
+            "label": "Category Header 1",
+            "slug": "category_header_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Category 1<\/h3>"
+            }
+        },
+        "fld_6086368":
+        {
+            "ID": "fld_6086368",
+            "type": "text",
+            "label": "Title of the worker",
+            "slug": "category_title_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "Who offers it (e.g. Seller, Carer, Driver, Designer, Nurse, etc)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_3673222":
+        {
+            "ID": "fld_3673222",
+            "type": "text",
+            "label": "Name of the service\/good category provided",
+            "slug": "category_name_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "What is offered by the offerer? (e.g. Pet walk, Logo design, Products selling, Regular massage, Premium massage, etc)",
+            "entry_list": 1,
+            "config":
+            {
+                "custom_class": "category_name_1 bindable trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_1226200":
+        {
+            "ID": "fld_1226200",
+            "type": "text",
+            "label": "Description",
+            "slug": "category_description_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "Details of what is offered (e.g. Handcrafted things in sell, 10 minutes massage, 30 minutes massage,  Flat logo design by experts)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_3958433":
+        {
+            "ID": "fld_3958433",
+            "type": "toggle_switch",
+            "label": "Add another category?",
+            "slug": "show_category_2",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "orientation": "horizontal",
+                "selected_class": "btn-success",
+                "default_class": "btn-default",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "opt1883652",
+                "option":
+                {
+                    "opt1883652":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    },
+                    "opt1587666":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    }
+                }
+            }
+        },
+        "fld_9556107":
+        {
+            "ID": "fld_9556107",
+            "type": "section_break",
+            "label": "Offerer Line 2",
+            "slug": "offerer_line_2",
+            "conditions":
+            {
+                "type": "con_6776184839702302"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "width": ""
+            }
+        },
+        "fld_1176623":
+        {
+            "ID": "fld_1176623",
+            "type": "html",
+            "label": "Category Header 2",
+            "slug": "category_header_2",
+            "conditions":
+            {
+                "type": "con_6776184839702302"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Category 2<\/h2>"
+            }
+        },
+        "fld_5522615":
+        {
+            "ID": "fld_5522615",
+            "type": "text",
+            "label": "Title of the worker",
+            "slug": "category_title_2",
+            "conditions":
+            {
+                "type": "con_6776184839702302"
+            },
+            "caption": "Who offers it (e.g. Seller, Carer, Driver, Designer, Nurse, etc)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_7016252":
+        {
+            "ID": "fld_7016252",
+            "type": "text",
+            "label": "Name of the service\/good category provided",
+            "slug": "category_name_2",
+            "conditions":
+            {
+                "type": "con_6776184839702302"
+            },
+            "caption": "What is offered by the offerer? (e.g. Pet walk, Logo design, Products selling, Regular massage, Premium massage, etc)",
+            "entry_list": 1,
+            "config":
+            {
+                "custom_class": "category_name_2 bindable trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_4398172":
+        {
+            "ID": "fld_4398172",
+            "type": "text",
+            "label": "Description",
+            "slug": "category_description_2",
+            "conditions":
+            {
+                "type": "con_6776184839702302"
+            },
+            "caption": "Details of what is offered (e.g. Handcrafted things in sell, 10 minutes massage, 30 minutes massage,  Flat logo design by experts)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_8003782":
+        {
+            "ID": "fld_8003782",
+            "type": "toggle_switch",
+            "label": "Show another category?",
+            "slug": "show_category_3",
+            "conditions":
+            {
+                "type": "con_6776184839702302"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "orientation": "horizontal",
+                "selected_class": "btn-success",
+                "default_class": "btn-default",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "opt1883652",
+                "option":
+                {
+                    "opt1883652":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    },
+                    "opt1587666":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    }
+                }
+            }
+        },
+        "fld_1485296":
+        {
+            "ID": "fld_1485296",
+            "type": "section_break",
+            "label": "Offerer Line 3",
+            "slug": "offerer_line_3",
+            "conditions":
+            {
+                "type": "con_5385346438362693"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "width": ""
+            }
+        },
+        "fld_4654944":
+        {
+            "ID": "fld_4654944",
+            "type": "html",
+            "label": "Category Header 3",
+            "slug": "category_header_3",
+            "conditions":
+            {
+                "type": "con_5385346438362693"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Category 3<\/h2>"
+            }
+        },
+        "fld_1217018":
+        {
+            "ID": "fld_1217018",
+            "type": "text",
+            "label": "Title of the worker",
+            "slug": "category_title_3",
+            "conditions":
+            {
+                "type": "con_5385346438362693"
+            },
+            "caption": "Who offers it (e.g. Seller, Carer, Driver, Designer, Nurse, etc)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_5515872":
+        {
+            "ID": "fld_5515872",
+            "type": "text",
+            "label": "Name of the service\/good category provided",
+            "slug": "category_name_3",
+            "conditions":
+            {
+                "type": "con_5385346438362693"
+            },
+            "caption": "What is offered by the offerer? (e.g. Pet walk, Logo design, Products selling, Regular massage, Premium massage, etc)",
+            "entry_list": 1,
+            "config":
+            {
+                "custom_class": "category_name_3 bindable trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_2223315":
+        {
+            "ID": "fld_2223315",
+            "type": "text",
+            "label": "Description",
+            "slug": "category_description_3",
+            "conditions":
+            {
+                "type": "con_5385346438362693"
+            },
+            "caption": "Details of what is offered (e.g. Handcrafted things in sell, 10 minutes massage, 30 minutes massage,  Flat logo design by experts)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_8111608":
+        {
+            "ID": "fld_8111608",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_3",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "prev",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_8219167":
+        {
+            "ID": "fld_8219167",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_3",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "next",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_9639162":
+        {
+            "ID": "fld_9639162",
+            "type": "html",
+            "label": "Header",
+            "slug": "header_3",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Who needs ...<\/h2>\nThe requesters, also known as consumers, buyers, employers, contractors, etc. Define the different requesters that you could have and to what they can get."
+            }
+        },
+        "fld_6185980":
+        {
+            "ID": "fld_6185980",
+            "type": "html",
+            "label": "Requester Header 1",
+            "slug": "requester_header_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Category 1<\/h3>"
+            }
+        },
+        "fld_4710926":
+        {
+            "ID": "fld_4710926",
+            "type": "text",
+            "label": "Name of the type of requester",
+            "slug": "requester_title_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "Who need what offerers are offering (e.g. Buyer, Passenger, Pet owner, Humanitary help requester, etc)",
+            "config":
+            {
+                "custom_class": "",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_8148659":
+        {
+            "ID": "fld_8148659",
+            "type": "checkbox",
+            "label": "What services\/goods can they order?",
+            "slug": "requester_can_order_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "It can be one, more than one, or all of them",
+            "entry_list": 1,
+            "config":
+            {
+                "custom_class": "fillable trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1092361":
+                    {
+                        "calc_value": "{local:category_name_1}",
+                        "value": "{local:category_name_1}",
+                        "label": "{local:category_name_1}"
+                    },
+                    "opt1581262":
+                    {
+                        "calc_value": "{local:category_name_2}",
+                        "value": "{local:category_name_2}",
+                        "label": "{local:category_name_2}"
+                    },
+                    "opt1152815":
+                    {
+                        "calc_value": "{local:category_name_3}",
+                        "value": "{local:category_name_3}",
+                        "label": "{local:category_name_3}"
+                    }
+                }
+            }
+        },
+        "fld_7378201":
+        {
+            "ID": "fld_7378201",
+            "type": "toggle_switch",
+            "label": "Show another category?",
+            "slug": "requester_show_another_1",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "orientation": "horizontal",
+                "selected_class": "btn-success",
+                "default_class": "btn-default",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "opt1883652",
+                "option":
+                {
+                    "opt1883652":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    },
+                    "opt1587666":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    }
+                }
+            }
+        },
+        "fld_9698151":
+        {
+            "ID": "fld_9698151",
+            "type": "section_break",
+            "label": "Client separator 2",
+            "slug": "client_separator_2",
+            "conditions":
+            {
+                "type": "con_1017502094669681"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "width": ""
+            }
+        },
+        "fld_568149":
+        {
+            "ID": "fld_568149",
+            "type": "html",
+            "label": "Requester Header 2",
+            "slug": "requester_header_2",
+            "conditions":
+            {
+                "type": "con_1017502094669681"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Category 2<\/h3>"
+            }
+        },
+        "fld_9976037":
+        {
+            "ID": "fld_9976037",
+            "type": "text",
+            "label": "Name of the type of requester",
+            "slug": "requester_title_2",
+            "conditions":
+            {
+                "type": "con_1017502094669681"
+            },
+            "caption": "Who need what offerers are offering (e.g. Buyer, Passenger, Pet owner, Humanitary help requester, etc)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_8701632":
+        {
+            "ID": "fld_8701632",
+            "type": "checkbox",
+            "label": "What services\/goods can they order?",
+            "slug": "requester_can_order_2",
+            "conditions":
+            {
+                "type": "con_1017502094669681"
+            },
+            "caption": "It can be one, more than one, or all of them",
+            "entry_list": 1,
+            "config":
+            {
+                "custom_class": "fillable trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1092361":
+                    {
+                        "calc_value": "{local:category_name_1}",
+                        "value": "{local:category_name_1}",
+                        "label": "{local:category_name_1}"
+                    },
+                    "opt1581262":
+                    {
+                        "calc_value": "{local:category_name_2}",
+                        "value": "{local:category_name_2}",
+                        "label": "{local:category_name_2}"
+                    },
+                    "opt1152815":
+                    {
+                        "calc_value": "{local:category_name_3}",
+                        "value": "{local:category_name_3}",
+                        "label": "{local:category_name_3}"
+                    }
+                }
+            }
+        },
+        "fld_7228849":
+        {
+            "ID": "fld_7228849",
+            "type": "toggle_switch",
+            "label": "Show another category?",
+            "slug": "requester_show_another_2",
+            "conditions":
+            {
+                "type": "con_1017502094669681"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "orientation": "horizontal",
+                "selected_class": "btn-success",
+                "default_class": "btn-default",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "opt1883652",
+                "option":
+                {
+                    "opt1883652":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    },
+                    "opt1587666":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    }
+                }
+            }
+        },
+        "fld_523180":
+        {
+            "ID": "fld_523180",
+            "type": "section_break",
+            "label": "Client separator 3",
+            "slug": "client_separator_3",
+            "conditions":
+            {
+                "type": "con_3964706599216265"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "width": ""
+            }
+        },
+        "fld_1692216":
+        {
+            "ID": "fld_1692216",
+            "type": "html",
+            "label": "Requester Header 3",
+            "slug": "requester_header_3",
+            "conditions":
+            {
+                "type": "con_3964706599216265"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Category 3<\/h3>"
+            }
+        },
+        "fld_5342067":
+        {
+            "ID": "fld_5342067",
+            "type": "text",
+            "label": "Name of the type of requester",
+            "slug": "requester_title_3",
+            "conditions":
+            {
+                "type": "con_3964706599216265"
+            },
+            "caption": "Who need what offerers are offering (e.g. Buyer, Passenger, Pet owner, Humanitary help requester, etc)",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_8240728":
+        {
+            "ID": "fld_8240728",
+            "type": "checkbox",
+            "label": "What services\/goods can they order?",
+            "slug": "requester_can_order_3",
+            "conditions":
+            {
+                "type": "con_3964706599216265"
+            },
+            "caption": "It can be one, more than one, or all of them",
+            "entry_list": 1,
+            "config":
+            {
+                "custom_class": "fillable trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1092361":
+                    {
+                        "calc_value": "{local:category_name_1}",
+                        "value": "{local:category_name_1}",
+                        "label": "{local:category_name_1}"
+                    },
+                    "opt1581262":
+                    {
+                        "calc_value": "{local:category_name_2}",
+                        "value": "{local:category_name_2}",
+                        "label": "{local:category_name_2}"
+                    },
+                    "opt1152815":
+                    {
+                        "calc_value": "{local:category_name_3}",
+                        "value": "{local:category_name_3}",
+                        "label": "{local:category_name_3}"
+                    }
+                }
+            }
+        },
+        "fld_6967863":
+        {
+            "ID": "fld_6967863",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_4",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "prev",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_5788882":
+        {
+            "ID": "fld_5788882",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_4",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "next",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_9262829":
+        {
+            "ID": "fld_9262829",
+            "type": "html",
+            "label": "Configuration",
+            "slug": "configuration",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Platform configuration<\/h2>"
+            }
+        },
+        "fld_1464857":
+        {
+            "ID": "fld_1464857",
+            "type": "html",
+            "label": "Payment",
+            "slug": "payment",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Payment<\/h3>"
+            }
+        },
+        "fld_1326076":
+        {
+            "ID": "fld_1326076",
+            "type": "radio",
+            "label": "What is the revenue model?",
+            "slug": "does_it_cost",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1244861":
+                    {
+                        "calc_value": "Platform owner (you) and workers earn",
+                        "value": "Platform owner (you) and workers earn",
+                        "label": "Platform owner (you) and workers earn"
+                    },
+                    "opt1341096":
+                    {
+                        "calc_value": "Only the workers earn",
+                        "value": "Only the workers earn",
+                        "label": "Only the workers earn"
+                    },
+                    "opt1226672":
+                    {
+                        "calc_value": "Only the platform owner earn",
+                        "value": "Only the platform owner earn",
+                        "label": "Only the platform owner earn"
+                    },
+                    "opt1271777":
+                    {
+                        "calc_value": "Anybody earns (non-profit model)",
+                        "value": "Anybody earns (non-profit model)",
+                        "label": "Anybody earns (non-profit model)"
+                    }
+                }
+            }
+        },
+        "fld_8467134":
+        {
+            "ID": "fld_8467134",
+            "type": "radio",
+            "label": "How are the prices set?",
+            "slug": "how_are_the_prices_set",
+            "conditions":
+            {
+                "type": "con_7549043766133938"
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1449986":
+                    {
+                        "calc_value": "Set by the worker",
+                        "value": "Set by the worker",
+                        "label": "Set by the worker"
+                    },
+                    "opt1255191":
+                    {
+                        "calc_value": "Set by the platform",
+                        "value": "Set by the platform",
+                        "label": "Set by the platform"
+                    },
+                    "opt1559389":
+                    {
+                        "calc_value": "Bidding",
+                        "value": "Bidding",
+                        "label": "Bidding"
+                    }
+                }
+            }
+        },
+        "fld_8294843":
+        {
+            "ID": "fld_8294843",
+            "type": "radio",
+            "label": "How do you pay them?",
+            "slug": "how_much_do_you_pay_them",
+            "conditions":
+            {
+                "type": "con_7549043766133938"
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1121094":
+                    {
+                        "calc_value": "Percentage of transaction",
+                        "value": "Percentage of transaction",
+                        "label": "Percentage of transaction"
+                    },
+                    "opt2056862":
+                    {
+                        "calc_value": "Fixed amount per transaction",
+                        "value": "Fixed amount per transaction",
+                        "label": "Fixed amount per transaction"
+                    },
+                    "opt1938870":
+                    {
+                        "calc_value": "Fixed periodic amount",
+                        "value": "Fixed periodic amount",
+                        "label": "Fixed periodic amount"
+                    }
+                }
+            }
+        },
+        "fld_8636446":
+        {
+            "ID": "fld_8636446",
+            "type": "radio",
+            "label": "When are workers paid?",
+            "slug": "when_you_will_to_your_suppliers",
+            "conditions":
+            {
+                "type": "con_8860106863601438"
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt2041383":
+                    {
+                        "calc_value": "When the purchase is done",
+                        "value": "When the purchase is done",
+                        "label": "When the purchase is done"
+                    },
+                    "opt1425851":
+                    {
+                        "calc_value": "When the order was completed",
+                        "value": "When the order was completed",
+                        "label": "When the order was completed"
+                    }
+                }
+            }
+        },
+        "fld_6566635":
+        {
+            "ID": "fld_6566635",
+            "type": "html",
+            "label": "Location",
+            "slug": "location",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Location<\/h3>"
+            }
+        },
+        "fld_6675156":
+        {
+            "ID": "fld_6675156",
+            "type": "radio",
+            "label": "The delivery is in the same moment or can it be scheduled for the future?",
+            "slug": "the_delivery_is_in_the_same_moment_or_can_be_scheduled",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1265280":
+                    {
+                        "calc_value": "The product\/service is delivered when it is purchased",
+                        "value": "The product\/service is delivered when it is purchased",
+                        "label": "The product\/service is delivered when it is purchased"
+                    },
+                    "opt1541383":
+                    {
+                        "calc_value": "The delivery is scheduled according to worker availability",
+                        "value": "The delivery is scheduled according to worker availability",
+                        "label": "The delivery is scheduled according to worker availability"
+                    },
+                    "opt1203398":
+                    {
+                        "calc_value": "The delivery is scheduled when the requester indicates.",
+                        "value": "The delivery is scheduled when the requester indicates.",
+                        "label": "The delivery is scheduled when the requester indicates."
+                    }
+                }
+            }
+        },
+        "fld_4233652":
+        {
+            "ID": "fld_4233652",
+            "type": "radio",
+            "label": "Does your model depends on location?",
+            "slug": "does_your_model_depends_on_location",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1268418":
+                    {
+                        "calc_value": "Yes they must be in a nearby place",
+                        "value": "Yes they must be in a nearby place",
+                        "label": "Yes they must be in a nearby place"
+                    },
+                    "opt1739478":
+                    {
+                        "calc_value": "No the location does not matter",
+                        "value": "No the location does not matter",
+                        "label": "No the location does not matter"
+                    }
+                }
+            }
+        },
+        "fld_479473":
+        {
+            "ID": "fld_479473",
+            "type": "radio",
+            "label": "How nearby?",
+            "slug": "how_nearby",
+            "conditions":
+            {
+                "type": "con_5097592425198139"
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1505229":
+                    {
+                        "calc_value": "Based on a range of kilometers\/miles",
+                        "value": "Based on a range of kilometers\/miles",
+                        "label": "Based on a range of kilometers\/miles"
+                    },
+                    "opt1191308":
+                    {
+                        "calc_value": "Limited to a list of cities",
+                        "value": "Limited to a list of cities",
+                        "label": "Limited to a list of cities"
+                    }
+                }
+            }
+        },
+        "fld_9386503":
+        {
+            "ID": "fld_9386503",
+            "type": "radio",
+            "label": "Do you need to track the worker\u2019s location?",
+            "slug": "is_it_needed_to_track_the_position",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1965561":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    },
+                    "opt1122406":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    }
+                }
+            }
+        },
+        "fld_3084368":
+        {
+            "ID": "fld_3084368",
+            "type": "html",
+            "label": "Security and privacy",
+            "slug": "communication",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h3>Security and privacy<\/h3>"
+            }
+        },
+        "fld_560400":
+        {
+            "ID": "fld_560400",
+            "type": "radio",
+            "label": "Can users communicate between themselves?",
+            "slug": "do_the_users_can_communicate_between_them",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1362693":
+                    {
+                        "calc_value": "No they only can see the status of their order",
+                        "value": "No they only can see the status of their order",
+                        "label": "No they only can see the status of their order"
+                    },
+                    "opt1488339":
+                    {
+                        "calc_value": "Yes, in a mediated channel, they cannot see the real contact info. (chat or masked email)",
+                        "value": "Yes, in a mediated channel, they cannot see the real contact info. (chat or masked email)",
+                        "label": "Yes, in a mediated channel, they cannot see the real contact info. (chat or masked email)"
+                    },
+                    "opt1508573":
+                    {
+                        "calc_value": "Yes, real contact info is shared between them (their mobile phone, email, social media)",
+                        "value": "Yes, real contact info is shared between them (their mobile phone, email, social media)",
+                        "label": "Yes, real contact info is shared between them (their mobile phone, email, social media)"
+                    }
+                }
+            }
+        },
+        "fld_6157858":
+        {
+            "ID": "fld_6157858",
+            "type": "radio",
+            "label": "Do requesters or workers need to pass through an approval process?",
+            "slug": "do_requesters_or_workers_need_to_pass_through_an_approval_process",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1921647":
+                    {
+                        "calc_value": "None of them",
+                        "value": "None of them",
+                        "label": "None of them"
+                    },
+                    "opt1160470":
+                    {
+                        "calc_value": "Only workers",
+                        "value": "Only workers",
+                        "label": "Only workers"
+                    },
+                    "opt1864573":
+                    {
+                        "calc_value": "Only requesters",
+                        "value": "Only requesters",
+                        "label": "Only requesters"
+                    },
+                    "opt1408795":
+                    {
+                        "calc_value": "Both of them",
+                        "value": "Both of them",
+                        "label": "Both of them"
+                    }
+                }
+            }
+        },
+        "fld_7488554":
+        {
+            "ID": "fld_7488554",
+            "type": "radio",
+            "label": "Is reputation of the worker shown to the requester when ordering?",
+            "slug": "is_reputation_of_the_offerer_shown_to_the_requester_when_ordering",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1478195":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    },
+                    "opt1514822":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    }
+                }
+            }
+        },
+        "fld_4444035":
+        {
+            "ID": "fld_4444035",
+            "type": "radio",
+            "label": "Is reputation of the requester shown to the worker when ordering?",
+            "slug": "is_reputation_of_the_requester_shown_to_the_requester_when_ordering",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1478195":
+                    {
+                        "calc_value": "Yes",
+                        "value": "Yes",
+                        "label": "Yes"
+                    },
+                    "opt1514822":
+                    {
+                        "calc_value": "No",
+                        "value": "No",
+                        "label": "No"
+                    }
+                }
+            }
+        },
+        "fld_4679107":
+        {
+            "ID": "fld_4679107",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_5",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "prev",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_1060675":
+        {
+            "ID": "fld_1060675",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_5",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "next",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_4292319":
+        {
+            "ID": "fld_4292319",
+            "type": "html",
+            "label": "Thanks!",
+            "slug": "thanks",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Thanks!<\/h2>\n<p>\nThanks. With the configuration provided, we will start to create a new crowd market. Our goal with our system is that you can start a crowd market just by configuring and setting some variables in a form. Now we want to hear from you about your experience using our system.\n<\/p>"
+            }
+        },
+        "fld_1434158":
+        {
+            "ID": "fld_1434158",
+            "type": "html",
+            "label": "Feedback",
+            "slug": "feedback",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Feedback<\/h2>\n<p>\nPlease complete the following questions about your experience customizing your crowd marketplace\n<\/p>"
+            }
+        },
+        "fld_5486259":
+        {
+            "ID": "fld_5486259",
+            "type": "radio",
+            "label": "Were the questions in the form enough for customizing the crowd market as you wanted?",
+            "slug": "questions_enough",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1491178":
+                    {
+                        "calc_value": "All the options I needed were there",
+                        "value": "All the options I needed were there",
+                        "label": "All the options I needed were there"
+                    },
+                    "opt1498767":
+                    {
+                        "calc_value": "Almost all of the options I needed were there",
+                        "value": "Almost all of the options I needed were there",
+                        "label": "Almost all of the options I needed were there"
+                    },
+                    "opt1673171":
+                    {
+                        "calc_value": "Some of the options I needed were there",
+                        "value": "Some of the options I needed were there",
+                        "label": "Some of the options I needed were there"
+                    },
+                    "opt1568984":
+                    {
+                        "calc_value": "Almost none of the options I needed were the",
+                        "value": "Almost none of the options I needed were the",
+                        "label": "Almost none of the options I needed were the"
+                    },
+                    "opt1492968":
+                    {
+                        "calc_value": "None of the options I needed were there",
+                        "value": "None of the options I needed were there",
+                        "label": "None of the options I needed were there"
+                    }
+                }
+            }
+        },
+        "fld_653000":
+        {
+            "ID": "fld_653000",
+            "type": "paragraph",
+            "label": "What other questions do you think are important to include in form to customize a crowd market?",
+            "slug": "what_other_options_would_you_like_",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_3169061":
+        {
+            "ID": "fld_3169061",
+            "type": "paragraph",
+            "label": "What options or questions do you think were unnecessary?",
+            "slug": "what_options_or_questions_do_you_think_were_not_very_needed_for_your_project",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_3496966":
+        {
+            "ID": "fld_3496966",
+            "type": "radio",
+            "label": "Was the process easy to understand or confusing?",
+            "slug": "was_the_process_easy_to_understand",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "trackable",
+            "config":
+            {
+                "custom_class": "",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1177347":
+                    {
+                        "calc_value": "All the questions were easy to understand",
+                        "value": "All the questions were easy to understand",
+                        "label": "All the questions were easy to understand"
+                    },
+                    "opt1143898":
+                    {
+                        "calc_value": "I could understand almost all the questions",
+                        "value": "I could understand almost all the questions",
+                        "label": "I could understand almost all the questions"
+                    },
+                    "opt1829465":
+                    {
+                        "calc_value": "Some of the questions were confusing",
+                        "value": "Some of the questions were confusing",
+                        "label": "Some of the questions were confusing"
+                    },
+                    "opt2087615":
+                    {
+                        "calc_value": "Almost all the questions were confusing",
+                        "value": "Almost all the questions were confusing",
+                        "label": "Almost all the questions were confusing"
+                    },
+                    "opt1345829":
+                    {
+                        "calc_value": "All the questions were confusing",
+                        "value": "All the questions were confusing",
+                        "label": "All the questions were confusing"
+                    }
+                }
+            }
+        },
+        "fld_6871814":
+        {
+            "ID": "fld_6871814",
+            "type": "paragraph",
+            "label": "How could the configuration forms be made more clear?",
+            "slug": "how_do_you_think_the_wording_could_be_adequate_in_order_to_be_more_clear",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_1884801":
+        {
+            "ID": "fld_1884801",
+            "type": "radio",
+            "label": "Was the order of questions in the form adequate?",
+            "slug": "was_the_order_of_the_elements_the_most_appropriate",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1666732":
+                    {
+                        "calc_value": "All the order makes sense",
+                        "value": "All the order makes sense",
+                        "label": "All the order makes sense"
+                    },
+                    "opt1783660":
+                    {
+                        "calc_value": "Just few elements should be reorginized",
+                        "value": "Just few elements should be reorginized",
+                        "label": "Just few elements should be reorginized"
+                    },
+                    "opt1222977":
+                    {
+                        "calc_value": "Some sections should be reorganized",
+                        "value": "Some sections should be reorganized",
+                        "label": "Some sections should be reorganized"
+                    },
+                    "opt1588140":
+                    {
+                        "calc_value": "Almost all the sections should be reorganized",
+                        "value": "Almost all the sections should be reorganized",
+                        "label": "Almost all the sections should be reorganized"
+                    },
+                    "opt2019569":
+                    {
+                        "calc_value": "All the form should be reorganized",
+                        "value": "All the form should be reorganized",
+                        "label": "All the form should be reorganized"
+                    }
+                }
+            }
+        },
+        "fld_7422417":
+        {
+            "ID": "fld_7422417",
+            "type": "paragraph",
+            "label": "What is the ideal order of elements that you want to see?",
+            "slug": "what_is_the_ideal_order_of_elements_that_you_want_to_see",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_5217621":
+        {
+            "ID": "fld_5217621",
+            "type": "paragraph",
+            "label": "Once that you have configured your platform. What is the next step that you are expecting?",
+            "slug": "once_that_you_configured_your_platform_what_is_the_next_step_that_you_want_to_see",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "rows": 4,
+                "default": ""
+            }
+        },
+        "fld_8371755":
+        {
+            "ID": "fld_8371755",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_6",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "prev",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_7373054":
+        {
+            "ID": "fld_7373054",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_6",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable next_6",
+                "type": "next",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_4961638":
+        {
+            "ID": "fld_4961638",
+            "type": "html",
+            "label": "Tell us about you",
+            "slug": "tell_us_about_you",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h2>Tell us about you<\/h2>"
+            }
+        },
+        "fld_2593421":
+        {
+            "ID": "fld_2593421",
+            "type": "radio",
+            "label": "Gender",
+            "slug": "what_is_your_gender",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1781054":
+                    {
+                        "calc_value": "Male",
+                        "value": "Male",
+                        "label": "Male"
+                    },
+                    "opt1068842":
+                    {
+                        "calc_value": "Female",
+                        "value": "Female",
+                        "label": "Female"
+                    }
+                }
+            }
+        },
+        "fld_2497480":
+        {
+            "ID": "fld_2497480",
+            "type": "dropdown",
+            "label": "Country",
+            "slug": "country",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt534524":
+                    {
+                        "calc_value": "Afghanistan",
+                        "value": "Afghanistan",
+                        "label": "Afghanistan"
+                    },
+                    "opt1325269":
+                    {
+                        "calc_value": "\u00c5land Islands",
+                        "value": "\u00c5land Islands",
+                        "label": "\u00c5land Islands"
+                    },
+                    "opt2144541":
+                    {
+                        "calc_value": "Albania",
+                        "value": "Albania",
+                        "label": "Albania"
+                    },
+                    "opt3614376":
+                    {
+                        "calc_value": "Algeria",
+                        "value": "Algeria",
+                        "label": "Algeria"
+                    },
+                    "opt4520617":
+                    {
+                        "calc_value": "American Samoa",
+                        "value": "American Samoa",
+                        "label": "American Samoa"
+                    },
+                    "opt5488470":
+                    {
+                        "calc_value": "Andorra",
+                        "value": "Andorra",
+                        "label": "Andorra"
+                    },
+                    "opt6579228":
+                    {
+                        "calc_value": "Angola",
+                        "value": "Angola",
+                        "label": "Angola"
+                    },
+                    "opt8062763":
+                    {
+                        "calc_value": "Anguilla",
+                        "value": "Anguilla",
+                        "label": "Anguilla"
+                    },
+                    "opt9292696":
+                    {
+                        "calc_value": "Antarctica",
+                        "value": "Antarctica",
+                        "label": "Antarctica"
+                    },
+                    "opt9653677":
+                    {
+                        "calc_value": "Antigua and Barbuda",
+                        "value": "Antigua and Barbuda",
+                        "label": "Antigua and Barbuda"
+                    },
+                    "opt11374243":
+                    {
+                        "calc_value": "Argentina",
+                        "value": "Argentina",
+                        "label": "Argentina"
+                    },
+                    "opt12408342":
+                    {
+                        "calc_value": "Armenia",
+                        "value": "Armenia",
+                        "label": "Armenia"
+                    },
+                    "opt13156204":
+                    {
+                        "calc_value": "Aruba",
+                        "value": "Aruba",
+                        "label": "Aruba"
+                    },
+                    "opt14380125":
+                    {
+                        "calc_value": "Australia",
+                        "value": "Australia",
+                        "label": "Australia"
+                    },
+                    "opt15091019":
+                    {
+                        "calc_value": "Austria",
+                        "value": "Austria",
+                        "label": "Austria"
+                    },
+                    "opt15903943":
+                    {
+                        "calc_value": "Azerbaijan",
+                        "value": "Azerbaijan",
+                        "label": "Azerbaijan"
+                    },
+                    "opt16961998":
+                    {
+                        "calc_value": "Bahamas",
+                        "value": "Bahamas",
+                        "label": "Bahamas"
+                    },
+                    "opt18780642":
+                    {
+                        "calc_value": "Bahrain",
+                        "value": "Bahrain",
+                        "label": "Bahrain"
+                    },
+                    "opt19601950":
+                    {
+                        "calc_value": "Bangladesh",
+                        "value": "Bangladesh",
+                        "label": "Bangladesh"
+                    },
+                    "opt20288474":
+                    {
+                        "calc_value": "Barbados",
+                        "value": "Barbados",
+                        "label": "Barbados"
+                    },
+                    "opt21075602":
+                    {
+                        "calc_value": "Belarus",
+                        "value": "Belarus",
+                        "label": "Belarus"
+                    },
+                    "opt22782739":
+                    {
+                        "calc_value": "Belgium",
+                        "value": "Belgium",
+                        "label": "Belgium"
+                    },
+                    "opt23432960":
+                    {
+                        "calc_value": "Belize",
+                        "value": "Belize",
+                        "label": "Belize"
+                    },
+                    "opt24211240":
+                    {
+                        "calc_value": "Benin",
+                        "value": "Benin",
+                        "label": "Benin"
+                    },
+                    "opt25186295":
+                    {
+                        "calc_value": "Bermuda",
+                        "value": "Bermuda",
+                        "label": "Bermuda"
+                    },
+                    "opt26952085":
+                    {
+                        "calc_value": "Bhutan",
+                        "value": "Bhutan",
+                        "label": "Bhutan"
+                    },
+                    "opt27690038":
+                    {
+                        "calc_value": "Bolivia, Plurinational State of",
+                        "value": "Bolivia, Plurinational State of",
+                        "label": "Bolivia, Plurinational State of"
+                    },
+                    "opt28409701":
+                    {
+                        "calc_value": "Bonaire, Sint Eustatius and Saba",
+                        "value": "Bonaire, Sint Eustatius and Saba",
+                        "label": "Bonaire, Sint Eustatius and Saba"
+                    },
+                    "opt30303330":
+                    {
+                        "calc_value": "Bosnia and Herzegovina",
+                        "value": "Bosnia and Herzegovina",
+                        "label": "Bosnia and Herzegovina"
+                    },
+                    "opt31117668":
+                    {
+                        "calc_value": "Botswana",
+                        "value": "Botswana",
+                        "label": "Botswana"
+                    },
+                    "opt31973138":
+                    {
+                        "calc_value": "Bouvet Island",
+                        "value": "Bouvet Island",
+                        "label": "Bouvet Island"
+                    },
+                    "opt32969476":
+                    {
+                        "calc_value": "Brazil",
+                        "value": "Brazil",
+                        "label": "Brazil"
+                    },
+                    "opt34506441":
+                    {
+                        "calc_value": "British Indian Ocean Territory",
+                        "value": "British Indian Ocean Territory",
+                        "label": "British Indian Ocean Territory"
+                    },
+                    "opt35593956":
+                    {
+                        "calc_value": "Brunei Darussalam",
+                        "value": "Brunei Darussalam",
+                        "label": "Brunei Darussalam"
+                    },
+                    "opt36590754":
+                    {
+                        "calc_value": "Bulgaria",
+                        "value": "Bulgaria",
+                        "label": "Bulgaria"
+                    },
+                    "opt37156646":
+                    {
+                        "calc_value": "Burkina Faso",
+                        "value": "Burkina Faso",
+                        "label": "Burkina Faso"
+                    },
+                    "opt38063186":
+                    {
+                        "calc_value": "Burundi",
+                        "value": "Burundi",
+                        "label": "Burundi"
+                    },
+                    "opt39185808":
+                    {
+                        "calc_value": "Cambodia",
+                        "value": "Cambodia",
+                        "label": "Cambodia"
+                    },
+                    "opt40478246":
+                    {
+                        "calc_value": "Cameroon",
+                        "value": "Cameroon",
+                        "label": "Cameroon"
+                    },
+                    "opt41621565":
+                    {
+                        "calc_value": "Canada",
+                        "value": "Canada",
+                        "label": "Canada"
+                    },
+                    "opt42011128":
+                    {
+                        "calc_value": "Cape Verde",
+                        "value": "Cape Verde",
+                        "label": "Cape Verde"
+                    },
+                    "opt43829419":
+                    {
+                        "calc_value": "Cayman Islands",
+                        "value": "Cayman Islands",
+                        "label": "Cayman Islands"
+                    },
+                    "opt44895995":
+                    {
+                        "calc_value": "Central African Republic",
+                        "value": "Central African Republic",
+                        "label": "Central African Republic"
+                    },
+                    "opt45939611":
+                    {
+                        "calc_value": "Chad",
+                        "value": "Chad",
+                        "label": "Chad"
+                    },
+                    "opt46965462":
+                    {
+                        "calc_value": "Chile",
+                        "value": "Chile",
+                        "label": "Chile"
+                    },
+                    "opt48106895":
+                    {
+                        "calc_value": "China",
+                        "value": "China",
+                        "label": "China"
+                    },
+                    "opt49281239":
+                    {
+                        "calc_value": "Christmas Island",
+                        "value": "Christmas Island",
+                        "label": "Christmas Island"
+                    },
+                    "opt50178821":
+                    {
+                        "calc_value": "Cocos (Keeling) Islands",
+                        "value": "Cocos (Keeling) Islands",
+                        "label": "Cocos (Keeling) Islands"
+                    },
+                    "opt51048462":
+                    {
+                        "calc_value": "Colombia",
+                        "value": "Colombia",
+                        "label": "Colombia"
+                    },
+                    "opt51974595":
+                    {
+                        "calc_value": "Comoros",
+                        "value": "Comoros",
+                        "label": "Comoros"
+                    },
+                    "opt52530174":
+                    {
+                        "calc_value": "Congo",
+                        "value": "Congo",
+                        "label": "Congo"
+                    },
+                    "opt54495708":
+                    {
+                        "calc_value": "Congo, the Democratic Republic of the",
+                        "value": "Congo, the Democratic Republic of the",
+                        "label": "Congo, the Democratic Republic of the"
+                    },
+                    "opt55203965":
+                    {
+                        "calc_value": "Cook Islands",
+                        "value": "Cook Islands",
+                        "label": "Cook Islands"
+                    },
+                    "opt55872165":
+                    {
+                        "calc_value": "Costa Rica",
+                        "value": "Costa Rica",
+                        "label": "Costa Rica"
+                    },
+                    "opt57019502":
+                    {
+                        "calc_value": "C\u00f4te d'Ivoire",
+                        "value": "C\u00f4te d'Ivoire",
+                        "label": "C\u00f4te d'Ivoire"
+                    },
+                    "opt57959106":
+                    {
+                        "calc_value": "Croatia",
+                        "value": "Croatia",
+                        "label": "Croatia"
+                    },
+                    "opt58977508":
+                    {
+                        "calc_value": "Cuba",
+                        "value": "Cuba",
+                        "label": "Cuba"
+                    },
+                    "opt60638745":
+                    {
+                        "calc_value": "Cura\u00e7ao",
+                        "value": "Cura\u00e7ao",
+                        "label": "Cura\u00e7ao"
+                    },
+                    "opt61771276":
+                    {
+                        "calc_value": "Cyprus",
+                        "value": "Cyprus",
+                        "label": "Cyprus"
+                    },
+                    "opt62115555":
+                    {
+                        "calc_value": "Czech Republic",
+                        "value": "Czech Republic",
+                        "label": "Czech Republic"
+                    },
+                    "opt63397758":
+                    {
+                        "calc_value": "Denmark",
+                        "value": "Denmark",
+                        "label": "Denmark"
+                    },
+                    "opt64653572":
+                    {
+                        "calc_value": "Djibouti",
+                        "value": "Djibouti",
+                        "label": "Djibouti"
+                    },
+                    "opt65958656":
+                    {
+                        "calc_value": "Dominica",
+                        "value": "Dominica",
+                        "label": "Dominica"
+                    },
+                    "opt66292262":
+                    {
+                        "calc_value": "Dominican Republic",
+                        "value": "Dominican Republic",
+                        "label": "Dominican Republic"
+                    },
+                    "opt67701763":
+                    {
+                        "calc_value": "Ecuador",
+                        "value": "Ecuador",
+                        "label": "Ecuador"
+                    },
+                    "opt68534856":
+                    {
+                        "calc_value": "Egypt",
+                        "value": "Egypt",
+                        "label": "Egypt"
+                    },
+                    "opt69734389":
+                    {
+                        "calc_value": "El Salvador",
+                        "value": "El Salvador",
+                        "label": "El Salvador"
+                    },
+                    "opt70980691":
+                    {
+                        "calc_value": "Equatorial Guinea",
+                        "value": "Equatorial Guinea",
+                        "label": "Equatorial Guinea"
+                    },
+                    "opt71726338":
+                    {
+                        "calc_value": "Eritrea",
+                        "value": "Eritrea",
+                        "label": "Eritrea"
+                    },
+                    "opt73400073":
+                    {
+                        "calc_value": "Estonia",
+                        "value": "Estonia",
+                        "label": "Estonia"
+                    },
+                    "opt74123235":
+                    {
+                        "calc_value": "Ethiopia",
+                        "value": "Ethiopia",
+                        "label": "Ethiopia"
+                    },
+                    "opt74990522":
+                    {
+                        "calc_value": "Falkland Islands (Malvinas)",
+                        "value": "Falkland Islands (Malvinas)",
+                        "label": "Falkland Islands (Malvinas)"
+                    },
+                    "opt75688157":
+                    {
+                        "calc_value": "Faroe Islands",
+                        "value": "Faroe Islands",
+                        "label": "Faroe Islands"
+                    },
+                    "opt76791474":
+                    {
+                        "calc_value": "Fiji",
+                        "value": "Fiji",
+                        "label": "Fiji"
+                    },
+                    "opt78005458":
+                    {
+                        "calc_value": "Finland",
+                        "value": "Finland",
+                        "label": "Finland"
+                    },
+                    "opt79152844":
+                    {
+                        "calc_value": "France",
+                        "value": "France",
+                        "label": "France"
+                    },
+                    "opt79914957":
+                    {
+                        "calc_value": "French Guiana",
+                        "value": "French Guiana",
+                        "label": "French Guiana"
+                    },
+                    "opt81096667":
+                    {
+                        "calc_value": "French Polynesia",
+                        "value": "French Polynesia",
+                        "label": "French Polynesia"
+                    },
+                    "opt82196989":
+                    {
+                        "calc_value": "French Southern Territories",
+                        "value": "French Southern Territories",
+                        "label": "French Southern Territories"
+                    },
+                    "opt83144446":
+                    {
+                        "calc_value": "Gabon",
+                        "value": "Gabon",
+                        "label": "Gabon"
+                    },
+                    "opt84508080":
+                    {
+                        "calc_value": "Gambia",
+                        "value": "Gambia",
+                        "label": "Gambia"
+                    },
+                    "opt85537425":
+                    {
+                        "calc_value": "Georgia",
+                        "value": "Georgia",
+                        "label": "Georgia"
+                    },
+                    "opt86566696":
+                    {
+                        "calc_value": "Germany",
+                        "value": "Germany",
+                        "label": "Germany"
+                    },
+                    "opt87637078":
+                    {
+                        "calc_value": "Ghana",
+                        "value": "Ghana",
+                        "label": "Ghana"
+                    },
+                    "opt88137550":
+                    {
+                        "calc_value": "Gibraltar",
+                        "value": "Gibraltar",
+                        "label": "Gibraltar"
+                    },
+                    "opt89811160":
+                    {
+                        "calc_value": "Greece",
+                        "value": "Greece",
+                        "label": "Greece"
+                    },
+                    "opt90880568":
+                    {
+                        "calc_value": "Greenland",
+                        "value": "Greenland",
+                        "label": "Greenland"
+                    },
+                    "opt91471479":
+                    {
+                        "calc_value": "Grenada",
+                        "value": "Grenada",
+                        "label": "Grenada"
+                    },
+                    "opt92945886":
+                    {
+                        "calc_value": "Guadeloupe",
+                        "value": "Guadeloupe",
+                        "label": "Guadeloupe"
+                    },
+                    "opt93661844":
+                    {
+                        "calc_value": "Guam",
+                        "value": "Guam",
+                        "label": "Guam"
+                    },
+                    "opt94891611":
+                    {
+                        "calc_value": "Guatemala",
+                        "value": "Guatemala",
+                        "label": "Guatemala"
+                    },
+                    "opt95754030":
+                    {
+                        "calc_value": "Guernsey",
+                        "value": "Guernsey",
+                        "label": "Guernsey"
+                    },
+                    "opt96812957":
+                    {
+                        "calc_value": "Guinea",
+                        "value": "Guinea",
+                        "label": "Guinea"
+                    },
+                    "opt98143641":
+                    {
+                        "calc_value": "Guinea-Bissau",
+                        "value": "Guinea-Bissau",
+                        "label": "Guinea-Bissau"
+                    },
+                    "opt98741794":
+                    {
+                        "calc_value": "Guyana",
+                        "value": "Guyana",
+                        "label": "Guyana"
+                    },
+                    "opt100280029":
+                    {
+                        "calc_value": "Haiti",
+                        "value": "Haiti",
+                        "label": "Haiti"
+                    },
+                    "opt101062171":
+                    {
+                        "calc_value": "Heard Island and McDonald Islands",
+                        "value": "Heard Island and McDonald Islands",
+                        "label": "Heard Island and McDonald Islands"
+                    },
+                    "opt101999215":
+                    {
+                        "calc_value": "Holy See (Vatican City State)",
+                        "value": "Holy See (Vatican City State)",
+                        "label": "Holy See (Vatican City State)"
+                    },
+                    "opt103706519":
+                    {
+                        "calc_value": "Honduras",
+                        "value": "Honduras",
+                        "label": "Honduras"
+                    },
+                    "opt104525462":
+                    {
+                        "calc_value": "Hong Kong",
+                        "value": "Hong Kong",
+                        "label": "Hong Kong"
+                    },
+                    "opt105371427":
+                    {
+                        "calc_value": "Hungary",
+                        "value": "Hungary",
+                        "label": "Hungary"
+                    },
+                    "opt106387829":
+                    {
+                        "calc_value": "Iceland",
+                        "value": "Iceland",
+                        "label": "Iceland"
+                    },
+                    "opt107679797":
+                    {
+                        "calc_value": "India",
+                        "value": "India",
+                        "label": "India"
+                    },
+                    "opt109027277":
+                    {
+                        "calc_value": "Indonesia",
+                        "value": "Indonesia",
+                        "label": "Indonesia"
+                    },
+                    "opt110068205":
+                    {
+                        "calc_value": "Iran, Islamic Republic of",
+                        "value": "Iran, Islamic Republic of",
+                        "label": "Iran, Islamic Republic of"
+                    },
+                    "opt110666798":
+                    {
+                        "calc_value": "Iraq",
+                        "value": "Iraq",
+                        "label": "Iraq"
+                    },
+                    "opt111207210":
+                    {
+                        "calc_value": "Ireland",
+                        "value": "Ireland",
+                        "label": "Ireland"
+                    },
+                    "opt113069770":
+                    {
+                        "calc_value": "Isle of Man",
+                        "value": "Isle of Man",
+                        "label": "Isle of Man"
+                    },
+                    "opt114122382":
+                    {
+                        "calc_value": "Israel",
+                        "value": "Israel",
+                        "label": "Israel"
+                    },
+                    "opt114607496":
+                    {
+                        "calc_value": "Italy",
+                        "value": "Italy",
+                        "label": "Italy"
+                    },
+                    "opt115722558":
+                    {
+                        "calc_value": "Jamaica",
+                        "value": "Jamaica",
+                        "label": "Jamaica"
+                    },
+                    "opt116791468":
+                    {
+                        "calc_value": "Japan",
+                        "value": "Japan",
+                        "label": "Japan"
+                    },
+                    "opt117763537":
+                    {
+                        "calc_value": "Jersey",
+                        "value": "Jersey",
+                        "label": "Jersey"
+                    },
+                    "opt118685048":
+                    {
+                        "calc_value": "Jordan",
+                        "value": "Jordan",
+                        "label": "Jordan"
+                    },
+                    "opt119652724":
+                    {
+                        "calc_value": "Kazakhstan",
+                        "value": "Kazakhstan",
+                        "label": "Kazakhstan"
+                    },
+                    "opt120821507":
+                    {
+                        "calc_value": "Kenya",
+                        "value": "Kenya",
+                        "label": "Kenya"
+                    },
+                    "opt121814838":
+                    {
+                        "calc_value": "Kiribati",
+                        "value": "Kiribati",
+                        "label": "Kiribati"
+                    },
+                    "opt123571091":
+                    {
+                        "calc_value": "Korea, Democratic People's Republic of",
+                        "value": "Korea, Democratic People's Republic of",
+                        "label": "Korea, Democratic People's Republic of"
+                    },
+                    "opt124330103":
+                    {
+                        "calc_value": "Korea, Republic of",
+                        "value": "Korea, Republic of",
+                        "label": "Korea, Republic of"
+                    },
+                    "opt125074121":
+                    {
+                        "calc_value": "Kuwait",
+                        "value": "Kuwait",
+                        "label": "Kuwait"
+                    },
+                    "opt126863638":
+                    {
+                        "calc_value": "Kyrgyzstan",
+                        "value": "Kyrgyzstan",
+                        "label": "Kyrgyzstan"
+                    },
+                    "opt127068473":
+                    {
+                        "calc_value": "Lao People's Democratic Republic",
+                        "value": "Lao People's Democratic Republic",
+                        "label": "Lao People's Democratic Republic"
+                    },
+                    "opt128790897":
+                    {
+                        "calc_value": "Latvia",
+                        "value": "Latvia",
+                        "label": "Latvia"
+                    },
+                    "opt129764909":
+                    {
+                        "calc_value": "Lebanon",
+                        "value": "Lebanon",
+                        "label": "Lebanon"
+                    },
+                    "opt130393208":
+                    {
+                        "calc_value": "Lesotho",
+                        "value": "Lesotho",
+                        "label": "Lesotho"
+                    },
+                    "opt131956323":
+                    {
+                        "calc_value": "Liberia",
+                        "value": "Liberia",
+                        "label": "Liberia"
+                    },
+                    "opt132784795":
+                    {
+                        "calc_value": "Libya",
+                        "value": "Libya",
+                        "label": "Libya"
+                    },
+                    "opt133890702":
+                    {
+                        "calc_value": "Liechtenstein",
+                        "value": "Liechtenstein",
+                        "label": "Liechtenstein"
+                    },
+                    "opt134890915":
+                    {
+                        "calc_value": "Lithuania",
+                        "value": "Lithuania",
+                        "label": "Lithuania"
+                    },
+                    "opt135529260":
+                    {
+                        "calc_value": "Luxembourg",
+                        "value": "Luxembourg",
+                        "label": "Luxembourg"
+                    },
+                    "opt136546509":
+                    {
+                        "calc_value": "Macao",
+                        "value": "Macao",
+                        "label": "Macao"
+                    },
+                    "opt138399574":
+                    {
+                        "calc_value": "Macedonia, the former Yugoslav Republic of",
+                        "value": "Macedonia, the former Yugoslav Republic of",
+                        "label": "Macedonia, the former Yugoslav Republic of"
+                    },
+                    "opt138725121":
+                    {
+                        "calc_value": "Madagascar",
+                        "value": "Madagascar",
+                        "label": "Madagascar"
+                    },
+                    "opt140133299":
+                    {
+                        "calc_value": "Malawi",
+                        "value": "Malawi",
+                        "label": "Malawi"
+                    },
+                    "opt141026032":
+                    {
+                        "calc_value": "Malaysia",
+                        "value": "Malaysia",
+                        "label": "Malaysia"
+                    },
+                    "opt141754211":
+                    {
+                        "calc_value": "Maldives",
+                        "value": "Maldives",
+                        "label": "Maldives"
+                    },
+                    "opt143256921":
+                    {
+                        "calc_value": "Mali",
+                        "value": "Mali",
+                        "label": "Mali"
+                    },
+                    "opt144071608":
+                    {
+                        "calc_value": "Malta",
+                        "value": "Malta",
+                        "label": "Malta"
+                    },
+                    "opt145350068":
+                    {
+                        "calc_value": "Marshall Islands",
+                        "value": "Marshall Islands",
+                        "label": "Marshall Islands"
+                    },
+                    "opt146446876":
+                    {
+                        "calc_value": "Martinique",
+                        "value": "Martinique",
+                        "label": "Martinique"
+                    },
+                    "opt147047024":
+                    {
+                        "calc_value": "Mauritania",
+                        "value": "Mauritania",
+                        "label": "Mauritania"
+                    },
+                    "opt148079604":
+                    {
+                        "calc_value": "Mauritius",
+                        "value": "Mauritius",
+                        "label": "Mauritius"
+                    },
+                    "opt149733506":
+                    {
+                        "calc_value": "Mayotte",
+                        "value": "Mayotte",
+                        "label": "Mayotte"
+                    },
+                    "opt150962733":
+                    {
+                        "calc_value": "Mexico",
+                        "value": "Mexico",
+                        "label": "Mexico"
+                    },
+                    "opt151785814":
+                    {
+                        "calc_value": "Micronesia, Federated States of",
+                        "value": "Micronesia, Federated States of",
+                        "label": "Micronesia, Federated States of"
+                    },
+                    "opt152936661":
+                    {
+                        "calc_value": "Moldova, Republic of",
+                        "value": "Moldova, Republic of",
+                        "label": "Moldova, Republic of"
+                    },
+                    "opt154037149":
+                    {
+                        "calc_value": "Monaco",
+                        "value": "Monaco",
+                        "label": "Monaco"
+                    },
+                    "opt154657376":
+                    {
+                        "calc_value": "Mongolia",
+                        "value": "Mongolia",
+                        "label": "Mongolia"
+                    },
+                    "opt155831730":
+                    {
+                        "calc_value": "Montenegro",
+                        "value": "Montenegro",
+                        "label": "Montenegro"
+                    },
+                    "opt156797015":
+                    {
+                        "calc_value": "Montserrat",
+                        "value": "Montserrat",
+                        "label": "Montserrat"
+                    },
+                    "opt157361976":
+                    {
+                        "calc_value": "Morocco",
+                        "value": "Morocco",
+                        "label": "Morocco"
+                    },
+                    "opt158659619":
+                    {
+                        "calc_value": "Mozambique",
+                        "value": "Mozambique",
+                        "label": "Mozambique"
+                    },
+                    "opt160148554":
+                    {
+                        "calc_value": "Myanmar",
+                        "value": "Myanmar",
+                        "label": "Myanmar"
+                    },
+                    "opt161207023":
+                    {
+                        "calc_value": "Namibia",
+                        "value": "Namibia",
+                        "label": "Namibia"
+                    },
+                    "opt162430619":
+                    {
+                        "calc_value": "Nauru",
+                        "value": "Nauru",
+                        "label": "Nauru"
+                    },
+                    "opt162900981":
+                    {
+                        "calc_value": "Nepal",
+                        "value": "Nepal",
+                        "label": "Nepal"
+                    },
+                    "opt163876893":
+                    {
+                        "calc_value": "Netherlands",
+                        "value": "Netherlands",
+                        "label": "Netherlands"
+                    },
+                    "opt164822856":
+                    {
+                        "calc_value": "New Caledonia",
+                        "value": "New Caledonia",
+                        "label": "New Caledonia"
+                    },
+                    "opt165902316":
+                    {
+                        "calc_value": "New Zealand",
+                        "value": "New Zealand",
+                        "label": "New Zealand"
+                    },
+                    "opt167003555":
+                    {
+                        "calc_value": "Nicaragua",
+                        "value": "Nicaragua",
+                        "label": "Nicaragua"
+                    },
+                    "opt168630141":
+                    {
+                        "calc_value": "Niger",
+                        "value": "Niger",
+                        "label": "Niger"
+                    },
+                    "opt168857921":
+                    {
+                        "calc_value": "Nigeria",
+                        "value": "Nigeria",
+                        "label": "Nigeria"
+                    },
+                    "opt169991758":
+                    {
+                        "calc_value": "Niue",
+                        "value": "Niue",
+                        "label": "Niue"
+                    },
+                    "opt171031209":
+                    {
+                        "calc_value": "Norfolk Island",
+                        "value": "Norfolk Island",
+                        "label": "Norfolk Island"
+                    },
+                    "opt172750220":
+                    {
+                        "calc_value": "Northern Mariana Islands",
+                        "value": "Northern Mariana Islands",
+                        "label": "Northern Mariana Islands"
+                    },
+                    "opt173137346":
+                    {
+                        "calc_value": "Norway",
+                        "value": "Norway",
+                        "label": "Norway"
+                    },
+                    "opt174691445":
+                    {
+                        "calc_value": "Oman",
+                        "value": "Oman",
+                        "label": "Oman"
+                    },
+                    "opt175425282":
+                    {
+                        "calc_value": "Pakistan",
+                        "value": "Pakistan",
+                        "label": "Pakistan"
+                    },
+                    "opt176691053":
+                    {
+                        "calc_value": "Palau",
+                        "value": "Palau",
+                        "label": "Palau"
+                    },
+                    "opt177423226":
+                    {
+                        "calc_value": "Palestinian Territory, Occupied",
+                        "value": "Palestinian Territory, Occupied",
+                        "label": "Palestinian Territory, Occupied"
+                    },
+                    "opt178434042":
+                    {
+                        "calc_value": "Panama",
+                        "value": "Panama",
+                        "label": "Panama"
+                    },
+                    "opt179550753":
+                    {
+                        "calc_value": "Papua New Guinea",
+                        "value": "Papua New Guinea",
+                        "label": "Papua New Guinea"
+                    },
+                    "opt180886828":
+                    {
+                        "calc_value": "Paraguay",
+                        "value": "Paraguay",
+                        "label": "Paraguay"
+                    },
+                    "opt181958794":
+                    {
+                        "calc_value": "Peru",
+                        "value": "Peru",
+                        "label": "Peru"
+                    },
+                    "opt182855315":
+                    {
+                        "calc_value": "Philippines",
+                        "value": "Philippines",
+                        "label": "Philippines"
+                    },
+                    "opt183633481":
+                    {
+                        "calc_value": "Pitcairn",
+                        "value": "Pitcairn",
+                        "label": "Pitcairn"
+                    },
+                    "opt185068214":
+                    {
+                        "calc_value": "Poland",
+                        "value": "Poland",
+                        "label": "Poland"
+                    },
+                    "opt185733484":
+                    {
+                        "calc_value": "Portugal",
+                        "value": "Portugal",
+                        "label": "Portugal"
+                    },
+                    "opt187523200":
+                    {
+                        "calc_value": "Puerto Rico",
+                        "value": "Puerto Rico",
+                        "label": "Puerto Rico"
+                    },
+                    "opt188739122":
+                    {
+                        "calc_value": "Qatar",
+                        "value": "Qatar",
+                        "label": "Qatar"
+                    },
+                    "opt189206585":
+                    {
+                        "calc_value": "R\u00e9union",
+                        "value": "R\u00e9union",
+                        "label": "R\u00e9union"
+                    },
+                    "opt190358395":
+                    {
+                        "calc_value": "Romania",
+                        "value": "Romania",
+                        "label": "Romania"
+                    },
+                    "opt191627445":
+                    {
+                        "calc_value": "Russian Federation",
+                        "value": "Russian Federation",
+                        "label": "Russian Federation"
+                    },
+                    "opt191929171":
+                    {
+                        "calc_value": "Rwanda",
+                        "value": "Rwanda",
+                        "label": "Rwanda"
+                    },
+                    "opt193200337":
+                    {
+                        "calc_value": "Saint Barth\u00e9lemy",
+                        "value": "Saint Barth\u00e9lemy",
+                        "label": "Saint Barth\u00e9lemy"
+                    },
+                    "opt194634554":
+                    {
+                        "calc_value": "Saint Helena, Ascension and Tristan da Cunha",
+                        "value": "Saint Helena, Ascension and Tristan da Cunha",
+                        "label": "Saint Helena, Ascension and Tristan da Cunha"
+                    },
+                    "opt195323569":
+                    {
+                        "calc_value": "Saint Kitts and Nevis",
+                        "value": "Saint Kitts and Nevis",
+                        "label": "Saint Kitts and Nevis"
+                    },
+                    "opt196552720":
+                    {
+                        "calc_value": "Saint Lucia",
+                        "value": "Saint Lucia",
+                        "label": "Saint Lucia"
+                    },
+                    "opt197295799":
+                    {
+                        "calc_value": "Saint Martin (French part)",
+                        "value": "Saint Martin (French part)",
+                        "label": "Saint Martin (French part)"
+                    },
+                    "opt198538840":
+                    {
+                        "calc_value": "Saint Pierre and Miquelon",
+                        "value": "Saint Pierre and Miquelon",
+                        "label": "Saint Pierre and Miquelon"
+                    },
+                    "opt199274607":
+                    {
+                        "calc_value": "Saint Vincent and the Grenadines",
+                        "value": "Saint Vincent and the Grenadines",
+                        "label": "Saint Vincent and the Grenadines"
+                    },
+                    "opt201059476":
+                    {
+                        "calc_value": "Samoa",
+                        "value": "Samoa",
+                        "label": "Samoa"
+                    },
+                    "opt201588037":
+                    {
+                        "calc_value": "San Marino",
+                        "value": "San Marino",
+                        "label": "San Marino"
+                    },
+                    "opt203010248":
+                    {
+                        "calc_value": "Sao Tome and Principe",
+                        "value": "Sao Tome and Principe",
+                        "label": "Sao Tome and Principe"
+                    },
+                    "opt203558124":
+                    {
+                        "calc_value": "Saudi Arabia",
+                        "value": "Saudi Arabia",
+                        "label": "Saudi Arabia"
+                    },
+                    "opt205063467":
+                    {
+                        "calc_value": "Senegal",
+                        "value": "Senegal",
+                        "label": "Senegal"
+                    },
+                    "opt206274451":
+                    {
+                        "calc_value": "Serbia",
+                        "value": "Serbia",
+                        "label": "Serbia"
+                    },
+                    "opt206737821":
+                    {
+                        "calc_value": "Seychelles",
+                        "value": "Seychelles",
+                        "label": "Seychelles"
+                    },
+                    "opt208345116":
+                    {
+                        "calc_value": "Sierra Leone",
+                        "value": "Sierra Leone",
+                        "label": "Sierra Leone"
+                    },
+                    "opt209205727":
+                    {
+                        "calc_value": "Singapore",
+                        "value": "Singapore",
+                        "label": "Singapore"
+                    },
+                    "opt210267334":
+                    {
+                        "calc_value": "Sint Maarten (Dutch part)",
+                        "value": "Sint Maarten (Dutch part)",
+                        "label": "Sint Maarten (Dutch part)"
+                    },
+                    "opt211518156":
+                    {
+                        "calc_value": "Slovakia",
+                        "value": "Slovakia",
+                        "label": "Slovakia"
+                    },
+                    "opt212512443":
+                    {
+                        "calc_value": "Slovenia",
+                        "value": "Slovenia",
+                        "label": "Slovenia"
+                    },
+                    "opt213149880":
+                    {
+                        "calc_value": "Solomon Islands",
+                        "value": "Solomon Islands",
+                        "label": "Solomon Islands"
+                    },
+                    "opt214725523":
+                    {
+                        "calc_value": "Somalia",
+                        "value": "Somalia",
+                        "label": "Somalia"
+                    },
+                    "opt215336049":
+                    {
+                        "calc_value": "South Africa",
+                        "value": "South Africa",
+                        "label": "South Africa"
+                    },
+                    "opt216675730":
+                    {
+                        "calc_value": "South Georgia and the South Sandwich Islands",
+                        "value": "South Georgia and the South Sandwich Islands",
+                        "label": "South Georgia and the South Sandwich Islands"
+                    },
+                    "opt217201016":
+                    {
+                        "calc_value": "South Sudan",
+                        "value": "South Sudan",
+                        "label": "South Sudan"
+                    },
+                    "opt218982579":
+                    {
+                        "calc_value": "Spain",
+                        "value": "Spain",
+                        "label": "Spain"
+                    },
+                    "opt219293345":
+                    {
+                        "calc_value": "Sri Lanka",
+                        "value": "Sri Lanka",
+                        "label": "Sri Lanka"
+                    },
+                    "opt220952991":
+                    {
+                        "calc_value": "Sudan",
+                        "value": "Sudan",
+                        "label": "Sudan"
+                    },
+                    "opt221440331":
+                    {
+                        "calc_value": "Suriname",
+                        "value": "Suriname",
+                        "label": "Suriname"
+                    },
+                    "opt223192759":
+                    {
+                        "calc_value": "Svalbard and Jan Mayen",
+                        "value": "Svalbard and Jan Mayen",
+                        "label": "Svalbard and Jan Mayen"
+                    },
+                    "opt223674538":
+                    {
+                        "calc_value": "Swaziland",
+                        "value": "Swaziland",
+                        "label": "Swaziland"
+                    },
+                    "opt224946501":
+                    {
+                        "calc_value": "Sweden",
+                        "value": "Sweden",
+                        "label": "Sweden"
+                    },
+                    "opt225752738":
+                    {
+                        "calc_value": "Switzerland",
+                        "value": "Switzerland",
+                        "label": "Switzerland"
+                    },
+                    "opt226875558":
+                    {
+                        "calc_value": "Syrian Arab Republic",
+                        "value": "Syrian Arab Republic",
+                        "label": "Syrian Arab Republic"
+                    },
+                    "opt228015528":
+                    {
+                        "calc_value": "Taiwan, Province of China",
+                        "value": "Taiwan, Province of China",
+                        "label": "Taiwan, Province of China"
+                    },
+                    "opt229266214":
+                    {
+                        "calc_value": "Tajikistan",
+                        "value": "Tajikistan",
+                        "label": "Tajikistan"
+                    },
+                    "opt230517145":
+                    {
+                        "calc_value": "Tanzania, United Republic of",
+                        "value": "Tanzania, United Republic of",
+                        "label": "Tanzania, United Republic of"
+                    },
+                    "opt231587302":
+                    {
+                        "calc_value": "Thailand",
+                        "value": "Thailand",
+                        "label": "Thailand"
+                    },
+                    "opt232483600":
+                    {
+                        "calc_value": "Timor-Leste",
+                        "value": "Timor-Leste",
+                        "label": "Timor-Leste"
+                    },
+                    "opt233289652":
+                    {
+                        "calc_value": "Togo",
+                        "value": "Togo",
+                        "label": "Togo"
+                    },
+                    "opt234645823":
+                    {
+                        "calc_value": "Tokelau",
+                        "value": "Tokelau",
+                        "label": "Tokelau"
+                    },
+                    "opt235827082":
+                    {
+                        "calc_value": "Tonga",
+                        "value": "Tonga",
+                        "label": "Tonga"
+                    },
+                    "opt236154449":
+                    {
+                        "calc_value": "Trinidad and Tobago",
+                        "value": "Trinidad and Tobago",
+                        "label": "Trinidad and Tobago"
+                    },
+                    "opt238003181":
+                    {
+                        "calc_value": "Tunisia",
+                        "value": "Tunisia",
+                        "label": "Tunisia"
+                    },
+                    "opt238333164":
+                    {
+                        "calc_value": "Turkey",
+                        "value": "Turkey",
+                        "label": "Turkey"
+                    },
+                    "opt239075768":
+                    {
+                        "calc_value": "Turkmenistan",
+                        "value": "Turkmenistan",
+                        "label": "Turkmenistan"
+                    },
+                    "opt240505884":
+                    {
+                        "calc_value": "Turks and Caicos Islands",
+                        "value": "Turks and Caicos Islands",
+                        "label": "Turks and Caicos Islands"
+                    },
+                    "opt241435507":
+                    {
+                        "calc_value": "Tuvalu",
+                        "value": "Tuvalu",
+                        "label": "Tuvalu"
+                    },
+                    "opt243133314":
+                    {
+                        "calc_value": "Uganda",
+                        "value": "Uganda",
+                        "label": "Uganda"
+                    },
+                    "opt243881752":
+                    {
+                        "calc_value": "Ukraine",
+                        "value": "Ukraine",
+                        "label": "Ukraine"
+                    },
+                    "opt244597884":
+                    {
+                        "calc_value": "United Arab Emirates",
+                        "value": "United Arab Emirates",
+                        "label": "United Arab Emirates"
+                    },
+                    "opt246343876":
+                    {
+                        "calc_value": "United Kingdom",
+                        "value": "United Kingdom",
+                        "label": "United Kingdom"
+                    },
+                    "opt246768648":
+                    {
+                        "calc_value": "United States",
+                        "value": "United States",
+                        "label": "United States"
+                    },
+                    "opt247691332":
+                    {
+                        "calc_value": "United States Minor Outlying Islands",
+                        "value": "United States Minor Outlying Islands",
+                        "label": "United States Minor Outlying Islands"
+                    },
+                    "opt249127585":
+                    {
+                        "calc_value": "Uruguay",
+                        "value": "Uruguay",
+                        "label": "Uruguay"
+                    },
+                    "opt250435523":
+                    {
+                        "calc_value": "Uzbekistan",
+                        "value": "Uzbekistan",
+                        "label": "Uzbekistan"
+                    },
+                    "opt251060320":
+                    {
+                        "calc_value": "Vanuatu",
+                        "value": "Vanuatu",
+                        "label": "Vanuatu"
+                    },
+                    "opt252651938":
+                    {
+                        "calc_value": "Venezuela, Bolivarian Republic of",
+                        "value": "Venezuela, Bolivarian Republic of",
+                        "label": "Venezuela, Bolivarian Republic of"
+                    },
+                    "opt253708022":
+                    {
+                        "calc_value": "Viet Nam",
+                        "value": "Viet Nam",
+                        "label": "Viet Nam"
+                    },
+                    "opt254698581":
+                    {
+                        "calc_value": "Virgin Islands, British",
+                        "value": "Virgin Islands, British",
+                        "label": "Virgin Islands, British"
+                    },
+                    "opt255146638":
+                    {
+                        "calc_value": "Virgin Islands, U.S.",
+                        "value": "Virgin Islands, U.S.",
+                        "label": "Virgin Islands, U.S."
+                    },
+                    "opt256134637":
+                    {
+                        "calc_value": "Wallis and Futuna",
+                        "value": "Wallis and Futuna",
+                        "label": "Wallis and Futuna"
+                    },
+                    "opt257696490":
+                    {
+                        "calc_value": "Western Sahara",
+                        "value": "Western Sahara",
+                        "label": "Western Sahara"
+                    },
+                    "opt258240141":
+                    {
+                        "calc_value": "Yemen",
+                        "value": "Yemen",
+                        "label": "Yemen"
+                    },
+                    "opt259676197":
+                    {
+                        "calc_value": "Zambia",
+                        "value": "Zambia",
+                        "label": "Zambia"
+                    },
+                    "opt260515080":
+                    {
+                        "calc_value": "Zimbabwe",
+                        "value": "Zimbabwe",
+                        "label": "Zimbabwe"
+                    }
+                }
+            }
+        },
+        "fld_5127244":
+        {
+            "ID": "fld_5127244",
+            "type": "number",
+            "label": "How old are you?",
+            "slug": "how_old_are_you",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "placeholder": "",
+                "default": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            }
+        },
+        "fld_1549754":
+        {
+            "ID": "fld_1549754",
+            "type": "checkbox",
+            "label": "Choose the crowd market places that you have used",
+            "slug": "choose_the_crowd_markets_that_you_have_used",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1347889":
+                    {
+                        "calc_value": "Uber",
+                        "value": "Uber",
+                        "label": "Uber"
+                    },
+                    "opt1265057":
+                    {
+                        "calc_value": "Airbnb",
+                        "value": "Airbnb",
+                        "label": "Airbnb"
+                    },
+                    "opt1890116":
+                    {
+                        "calc_value": "Ebay",
+                        "value": "Ebay",
+                        "label": "Ebay"
+                    },
+                    "opt1079285":
+                    {
+                        "calc_value": "Craigslist",
+                        "value": "Craigslist",
+                        "label": "Craigslist"
+                    },
+                    "opt1630392":
+                    {
+                        "calc_value": "Amazon Mechanical Turk",
+                        "value": "Amazon Mechanical Turk",
+                        "label": "Amazon Mechanical Turk"
+                    },
+                    "opt1633271":
+                    {
+                        "calc_value": "Upwork",
+                        "value": "Upwork",
+                        "label": "Upwork"
+                    },
+                    "opt1522643":
+                    {
+                        "calc_value": "Task Rabbit",
+                        "value": "Task Rabbit",
+                        "label": "Task Rabbit"
+                    },
+                    "opt1738183":
+                    {
+                        "calc_value": "Others",
+                        "value": "Others",
+                        "label": "Others"
+                    },
+                    "opt2028636":
+                    {
+                        "calc_value": "None",
+                        "value": "None",
+                        "label": "None"
+                    }
+                }
+            }
+        },
+        "fld_3459468":
+        {
+            "ID": "fld_3459468",
+            "type": "text",
+            "label": "Which other crowd marketplaces have you used?",
+            "slug": "which_other_market_places_have_you_used",
+            "conditions":
+            {
+                "type": "con_2000602478604347"
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_5069646":
+        {
+            "ID": "fld_5069646",
+            "type": "radio",
+            "label": "How often do you use crowd marketplaces?",
+            "slug": "how_often_do_you_use",
+            "conditions":
+            {
+                "type": ""
+            },
+            "required": 1,
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "default_option": "",
+                "auto_type": "",
+                "taxonomy": "category",
+                "post_type": "post",
+                "value_field": "name",
+                "orderby_tax": "name",
+                "orderby_post": "name",
+                "order": "ASC",
+                "default": "",
+                "option":
+                {
+                    "opt1307419":
+                    {
+                        "calc_value": "Daily",
+                        "value": "Daily",
+                        "label": "Daily"
+                    },
+                    "opt1863113":
+                    {
+                        "calc_value": "Weekly",
+                        "value": "Weekly",
+                        "label": "Weekly"
+                    },
+                    "opt1729975":
+                    {
+                        "calc_value": "Monthly",
+                        "value": "Monthly",
+                        "label": "Monthly"
+                    },
+                    "opt1800379":
+                    {
+                        "calc_value": "Once a semester",
+                        "value": "Once a semester",
+                        "label": "Once a semester"
+                    },
+                    "opt1854855":
+                    {
+                        "calc_value": "Once a year",
+                        "value": "Once a year",
+                        "label": "Once a year"
+                    },
+                    "opt1130197":
+                    {
+                        "calc_value": "Never",
+                        "value": "Never",
+                        "label": "Never"
+                    }
+                }
+            }
+        },
+        "fld_5898556":
+        {
+            "ID": "fld_5898556",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_7",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "submit",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_5837975":
+        {
+            "ID": "fld_5837975",
+            "type": "button",
+            "label": "Next",
+            "slug": "next_7",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "next",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_4272443":
+        {
+            "ID": "fld_4272443",
+            "type": "html",
+            "label": "Final",
+            "slug": "final_7",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<script>\nfunction uuidv4() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(\/[xy]\/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}\n\njQuery(\".borderColor\").val(uuidv4());\n<\/script>"
+            }
+        },
+        "fld_3991247":
+        {
+            "ID": "fld_3991247",
+            "type": "html",
+            "label": "Thanks",
+            "slug": "thanks_7",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<h1>Thanks for participating<\/h1>"
+            }
+        },
+        "fld_9793505":
+        {
+            "ID": "fld_9793505",
+            "type": "html",
+            "label": "Copy",
+            "slug": "copy",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "Please copy and paste the following code into Amazon Mechanical Turk and submit this form."
+            }
+        },
+        "fld_182261":
+        {
+            "ID": "fld_182261",
+            "type": "text",
+            "label": "Survey Code",
+            "slug": "validation_code",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable borderColors",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_7172368":
+        {
+            "ID": "fld_7172368",
+            "type": "html",
+            "label": "reminder",
+            "slug": "reminder",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "<b>NOTE: DON'T FORGET TO SUBMIT THIS FORM<\/b>"
+            }
+        },
+        "fld_8278037":
+        {
+            "ID": "fld_8278037",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_8",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "prev",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_4462262":
+        {
+            "ID": "fld_4462262",
+            "type": "button",
+            "label": "Submit",
+            "slug": "submit_8",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "trackable",
+                "type": "submit",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_9205981":
+        {
+            "ID": "fld_9205981",
+            "type": "text",
+            "label": "TestField01",
+            "slug": "testfield01",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "placeholder": "",
+                "default": "",
+                "type_override": "text",
+                "mask": ""
+            }
+        },
+        "fld_1781266":
+        {
+            "ID": "fld_1781266",
+            "type": "html",
+            "label": "TestLabel01",
+            "slug": "testlabel01",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "default": "TestLabel01"
+            }
+        },
+        "fld_4369300":
+        {
+            "ID": "fld_4369300",
+            "type": "button",
+            "label": "Back",
+            "slug": "back_9",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "type": "submit",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        },
+        "fld_3096553":
+        {
+            "ID": "fld_3096553",
+            "type": "button",
+            "label": "Submit",
+            "slug": "submit_9",
+            "conditions":
+            {
+                "type": ""
+            },
+            "caption": "",
+            "config":
+            {
+                "custom_class": "",
+                "type": "submit",
+                "class": "btn btn-default",
+                "target": ""
+            }
+        }
+    },
+    "page_names": ["Page 2", "Page 2", "Page 3", "Page 4", "Page 5", "Page 6", "Page 7", "Page 8", "Page 9"],
+    "mailer":
+    {
+        "on_insert": 1,
+        "sender_name": "Caldera Forms Notification",
+        "sender_email": "ctoxtli@gmail.com",
+        "reply_to": "",
+        "email_type": "html",
+        "recipients": "",
+        "bcc_to": "",
+        "email_subject": "TestForm02",
+        "email_message": "{summary}"
+    },
+    "processors":
+    {
+        "fp_51354994":
+        {
+            "ID": "fp_51354994",
+            "runtimes":
+            {
+                "insert": 1
+            },
+            "type": "sheets",
+            "config":
+            {
+                "sheet-name": "Meta-Gig-Study-02",
+                "sheet-tab-name": "Meta-Gig-Study-02",
+                "header": 1
+            },
+            "conditions":
+            {
+                "type": ""
+            }
+        }
+    },
+    "conditional_groups":
+    {
+        "conditions":
+        {
+            "con_6776184839702302":
+            {
+                "id": "con_6776184839702302",
+                "name": "show_offerer_1",
+                "type": "hide",
+                "fields":
+                {
+                    "cl7747297938458772": "fld_3958433"
+                },
+                "group":
+                {
+                    "rw8145595090573775":
+                    {
+                        "cl7747297938458772":
+                        {
+                            "parent": "rw8145595090573775",
+                            "field": "fld_3958433",
+                            "compare": "isnot",
+                            "value": "opt1587666"
+                        }
+                    }
+                }
+            },
+            "con_5385346438362693":
+            {
+                "id": "con_5385346438362693",
+                "name": "show_offerer_2",
+                "type": "hide",
+                "fields":
+                {
+                    "cl4073944055617453": "fld_8003782"
+                },
+                "group":
+                {
+                    "rw793313851167771":
+                    {
+                        "cl4073944055617453":
+                        {
+                            "parent": "rw793313851167771",
+                            "field": "fld_8003782",
+                            "compare": "isnot",
+                            "value": "opt1587666"
+                        }
+                    }
+                }
+            },
+            "con_7549043766133938":
+            {
+                "id": "con_7549043766133938",
+                "name": "has_cost",
+                "type": "hide",
+                "fields":
+                {
+                    "cl7329715711911812": "fld_1326076",
+                    "cl6208276622631739": "fld_1326076"
+                },
+                "group":
+                {
+                    "rw7212925915297596":
+                    {
+                        "cl7329715711911812":
+                        {
+                            "parent": "rw7212925915297596",
+                            "field": "fld_1326076",
+                            "compare": "is",
+                            "value": "opt1226672"
+                        }
+                    },
+                    "rw3622500343798687":
+                    {
+                        "cl6208276622631739":
+                        {
+                            "parent": "rw3622500343798687",
+                            "field": "fld_1326076",
+                            "compare": "is",
+                            "value": "opt1271777"
+                        }
+                    }
+                }
+            },
+            "con_5097592425198139":
+            {
+                "id": "con_5097592425198139",
+                "name": "depends_location",
+                "type": "hide",
+                "fields":
+                {
+                    "cl4585688452884324": "fld_4233652"
+                },
+                "group":
+                {
+                    "rw6521607464564909":
+                    {
+                        "cl4585688452884324":
+                        {
+                            "parent": "rw6521607464564909",
+                            "field": "fld_4233652",
+                            "compare": "isnot",
+                            "value": "opt1268418"
+                        }
+                    }
+                }
+            },
+            "con_6221895413532187":
+            {
+                "id": "con_6221895413532187",
+                "name": "location_range",
+                "type": "hide",
+                "fields":
+                {
+                    "cl9384419235621949": "fld_479473"
+                },
+                "group":
+                {
+                    "rw2954433581800674":
+                    {
+                        "cl9384419235621949":
+                        {
+                            "parent": "rw2954433581800674",
+                            "field": "fld_479473",
+                            "compare": "isnot",
+                            "value": "opt1505229"
+                        }
+                    }
+                }
+            },
+            "con_7677238192855837":
+            {
+                "id": "con_7677238192855837",
+                "name": "location_cities",
+                "type": "hide",
+                "fields":
+                {
+                    "cl3336332956808677": "fld_479473"
+                },
+                "group":
+                {
+                    "rw5444676342339091":
+                    {
+                        "cl3336332956808677":
+                        {
+                            "parent": "rw5444676342339091",
+                            "field": "fld_479473",
+                            "compare": "isnot",
+                            "value": "opt1191308"
+                        }
+                    }
+                }
+            },
+            "con_8860106863601438":
+            {
+                "id": "con_8860106863601438",
+                "name": "pay_done",
+                "type": "hide",
+                "fields":
+                {
+                    "cl1038700360890953": "fld_1326076",
+                    "cl2795438030982050": "fld_1326076"
+                },
+                "group":
+                {
+                    "rw9921164818542615":
+                    {
+                        "cl1038700360890953":
+                        {
+                            "parent": "rw9921164818542615",
+                            "field": "fld_1326076",
+                            "compare": "is",
+                            "value": "opt1271777"
+                        }
+                    },
+                    "rw5729048064690871":
+                    {
+                        "cl2795438030982050":
+                        {
+                            "parent": "rw5729048064690871",
+                            "field": "fld_1326076",
+                            "compare": "is",
+                            "value": "opt1226672"
+                        }
+                    }
+                }
+            },
+            "con_1017502094669681":
+            {
+                "id": "con_1017502094669681",
+                "name": "show_requester_1",
+                "type": "hide",
+                "fields":
+                {
+                    "cl1245825415033725": "fld_7378201"
+                },
+                "group":
+                {
+                    "rw2091589664343276":
+                    {
+                        "cl1245825415033725":
+                        {
+                            "parent": "rw2091589664343276",
+                            "field": "fld_7378201",
+                            "compare": "isnot",
+                            "value": "opt1587666"
+                        }
+                    }
+                }
+            },
+            "con_3964706599216265":
+            {
+                "id": "con_3964706599216265",
+                "name": "show_requester_2",
+                "type": "hide",
+                "fields":
+                {
+                    "cl7082290979971903": "fld_7228849"
+                },
+                "group":
+                {
+                    "rw4800698778083844":
+                    {
+                        "cl7082290979971903":
+                        {
+                            "parent": "rw4800698778083844",
+                            "field": "fld_7228849",
+                            "compare": "isnot",
+                            "value": "opt1587666"
+                        }
+                    }
+                }
+            },
+            "con_2000602478604347":
+            {
+                "id": "con_2000602478604347",
+                "name": "other_market",
+                "type": "hide",
+                "fields":
+                {
+                    "cl5892370813619108": "fld_1549754"
+                },
+                "group":
+                {
+                    "rw7771845165529289":
+                    {
+                        "cl5892370813619108":
+                        {
+                            "parent": "rw7771845165529289",
+                            "field": "fld_1549754",
+                            "compare": "isnot",
+                            "value": "opt1738183"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "settings":
+    {
+        "responsive":
+        {
+            "break_point": "sm"
+        }
+    },
+    "version": "1.5.9",
+    "db_id": "452",
+    "type": "primary"
+}

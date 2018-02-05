@@ -1,0 +1,41 @@
+<fieldset>
+    <legend class="screen-reader-text">Post Formats</legend>
+    <div class="wcmp-vendor-form-field-content">
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Label</label>
+            <input type="text" ng-model="field.label" class="wcmp-vendor-form-input-field" />
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>List Type</label>
+            <select class="wcmp-vendor-form-input-field" ng-model="field.selecttype" >
+                <option value="dropdown" ng-selected="field.selecttype === 'dropdown'">Dropdown</option>
+                <option value="radio" ng-selected="field.selecttype === 'radio'">Radio</option>
+                <option value="checkboxes" ng-selected="field.selecttype === 'checkboxes'">Checkboxes</option>
+                <option value="multi-select" ng-selected="field.selecttype === 'multi-select'">Multi select</option>
+            </select>
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Options</label>
+            <a href="#" class="button-secondary" ng-click="addSelectBoxOption(parentIndex,$event)">Add New</a>
+            <ul class="field-selectbox-options" ui-sortable="{ 'ui-floating': true, cursor: 'move' }" ng-model="field.options">
+                <li ng-repeat="(key,option) in field.options">
+                    <a href="#" ng-click="removeSelectboxOption(parentIndex,key,$event)">
+                        <span class="dashicons dashicons-dismiss"></span>
+                    </a>
+                    Label <input type="text" ng-model="option.label" /> Value <input type="text" ng-model="option.value" /> Selected <input type="radio" ng-change="listOnchange(parentIndex,key)" ng-if="field.selecttype === 'radio' || field.selecttype === 'dropdown'" ng-model="option.selected" value="1" ng-checked="option.selected" name="option-{{field.id}}" /><input type="checkbox" ng-if="field.selecttype === 'checkboxes' || field.selecttype === 'multi-select'" value="true" ng-model="option.selected" ng-checked="option.selected" />
+                </li>
+            </ul>
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Required</label>
+            <input type="checkbox" class="wcmp-vendor-form-input-field" ng-model="field.required" ng-checked="field.required" />
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Custom CSS Classes</label>
+            <input type="text" class="wcmp-vendor-form-input-field" ng-model="field.cssClass" />
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <a href="#" ng-click="removeFormField(parentIndex, $event)" class="wcmp-remove-form-field">Remove</a>
+        </div>
+    </div>
+</fieldset>

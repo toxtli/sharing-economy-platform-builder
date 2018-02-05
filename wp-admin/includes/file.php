@@ -120,35 +120,53 @@ function get_home_path() {
  * The depth of the recursiveness can be controlled by the $levels param.
  *
  * @since 2.6.0
+ * @since 4.9.0 Added the `$exclusions` parameter.
  *
  * @param string $folder Optional. Full path to folder. Default empty.
  * @param int    $levels Optional. Levels of folders to follow, Default 100 (PHP Loop limit).
+ * @param array  $exclusions Optional. List of folders and files to skip.
  * @return bool|array False on failure, Else array of files
  */
-function list_files( $folder = '', $levels = 100 ) {
-	if ( empty($folder) )
+function list_files( $folder = '', $levels = 100, $exclusions = array() ) {
+	if ( empty( $folder ) ) {
 		return false;
+	}
 
-	if ( ! $levels )
+	$folder = trailingslashit( $folder );
+
+	if ( ! $levels ) {
 		return false;
+	}
 
 	$files = array();
-	if ( $dir = @opendir( $folder ) ) {
-		while (($file = readdir( $dir ) ) !== false ) {
-			if ( in_array($file, array('.', '..') ) )
+
+	$dir = @opendir( $folder );
+	if ( $dir ) {
+		while ( ( $file = readdir( $dir ) ) !== false ) {
+			// Skip current and parent folder links.
+			if ( in_array( $file, array( '.', '..' ), true ) ) {
 				continue;
-			if ( is_dir( $folder . '/' . $file ) ) {
-				$files2 = list_files( $folder . '/' . $file, $levels - 1);
-				if ( $files2 )
+			}
+
+			// Skip hidden and excluded files.
+			if ( '.' === $file[0] || in_array( $file, $exclusions, true ) ) {
+				continue;
+			}
+
+			if ( is_dir( $folder . $file ) ) {
+				$files2 = list_files( $folder . $file, $levels - 1 );
+				if ( $files2 ) {
 					$files = array_merge($files, $files2 );
-				else
-					$files[] = $folder . '/' . $file . '/';
+				} else {
+					$files[] = $folder . $file . '/';
+				}
 			} else {
-				$files[] = $folder . '/' . $file;
+				$files[] = $folder . $file;
 			}
 		}
 	}
 	@closedir( $dir );
+
 	return $files;
 }
 
@@ -414,20 +432,21 @@ function wp_edit_theme_plugin_file( $args ) {
 		foreach ( $editable_extensions as $type ) {
 			switch ( $type ) {
 				case 'php':
-					$allowed_files = array_merge( $allowed_files, $theme->get_files( 'php', 1 ) );
+					$allowed_files = array_merge( $allowed_files, $theme->get_files( 'php', -1 ) );
 					break;
 				case 'css':
-					$style_files = $theme->get_files( 'css' );
+					$style_files = $theme->get_files( 'css', -1 );
 					$allowed_files['style.css'] = $style_files['style.css'];
 					$allowed_files = array_merge( $allowed_files, $style_files );
 					break;
 				default:
-					$allowed_files = array_merge( $allowed_files, $theme->get_files( $type ) );
+					$allowed_files = array_merge( $allowed_files, $theme->get_files( $type, -1 ) );
 					break;
 			}
 		}
 
-		if ( 0 !== validate_file( $real_file, $allowed_files ) ) {
+		// Compare based on relative paths
+		if ( 0 !== validate_file( $file, array_keys( $allowed_files ) ) ) {
 			return new WP_Error( 'disallowed_theme_file', __( 'Sorry, that file cannot be edited.' ) );
 		}
 
@@ -486,7 +505,19 @@ function wp_edit_theme_plugin_file( $args ) {
 			'Cache-Control' => 'no-cache',
 		);
 
-		$needle = "###### begin_scraped_error:$scrape_key ######";
+		// Include Basic auth in loopback requests.
+		if ( isset( $_SERVER['PHP_AUTH_USER'] ) && isset( $_SERVER['PHP_AUTH_PW'] ) ) {
+			$headers['Authorization'] = 'Basic ' . base64_encode( wp_unslash( $_SERVER['PHP_AUTH_USER'] ) . ':' . wp_unslash( $_SERVER['PHP_AUTH_PW'] ) );
+		}
+
+		// Make sure PHP process doesn't die before loopback requests complete.
+		@set_time_limit( 300 );
+
+		// Time to wait for loopback requests to finish.
+		$timeout = 100;
+
+		$needle_start = "###### wp_scraping_result_start:$scrape_key ######";
+		$needle_end = "###### wp_scraping_result_end:$scrape_key ######";
 
 		// Attempt loopback request to editor to see if user just whitescreened themselves.
 		if ( $plugin ) {
@@ -503,36 +534,67 @@ function wp_edit_theme_plugin_file( $args ) {
 			$url = admin_url();
 		}
 		$url = add_query_arg( $scrape_params, $url );
-		$r = wp_remote_get( $url, compact( 'cookies', 'headers' ) );
+		$r = wp_remote_get( $url, compact( 'cookies', 'headers', 'timeout' ) );
 		$body = wp_remote_retrieve_body( $r );
-		$error_position = strpos( $body, $needle );
+		$scrape_result_position = strpos( $body, $needle_start );
+
+		$loopback_request_failure = array(
+			'code' => 'loopback_request_failed',
+			'message' => __( 'Unable to communicate back with site to check for fatal errors, so the PHP change was reverted. You will need to upload your PHP file change by some other means, such as by using SFTP.' ),
+		);
+		$json_parse_failure = array(
+			'code' => 'json_parse_error',
+		);
+
+		$result = null;
+		if ( false === $scrape_result_position ) {
+			$result = $loopback_request_failure;
+		} else {
+			$error_output = substr( $body, $scrape_result_position + strlen( $needle_start ) );
+			$error_output = substr( $error_output, 0, strpos( $error_output, $needle_end ) );
+			$result = json_decode( trim( $error_output ), true );
+			if ( empty( $result ) ) {
+				$result = $json_parse_failure;
+			}
+		}
 
 		// Try making request to homepage as well to see if visitors have been whitescreened.
-		if ( false === $error_position ) {
+		if ( true === $result ) {
 			$url = home_url( '/' );
 			$url = add_query_arg( $scrape_params, $url );
-			$r = wp_remote_get( $url, compact( 'cookies', 'headers' ) );
+			$r = wp_remote_get( $url, compact( 'cookies', 'headers', 'timeout' ) );
 			$body = wp_remote_retrieve_body( $r );
-			$error_position = strpos( $body, $needle );
+			$scrape_result_position = strpos( $body, $needle_start );
+
+			if ( false === $scrape_result_position ) {
+				$result = $loopback_request_failure;
+			} else {
+				$error_output = substr( $body, $scrape_result_position + strlen( $needle_start ) );
+				$error_output = substr( $error_output, 0, strpos( $error_output, $needle_end ) );
+				$result = json_decode( trim( $error_output ), true );
+				if ( empty( $result ) ) {
+					$result = $json_parse_failure;
+				}
+			}
 		}
 
 		delete_transient( $transient );
 
-		if ( false !== $error_position ) {
+		if ( true !== $result ) {
+
+			// Roll-back file change.
 			file_put_contents( $real_file, $previous_content );
 			if ( function_exists( 'opcache_invalidate' ) ) {
 				opcache_invalidate( $real_file, true );
 			}
 
-			$error_output = trim( substr( $body, $error_position + strlen( $needle ) ) );
-			$error = json_decode( $error_output, true );
-			if ( ! isset( $error['message'] ) ) {
-				$message = $error_output;
+			if ( ! isset( $result['message'] ) ) {
+				$message = __( 'An unidentified error has occurred.' );
 			} else {
-				$message = $error['message'];
-				unset( $error['message'] );
+				$message = $result['message'];
+				unset( $result['message'] );
 			}
-			return new WP_Error( 'php_error', $message, $error );
+			return new WP_Error( 'php_error', $message, $result );
 		}
 	}
 
@@ -592,17 +654,17 @@ function wp_tempnam( $filename = '', $dir = '' ) {
 }
 
 /**
- * Make sure that the file that was requested to edit, is allowed to be edited
+ * Makes sure that the file that was requested to be edited is allowed to be edited.
  *
- * Function will die if you are not allowed to edit the file
+ * Function will die if you are not allowed to edit the file.
  *
  * @since 1.5.0
  *
- * @param string $file file the users is attempting to edit
- * @param array $allowed_files Array of allowed files to edit, $file must match an entry exactly
+ * @param string $file          File the user is attempting to edit.
+ * @param array  $allowed_files Optional. Array of allowed files to edit, $file must match an entry exactly.
  * @return string|null
  */
-function validate_file_to_edit( $file, $allowed_files = '' ) {
+function validate_file_to_edit( $file, $allowed_files = array() ) {
 	$code = validate_file( $file, $allowed_files );
 
 	if (!$code )
@@ -1058,8 +1120,9 @@ function _unzip_file_ziparchive($file, $to, $needed_dirs = array() ) {
 		if ( '__MACOSX/' === substr($info['name'], 0, 9) ) // Skip the OS X-created __MACOSX directory
 			continue;
 
+		// Don't extract invalid files:
 		if ( 0 !== validate_file( $info['name'] ) ) {
-			return new WP_Error( 'invalid_file_ziparchive', __( 'Could not extract file from archive.' ), $info['name'] );
+			continue;
 		}
 
 		$uncompressed_size += $info['size'];
@@ -1118,6 +1181,11 @@ function _unzip_file_ziparchive($file, $to, $needed_dirs = array() ) {
 
 		if ( '__MACOSX/' === substr($info['name'], 0, 9) ) // Don't extract the OS X-created __MACOSX directory files
 			continue;
+
+		// Don't extract invalid files:
+		if ( 0 !== validate_file( $info['name'] ) ) {
+			continue;
+		}
 
 		$contents = $z->getFromIndex($i);
 		if ( false === $contents )
@@ -1222,8 +1290,9 @@ function _unzip_file_pclzip($file, $to, $needed_dirs = array()) {
 		if ( '__MACOSX/' === substr($file['filename'], 0, 9) ) // Don't extract the OS X-created __MACOSX directory files
 			continue;
 
+		// Don't extract invalid files:
 		if ( 0 !== validate_file( $file['filename'] ) ) {
-			return new WP_Error( 'invalid_file_pclzip', __( 'Could not extract file from archive.' ), $file['filename'] );
+			continue;
 		}
 
 		if ( ! $wp_filesystem->put_contents( $to . $file['filename'], $file['content'], FS_CHMOD_FILE) )

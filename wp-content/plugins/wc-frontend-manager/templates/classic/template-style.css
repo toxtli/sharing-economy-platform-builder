@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background: #ffffff !important;
+}
+
+#wcfm-main-contentainer {
+	margin-top: 0px;
+}
+
+#wcfm-main-content {
+	padding: 10px 0px;
+	max-width: 1600px;
+	margin: 0px auto;
+	width: 100%;
+}
+
+.wcfm-site-name a {
+	font-size: 30px;
+	display: block;
+	font-weight: 600;
+	color: #555555;
+	padding-left: 10px;
+}
+
+a.add_new_wcfm_ele_dashboard, a.wcfm_import_export {
+  min-height: 30px;	
+}
+
+a.add_new_wcfm_ele_dashboard span, a.wcfm_import_export span {
+	padding-top: 3px;
+}
+
+.wcfm-action-icon span  {
+	padding-top: 5px;
+}
+
+.no-margin {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+	#wcfm-main-content {
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#wcfm-main-content {
+		max-width: 100%;
+	}
+}

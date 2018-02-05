@@ -1,0 +1,278 @@
+div.rowhead {
+    background-color: #CCC;
+    margin:0 !important;
+    width:100%;
+    box-sizing: border-box;
+}
+div.row.rowhead div.rowsub{
+    padding:2%;
+    float:left;
+    padding-top:15px;
+    padding-bottom:15px;	
+}
+div.row.rowbody div.rowsub{ 
+    padding:1%;
+    float:left;
+    padding-top:5px;
+    padding-bottom:5px;	
+}
+/*@media screen and (min-width: 1099px) {
+    div.row.rowhead div.rowsub, div.row.rowbody div.rowsub{
+        width:32% !important;
+    }
+}*/
+#wcmp_multiple_product_sorting{
+    margin: 0;
+}
+div.rowbody{
+    width:100%;	
+    border:1px solid #eee;
+    padding:5px;
+    margin: 0 !important;
+    box-sizing: border-box;
+
+}
+div.rowbody:nth-child(odd){	
+    background-color: #ddd;	
+}
+div.rowbody:nth-child(even){	
+    background-color: #eee;	
+}
+.buttongap{
+    margin-bottom:5px !important;
+    margin-top:5px !important;
+    clear: both;
+}
+.centerclass{
+    text-align:center;
+}
+.wcmp_regular_price, .woocommerce-Tabs-panel del .woocommerce-Price-amount{
+    text-decoration: line-through;
+    color:#8A0808;
+    font-weight:normal;	
+}
+.woocommerce-tabs ins{
+    text-decoration: none;
+}
+.wcmp_sale_price, .woocommerce-Tabs-panel ins .woocommerce-Price-amount{	
+    color:#0B3B0B;
+    font-weight:bold;
+    display: block;
+}
+.wcmp_btn_view_details{
+    background: linear-gradient(to bottom, #f78828 0px, #dd771f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #da7532;
+    border-radius: 4px;
+    color: #f9f9f9;
+    cursor: pointer;
+    outline: 0 none;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.33);	
+    text-align:center;
+    padding:5px;
+    margin:5px;
+
+}
+
+.wcmp_btn_view_details:hover{
+    background: linear-gradient(to bottom, #f78828 0px, #ba5400 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #f9f9f9;
+}
+.wcmp_btn_add_to_cart{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #7fbf4d;
+    background-image: -moz-linear-gradient(center top , #7fbf4d, #63a62f);
+    border-color: #63a62f #63a62f #5b992b;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 #96ca6d inset;
+    color: #fff;
+    padding: 7px 0 6px;
+    text-shadow: 0 -1px 0 #4c9021;
+    text-transform: uppercase;
+    text-align:center;
+    padding:5px;
+    border-radius: 4px;
+    margin:5px;
+    cursor:pointer;
+}
+.wcmp_btn_add_to_cart:hover{
+    color: #fff;
+    background-color: #5fbf4d;
+    background-image: -moz-linear-gradient(center top , #5fbf4d, #63a62f);
+}
+a.wcmp_seller_name{
+    text-decoration:none;
+    list-style:none;
+    box-shadow:0;
+}
+span.wcmp_superb_rating{
+    color:#fff;
+    background-color:#0B6121;	
+    padding:5px;
+    border-radius:3px;
+}
+span.wcmp_excellent_rating{
+    color:#fff;
+    background-color:#088A29;
+    padding:5px;
+    border-radius:3px;
+}
+span.wcmp_good_rating{
+    color:#fff;
+    background-color:#04B404;
+    padding:5px;
+    border-radius:3px;
+}
+span.wcmp_above_averege_rating{
+    color:#fff;
+    background-color:#FF8000;
+    padding:5px;
+    border-radius:3px;
+}
+span.wcmp_averege_rating{
+    color:#fff;
+    background-color:#8A2908;
+    padding:5px;
+    border-radius:3px;
+}
+span.wcmp_bad_rating{
+    color:#fff;
+    background-color:#B40431;
+    padding:5px;
+    border-radius:3px;
+}
+span.wcmp_norating {
+    background-color:#088A85;
+    color:#fff;
+    padding:5px;
+    border-radius:3px;	
+}
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(1),
+#tab-singleproductmultivendor .row.rowbody .rowsub:nth-of-type(1){
+    width: 30%;
+}
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(2),
+#tab-singleproductmultivendor .row.rowbody .rowsub:nth-of-type(2){
+    width: 20%;
+}
+
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(3),
+#tab-singleproductmultivendor .row.rowbody .rowsub:nth-of-type(3){
+    width: 50%;
+}
+
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(3){
+    text-align: right;
+}
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+    div.rowhead div.rowsub{
+        width:98%;
+        padding:1%;
+        float:left;
+        padding-top:15px;
+        padding-bottom:15px;	
+        text-align : center;
+    }
+
+    div.rowbody div.rowsub{
+        width:98%;
+        padding:1%;
+        float:left;
+        padding-top:5px;
+        padding-bottom:5px;	
+        text-align : center;
+    }
+    .centerclass{
+        text-align:left;
+    }
+
+}
+.singleproductmultivendor_tab .container, .woocommerce-Tabs-panel--singleproductmultivendor .container, #tab-singleproductmultivendor .container{
+    max-width: 100%;
+} 
+.singleproductmultivendor_tab .wc-accordion-content, .woocommerce-Tabs-panel--singleproductmultivendor, .woocommerce-tabs .tab-panels, #content_tab_singleproductmultivendor, #tab-singleproductmultivendor{
+    position: relative;
+} 
+.ajax_loader_class_msg {
+    width:100%;
+    position:absolute;
+    z-index:8888;
+    background-color:#ddd;
+    opacity:0.5;
+    height:auto;
+    text-align:center;
+    display:none;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.ajax_loader_class_msg img{	
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;	
+}
+.goto_more_offer_tab.button{
+    margin: 15px 0 10px 0;
+}
+
+
+
+
+@media (max-width: 767px){
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(1),
+#tab-singleproductmultivendor .row.rowbody .rowsub:nth-of-type(1),
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(2),
+#tab-singleproductmultivendor .row.rowbody .rowsub:nth-of-type(2),
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(3),
+#tab-singleproductmultivendor .row.rowbody .rowsub:nth-of-type(3){
+    width: 100%;
+}
+
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(3){
+    text-align: center;
+}
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(1),
+#tab-singleproductmultivendor .row.rowhead .rowsub:nth-of-type(2){
+    display: none;
+}
+
+#tab-singleproductmultivendor .row.rowbody .star-rating {
+    left: calc(50% - 50px);
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    div.rowhead div.rowsub{
+        width:98%;
+        padding:1%;
+        float:left;
+        padding-top:15px;
+        padding-bottom:15px;	
+        text-align : center;
+    }
+    div.rowbody div.rowsub{
+        width:98%;
+        padding:1%;
+        float:left;
+        padding-top:5px;
+        padding-bottom:5px;	
+        text-align : center;
+    }
+
+}

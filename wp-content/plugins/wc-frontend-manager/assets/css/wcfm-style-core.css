@@ -1,0 +1,266 @@
+#wcfm_home {
+	display: inline-block;
+	float: left;
+	margin: 0px 5px;
+}
+
+.required {
+	display: inline-block;
+  color: red; 
+  margin-left: 2px;
+  font-weight: 500;
+}
+
+.wcfm-clearfix {
+	clear: both;
+}
+
+.wcfm_clearfix {
+	clear: both;
+}
+
+.wcfm-info, .wcfm-success, .wcfm-warning, .wcfm-error, .wcfm-validation, .wcfm-wcfmu {
+	border: 1px solid;
+	border-radius: 2px;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	display: none;
+}
+
+.wcfm-info span, .wcfm-success span, .wcfm-warning span, .wcfm-error span, .wcfm-validation span, .wcfm-wcfmu span {
+	font-size: 20px;
+	vertical-align: text-bottom;
+	padding-right: 5px;
+}
+
+.wcfm-info { color: #00529B; }
+
+.wcfm-success { color: #4F8A10; }
+
+.wcfm-warning { color: #9F6000; }
+
+.wcfm-error { color: #D8000C; }
+
+.wcfm-wcfmu1 { color: #D15600; }
+
+.wcicon-status-on-hold:before { content: "\e033"; }
+
+.wcicon-status-on-hold { color: #6d6d6d; }
+.wcicon-status-pending { color: #ffba00; }
+.wcicon-status-processing { color: #73a724; }
+.wcicon-status-completed { color: #4096EE; }
+.wcicon-status-failed { color: #d0c21f; }
+.wcicon-status-cancelled { color: #a00; }
+th .wcicon-status-processing { color: #43454b !important; }
+
+.wcfm-action-icon {
+	display: inline-block;
+	margin: 0 4px 4px 0;
+	cursor: pointer;
+	vertical-align: baseline;
+	position: relative;
+	padding: 0!important;
+	height: 2em!important;
+	width: 2em;
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 27px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #00897b !important;
+}
+
+.wcfm-action-icon:hover {
+	border-color: #555;
+	background: #f1f1f1;
+	text-decoration: none;
+}
+
+.wcfm_product_title, .wcfm_coupon_title, .wcfm_order_title, .wcfm_booking_title, .wcfm_appointment_title, .wcfm_auctions_title, .wcfm_listing_title, .wcfm_dashboard_item_title { font-weight: 500; color: #21759b; }
+
+.img_tip {
+	display: inline-block;
+	vertical-align: -1px;
+	cursor: help;
+	margin-left: 5px;
+}
+
+.wcfm_buttons {
+	left: 0px;
+	right: auto;
+}
+.wcfm_buttons {
+	position:absolute;
+	color: #555;
+	background-color: #ddd;
+	z-index: 999;
+	width: auto;
+	height:auto;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.wcfm_buttons .wcfm_button {
+	display: block;
+	float: left;
+	width: 32px;
+	height:24px;
+	margin:0px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #555;
+	text-decoration: none;
+	padding: 0px 7px;
+}
+
+.wcfm_buttons .wcfm_button_separator {
+	color: #fff;
+	float: left;
+}
+
+#ui-datepicker-div { display: none; }
+
+.qtip-wcfm-core-css {
+	background: #fff;
+	color: #000;
+	border-color: #00897b;
+	z-index: 99999 !important;
+}
+
+table.dataTable.display tbody tr td:last-child {
+	text-align: center;
+}
+
+.wcfm_mark_as_recived {
+	background: #555;
+	padding: 3px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+}
+
+a.wcfm_mark_as_recived:hover { background-color: #00897b; }
+
+/* Notofication Box */
+.wcfm_notification_wrapper {
+	width: 350px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 99999;
+	background: transparent;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box {
+	margin: 5px 10px;
+	padding: 10px;
+	font-size: 15px;
+	
+	background: #ffffff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	border-bottom: 1px solid #00897b;
+	-webkit-box-shadow: 0px 2px 1px #cccccc;
+	box-shadow: 0px 1px 1px #cccccc;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box a {
+	color: #4096EE;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box a:hover {
+	color: #FF7400;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_close {
+	display: block;
+	float:right;
+	margin: 5px 10px;
+	cursor: pointer;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_close:hover {
+	color: #CC0000;
+}
+
+.wcfm-message-type-icon {
+	font-size: 20px;
+}
+
+.wcfm_notification_wrapper .wcfm_notification_box .wcfm-message-type-icon {
+	margin-right: 5px;
+	font-size: 15px;
+}
+
+.wcfm-message-type-order { color: #6dc7be; }
+.wcfm-message-type-product_review { color: #6BBA70; }
+.wcfm-message-type-direct { color: #ff8761; }
+.wcfm-message-type-booking { color: #D15600; }
+.wcfm-message-type-appointment { color: #D15600; }
+.wcfm-message-type-enquiry { color: #FF0084; }
+.wcfm-message-type-membership { color: #C79810; }
+.wcfm-message-type-membership-cancel { color: #CC0000; }
+.wcfm-message-type-vendor_approval { color: #649664; }
+.wcfm-message-type-verification { color: #57bdde; }
+
+/* Notification Shorcode Content */
+.wcfm_sc_notifications a, .wcfm_sc_notifications span {
+	color: #555;
+	margin-left: 12px;
+	text-decoration: none;
+	position: relative;
+	font-size: 20px;
+}
+
+.wcfm_sc_notifications .unread_notification_count {
+	background-color: #FF7400;
+  -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+  color: white;
+  font-weight: 500;
+  padding: 1px 3px;
+  font-size: 12px;
+  
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+.wcfm_sc_notifications .unread_notification_count.notice_count { background-color: #4096EE; }
+.wcfm_sc_notifications .unread_notification_count.enquiry_count { background-color: #FF0084; }
+
+.wcfm_sc_notifications a:hover, .wcfm_sc_notifications a.active {
+	color: #00897b;
+}
+
+@media only screen and (max-width: 768px) {
+	.wcfm_notification_wrapper {
+		width: 200px;
+	}
+}

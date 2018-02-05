@@ -1,0 +1,39 @@
+.order_items { display: none; }
+.order_items_visible { display: table; }
+.show_order_items { color: #D15600; }
+
+.dataTables_wrapper select {
+	font-size: 15px;
+}
+
+.order-status {
+  font-size: 20px;	
+}
+
+.wcpv-paid-status, .wcpv-unpaid-status, .wcpv-void-status {
+	padding: 2px 4px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.wcpv-paid-status { background-color: #73a724; }
+.wcpv-unpaid-status { background-color: #FF7400; }
+.wcpv-void-status { background-color: #4096EE; }
+
+table.dataTable.display tr td:nth-child(3), 
+table.dataTable.display tr td:nth-child(4), 
+table.dataTable.display tr td:nth-child(5), 
+table.dataTable.display tr td:nth-child(6), 
+table.dataTable.display tr th:nth-child(2), 
+table.dataTable.display tr th:nth-child(3), 
+table.dataTable.display tr th:nth-child(4), 
+table.dataTable.display tr th:nth-child(5),
+table.dataTable.display tr th:nth-child(6) {
+	text-align: center;
+}
+
+@media only screen and (max-width: 820px) {
+	.wcfm_orders_filter_wrap { width: 100%; }
+}

@@ -1,0 +1,150 @@
+.woocommerce-cart-tab-container {
+  width: 320px;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+  -webkit-transition: all cubic-bezier(0.11, 0.51, 0.54, 0.9) 0.5s;
+  -moz-transition: all cubic-bezier(0.11, 0.51, 0.54, 0.9) 0.5s;
+  transition: all cubic-bezier(0.11, 0.51, 0.54, 0.9) 0.5s;
+  box-sizing: border-box; }
+  .woocommerce-cart-tab-container .woocommerce-cart-tab--empty {
+    display: none; }
+  .woocommerce-cart-tab-container .widget_shopping_cart {
+    overflow: auto;
+    margin-bottom: 0; }
+    .woocommerce-cart-tab-container .widget_shopping_cart .widgettitle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 99;
+      margin: 0;
+      padding: 0;
+      padding: 1.387rem 1.618rem;
+      text-align: center;
+      font-size: 1.2em;
+      border: 0; }
+    .woocommerce-cart-tab-container .widget_shopping_cart ul.product_list_widget {
+      margin-top: 5.2em;
+      padding: 0 1.618em;
+      margin-bottom: 1.618em; }
+      .woocommerce-cart-tab-container .widget_shopping_cart ul.product_list_widget li {
+        border: 0; }
+    .woocommerce-cart-tab-container .widget_shopping_cart .total {
+      margin-bottom: 8em;
+      padding: 0 3em;
+      padding-bottom: 1em;
+      border: 0; }
+    .woocommerce-cart-tab-container .widget_shopping_cart .buttons {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 1.387em 1.618em;
+      z-index: 99;
+      margin: 0; }
+      .woocommerce-cart-tab-container .widget_shopping_cart .buttons .button {
+        width: 48%;
+        float: left;
+        margin: 0;
+        text-align: center; }
+        .woocommerce-cart-tab-container .widget_shopping_cart .buttons .button:nth-child(2) {
+          float: right; }
+        .woocommerce-cart-tab-container .widget_shopping_cart .buttons .button:after {
+          display: none; }
+
+.admin-bar .woocommerce-cart-tab-container {
+  top: 32px; }
+
+.woocommerce-cart-tab-container--left {
+  left: 0;
+  -webkit-transform: translateX(-320px);
+  -moz-transform: translateX(-320px);
+  -ms-transform: translateX(-320px);
+  -o-transform: translateX(-320px);
+  transform: translateX(-320px); }
+  .woocommerce-cart-tab-container--left .woocommerce-cart-tab {
+    left: 320px; }
+  .woocommerce-cart-tab-container--left.woocommerce-cart-tab-container--visible {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); }
+
+.woocommerce-cart-tab-container--right {
+  right: 0;
+  -webkit-transform: translateX(320px);
+  -moz-transform: translateX(320px);
+  -ms-transform: translateX(320px);
+  -o-transform: translateX(320px);
+  transform: translateX(320px); }
+  .woocommerce-cart-tab-container--right .woocommerce-cart-tab {
+    right: 320px; }
+  .woocommerce-cart-tab-container--right.woocommerce-cart-tab-container--visible {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); }
+
+.woocommerce-cart-tab {
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 68px;
+  box-sizing: border-box;
+  line-height: 1;
+  cursor: pointer; }
+  .woocommerce-cart-tab:focus {
+    outline: none; }
+  .woocommerce-cart-tab .woocommerce-cart-tab__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 24px; }
+
+.woocommerce-cart-tab__contents {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  line-height: 25px;
+  border-radius: 100%;
+  text-align: center;
+  z-index: 10;
+  font-size: .857em; }
+
+.woocommerce-cart-tab a {
+  display: block; }
+
+body .site:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999999;
+  -webkit-transition: all cubic-bezier(0.11, 0.51, 0.54, 0.9) 0.5s;
+  -moz-transition: all cubic-bezier(0.11, 0.51, 0.54, 0.9) 0.5s;
+  transition: all cubic-bezier(0.11, 0.51, 0.54, 0.9) 0.5s;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0; }
+
+body.woocommerce-cart-tab-is-visible {
+  overflow: hidden; }
+  body.woocommerce-cart-tab-is-visible .site:before {
+    visibility: visible;
+    opacity: 1; }
+
+@media screen and (max-width: 768px) {
+  .woocommerce-cart-tab-container {
+    display: none; } }

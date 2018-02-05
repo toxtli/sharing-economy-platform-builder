@@ -1,0 +1,6 @@
+.withdrawal_order_ids { color: #D15600; }
+
+
+table.dataTable.display tr td,table.dataTable.display tr th {
+	text-align: center;
+}

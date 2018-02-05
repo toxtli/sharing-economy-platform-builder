@@ -1,0 +1,56 @@
+# Copyright (C) 2017 Storefront Sticky Add to Cart
+# This file is distributed under the same license as the Storefront Sticky Add to Cart package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Storefront Sticky Add to Cart 1.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/storefront-sticky-"
+"add-to-cart\n"
+"POT-Creation-Date: 2017-03-10 12:44:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: storefront-sticky-add-to-cart.php:139 storefront-sticky-add-to-cart.php:148
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: storefront-sticky-add-to-cart.php:159
+msgid "Support"
+msgstr ""
+
+#: storefront-sticky-add-to-cart.php:260
+msgid "Placeholder"
+msgstr ""
+
+#: storefront-sticky-add-to-cart.php:292
+msgid "You're viewing:"
+msgstr ""
+
+#: storefront-sticky-add-to-cart.php:301
+msgid "Select options"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Storefront Sticky Add to Cart"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/storefront-sticky-add-to-cart/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds a sticky add-to-cart bar in single product pages that is revealed as "
+"the user scrolls down the page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr ""

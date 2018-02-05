@@ -1,0 +1,120 @@
+
+#site-offcanvas-wrap{
+  position: relative;
+  min-height: 100vh;
+  transition: left .5s ease;
+  left:0;
+  z-index:3;
+}
+
+.stylepress_slide_in_menu{
+  background-color: #1b1b1b;
+  color:#FFF;
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 30px;
+  display: none;
+  outline: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  .admin-bar & {
+    top: 32px;
+  }
+  &.shown{
+     display:block;
+  }
+  a{
+    color: #818181;
+    font-weight: 400;
+    transition: color .3s ease-in-out;
+  }
+  a.close_sidebar{
+    display: inline-block;
+    position: absolute;
+    top: 29px;
+    right: 25px;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    background-image: url(images/close.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+    transition: all .5s ease;
+    &:hover{
+      transform: rotate(180deg);
+    }
+  }
+}
+
+// sidebar sizes have moved into javascript for dynamic size:
+/*
+body.showing_side_menu > *:not(.stylepress_slide_in_menu):not(#wpadminbar){
+  transform: translateX(-600px);
+}
+.stylepress_slide_in_menu{
+  width: 600px;
+}*/
+
+
+.stylepress-modal-pop{
+  display:none;
+}
+.wp-dialog.stylepress-modal{
+  .ui-dialog-titlebar{
+    background:transparent;
+    border:0;
+    position: relative;
+    z-index:111;
+    .ui-button.ui-dialog-titlebar-close{
+      background: #EFEFEF;
+      border-radius: 50%;
+      top: -15px;
+      width: 37px;
+      height: 37px;
+      right: -15px;
+      &:before{
+        font: 400 20px/1 dashicons;
+        vertical-align: top;
+        speak: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 36px;
+        width: 36px;
+        height: 36px;
+        text-indent: 0;
+        content: '\f158';
+        z-index: 11111;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #666;
+      }
+      .ui-button-text,
+      .ui-icon{
+        display:none;
+      }
+    }
+  }
+  .ui-dialog-title{
+    display:none;
+  }
+  .stylepress-modal-pop{
+    margin-top:-30px; // into title bar
+    display:block;
+    padding:20px;
+  }
+  &.stylepress-modal-loading{
+    // show loading graphic
+    .stylepress-modal-pop,
+    .ui-dialog-titlebar{
+      display:none !important;
+    }
+
+  }
+}
+.wp-dialog.stylepress-modal{
+  overflow: visible;
+}

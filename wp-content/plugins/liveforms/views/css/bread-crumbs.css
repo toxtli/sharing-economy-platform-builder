@@ -1,0 +1,82 @@
+.w3eden .crumbstrail {
+	height: auto;
+	width: 100%;
+}
+
+.w3eden .crumbstrail .crumbs {
+	text-align: center;
+}
+.w3eden .crumbstrail .crumbs ul {
+	list-style: none;
+	display: inline-table;
+}
+.w3eden .crumbstrail .crumbs ul li {
+	display: inline;
+	float: left;
+	margin: 0px;
+}
+.w3eden .crumbstrail .crumbs ul li a {
+	display: block;
+	float: left;
+	height: auto;
+	background: #3498db;
+	text-align: center;
+	padding: 15px 20px 12px 40px !important;
+	position: relative;
+	margin: 0 5px 0;
+	font-size: 10px;
+	line-height: 12px;
+	text-decoration: none;
+	color: #fff;
+}
+.w3eden .crumbstrail .crumbs ul li a:after {
+	content: "";
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #3498db;
+	position: absolute;
+	right: -20px;
+	top: 0;
+	z-index: 1;
+}
+.w3eden .crumbstrail .crumbs ul li a:before {
+	content: "";
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #ffffff;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.w3eden .crumbstrail .crumbs ul li:first-child a {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.w3eden .crumbstrail .crumbs ul li:first-child a:before {
+	display: none;
+}
+.w3eden .crumbstrail .crumbs ul li:last-child a {
+	padding-right: 40px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.w3eden .crumbstrail .crumbs ul li:last-child a:after {
+	display: none;
+}
+.w3eden .crumbstrail .crumbs ul li a:hover {
+	background: #fa5ba5;
+}
+
+.w3eden .crumbstrail .crumbs ul li.active a {
+	background: #fa5ba5;
+}
+
+.w3eden .crumbstrail .crumbs ul li.active a {
+	background: #fa5ba5;
+}
+
+
+.w3eden .crumbstrail .crumbs ul li.active a:after,
+.w3eden .crumbstrail .crumbs ul li a:hover:after {
+	border-left-color: #fa5ba5;
+}

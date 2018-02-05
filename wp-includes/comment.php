@@ -138,7 +138,7 @@ function check_comment($author, $email, $url, $comment, $user_ip, $user_agent, $
  * @since 4.1.0 Refactored to leverage WP_Comment_Query over a direct query.
  *
  * @param  int   $post_id The ID of the post.
- * @param  array $args    Optional. See WP_Comment_Query::query() for information on accepted arguments.
+ * @param  array $args    Optional. See WP_Comment_Query::__construct() for information on accepted arguments.
  * @return int|array $comments The approved comments, or number of comments if `$count`
  *                             argument is true.
  */
@@ -217,7 +217,7 @@ function get_comment( &$comment = null, $output = OBJECT ) {
  *
  * @since 2.7.0
  *
- * @param string|array $args Optional. Array or string of arguments. See WP_Comment_Query::parse_query()
+ * @param string|array $args Optional. Array or string of arguments. See WP_Comment_Query::__construct()
  *                           for information on accepted arguments. Default empty.
  * @return int|array List of comments or number of found comments if `$count` argument is true.
  */
@@ -423,7 +423,11 @@ function get_comment_count( $post_id = 0 ) {
  * @return int|bool Meta ID on success, false on failure.
  */
 function add_comment_meta($comment_id, $meta_key, $meta_value, $unique = false) {
-	return add_metadata('comment', $comment_id, $meta_key, $meta_value, $unique);
+	$added = add_metadata( 'comment', $comment_id, $meta_key, $meta_value, $unique );
+	if ( $added ) {
+		wp_cache_set( 'last_changed', microtime(), 'comment' );
+	}
+	return $added;
 }
 
 /**
@@ -442,7 +446,11 @@ function add_comment_meta($comment_id, $meta_key, $meta_value, $unique = false) 
  * @return bool True on success, false on failure.
  */
 function delete_comment_meta($comment_id, $meta_key, $meta_value = '') {
-	return delete_metadata('comment', $comment_id, $meta_key, $meta_value);
+	$deleted = delete_metadata( 'comment', $comment_id, $meta_key, $meta_value );
+	if ( $deleted ) {
+		wp_cache_set( 'last_changed', microtime(), 'comment' );
+	}
+	return $deleted;
 }
 
 /**
@@ -479,7 +487,11 @@ function get_comment_meta($comment_id, $key = '', $single = false) {
  * @return int|bool Meta ID if the key didn't exist, true on successful update, false on failure.
  */
 function update_comment_meta($comment_id, $meta_key, $meta_value, $prev_value = '') {
-	return update_metadata('comment', $comment_id, $meta_key, $meta_value, $prev_value);
+	$updated = update_metadata( 'comment', $comment_id, $meta_key, $meta_value, $prev_value );
+	if ( $updated ) {
+		wp_cache_set( 'last_changed', microtime(), 'comment' );
+	}
+	return $updated;
 }
 
 /**
@@ -757,9 +769,11 @@ function wp_allow_comment( $commentdata, $avoid_die = false ) {
 	 * Filters a comment's approval status before it is set.
 	 *
 	 * @since 2.1.0
+	 * @since 4.9.0 Returning a WP_Error value from the filter will shortcircuit comment insertion and
+	 *              allow skipping further processing.
 	 *
-	 * @param bool|string $approved    The approval status. Accepts 1, 0, or 'spam'.
-	 * @param array       $commentdata Comment data.
+	 * @param bool|string|WP_Error $approved    The approval status. Accepts 1, 0, 'spam' or WP_Error.
+	 * @param array                $commentdata Comment data.
 	 */
 	$approved = apply_filters( 'pre_comment_approved', $approved, $commentdata );
 	return $approved;

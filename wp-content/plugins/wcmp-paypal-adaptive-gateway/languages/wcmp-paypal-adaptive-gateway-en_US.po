@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Demo Plugin\n"
+"POT-Creation-Date: 2017-07-06 11:34+0000\n"
+"PO-Revision-Date: 2017-07-06 11:34+0000\n"
+"Last-Translator: dualcube <subrata@dualcube.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\3dcart\\wp-"
+"content\\plugins\\dc_demo_plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"Plural-Forms: nplurals=2; plural=n != 1"
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:10
+msgid "PayPal Adaptive Payments (WCMp Compatible)"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:11
+msgid "Proceed to PayPal"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:83
+msgid ""
+"An error has occurred while processing your payment, please try again. Or "
+"contact us for assistance."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:145
+#, php-format
+msgid "Your order has expired, please %s to try again."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:145
+msgid "click here"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:148
+#, php-format
+msgid "PayPal Adaptive Payments error: %s"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:309
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:311
+msgid "Enable PayPal Adaptive Payments"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:315
+msgid "Title"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:317
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:318
+msgid "PayPal adaptive"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:322
+msgid "Description"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:324
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:325
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don't have a PayPal "
+"account"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:328
+msgid "PayPal API Username"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:330
+msgid ""
+"Please enter your PayPal API username; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:335
+msgid "PayPal API Password"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:337
+msgid ""
+"Please enter your PayPal API password; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:342
+msgid "PayPal API Signature"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:344
+msgid ""
+"Please enter your PayPal API signature; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:349
+msgid "PayPal Application ID"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:351
+msgid ""
+"Please enter your PayPal Application ID; you need create an application on "
+"PayPal."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:356
+msgid "Receiver Email"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:358
+msgid "Input your main receiver email for your PayPal account."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:364
+msgid "PayPal sandbox"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:366
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:368
+#, php-format
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"%s\">developer account</a>."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:371
+msgid "Payment Method"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:373
+msgid ""
+"Select the payment method: Parallel Payment - payment from a sender that is "
+"split directly among 2-6 receivers or Chained Payment - payment from a "
+"sender that is indirectly split among 1-9 secondary receivers."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:377
+msgid "Parallel Payment"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:378
+msgid "Chained Payment"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:382
+msgid "Debug Log"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:384
+msgid "Enable logging"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:415
+msgid "PayPal Adaptive Payments Disabled For WC Marketplace"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:415
+msgid ""
+"You must fill the API Username, API Password, API Signature, Application ID "
+"and Receiver Email options."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:419
+msgid "PayPal Adaptive Payments Disabled"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:419
+msgid "PayPal does not support your store currency."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:450
+msgid "Payment canceled via IPN."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:454
+msgid ""
+"The payment request was received. Funds will be transferred once the payment "
+"is approved."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:467
+msgid "The payment was successful."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:472
+msgid ""
+"Some transfers succeeded and some failed for a parallel payment or, for a "
+"delayed chained payment, secondary receivers have not been paid."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:475
+msgid ""
+"The payment failed and all attempted transfers failed or all completed "
+"transfers were successfully reversed."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:479
+msgid "One or more transfers failed when attempting to reverse a payment."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:483
+msgid "The payment is in progress."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-payment-method.php:486
+msgid "The payment is awaiting processing."
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-wcmp-payment-method.php:24
+msgid "you Can not process payment manualy by paypal adaptive gateway"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-wcmp-payment-method.php:29
+msgid "New transaction has been initiated"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-frontend.php:17
+msgid "Transaction Mode"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway-frontend.php:17
+msgid "Paypal Adaptive"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway.php:65
+#: classes/class-wcmp-paypal-adaptive-gateway.php:91
+msgid "PayPal Adaptive"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway.php:101
+msgid "Paypal"
+msgstr ""
+
+#: classes/class-wcmp-paypal-adaptive-gateway.php:102
+#: classes/class-wcmp-paypal-adaptive-gateway.php:103
+msgid "Enter your Paypal ID"
+msgstr ""
+
+#: includes/wcmp-paypal-adaptive-gateway-core-functions.php:24
+#, php-format
+msgid ""
+"%sWCMp Paypal Adaptive Gateway is inactive.%s The %sWooCommerce plugin%s "
+"must be active for the WCMp Paypal Adaptive Gateway to work. Please "
+"%sinstall & activate WooCommerce%s"
+msgstr ""
+
+#. Name of the plugin
+msgid "WCMp Paypal Adaptive Gateway"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WCMp Paypal Adaptive Gateway is a payment gateway for woocommerce shopping "
+"plateform also compatible with WC Marketplace."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wc-marketplace.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WC Marketplace, The Grey Parrots"
+msgstr ""

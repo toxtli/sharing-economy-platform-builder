@@ -1,0 +1,27 @@
+input[type='checkbox'].wcfm-checkbox, .wcfm-tabWrap input[type="checkbox"] {
+	margin-right: 0px;
+	margin-left: 40%;
+}
+
+.product_taxonomy_checklist li input[type=checkbox] {
+	margin: -4px 0px 0 4px;
+}
+
+.sales_schedule {
+	text-align: left;
+}
+
+#gallery_img .multi_input_block:nth-child(odd) {
+	padding-left: 25px;
+	padding-right: 0px;
+}
+
+#gallery_img .multi_input_block:nth-child(even) {
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
+#length, #width, .variation_dimension_lw {
+	margin-left: 3% !important;
+	margin-right: 0px !important;
+}

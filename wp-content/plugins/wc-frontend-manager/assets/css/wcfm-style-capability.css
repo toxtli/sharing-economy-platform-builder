@@ -1,0 +1,176 @@
+.wcfm-collapse .wcfm-container { 
+  border-radius: 0px 0px 3px 3px;
+}
+
+.vendor_capability, .vendor_advanced_capability {
+	display: table;
+	width: 99%;
+}
+
+.vendor_product_capability {
+	display: table-cell;
+	width: 50%;
+}
+
+.vendor_other_capability {
+	display: table-cell;
+}
+
+p.description {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+	display: inline-block;
+	margin-right: 20% !important;
+	vertical-align: top;
+	padding-top: 1px !important;
+}
+
+p.wcfm_page_options_desc {
+	margin-left: 35% !important;
+}
+
+p.wcfm_title {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+	font-style: normal;
+	width: 35%;
+	display: inline-block;
+}
+
+input[type="text"].wcfm-text, select.wcfm-select, input[type="number"].wcfm-text, .wp-picker-container {
+	padding: 5px;
+	width: 60%;
+	margin-bottom: 5px;
+	font-size: 15px;
+	display: inline-block;
+	background-color: #fff !important;
+	border: 1px solid #555 !important;
+	box-shadow: none;
+}
+
+input.wcfm-checkbox {
+	margin-right: 55%;
+}
+
+input.wcfm-checkbox-disabled, #wc_frontend_manager_associate_listings {
+	margin-right: 5px;
+}
+
+.capability_head_message {
+	font-weight: 500;
+	color: #555;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #00897b;
+}
+
+.vendor_capability .vendor_capability_heading h3, .vendor_capability .vendor_capability_sub_heading h3, .wcfm_vendor_settings_heading h3, .vendor_advanced_capability .vendor_capability_heading h3, .vendor_advanced_capability .vendor_capability_sub_heading h3 {
+	font-size: 1.618em;
+	clear: both;
+	font-weight: 500;
+	margin: 0 0 .5407911001em;
+	color: #555555;
+}
+
+.vendor_capability .vendor_capability_sub_heading h3, .vendor_advanced_capability .vendor_capability_sub_heading h3 {
+	font-size: 1.2em;
+	margin-left: 2%;
+}
+
+.vendor_capability p.description, .vendor_advanced_capability p.description {
+	color: #ccc;
+	margin-left: 5%;
+	font-weight: 300;
+}
+
+.vendor_capability input.wcfm-checkbox, .vendor_advanced_capability input.wcfm-checkbox {
+	margin-right: 5%;
+}
+
+.vendor_capability p.wcfm_title.checkbox_title, .vendor_advanced_capability p.wcfm_title.checkbox_title {
+	width: 68%;
+	margin-left: 5%;
+}
+
+.vendor_capability p.wcfm_title.catlimit_title, .vendor_capability p.wcfm_title.gallerylimit_title {
+	width: 50%;
+	margin-left: 5%;
+}
+
+.vendor_capability .catlimit_ele, .vendor_capability .gallerylimit_ele {
+	width: 30% !important;
+}
+
+.vendor_capability p.wcfm_title.checkbox_title strong, .vendor_advanced_capability p.wcfm_title.checkbox_title strong, .vendor_capability p.wcfm_title.catlimit_title strong, .vendor_capability p.wcfm_title.gallerylimit_title strong {
+	font-weight: 400;
+}
+
+#wcfm_settings_form_style_expander p.wcfm_title.wcfm_half_ele_title {
+	width: 27%;
+}
+
+.wcfm_ele_hide, .wcfm_capability_manager_option_hide {
+	display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+	p.description {
+		margin-right: 5% !important;
+	}
+	
+	p.wcfm_page_options_desc {
+		margin-right: 0% !important;
+	}
+	
+	#wcfm_settings_form_style_expander p.wcfm_title.wcfm_half_ele_title {
+		width: 50%;
+	}
+	
+	#wcfm_settings_form_style_expander .wp-picker-container{
+		width: 40%;
+		margin-right: 1%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.vendor_product_capability, .vendor_other_capability {
+		display: block;
+		width: 100%;
+	}
+	p.wcfm_title {
+		width: 90%;
+	}
+	
+	input[type="text"].wcfm-text, select.wcfm-select, input[type="number"].wcfm-text {
+		width: 100%;
+	}
+	
+	textarea.wcfm-textarea {
+		width: 100%;
+	}
+	
+	input.wcfm-checkbox {
+		margin-right: 5%;
+	}
+	
+	input.wcfm-checkbox-disabled {
+		margin-right: 5px;
+	}
+	
+	p.description {
+		margin-right: 5% !important;
+	}
+	
+	p.wcfm_page_options_desc {
+		margin-left: 1% !important;
+	}
+	
+	#wcfm_settings_form_style_expander p.wcfm_title.wcfm_half_ele_title {
+		width: 100%;
+	}
+	
+	#wcfm_settings_form_style_expander .wp-picker-container{
+		width: 90%;
+		margin-right: 1%;
+	}
+}

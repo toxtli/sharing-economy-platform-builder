@@ -1,0 +1,28 @@
+.coupon-types {
+	padding: 2px 4px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.coupon-types-percent { background-color: #73a724; }
+.coupon-types-fixed_cart { background-color: #FF7400; }
+.coupon-types-fixed_product { background-color: #4096EE; }
+
+table.dataTable.display tr td:nth-child(2),
+table.dataTable.display tr td:nth-child(3), 
+table.dataTable.display tr td:nth-child(4), 
+table.dataTable.display tr td:nth-child(5),
+table.dataTable.display tr td:nth-child(6),
+table.dataTable.display tr th:nth-child(2),
+table.dataTable.display tr th:nth-child(3),
+table.dataTable.display tr th:nth-child(4),
+table.dataTable.display tr th:nth-child(5),
+table.dataTable.display tr th:nth-child(6) {
+	text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .wcfm_coupons_filter_wrap { width: 100%; }
+}

@@ -1,0 +1,52 @@
+.upload_button, .remove_button, .upload_input {
+  vertical-align: bottom !important;
+}
+
+.wcfm-wp-fields-uploader .placeHolderUploads, .wcfm-wp-fields-uploader .placeHoldergif, .wcfm-wp-fields-uploader .placeHolderjpg, .wcfm-wp-fields-uploader .placeHolderpng, .wcfm-wp-fields-uploader .placeHoldertxt, .wcfm-wp-fields-uploader .placeHolderdoc, .wcfm-wp-fields-uploader .placeHolderpdf, .wcfm-wp-fields-uploader .placeHolderzip, .wcfm-wp-fields-uploader .placeHolderrar, .wcfm-wp-fields-uploader .placeHoldertar, .wcfm-wp-fields-uploader .placeHoldergz, .wcfm-wp-fields-uploader .placeHoldertargz, .wcfm-wp-fields-uploader .placeHolderdocs, .wcfm-wp-fields-uploader .placeHolderppt, .wcfm-wp-fields-uploader .placeHolderppts {
+  background: url('images/uploads.ico');
+  background: url(images/uploads.ico) no-repeat center center / 75px 75px;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/uploads.png', sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/uploads.png', sizingMethod='scale');
+  width :75px;
+  height: 75px;
+  display: inline-block;
+}
+
+.wcfm_img_uploader { position: relative; }
+.wcfm_img_uploader .remove_button {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -nsborder-radius: 50%;
+  background-color: #FF1A00;
+}
+
+.wcfm-wp-fields-uploader img {
+  margin-right: 5px;
+  border-radius: 5%;
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -nsborder-radius: 5%;
+  border: 2px solid #dfdfdf;
+}
+
+.wcfm-wp-fields-uploader img.placeHolder_bak {
+  background: url('images/Placeholder.png');
+  background: url(images/Placeholder.png) no-repeat center center / 75px 75px;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/Placeholder.png', sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/Placeholder.png', sizingMethod='scale');
+  width :75px;
+  height: 75px;
+  display: inline-block;
+}

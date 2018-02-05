@@ -981,13 +981,14 @@ final class WP_Theme implements ArrayAccess {
 	 * @param int $depth Optional. How deep to search for files. Defaults to a flat scan (0 depth). -1 depth is infinite.
 	 * @param bool $search_parent Optional. Whether to return parent files. Defaults to false.
 	 * @return array Array of files, keyed by the path to the file relative to the theme's directory, with the values
-	 * 	             being absolute paths.
+	 *               being absolute paths.
 	 */
 	public function get_files( $type = null, $depth = 0, $search_parent = false ) {
 		$files = (array) self::scandir( $this->get_stylesheet_directory(), $type, $depth );
 
-		if ( $search_parent && $this->parent() )
+		if ( $search_parent && $this->parent() ) {
 			$files += (array) self::scandir( $this->get_template_directory(), $type, $depth );
+		}
 
 		return $files;
 	}
@@ -1011,7 +1012,7 @@ final class WP_Theme implements ArrayAccess {
 		if ( ! is_array( $post_templates ) ) {
 			$post_templates = array();
 
-			$files = (array) $this->get_files( 'php', 1 );
+			$files = (array) $this->get_files( 'php', 1, true);
 
 			foreach ( $files as $file => $full_path ) {
 				if ( ! preg_match( '|Template Name:(.*)$|mi', file_get_contents( $full_path ), $header ) ) {
@@ -1066,10 +1067,6 @@ final class WP_Theme implements ArrayAccess {
 		$post_templates = $this->get_post_templates();
 		$post_templates = isset( $post_templates[ $post_type ] ) ? $post_templates[ $post_type ] : array();
 
-		if ( $this->parent() ) {
-			$post_templates += $this->parent()->get_page_templates( $post, $post_type );
-		}
-
 		/**
 		 * Filters list of page templates for a theme.
 		 *
@@ -1107,8 +1104,9 @@ final class WP_Theme implements ArrayAccess {
 	 *                     with `$relative_path`, with the values being absolute paths. False otherwise.
 	 */
 	private static function scandir( $path, $extensions = null, $depth = 0, $relative_path = '' ) {
-		if ( ! is_dir( $path ) )
+		if ( ! is_dir( $path ) ) {
 			return false;
+		}
 
 		if ( $extensions ) {
 			$extensions = (array) $extensions;
@@ -1116,8 +1114,9 @@ final class WP_Theme implements ArrayAccess {
 		}
 
 		$relative_path = trailingslashit( $relative_path );
-		if ( '/' == $relative_path )
+		if ( '/' == $relative_path ) {
 			$relative_path = '';
+		}
 
 		$results = scandir( $path );
 		$files = array();
@@ -1125,19 +1124,20 @@ final class WP_Theme implements ArrayAccess {
 		/**
 		 * Filters the array of excluded directories and files while scanning theme folder.
 		 *
- 		 * @since 4.7.4
+		 * @since 4.7.4
 		 *
 		 * @param array $exclusions Array of excluded directories and files.
 		 */
-		$exclusions = (array) apply_filters( 'theme_scandir_exclusions', array( 'CVS', 'node_modules' ) );
+		$exclusions = (array) apply_filters( 'theme_scandir_exclusions', array( 'CVS', 'node_modules', 'vendor', 'bower_components' ) );
 
 		foreach ( $results as $result ) {
 			if ( '.' == $result[0] || in_array( $result, $exclusions, true ) ) {
 				continue;
 			}
 			if ( is_dir( $path . '/' . $result ) ) {
-				if ( ! $depth )
+				if ( ! $depth ) {
 					continue;
+				}
 				$found = self::scandir( $path . '/' . $result, $extensions, $depth - 1 , $relative_path . $result );
 				$files = array_merge_recursive( $files, $found );
 			} elseif ( ! $extensions || preg_match( '~\.(' . $_extensions . ')$~', $result ) ) {

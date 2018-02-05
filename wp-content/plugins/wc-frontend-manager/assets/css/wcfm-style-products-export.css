@@ -1,0 +1,10 @@
+.woocommerce-exporter-progress {
+	display: none;
+}
+
+.wcfm_title {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+	font-style: normal;
+	font-weight: 500;
+}

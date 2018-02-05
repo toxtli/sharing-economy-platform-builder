@@ -1,0 +1,148 @@
+.wcmp-addon-container .addonbox{
+    width: 23%;
+    float: left;
+    top: 5px;
+    background: #fff;
+    margin-bottom: 24px;
+    margin-right: 2.4%;
+    min-width: auto;
+    box-sizing: border-box;
+    border: solid 1px #e2e2e2;
+}
+.wcmp-addon-container .addonbox .inside{
+    margin: 0px;
+    padding: 0px;
+}
+.wcmp-addon-container .addonbox .hndle{
+    margin: 15px 0 5px;
+    padding: 0 10px;
+    text-align: center;
+    min-height: 50px;
+    border-bottom: 1px solid #eee;
+    font-weight: normal;
+}
+.wcmp-addon-container .addonbox .hndle span{
+    padding: 5px;
+    font-size: 16px;
+}
+.wcmp-addon-container .addonbox .inside .submitbox{
+    text-align: center;
+}
+.wcmp-addon-container .addonbox .inside .submitbox #publishing-action {
+    text-align: center;
+    float: none;
+    line-height: 23px;
+}
+.wcmp-addon-container div#major-publishing-actions p{
+    min-height: 60px;
+}
+.addon-banner{
+    width: 100%;
+    background: #826dad;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.addon-img-holder{
+    height: 180px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+.addon-img-holder img{
+    max-width: 90%;
+    height: auto;
+    max-height: 160px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.addon-banner-content{ 
+    width: 500px;
+    max-width: 100%;
+    margin-right: 44px;
+    padding: 0 35px;
+}
+.addon-banner-content h1, .addon-banner-content p{
+    color: #fff;
+}
+.addon-banner-content a{
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+.addon-banner-content a:hover{
+    
+}
+.wcmp-addon-container .addonbox:nth-child(4n+1) {
+    clear:both;
+}
+.wcmp-addon-container .addonbox:nth-child(4n+4) {
+    margin: 0;    
+}
+@media all and (max-width: 1100px) and (min-width: 1024px){
+    .addon-banner-content{
+        margin-right: 0;
+    }
+}
+@media (max-width: 1023px){
+    .addon-banner-content {
+        width: 100%; 
+        margin-right: 0;
+        padding: 30px 35px; 
+        background: rgba(0,0,0,0.5);
+        position: relative;
+    }    
+    .addon-banner img {
+        position: absolute;
+        top: 0;
+    }
+}
+@media (max-width: 460px){
+    .addon-banner-content{
+        padding: 10px 30px;
+    }
+    .addon-banner-content h1{
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 0;
+    }
+    .addon-banner-content p{
+        margin: 10px 0;
+    }
+}
+@media (max-width: 1280px){ 
+    .wcmp-addon-container div#major-publishing-actions p {
+        min-height: 76px;
+    }
+}
+@media (max-width: 1000px){
+    .wcmp-addon-container .addonbox {
+        width: 48%;
+        margin-right: 4%;
+    }
+    .wcmp-addon-container .addonbox:nth-child(2n+1) {
+        clear:both;
+    }
+    .wcmp-addon-container .addonbox:nth-child(2n+2) {
+        margin: 0;    
+    }
+}
+@media (max-width: 640px){
+    .wcmp-addon-container .addonbox {
+        width: 100%;
+        margin: 0 0 30px !important;
+    }
+    .wcmp-addon-container .addonbox .hndle{
+        min-height: 37px;
+    }
+} 

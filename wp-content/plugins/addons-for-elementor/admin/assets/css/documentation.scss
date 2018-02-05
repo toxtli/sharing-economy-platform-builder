@@ -1,0 +1,505 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  }
+
+.clearfix:after { clear: both }
+
+.clearfix { zoom: 1 }
+
+.livemesh-doc * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+.livemesh-doc {
+  overflow: hidden;
+  padding: 0 3%;
+  }
+
+.livemesh-doc .dashicons, .dashicons-before:before {
+  font-size: 14px;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  }
+
+.livemesh-doc .plugin-image {
+  background: #333743;
+  padding: 2% 2% 0 2%;
+  display: inline-block;
+  width: 100%;
+  width: 30%;
+  }
+
+.livemesh-doc .panels {
+  margin: 5% 0 0 0;
+  }
+
+.livemesh-doc .panel {
+  display: inline-block;
+  width: 100%;
+  padding: 3%;
+  background: #fff;
+  font-size: 16px;
+  animation: smoothFade .3s;
+  -moz-animation: smoothFade .3s;
+  -webkit-animation: smoothFade .3s;
+  -o-animation: smoothFade .3s;
+  }
+
+@keyframes smoothFade {
+  from {
+    opacity:0;
+    }
+  to {
+    opacity:1;
+    }
+  }
+
+@-moz-keyframes smoothFade {
+  from {
+    opacity:0;
+    }
+  to {
+    opacity:1;
+    }
+  }
+
+@-webkit-keyframes smoothFade {
+  from {
+    opacity:0;
+    }
+  to {
+    opacity:1;
+    }
+  }
+
+.livemesh-doc .panel-left.visible {
+  display: inline-block;
+  animation: smoothFade .3s;
+  -moz-animation: smoothFade .3s;
+  -webkit-animation: smoothFade .3s;
+  -o-animation: smoothFade .3s;
+  }
+
+.livemesh-doc .panel p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0 0 2em 0;
+  }
+
+.livemesh-doc .panel-right p {
+  font-size: 15px;
+  line-height: 1.6;
+  }
+
+.livemesh-doc .panel a {
+  text-decoration: none;
+  }
+
+.livemesh-doc .panel a:focus,
+.livemesh-doc .panel a:active {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  }
+
+.livemesh-doc .panel hr {
+  height: 1px;
+  margin: 2em 0;
+
+  border: 0;
+  border-top: solid 2px #E6EAED;
+  }
+
+#plugins-panel hr {
+  padding-bottom: 0;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  }
+
+.livemesh-doc .panel-left ul, .livemesh-doc .panel-left ol {
+  margin: 0 0 5% 0;
+  background: #F8F8F8;
+  padding: 5% 5% 5% 8%;
+  list-style-type: square;
+  font-size: 16px;
+  line-height: 1.8;
+  }
+.livemesh-doc .panel-left ul li, .livemesh-doc .panel-left ol li {
+  border-bottom: dotted 1px #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  }
+.livemesh-doc .panel-left ul li:last-child, .livemesh-doc .panel-left ol li:last-child {
+  border: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  }
+
+.livemesh-doc .panel-left {
+  display: inline-block;
+  display: none;
+  width: 64%;
+  }
+
+.livemesh-doc .panel-left img {
+  max-width: 100%;
+  height: auto;
+  border: solid 1px #E6EAED;
+  }
+
+.livemesh-doc .panel-left h3 {
+  display: inline-block;
+  }
+
+.livemesh-doc .panel-left h3, .livemesh-doc .panel-right h3, .livemesh-doc .panel-right p:first-child {
+  margin-top: 0;
+  line-height: 1.3;
+  }
+
+.panel-left ul.anchor-nav {
+  padding: 5%;
+  }
+
+.anchor-nav li {
+  list-style: none;
+  }
+
+.back-to-top {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #999;
+  position: absolute;
+  right: 0;
+  top: 8px;
+  }
+
+.livemesh-doc .panels h3 {
+  width: 100%;
+  position: relative;
+  padding-right: 90px;
+  }
+
+.livemesh-doc h3 .back-to-top {
+  float: right;
+  }
+
+.livemesh-doc .panel-right {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+  float: right;
+  vertical-align: top;
+  }
+
+.livemesh-doc .panel-aside {
+  margin-bottom: 25px;
+  background: #F8F8F8;
+  padding: 40px;
+  &.banner {
+    padding: 0;
+    }
+  img {
+    max-width: 100%;
+    }
+  }
+
+.livemesh-doc .panel-aside:last-child {
+  margin-bottom: 0;
+  }
+
+.livemesh-doc .panel-aside h4 {
+  margin-top: 0;
+  font-size: 1.1em;
+  line-height: 1.4;
+  }
+
+.livemesh-doc .panel-aside ul {
+  margin-bottom: 25px;
+  }
+
+.livemesh-doc .panel-aside li {
+  list-style-type: square;
+  margin-left: 18px;
+  }
+
+.notices {
+  margin: 0;
+  display: none;
+  }
+
+#wpbody-content .livemesh-doc .updated,
+#wpbody-content .livemesh-doc .error {
+  margin-top: 2%;
+  }
+
+.livemesh-doc .updated + .intro-wrap,
+.livemesh-doc .error + .intro-wrap {
+  padding-top: 2%;
+  }
+
+.livemesh-doc .intro-wrap {
+  padding:  4% 0 0 0;
+  }
+
+.livemesh-doc .intro {
+  display: inline-block;
+  width: 50%;
+  margin-left: 4%;
+  vertical-align: top;
+  }
+
+.livemesh-doc .intro h3 {
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  }
+
+.livemesh-doc .intro h4 {
+  color: #868B96;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  }
+
+.livemesh-doc .inline-list {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  }
+
+.livemesh-doc .inline-list li {
+  display: inline-block;
+  margin: 0 0 0 0;
+  }
+
+.livemesh-doc .inline-list li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  }
+
+.livemesh-doc .inline-list li a {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 25px 30px;
+  display: inline-block;
+  }
+
+.livemesh-doc .inline-list li span {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  }
+
+.livemesh-doc .inline-list li a:active,
+.livemesh-doc .inline-list li a::-moz-focus-inner,
+.livemesh-doc ul.inline-list a:focus {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+  }
+
+.livemesh-doc ul.toc {
+  padding-left: 5%;
+  }
+
+.livemesh-doc .toc li {
+  list-style-type: none;
+  }
+
+.livemesh-doc .inline-list li.current a {
+  background: #fff;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  }
+
+.livemesh-doc .inline-list li a i {
+  font-size: 16px;
+  margin-right: 5px;
+  }
+
+.livemesh-doc .enter-license {
+  display: inline-block;
+  width: 100%;
+  margin: 3% 0 1% 0;
+  }
+
+::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  }
+
+:-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  }
+
+::-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  }
+
+:-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  }
+
+.livemesh-doc .enter-license label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2%;
+  }
+
+.livemesh-doc .enter-license .license-key-input {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 4%;
+  font-family: 'Andale Mono', 'Lucida Console', monospace;
+  font-size: 16px;
+  }
+
+.livemesh-doc .enter-license .submit {
+  display: inline-block;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  }
+
+.livemesh-doc .activate {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  }
+
+.livemesh-doc .activate-text {
+  font-size: 14px;
+  line-height: 28px;
+  display: inline-block;
+  margin-right: 5px;
+  color: green;
+  }
+
+.livemesh-doc #changelog {
+  display: none;
+  }
+
+.livemesh-doc #install-video {
+  display: none;
+  }
+
+.livemesh-doc .pro-feature{
+  color: #f94213;
+  }
+
+#updates-panel ul {
+  border-bottom: 1px dotted #ddd;
+  padding: 1% 0 5% 3%;
+  list-style-position: inside;
+  background: transparent;
+  }
+#updates-panel li {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 7px;
+  }
+#updates-panel h4 {
+  font-size: 1.1em;
+  margin: .5em 0;
+  }
+
+h4 .button {
+  float: right;
+  background: #5AC779;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 3px 6px;
+  vertical-align: middle;
+  }
+
+@media only screen and (max-width:768px) {
+  .livemesh-doc .intro, .plugin-image, .livemesh-doc .panel-left, .livemesh-doc .panel-right {
+    width: 100%;
+    float: none;
+    }
+
+  .livemesh-doc .intro {
+    padding: 0;
+    margin: 0;
+    }
+
+  .livemesh-doc .intro h2 {
+    font-size: 34px;
+    }
+
+  .livemesh-doc .intro h3 {
+    margin-bottom: 0;
+    }
+
+  .livemesh-doc .inline-list {
+    margin-bottom: 5%;
+    }
+
+  .livemesh-doc .inline-list li {
+    width: 100%;
+    }
+
+  .livemesh-doc .inline-list li a {
+    width: 100%;
+    display: block;
+    }
+
+  .livemesh-doc .plugin-image {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 6% 6% 0 6%;
+    }
+
+  .livemesh-doc .enter-license .submit {
+    width: 100%;
+    }
+
+  .livemesh-doc .activate {
+    width: 100%;
+    float: none;
+    text-align: left;
+    margin-bottom: 20px;
+    }
+  }
+
+.livemesh-doc .button-wrap {
+  width: 100%;
+  a {
+    position: relative;
+    display: block;
+    margin: 60px auto;
+    max-width: 400px;
+    }
+  img.button-image {
+    max-width: 100%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+    }
+  }

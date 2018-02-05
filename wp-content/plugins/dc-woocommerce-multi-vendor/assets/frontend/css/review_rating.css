@@ -1,0 +1,15 @@
+.wcmp_review_loader {
+	width:100%;
+	position:relative;
+	z-index:8888;
+	background-color:none;
+	opacity:0.5;
+	height:40px;
+	text-align:center;
+	display:none;
+	
+}
+.wcmp_review_loader img{	
+	margin:2px auto;	
+}
+

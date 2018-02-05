@@ -98,6 +98,16 @@ class WP_Customize_Date_Time_Control extends WP_Customize_Control {
 	public function content_template() {
 		$data = array_merge( $this->json(), $this->get_month_choices() );
 		$timezone_info = $this->get_timezone_info();
+
+		$date_format = get_option( 'date_format' );
+		$date_format = preg_replace( '/(?<!\\\\)[Yyo]/', '%1$s', $date_format );
+		$date_format = preg_replace( '/(?<!\\\\)[FmMn]/', '%2$s', $date_format );
+		$date_format = preg_replace( '/(?<!\\\\)[jd]/', '%3$s', $date_format );
+
+		// Fallback to ISO date format if year, month, or day are missing from the date format.
+		if ( 1 !== substr_count( $date_format, '%1$s' ) || 1 !== substr_count( $date_format, '%2$s' ) || 1 !== substr_count( $date_format, '%3$s' ) ) {
+			$date_format = '%1$s-%2$s-%3$s';
+		}
 		?>
 
 		<# _.defaults( data, <?php echo wp_json_encode( $data ); ?> ); #>
@@ -116,6 +126,7 @@ class WP_Customize_Date_Time_Control extends WP_Customize_Control {
 			<fieldset class="day-row">
 				<legend class="title-day {{ ! data.includeTime ? 'screen-reader-text' : '' }}"><?php esc_html_e( 'Date' ); ?></legend>
 				<div class="day-fields clear">
+					<?php ob_start(); ?>
 					<label for="{{ idPrefix }}date-time-month" class="screen-reader-text"><?php esc_html_e( 'Month' ); ?></label>
 					<select id="{{ idPrefix }}date-time-month" class="date-input month" data-component="month">
 						<# _.each( data.month_choices, function( choice ) {
@@ -129,11 +140,19 @@ class WP_Customize_Date_Time_Control extends WP_Customize_Control {
 							</option>
 						<# } ); #>
 					</select>
+					<?php $month_field = trim( ob_get_clean() ); ?>
+
+					<?php ob_start(); ?>
 					<label for="{{ idPrefix }}date-time-day" class="screen-reader-text"><?php esc_html_e( 'Day' ); ?></label>
 					<input id="{{ idPrefix }}date-time-day" type="number" size="2" autocomplete="off" class="date-input day" data-component="day" min="1" max="31" />
-					<span class="time-special-char date-time-separator">,</span>
+					<?php $day_field = trim( ob_get_clean() ); ?>
+
+					<?php ob_start(); ?>
 					<label for="{{ idPrefix }}date-time-year" class="screen-reader-text"><?php esc_html_e( 'Year' ); ?></label>
 					<input id="{{ idPrefix }}date-time-year" type="number" size="4" autocomplete="off" class="date-input year" data-component="year" min="{{ data.minYear }}" max="{{ data.maxYear }}">
+					<?php $year_field = trim( ob_get_clean() ); ?>
+
+					<?php printf( $date_format, $year_field, $month_field, $day_field ); ?>
 				</div>
 			</fieldset>
 			<# if ( data.includeTime ) { #>
@@ -141,9 +160,10 @@ class WP_Customize_Date_Time_Control extends WP_Customize_Control {
 					<legend class="title-time"><?php esc_html_e( 'Time' ); ?></legend>
 					<div class="time-fields clear">
 						<label for="{{ idPrefix }}date-time-hour" class="screen-reader-text"><?php esc_html_e( 'Hour' ); ?></label>
-						<# var maxHour = data.twelveHourFormat ? 12 : 24; #>
-						<input id="{{ idPrefix }}date-time-hour" type="number" size="2" autocomplete="off" class="date-input hour" data-component="hour" min="1" max="{{ maxHour }}">
-						<span class="time-special-char date-time-separator">:</span>
+						<# var maxHour = data.twelveHourFormat ? 12 : 23; #>
+						<# var minHour = data.twelveHourFormat ? 1 : 0; #>
+						<input id="{{ idPrefix }}date-time-hour" type="number" size="2" autocomplete="off" class="date-input hour" data-component="hour" min="{{ minHour }}" max="{{ maxHour }}">
+						:
 						<label for="{{ idPrefix }}date-time-minute" class="screen-reader-text"><?php esc_html_e( 'Minute' ); ?></label>
 						<input id="{{ idPrefix }}date-time-minute" type="number" size="2" autocomplete="off" class="date-input minute" data-component="minute" min="0" max="59">
 						<# if ( data.twelveHourFormat ) { #>

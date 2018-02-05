@@ -231,7 +231,7 @@ if ( 'POST' === $_SERVER['REQUEST_METHOD'] ) {
 </div>
 
 <div id="templateside">
-	<h2><?php _e( 'Plugin Files' ); ?></h2>
+	<h2 id="plugin-files-label"><?php _e( 'Plugin Files' ); ?></h2>
 
 	<?php
 	$plugin_editable_files = array();
@@ -241,12 +241,11 @@ if ( 'POST' === $_SERVER['REQUEST_METHOD'] ) {
 		}
 	}
 	?>
-	<ul>
-	<?php foreach ( $plugin_editable_files as $plugin_file ) : ?>
-		<li class="<?php echo esc_attr( $file === $plugin_file ? 'notice notice-info' : '' ); ?>">
-			<a href="plugin-editor.php?file=<?php echo urlencode( $plugin_file ); ?>&amp;plugin=<?php echo urlencode( $plugin ); ?>"><?php echo esc_html( preg_replace( '#^.+?/#', '', $plugin_file ) ); ?></a>
-		</li>
-	<?php endforeach; ?>
+	<ul role="tree" aria-labelledby="plugin-files-label">
+	<li role="treeitem" tabindex="-1" aria-expanded="true" aria-level="1" aria-posinset="1" aria-setsize="1">
+		<ul role="group">
+			<?php wp_print_plugin_file_tree( wp_make_plugin_file_tree( $plugin_editable_files ) ); ?>
+		</ul>
 	</ul>
 </div>
 <form name="template" id="template" action="plugin-editor.php" method="post">
@@ -283,15 +282,29 @@ if ( 'POST' === $_SERVER['REQUEST_METHOD'] ) {
 <?php
 $dismissed_pointers = explode( ',', (string) get_user_meta( get_current_user_id(), 'dismissed_wp_pointers', true ) );
 if ( ! in_array( 'plugin_editor_notice', $dismissed_pointers, true ) ) :
+	// Get a back URL
+	$referer = wp_get_referer();
+	$excluded_referer_basenames = array( 'plugin-editor.php', 'wp-login.php' );
+
+	if ( $referer && ! in_array( basename( parse_url( $referer, PHP_URL_PATH ) ), $excluded_referer_basenames, true ) ) {
+		$return_url = $referer;
+	} else {
+		$return_url = admin_url( '/' );
+	}
 ?>
-<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js">
+<div id="file-editor-warning" class="notification-dialog-wrap file-editor-warning hide-if-no-js hidden">
 	<div class="notification-dialog-background"></div>
-	<div class="notification-dialog" role="dialog" aria-labelledby="file-editor-warning-title" tabindex="0">
+	<div class="notification-dialog">
 		<div class="file-editor-warning-content">
-			<h1 id="file-editor-warning-title"><?php _e( 'Heads up!' ); ?></h1>
-			<p><?php _e( 'You appear to be making direct edits to your plugin in the WordPress dashboard. We recommend that you don&#8217;t! Editing plugins directly may introduce incompatibilities that break your theme or other plugins, and can leave you unable to log back in to WordPress and undo changes.' ); ?></p>
-			<p><?php _e( 'If you absolutely have to edit this plugin, create a copy with a new name and hang on to the original version, so you can re-enable a functional version if something goes wrong.' ); ?></p>
-			<p><button type="button" class="file-editor-warning-dismiss button-primary"><?php _e( 'I understand' ); ?></button></p>
+			<div class="file-editor-warning-message">
+				<h1><?php _e( 'Heads up!' ); ?></h1>
+				<p><?php _e( 'You appear to be making direct edits to your plugin in the WordPress dashboard. We recommend that you don&#8217;t! Editing plugins directly may introduce incompatibilities that break your site and your changes may be lost in future updates.' ); ?></p>
+				<p><?php _e( 'If you absolutely have to make direct edits to this plugin, use a file manager to create a copy with a new name and hang on to the original. That way, you can re-enable a functional version if something goes wrong.' ); ?></p>
+			</div>
+			<p>
+				<a class="button file-editor-warning-go-back" href="<?php echo esc_url( $return_url ); ?>"><?php _e( 'Go back' ); ?></a>
+				<button type="button" class="file-editor-warning-dismiss button button-primary"><?php _e( 'I understand' ); ?></button>
+			</p>
 		</div>
 	</div>
 </div>

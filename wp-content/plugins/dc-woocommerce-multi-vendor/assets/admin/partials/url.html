@@ -1,0 +1,25 @@
+<fieldset>
+    <legend class="screen-reader-text">Post Formats</legend>
+    <div class="wcmp-vendor-form-field-content">
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Label</label>
+            <input type="text" ng-model="field.label" class="wcmp-vendor-form-input-field" />
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Placeholder</label>
+            <input type="text" class="wcmp-vendor-form-input-field" ng-model="field.placeholder" />
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <input type="checkbox" class="wcmp-vendor-form-input-field" ng-model="field.required" ng-checked="field.required" />
+            <label> Required</label>
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <label>Custom CSS Classes</label>
+            <input type="text" class="wcmp-vendor-form-input-field" ng-model="field.cssClass" />
+        </div>
+        <div class="wcmp-vendor-form-input-field-container">
+            <a href="#" ng-click="removeFormField($index, $event)" class="wcmp-remove-form-field">Remove</a>
+        </div>
+
+    </div>
+</fieldset>

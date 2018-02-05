@@ -1,0 +1,9 @@
+.withdrawal_amount { color: #D15600; }
+
+.wcfm_filters_wrap {
+	margin-top: 7px !important;
+}
+
+table.dataTable.display tr td,table.dataTable.display tr th {
+	text-align: center;
+}

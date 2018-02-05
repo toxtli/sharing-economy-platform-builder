@@ -1,0 +1,178 @@
+/*
+ * Custom CSS specific to the Elementor Blank Template and theme agnostic.
+ */
+
+/* Anchor Menu */
+.anchor-menu {
+	background-color: #ffffff;
+	color: #29292a;
+}
+
+.anchor-menu a,
+.anchor-menu a:visited {
+	color: #29292a;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.anchor-menu a:hover,
+.anchor-menu a:focus {
+	color: rgba(255,255,255,0.7);
+}
+
+.elementor-widget-wp-widget-nav_menu {
+	clear: both;
+	display: block;
+	width: 100%;
+
+}
+
+.elementor-widget-wp-widget-nav_menu h5 {
+	width: 20%;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0.757em 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+.elementor-widget-wp-widget-nav_menu ul {
+	background-color: transparent;
+	display: none;
+	list-style: none;
+	padding: 0 1em;
+	margin: 0 auto;
+	max-width: 1080px;
+	width: 80%;
+	float: left;
+}
+
+@media screen and (min-width: 60em) {
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu .wrap,
+	.site-header-hidden.elementor-widget-wp-widget-nav_menu .wrap {
+		padding-bottom: 0.25em;
+		padding-top: 0.25em;
+	}
+
+	.anchor-menu {
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 3;
+		transition: transform 0.2s;
+	}
+
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu,
+	.site-header-hidden.elementor-widget-wp-widget-nav_menu {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 7;
+	}
+
+	.anchor-menu-fixed.anchor-menu,
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu {
+		-webkit-animation: header-down 0.2s ease-in;
+		animation: header-down 0.2s ease-in;
+		-webkit-transform: translate(0);
+		transform: translate(0);
+	}
+
+	.site-header-hidden.anchor-menu,
+	.site-header-hidden.elementor-widget-wp-widget-nav_menu {
+		-webkit-animation: header-up 0.5s ease-in;
+		animation: header-up 0.5s ease-in;
+		-webkit-transform: translate(-100%);
+		transform: translate(-100%);
+	}
+
+	.admin-bar .anchor-menu-fixed.anchor-menu,
+	.admin-bar .anchor-menu-fixed.elementor-widget-wp-widget-nav_menu {
+		top: 32px;
+	}
+
+	@-webkit-keyframes header-down {
+		from {
+			-webkit-transform: translate(0, -100%);
+		}
+
+		to {
+			-webkit-transform: translate(0);
+		}
+	}
+
+	@keyframes header-down {
+		from {
+			transform: translate(0, -100%);
+		}
+
+		to {
+			transform: translate(0);
+		}
+	}
+
+	@-webkit-keyframes header-up {
+		from {
+			-webkit-transform: translate(0);
+		}
+
+		to {
+			-webkit-transform: translate(0, -100%);
+		}
+	}
+
+	@keyframes header-up {
+		from {
+			transform: translate(0);
+		}
+
+		to {
+			transform: translate(0, -100%);
+		}
+	}
+
+	.elementor-widget-wp-widget-nav_menu {
+		width: 100%;
+	}
+
+	.elementor-widget-wp-widget-nav_menu ul {
+		display: block;
+		padding: 0.857em 0;
+	}
+
+	.elementor-widget-wp-widget-nav_menu li {
+		display: inline-block;
+		position: relative;
+	}
+
+	.elementor-widget-wp-widget-nav_menu li li {
+		display: block;
+	}
+
+	.elementor-widget-wp-widget-nav_menu a {
+		padding: 0.5em 1em;
+	}
+
+	.anchor-menu-fixed.anchor-menu .elementor-widget-wp-widget-nav_menu a {
+		padding-bottom: 0.75em;
+		padding-top: 0.75em;
+	}
+
+	.elementor-widget-wp-widget-nav_menu a:hover,
+	.elementor-widget-wp-widget-nav_menu a:focus {
+		color: #999;
+	}
+
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu h5 {
+		text-align: right;
+		margin-left: 3.5%;
+	}
+
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu ul {
+		float: left;
+		padding-right: 3.5%;
+	}
+
+}

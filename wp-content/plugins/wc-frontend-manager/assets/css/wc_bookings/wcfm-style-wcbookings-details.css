@@ -1,0 +1,43 @@
+#bookings_details_general_expander .form-field-wide label, #bookings_details_booking_expander .form-field-wide label {
+	width: 50%;
+	display: inline-block; 
+}
+
+#wcfm-main-contentainer #wcfm_modify_booking_status {
+	float: right;
+	margin-top: 2px;
+	margin-left: 10px;
+	
+	background: #1a1a1a none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em !important;
+	text-transform: uppercase;
+	
+	color: #ffffff !important;
+	float: none;
+	padding: 4px;
+}
+
+#wcfm-main-contentainer #wcfm_modify_booking_status:hover {
+	background: #00897b none repeat scroll 0 0;
+}
+
+.booking-orderno {
+	padding: 2px 4px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	line-height: 10px;
+	background-color: #4096EE;
+}
+
+.booking-orderno a {
+	color: #fff;
+	text-decoration: none;
+}

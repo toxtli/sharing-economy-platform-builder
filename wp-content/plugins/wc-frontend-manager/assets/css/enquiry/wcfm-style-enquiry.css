@@ -1,0 +1,16 @@
+.wcfm-collapse .wcfm-container { 
+  border-radius: 0px 0px 3px 3px;
+}
+
+.wcfm-enquiry-product {
+	font-weight: 500;
+	color: #D15600;
+}
+
+
+table.dataTable.display tr td:nth-child(5),
+table.dataTable.display tr td:nth-child(6),
+table.dataTable.display tr th:nth-child(5),
+table.dataTable.display tr th:nth-child(6) {
+	text-align: center;
+}

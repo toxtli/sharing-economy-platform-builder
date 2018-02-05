@@ -1,0 +1,60 @@
+div.wcfm-collapse-content h2, #wcfm_page_load .fa, .wcfm_header_panel a:hover, .wcfm_header_panel a.active, ul.wcfm_products_menus li a, ul.wcfm_listings_menus li a, .wcfm-container-box .wcfm-container .booking_dashboard_section_icon, .wcfm_bookings_gloabl_settings, .fields_collapser, .wcfm_gloabl_settings, .wcfm_screen_manager_dummy, .wcfm_screen_manager, .woocommerce-reports-wide .postbox div.stats_range ul li.active a, .wcfm_reports_menus li a, .sales_schedule, .woocommerce-exporter-wrapper .wc-progress-form-content .woocommerce-importer-done::before, .woocommerce-exporter-wrapper .woocommerce-exporter .woocommerce-importer-done::before, .woocommerce-exporter-wrapper .woocommerce-importer .woocommerce-importer-done::before, .woocommerce-importer-wrapper .wc-progress-form-content .woocommerce-importer-done::before, .woocommerce-importer-wrapper .woocommerce-exporter .woocommerce-importer-done::before, .woocommerce-importer-wrapper .woocommerce-importer .woocommerce-importer-done::before, .woocommerce-progress-form-wrapper .wc-progress-form-content .woocommerce-importer-done::before, .woocommerce-progress-form-wrapper .woocommerce-exporter .woocommerce-importer-done::before, .woocommerce-progress-form-wrapper .woocommerce-importer .woocommerce-importer-done::before, .woocommerce-exporter-wrapper .wc-progress-steps li.done, .woocommerce-importer-wrapper .wc-progress-steps li.done, .woocommerce-progress-form-wrapper .wc-progress-steps li.done, .woocommerce-exporter-wrapper .wc-progress-steps li.active, .woocommerce-importer-wrapper .wc-progress-steps li.active, ul.wcfm_orders_menus li a, ul.wcfm_bookings_menus li a, .wc_bookings_calendar_form .wc_bookings_calendar td .bookings ul li a strong, .wc_bookings_calendar_form .tablenav .views a, .wc_bookings_calendar_form .tablenav .date_selector a, ul.wcfm_appointments_menus li a, .wcfm-container-box .wcfm-container .appointment_dashboard_section_icon, .wcfm_appointment_gloabl_settings, .wc_appointments_calendar_form .wc_appointments_calendar td .appointments ul li a strong, .wc_appointments_calendar_form .calendar_wrapper ul li a strong, .wc_appointments_calendar_form .tablenav .views a, .wc_appointments_calendar_form .tablenav .date_selector a, .mapp-m-panel a, .woocommerce-reports-wide .postbox div.stats_range ul li.custom.active, .sub_checklist_toggler{ 
+	color: #00897b;
+}
+
+.woocommerce-exporter-wrapper .wc-progress-steps li.active::before, .woocommerce-importer-wrapper .wc-progress-steps li.active::before, .woocommerce-progress-form-wrapper .wc-progress-steps li.active::before, .woocommerce-exporter-wrapper .wc-progress-steps li.done::before, .woocommerce-importer-wrapper .wc-progress-steps li.done::before, .woocommerce-progress-form-wrapper .wc-progress-steps li.done::before,  .woocommerce-exporter-wrapper .wc-progress-steps li.done::before, .woocommerce-importer-wrapper .wc-progress-steps li.done::before, .woocommerce-progress-form-wrapper .wc-progress-steps li.done::before, .woocommerce-exporter-wrapper .wc-progress-steps li.done, .woocommerce-importer-wrapper .wc-progress-steps li.done, .woocommerce-progress-form-wrapper .wc-progress-steps li.done, .woocommerce-exporter-wrapper .wc-progress-steps li.active, .woocommerce-importer-wrapper .wc-progress-steps li.active, .wcfm_vacation_msg, a.add_new_wcfm_ele_dashboard:hover, a.wcfm_import_export:hover{ 
+	background-color: #00897b;
+}
+
+.woocommerce-reports-wide .button:hover, #mapp_e_search, #wcfm_quick_edit_button:hover, #wcfm_screen_manager_button:hover, .woocommerce-exporter-wrapper .wc-progress-steps li.done::before, .woocommerce-importer-wrapper .wc-progress-steps li.done::before, .woocommerce-progress-form-wrapper .wc-progress-steps li.done::before, .wcfm_admin_message .primary:hover, input.wcfm_submit_button:hover, .wcfm_add_attribute:hover, input.upload_button:hover, input.remove_button:hover, .multi_input_block_manupulate:hover{ 
+	background: #00897b;
+}
+
+.page_collapsible::before, input.wcfm_submit_button, .wcfm_add_attribute, input.upload_button, input.remove_button, a.add_new_wcfm_ele_dashboard, a.wcfm_import_export, #wcfm_menu .wcfm_menu_items a.wcfm_menu_item::before, .wcfm-page-headig::before, .wcfm_dashboard_welcome_content::before, .wcfm_dashboard_stats_block, .wcfm-container-box .wcfm-container, .wcfm-collapse .wcfm-container, .wcfm-tabWrap, .wcfm-action-icon{ 
+	border-bottom-color: #00897b;
+}
+
+.wcfm-collapse .wcfm-container, div.wcfm-content{ 
+	background: #ffffff;
+}
+
+.page_collapsible, .collapse-close{ 
+	background: #3d3d3d;
+}
+
+.page_collapsible, .collapse-close{ 
+	color: #ffffff;
+}
+
+.collapse-open{ 
+	background: #00897b;
+}
+
+.collapse-open{ 
+	color: #ffffff;
+}
+
+#wcfm_menu{ 
+	background: #000000;
+}
+
+#wcfm_menu .wcfm_menu_items a.wcfm_menu_item, #wcfm_menu span.wcfm_sub_menu_items{ 
+	background: #3d3d3d;
+}
+
+#wcfm_menu .wcfm_menu_item span, #wcfm_menu span.wcfm_sub_menu_items a{ 
+	color: #ffffff;
+}
+
+#wcfm_menu .wcfm_menu_items a.active{ 
+	background: #00897b;
+}
+
+#wcfm_menu .wcfm_menu_items a.active span{ 
+	color: #ffffff;
+}
+
+a.add_new_wcfm_ele_dashboard, a.wcfm_import_export, input.wcfm_submit_button, .wcfm_add_attribute, input.upload_button, input.remove_button{ 
+	background: #3d3d3d;
+}
+

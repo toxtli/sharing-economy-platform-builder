@@ -1,0 +1,36 @@
+.full
+{
+    width: 97% !important;
+    float: left;
+    margin-right: 3% !important;
+}
+.half
+{
+    width: 47% !important;
+    margin-right: 3% !important;
+    float: left;
+}
+.fme_additional_checkout_field
+{
+	width: 100%;
+}
+#ui-datepicker-div
+{
+	font-size: 12px !important;
+}
+.fme_radio
+{
+	float:left;
+	margin: 8px 13px !important;
+}
+.fme_checkbox
+{
+	float: left;
+	margin: 8px -16px !important;
+}
+.overlay-layer-wrap
+{
+	background: none !important;
+}
+
+.register .woocomerce-FormRow { clear: both }

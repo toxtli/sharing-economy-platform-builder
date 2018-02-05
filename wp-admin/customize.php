@@ -42,10 +42,34 @@ if ( $wp_customize->changeset_post_id() ) {
 		get_post_time( 'G', true, $changeset_post ) < time()
 	);
 	if ( $missed_schedule ) {
-		wp_publish_post( $changeset_post->ID );
+		/*
+		 * Note that an Ajax request spawns here instead of just calling `wp_publish_post( $changeset_post->ID )`.
+		 *
+		 * Because WP_Customize_Manager is not instantiated for customize.php with the `settings_previewed=false`
+		 * argument, settings cannot be reliably saved. Some logic short-circuits if the current value is the
+		 * same as the value being saved. This is particularly true for options via `update_option()`.
+		 *
+		 * By opening an Ajax request, this is avoided and the changeset is published. See #39221.
+		 */
+		$nonces = $wp_customize->get_nonces();
+		$request_args = array(
+			'nonce' => $nonces['save'],
+			'customize_changeset_uuid' => $wp_customize->changeset_uuid(),
+			'wp_customize' => 'on',
+			'customize_changeset_status' => 'publish',
+		);
+		ob_start();
+		?>
+		<?php wp_print_scripts( array( 'wp-util' ) ); ?>
+		<script>
+			wp.ajax.post( 'customize_save', <?php echo wp_json_encode( $request_args ); ?> );
+		</script>
+		<?php
+		$script = ob_get_clean();
+
 		wp_die(
 			'<h1>' . __( 'Your scheduled changes just published' ) . '</h1>' .
-			'<p><a href="' . esc_url( remove_query_arg( 'changeset_uuid' ) ) . '">' . __( 'Customize New Changes' ) . '</a></p>',
+			'<p><a href="' . esc_url( remove_query_arg( 'changeset_uuid' ) ) . '">' . __( 'Customize New Changes' ) . '</a></p>' . $script,
 			200
 		);
 	}
@@ -87,6 +111,7 @@ add_action( 'customize_controls_print_styles',         'print_admin_styles', 20 
  */
 do_action( 'customize_controls_init' );
 
+wp_enqueue_script( 'heartbeat' );
 wp_enqueue_script( 'customize-controls' );
 wp_enqueue_style( 'customize-controls' );
 
@@ -164,6 +189,12 @@ do_action( 'customize_controls_print_scripts' );
 			</a>
 		</div>
 
+		<div id="customize-sidebar-outer-content">
+			<div id="customize-outer-theme-controls">
+				<ul class="customize-outer-pane-parent"><?php // Outer panel and sections are not implemented, but its here as a placeholder to avoid any side-effect in api.Section. ?></ul>
+			</div>
+		</div>
+
 		<div id="widgets-right" class="wp-clearfix"><!-- For Widget Customizer, many widgets try to look for instances under div#widgets-right, so we have to add that ID to a container div in the Customizer for compat -->
 			<div id="customize-notifications-area" class="customize-control-notifications-container">
 				<ul></ul>
@@ -217,11 +248,6 @@ do_action( 'customize_controls_print_scripts' );
 		</div>
 	</form>
 	<div id="customize-preview" class="wp-full-overlay-main"></div>
-	<div id="customize-sidebar-outer-content">
-		<div id="customize-outer-theme-controls">
-			<ul class="customize-outer-pane-parent"><?php // Outer panel and sections are not implemented, but its here as a placeholder to avoid any side-effect in api.Section. ?></ul>
-		</div>
-	</div>
 	<?php
 
 	/**

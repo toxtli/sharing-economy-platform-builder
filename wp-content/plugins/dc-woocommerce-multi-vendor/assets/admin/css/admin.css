@@ -1,0 +1,207 @@
+#dualcube_menu_ico {
+    background: url("../../images/dclogo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#dc_admin_footer {
+    bottom: 45px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+#dc_admin_footer a {
+    text-decoration: none; 
+}
+
+#dc_admin_footer img {
+    border: none; 
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.required {
+    color: red; 
+}
+
+.img_tip {
+    background: url("../../images/question_mark.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    vertical-align: -1px;
+    width: 16px;
+    cursor: help;
+/*    margin-left: 5px;*/
+}
+
+.multi_input_block {
+    border: 1px solid #dfdfdf;
+    radius: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.multi_input_block_manupulate {
+    float: right;
+    margin: 2px !important;
+}
+
+#choose_vendor_ajax_chosen {
+    width : 90% !important;
+}
+
+#choose_vendor_ajax_chosen .chosen-results {
+    padding: 3px;
+    clear: both;
+}
+#vendor-label {
+    float: none;
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 52px;
+}
+/*.wcmp_vendors_settings .form-table th {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 10px 5px 30px;
+}*/
+/*.wcmp_vendors_settings .form-table {
+    background: #fff;
+    border: 1px solid rgb(231, 226, 226);
+    box-shadow: 1px 3px 0px #DBDBDB;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 0 #d2d2d2;
+}*/
+
+label[for=default_commission], label[for=commission_include_coupon], label[for=commission_type],label[for=sold_by_catalog], label[for=catalog_colorpicker], label[for=catalog_hover_colorpicker], label[for=block_vendor_desc], label[for=sold_by_cart_and_checkout], label[for=sold_by_text], label[for=give_shipping], label[for=give_tax] {
+    text-decoration: line-through;
+}
+
+#default_commission, #sold_by_texttt,  #commission_type, #commission_include_coupon, #sold_by_catalog, #catalog_colorpicker, #catalog_hover_colorpicker, #sold_by_cart_and_checkout, #sold_by_text, #block_vendor_desc, #give_shipping, #give_tax {
+    display:none;
+}
+
+/*.wcmp_vendors_settings input[type=checkbox], .wcmp_vendors_settings input[type=color], .wcmp_vendors_settings input[type=date], .wcmp_vendors_settings input[type=datetime-local], .wcmp_vendors_settings input[type=datetime], .wcmp_vendors_settings input[type=email], .wcmp_vendors_settings input[type=month], .wcmp_vendors_settings input[type=number],.wcmp_vendors_settings input[type=password], .wcmp_vendors_settings input[type=radio], .wcmp_vendors_settings input[type=search], .wcmp_vendors_settings input[type=tel], .wcmp_vendors_settings input[type=text], .wcmp_vendors_settings input[type=time], .wcmp_vendors_settings input[type=url], .wcmp_vendors_settings input[type=week], .wcmp_vendors_settings select, .wcmp_vendors_settings textarea {
+    border: 1px solid #838383 !important;
+}*/
+
+/*p.description {
+    font-style: normal;
+    font-size: 11.8px !important;
+}*/
+.wcmp_vendors_settings .form-table tbody tr td {
+    padding : 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wcmp_vendors_settings .form-table td p {
+    margin-bottom: 10px !important;
+}
+
+.wcmp_vendors_settings #to_do_list tbody tr td, .wcmp_vendors_settings #to_do_list tbody tr th {
+    padding-left : 10px;
+}
+
+.wcmp_vendors_settings #to_do_list tbody tr th {
+    background: rgb(216, 216, 216);
+}
+
+.wcmp_vendors_settings #to_do_list tbody tr {
+    border-bottom: 2px solid rgb(247, 245, 245)
+}
+.wcmp_vendors_settings #to_do_list {
+    border-radius: 5px;
+}
+
+span.vendor_bulk div.chosen-container {
+    width: 50% !important;
+}
+
+span.variable_commission_cls {
+    font-size: 15px;
+}
+.wcmpsubtabadmin {
+    margin: 8px 0 0 !important;
+}
+a.wcmp_sub_sction {
+    border-right: 1px solid #999 !important;
+    display: inline-block;
+    line-height: 14px;
+    padding: 0 8px;
+}
+.wcmpsubtabadmin li:last-child a.wcmp_sub_sction{ border-right: 0 none !important; } 
+
+.inline-edit-col span.inline-edit-categories-label:nth-of-type(2), .inline-edit-col ul.product_shipping_class-checklist {
+    display: none !important;
+}
+
+
+/*... One product multiple vendor ..............................................*/
+
+#wcmp_auto_suggest_product_title{
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+#wcmp_auto_suggest_product_title > ul {
+    border: 1px solid #aaa;
+    list-style: outside none none;
+    max-height: 140px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#wcmp_auto_suggest_product_title li a {
+    border-bottom: 1px solid #ddd;
+    color: #727272;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+}
+.wcmp_vendors_settings select{
+    width: 25em;
+}
+.wcmp_vendors_settings fieldset{
+    position: relative;
+    padding-left: 25px;   
+}
+.wcmp_vendors_settings fieldset .hint-container{
+    position: absolute;
+    left: 0;
+    margin: auto !important;
+    top: 5px;
+}
+@media screen and (max-width:782px){
+    .wcmp_vendors_settings fieldset .hint-container{
+        position: relative;
+        top: -5px;
+    }
+    .wcmp_vendors_settings fieldset{
+        padding-left: 0;
+    }
+}
+/* template selection */
+.wcmp_template_list {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+.wcmp_template_list .dashicons{
+    position: absolute;
+    background: #151715;
+    color: #fff;
+    line-height: 34px;
+    top: 0;
+    width: 35px;
+    right: 0;
+    height: 35px;
+}
+.wcmp_template_list input[type="radio"]:checked + .dashicons{ 
+    background: #0073aa;    
+}
+.wcmp_template_list input[type="radio"]:checked + .dashicons:before{ 
+    content: '\f160';  
+    
+}

@@ -1,0 +1,38 @@
+ul.wcfm_reports_menus {
+	list-style: none;
+	margin-left: 0px;
+	padding: 0;
+	font-size: 13px;
+	color: #666;
+	display: table-cell;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.wcfm_reports_menus li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.wcfm_reports_menus li a {
+	color: #00897b;
+	font-weight: 500;
+	-webkit-transition-property: border,background,color;
+	transition-property: border,background,color;
+	-webkit-transition-duration: .05s;
+	transition-duration: .05s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+.wcfm_reports_menus li a.active {
+	color: #666;
+}
+
+
+
+
+

@@ -1,0 +1,540 @@
+
+.w3eden .btn {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: 0 !important;
+}
+.w3eden .btn-lg {
+    padding: 14px 25px;
+    font-size: 14px;
+}
+.w3eden .btn-sm,
+.w3eden .btn-xs {
+    padding: 8px 10px;
+    font-size: 10px;
+    border-radius: 2px;
+}
+.w3eden .btn-xs {
+    border-radius: 1.5px;
+}
+.w3eden .btn-xs {
+    padding: 5px 8px;
+}
+.w3eden .btn {
+    border: 0;
+}
+.w3eden .btn-default,
+.w3eden .flat-default,
+.w3eden .flat-default.btn-bordered:hover {
+    background-color: #bdc3c7;
+    color: #ffffff;
+}
+.w3eden .btn-default:hover:not(.no-hover),
+.w3eden .flat-default:hover:not(.no-hover),
+.w3eden .flat-default.btn-bordered {
+    background-color: #cbd1d5;
+    color: #ffffff;
+}
+.w3eden .btn-default:active:not(.no-hover),
+.w3eden .flat-default:active:not(.no-hover),
+.w3eden .flat-default.btn-bordered {
+    background-color: #a5abaf;
+    color: #ffffff;
+}
+.w3eden .btn-primary,
+.w3eden .flat-primary,
+.w3eden .flat-primary.btn-bordered:hover {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+.w3eden .btn-primary:hover:not(.no-hover),
+.w3eden .flat-primary:hover:not(.no-hover),
+.w3eden .flat-primary.btn-bordered {
+    background-color: #1bcead;
+    color: #ffffff;
+}
+.w3eden .btn-primary:active:not(.no-hover),
+.w3eden .flat-primary:active:not(.no-hover),
+.w3eden .flat-primary.btn-bordered {
+    background-color: #1aa484;
+    color: #ffffff;
+}
+.w3eden .btn-success,
+.w3eden .flat-success,
+.w3eden .flat-success.btn-bordered:hover {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+.w3eden .btn-success:hover:not(.no-hover),
+.w3eden .flat-success:hover:not(.no-hover),
+.w3eden .flat-success.btn-bordered {
+    background-color: #33dd78;
+    color: #ffffff;
+}
+.w3eden .btn-success:active:not(.no-hover),
+.w3eden .flat-success:active:not(.no-hover),
+.w3eden .flat-success.btn-bordered {
+    background-color: #28ae5f;
+    color: #ffffff;
+}
+.w3eden .btn-info,
+.w3eden .flat-info,
+.w3eden .flat-info.btn-bordered:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+.w3eden .btn-info:hover:not(.no-hover),
+.w3eden .flat-info:hover:not(.no-hover),
+.w3eden .flat-info.btn-bordered {
+    background-color: #35adf5;
+    border-color: #35adf5;
+    color: #ffffff;
+}
+.w3eden .btn-info:active:not(.no-hover),
+.w3eden .flat-info:active:not(.no-hover),
+.w3eden .flat-info.btn-bordered {
+    background-color: #3386c7;
+    border-color: #3386c7;
+    color: #ffffff;
+}
+.w3eden .btn-warning,
+.w3eden .flat-warning,
+.w3eden .flat-warning.btn-bordered:hover {
+    background-color: #e67e22;
+    color: #ffffff;
+}
+.w3eden .btn-warning:hover:not(.no-hover),
+.w3eden .flat-warning:hover:not(.no-hover),
+.w3eden .flat-warning.btn-bordered {
+    background-color: #f18822;
+    color: #ffffff;
+}
+.w3eden .btn-warning:hover:not(.no-hover),
+.w3eden .flat-warning:hover:not(.no-hover),
+.w3eden .flat-warning.btn-bordered {
+    background-color: #d26a22;
+    color: #ffffff;
+}
+.w3eden .btn-danger,
+.w3eden .flat-danger,
+.w3eden .flat-danger.btn-bordered:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+.w3eden .btn-danger:hover:not(.no-hover),
+.w3eden .flat-danger:hover:not(.no-hover),
+.w3eden .flat-danger.btn-bordered {
+    background-color: #ff503e;
+    color: #ffffff;
+}
+.w3eden .btn-danger:active:not(.no-hover),
+.w3eden .flat-danger:active:not(.no-hover),
+.w3eden .flat-danger.btn-bordered {
+    background-color: #d54a3a;
+    color: #ffffff;
+}
+.w3eden .btn-inverse,
+.w3eden .flat-inverse,
+.w3eden .flat-inverse.btn-bordered:hover {
+    background-color: #34495e;
+    color: #ffffff !important;
+}
+.w3eden .btn-inverse:hover:not(.no-hover),
+.w3eden .flat-inverse:hover:not(.no-hover),
+.w3eden .flat-inverse.btn-bordered {
+    background-color: #435f75;
+    color: #ffffff !important;
+}
+.w3eden .btn-inverse:active,
+.w3eden .flat-inverse:active,
+.w3eden .flat-inverse.btn-bordered:hover {
+    background-color: #17222e;
+    color: #ffffff !important;
+}
+.w3eden .flat-color,
+.w3eden .flat-color.btn-bordered:hover {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+.w3eden .flat-color:hover:not(.no-hover),
+.w3eden .flat-color.btn-bordered {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+.w3eden .btn.no-hover:not(.flat-default) {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+.w3eden .btn.no-hover:hover:not(.flat-default) {
+    color: #ffffff !important;
+}
+
+.w3eden .form-group.has-success label {
+    color: #3C763D;
+}
+
+.w3eden .form-group.has-error label {
+    color: #A94442 !important;
+}
+
+.w3eden label.error {
+    font-weight: 300 !important;
+    font-size: 10px !important;
+}
+
+.w3eden .form-control {
+    box-shadow: none !important;
+    border-radius: 2px;
+}
+
+.w3eden .form-group label .note {
+    font-size: 8pt;
+    opacity: 0.6;
+    display: block;
+}
+
+.w3eden #formarea button#submit {
+    border-radius: 2px;
+}
+
+.w3eden .input-group-addon {
+    border-radius: 2px;
+}
+
+.w3eden #formarea .alert.alert-success:before {
+    display: none;
+}
+
+.w3eden #formarea .alert.alert-success {
+    background-color: rgba(46, 204, 113, 0.11) !important;
+    border: 1px solid #2ecc71 !important;
+    border-radius: 3px;
+    color: #15b458;
+    font-family: Montserrat;
+    font-size: 10pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 10px 15px !important;
+    max-width: 50%;
+}
+
+.w3eden #formarea .alert.alert-success .close {
+    color: #000;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: -3px;
+    opacity: 0.4;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #15b458;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #15b458;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #15b458;
+    }
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.nav.nav-wizard.liveforms-nav-wizard {
+    margin: 0;
+}
+
+#formarea .tab-content {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    background: transparent;
+}
+
+#formarea .btn {
+    -webkit-transition: ease-in-out 400ms;
+    -moz-transition: ease-in-out 400ms;
+    -ms-transition: ease-in-out 400ms;
+    -o-transition: ease-in-out 400ms;
+    transition: ease-in-out 400ms;
+}
+
+svg.cc {
+    display: block;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 1.5;
+    margin: 20px auto;
+    width: 25%;
+}
+
+svg.cc path {
+    fill: none;
+    stroke: #41bf39;
+}
+
+/*STROKES*/
+#wallet,
+#slot {
+    stroke-width: 10px;
+}
+
+#card1 path:nth-of-type(1),
+#card2 path:nth-of-type(1) {
+    stroke-width: 10px;
+    fill: #fff;
+}
+
+#card1 path:nth-of-type(2),
+#card1 path:nth-of-type(3),
+#card2 path:nth-of-type(2),
+#card2 path:nth-of-type(3) {
+    stroke-width: 5px
+}
+
+/*ANIMATION//////////////////////////////////////////*/
+#card1 {
+    -webkit-animation: mastercard 3s linear infinite;
+    -ms-animation: mastercard 3s linear infinite;
+    -moz-animation: mastercard 3s linear infinite;
+    -o-animation: mastercard 3s linear infinite;
+    animation: mastercard 3s linear infinite;
+}
+
+#card2 {
+    -webkit-animation: visa 3s linear infinite;
+    -ms-animation: visa 3s linear infinite;
+    -moz-animation: visa 3s linear infinite;
+    -o-animation: visa 3s linear infinite;
+    animation: visa 3s linear infinite;
+}
+
+/*SAFARI*/
+@-webkit-keyframes mastercard {
+    0%, 25% {
+        transform: translateY(0px);
+    }
+    40%, 70% {
+        transform: translateY(150px);
+    }
+    80%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes visa {
+    0%, 30% {
+        transform: translateY(0px);
+    }
+    45%, 70% {
+        transform: translateY(150px);
+    }
+    90%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+/*FIREFOX*/
+@-moz-keyframes visa {
+    0%, 30% {
+        transform: translateY(0px);
+    }
+    45%, 70% {
+        transform: translateY(150px);
+    }
+    90%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes mastercard {
+    0%, 25% {
+        transform: translateY(0px);
+    }
+    40%, 70% {
+        transform: translateY(150px);
+    }
+    80%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+/*EXPLORER*/
+@-ms-keyframes visa {
+    0%, 30% {
+        transform: translateY(0px);
+    }
+    45%, 70% {
+        transform: translateY(150px);
+    }
+    90%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+@-ms-keyframes mastercard {
+    0%, 25% {
+        transform: translateY(0px);
+    }
+    40%, 70% {
+        transform: translateY(150px);
+    }
+    80%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+/*OPERA*/
+@-o-keyframes visa {
+    0%, 30% {
+        transform: translateY(0px);
+    }
+    45%, 70% {
+        transform: translateY(150px);
+    }
+    90%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+@-o-keyframes mastercard {
+    0%, 25% {
+        transform: translateY(0px);
+    }
+    40%, 70% {
+        transform: translateY(150px);
+    }
+    80%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+/*GENERIC*/
+@keyframes visa {
+    0%, 30% {
+        transform: translateY(0px);
+    }
+    45%, 70% {
+        transform: translateY(150px);
+    }
+    90%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes mastercard {
+    0%, 25% {
+        transform: translateY(0px);
+    }
+    40%, 70% {
+        transform: translateY(150px);
+    }
+    80%, 100% {
+        transform: translateY(0px);
+    }
+}
+
+.w3eden select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #ffffff url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cG9seWdvbiBwb2ludHM9IjM5Ni42LDE2MCA0MTYsMTgwLjcgMjU2LDM1MiA5NiwxODAuNyAxMTUuMywxNjAgMjU2LDMxMC41ICIvPjwvc3ZnPg==") calc(100% - 10px) center no-repeat !important;
+    background-size: 16px !important;
+    padding-right: 10px !important;
+}
+.w3eden textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 40px;
+}
+.w3eden .form-control{
+    -webkit-transition: ease-in-out 400ms;
+    -moz-transition: ease-in-out 400ms;
+    -ms-transition: ease-in-out 400ms;
+    -o-transition: ease-in-out 400ms;
+    transition: ease-in-out 400ms;
+}
+.w3eden .form-control:focus {
+    border-color: #66afe9 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px rgba(102, 175, 233, 0.6) !important;
+    outline: 0 none;
+}
+.w3eden .fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.w3eden .fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.w3eden .fileUpload .btn {
+    font-weight: 400;
+    height: 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.w3eden .fileUpload .btn-default {
+    background-color: #77838b;
+    color: #ffffff;
+}

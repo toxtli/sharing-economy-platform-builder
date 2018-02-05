@@ -1,0 +1,106 @@
+.onoffswitch {
+	display: inline-block;
+	position: relative; width: 60px;
+	-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+#wcfm-main-contentainer input.onoffswitch-checkbox {
+	display: none !important;
+}
+.onoffswitch-label {
+	display: block; overflow: hidden; cursor: pointer;
+	border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch-inner {
+	display: block; width: 200%; margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+	display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+	font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+	box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+	content: "OFF";
+	padding-left: 10px;
+	background-color: #ff8761; color: #555555;
+}
+.onoffswitch-inner:after {
+	content: "ON";
+	padding-right: 10px;
+	background-color: #6dc7be; color: #FFFFFF;
+	text-align: right;
+}
+.onoffswitch-switch {
+	display: block; width: 14px; height: 16px; margin: 4px;
+	background: #FFFFFF;
+	position: absolute; top: 0; bottom: 0;
+	right: 36px;
+	border: 2px solid #999999; border-radius: 15px;
+	transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+	margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+	right: 0px; 
+}
+
+#wcfm-main-contentainer input[type='checkbox']+label, #wcfm-main-contentainer input[type='radio']+label {
+	display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.onoffswitch-radio {
+	display: block;
+	position: relative;
+	width: auto;
+	-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+	max-width: 250px;
+	margin: 20px 10px;
+	line-height: 1.8em;
+  font-size: 16px;
+}
+.onoffswitch-radio-checkbox {
+	display: none;
+}
+.onoffswitch-radio-label {
+	display: block; overflow: hidden; cursor: pointer;
+	border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch-radio-inner {
+	display: block; width: 200%; margin-left: 0;
+	transition: margin 0.3s ease-in 0s; padding-left: 32px; padding-right: 32px;
+}
+.onoffswitch-radio-switch {
+	display: block; width: 25px; margin: 4px;
+	background: #FFFFFF;
+	position: absolute; top: 0; bottom: 0;
+	left: 0px; right: auto; 
+	border: 2px solid #999999; border-radius: 15px;
+	transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-radio-checkbox:checked + .onoffswitch-radio-label .onoffswitch-radio-inner {
+	background: #6dc7be;
+	color: #fff;
+}
+.onoffswitch-radio-checkbox:checked + .onoffswitch-radio-label .onoffswitch-radio-switch {
+	right: 0px; 
+	left: auto;
+}

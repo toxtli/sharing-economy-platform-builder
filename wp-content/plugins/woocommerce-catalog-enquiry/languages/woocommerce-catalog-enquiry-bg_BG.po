@@ -1,0 +1,1018 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Catalog Enquiry\n"
+"POT-Creation-Date: 2018-01-15 04:51+0000\n"
+"PO-Revision-Date: 2018-01-15 04:55+0000\n"
+"Last-Translator: admin <khokan@dualcube.com>\n"
+"Language-Team: Bulgarian\n"
+"Language: bg-BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: /var/www/html/catalog_pro/wp-content/plugins/woocommerce-"
+"catalog-enquiry\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: "
+
+#: templates/emails/wc_catalog_enquiry_admin.php:99
+#: templates/emails/plain/wc_catalog_enquiry_admin.php:61
+#, php-format
+msgid "%s - Powered by WC Catalog Enquiry"
+msgstr "%s - Задвижвани от WC Каталог запитване"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:262
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:264
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:279
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:361
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:363
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:379
+msgid "Send an enquiry"
+msgstr "Изпратете запитване"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:292
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:395
+msgid "Enquiry about "
+msgstr "запитване за"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:303
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:406
+msgid "Enter your name : "
+msgstr "Въведете вашето име :"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:306
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:409
+msgid "Enter your Email Id : "
+msgstr "Въведете вашия e-mail:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:310
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:413
+msgid "Enter enquiry subject : "
+msgstr "Въведете повода на запитване:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:311
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:414
+msgid "Enquiry about"
+msgstr "запитване за"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:314
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:417
+msgid "Enter your phone no : "
+msgstr "Въведете вашия телефон:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:318
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:421
+msgid "Enter your address : "
+msgstr "Въведете вашия адрес:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:322
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:425
+msgid "Enter your Message : "
+msgstr "Въведете вашето съобщение:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:326
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:429
+msgid "Upload your File : "
+msgstr "Качете файла си:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:332
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:435
+msgid "Security Code"
+msgstr "Код за сигурност"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:333
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:436
+msgid "Enter the security code shown above"
+msgstr "Въведете кода за сигурност, показан по-горе:"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:342
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:446
+msgid "Send"
+msgstr "Изпрати"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:445
+msgid "Close"
+msgstr "Затвори"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:716
+msgid "Name is required field"
+msgstr "Името е задължително поле"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:717
+msgid "Email is required field"
+msgstr "E-mail адреса е задължително поле"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:718
+msgid "Please Enter Valid Email Id"
+msgstr "Моля,въведете валиден e-mail адрес"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:719
+msgid "Please enter the security code"
+msgstr "Моля, въведете кода за сигурност"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:720
+msgid "Please enter the valid seurity code"
+msgstr "Моля, въведете валидния код за защита"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:721
+msgid "Error in system please try later"
+msgstr "Грешка в системата опитайте по-късно"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:722
+msgid "Invalid file format."
+msgstr "Невалиден файлов формат."
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:723
+msgid "Exceeded filesize limit."
+msgstr "Превишен лимит на файла."
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:744
+msgid "Enquiry sent successfully"
+msgstr "Запитването е изпратено успешно"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:29
+msgid "Powered by"
+msgstr "Създадено"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:29
+msgid "WC Marketplace"
+msgstr "Пазаруване с WC"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:96
+msgid "Enter product external link"
+msgstr "Въведете външна връзка за продукта"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:97
+msgid "https://www.google.com"
+msgstr "https://www.google.com"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:28
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:46
+msgid "Woocommerce Catalog Enquiry Settings"
+msgstr "Настройки за запитване в каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:75
+msgid "Enable Exclusion List"
+msgstr "Активиране на списъка за изключване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:75
+msgid "Enable the exclusion list"
+msgstr "Активиране на списъка за изключване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:76
+msgid "User List Excluded from catalog"
+msgstr "Списък на потребителите изключени от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:76
+msgid "select the user who can puchase from website"
+msgstr "Изберете потребителя, който може да закупи от уебсайта"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:76
+msgid "select the user who can puchase from website."
+msgstr "Изберете потребителя, който може да закупи от уебсайта"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:77
+msgid "Product List Excluded from catalog"
+msgstr "Списъкът на продуктите изключени от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:78
+msgid "select the products will be excluted from catalog list"
+msgstr "Избраните продуктище бъдат изключени от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:78
+msgid "select the products will be excluted from catalog list."
+msgstr "Избраните продуктище бъдат изключени от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:78
+msgid "Category List Excluded from catalog"
+msgstr "Списъкът на категориите изключени от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:123
+msgid "Exclusion settings updated"
+msgstr "Настройките за изключване са актуализирани"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:136
+msgid "Configure the exclusion list"
+msgstr "Конфигурирайте списъка за изключване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:28
+msgid "WC Catalog Enquiry"
+msgstr "WC  Каталог Запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:35
+msgid "Woocommerce Catalog Enquiry General"
+msgstr "Woocommerce Каталог Запитване Общи"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:36
+msgid "Woocommerce Catalog Enquiry Exclusion Settings"
+msgstr "Woocommerce Настройки за изключения от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:37
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:41
+msgid "Woocommerce Catalog Enquiry Button Settings"
+msgstr "Woocommerce Каталог запитване настройка на бутоните"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:47
+msgid "Catalog Enable?"
+msgstr "Каталогът се активира?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:47
+msgid "Just Checked this checkbox for woocommerce catalog mode on"
+msgstr "Проверете това квадратче за включване режим каталог на woocommerce"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:47
+msgid "Check this for active the catalog functionality."
+msgstr "Проверете дали това е активна функционалността на каталога."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:48
+msgid "Load Wordpress JS Library?"
+msgstr "Заредете Wordpress JS Library?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:48
+msgid ""
+"Just Checked this checkbox for load Wordpress JS Library, if your theme has "
+"own JS lib then ingnore it"
+msgstr ""
+"Проверете това квадратче за зареждане на Wordpress JS Library, ако вашата "
+"тема има собствена JS lib след това да я инкорпорира"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:48
+msgid "Check this for load Wordpress js lib."
+msgstr "Проверете това за зареждане на Wordpress js lib"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:49
+msgid "Applicable For"
+msgstr "Приложимо за"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:49
+msgid "Method applicable for only secleted user group default all."
+msgstr ""
+"Метод, приложим само за избрана група потребители. Всички по подразбиране."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:49
+msgid "Select the user type where this catalog is applicable."
+msgstr "Изберете типа на потребителя, където е приложим този каталог."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:50
+msgid "Enquiry Top content"
+msgstr "Запитване Най-високо съдържание"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:50
+msgid "Put your content if you want to top of enquiry form"
+msgstr ""
+"Поставете съдържанието си, ако искате да сте в началото на формуляра за "
+"запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:51
+msgid "Enquiry Bottom content"
+msgstr "Запитване Съдържание в края"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:51
+msgid "Put your content if you want to bottom of enquiry form"
+msgstr ""
+"Поставете съдържанието си, ако искате да стигнете до дъното на формуляра за "
+"запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:52
+msgid "Product Enquiry Enable?"
+msgstr "Запитване за продукт?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:52
+msgid "Just Checked this checkbox for product page enquiry form enable"
+msgstr ""
+"Проверете това квадратче за активиране на формуляра за заявка за страница на "
+"продукт"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:52
+msgid "Check this for active the form functionality."
+msgstr "Проверете дали това е активно за функционалността на формуляра."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:53
+msgid "Enquiry Popup Backdrop Disable?"
+msgstr "Запитване за изскачащи прозорци Изключване?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:53
+msgid "Just Checked this checkbox if you want to disable popup backdrop"
+msgstr ""
+"Проверете това квадратче, ако искате да деактивирате изскачащия прозорец"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:53
+msgid "Check this for deactive the popup backdrop."
+msgstr "Проверете това за деактивиране на изскачащия фона."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:54
+msgid "Enquiry Popup Disable?"
+msgstr "Запитване за изскачащи прозорци забранена?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:54
+msgid ""
+"Just Checked this checkbox if you want to enquiry form in the same page "
+"below the short description"
+msgstr ""
+"Проверете това квадратче, ако искате да подадете заявка в същата страница "
+"под краткото описание"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:54
+msgid "Check this for deactive the popup."
+msgstr "Поставете отметка за това, че е неактивен изскачащ прозорец."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:55
+msgid "Override Form Heading?"
+msgstr "Замяна на заглавието на формуляра?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:55
+msgid ""
+"Just Checked this checkbox if you want to override dynamic heading with your "
+"static heading"
+msgstr ""
+"Проверете това квадратче, ако искате да замените динамичното заглавие със "
+"статичното заглавие"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:55
+msgid "Check this for override dynamic heading."
+msgstr "Поставете отметка за това, за да замените динамичната позиция"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:56
+msgid "Custom Form Heading"
+msgstr "Персонализирана форма на заглавието"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:56
+msgid "Please Enter your custom Heading insteed of dynamic form heading"
+msgstr "Моля, въведете своето заглавие вместо динамичния формуляр"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:57
+msgid "Remove Price?"
+msgstr "Премахване на цената?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:57
+msgid "Just Checked this checkbox for remove the price from catalog"
+msgstr "Само отметка в това квадратче за премахване на цената от каталога"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:57
+msgid "Check this for remove the price from product list."
+msgstr "Поставете отметка за премахване на цената от списъка с продукти."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:58
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:58
+msgid ""
+"Put your custom css in this box for product page there is no need to put the "
+"style Tag"
+msgstr ""
+"Поставете персонализирания си css в това поле за продуктова страница, без да "
+"е необходимо да поставяте маркера на стила"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:59
+msgid "Want a custom Button?"
+msgstr "Искате ли персонализиран бутон?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:59
+msgid ""
+"Do you want a custom Button at the Place of add to cart button then checked "
+"here"
+msgstr ""
+"Искате ли персонализиран бутон на мястото на добавяне в кошницата, след "
+"което проверете тук"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:59
+msgid "Check this if you want custom button at the place of add to cart."
+msgstr ""
+"Проверете това, ако искате персонализиран бутон на мястото на добавяне в "
+"кошницата."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:60
+msgid "Hide Cart Chackout Page?"
+msgstr "Скриване на Cart Chackout Page?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:60
+msgid ""
+"Do you want to redirect to home if any one click on the cart or checkout "
+"page link"
+msgstr ""
+"Искате ли да пренасочвате към Home, ако някой кликне върху връзката на "
+"карето или страницата за плащане"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:60
+msgid ""
+"Do you want to redirect to home page if any one click on the cart or "
+"checkout page link."
+msgstr ""
+"Искате ли да пренасочвате към началната страница, ако някой кликне върху "
+"връзката на кошницата или страницата за плащане."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:62
+msgid "Choose your button type"
+msgstr "Изберете типа на бутона"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:62
+msgid "Choose your preferred button type."
+msgstr "Изберете предпочитания от вас тип бутон."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:62
+msgid "By default Read More Button."
+msgstr "По подразбиране бутон \"Още\"."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:63
+msgid "Button Link"
+msgstr "линк на бутона"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:63
+msgid ""
+"Applicable only when you choose custom link for all products in button type"
+msgstr ""
+"Приложимо само при избиране на персонализирана връзка за всички продукти в "
+"тип бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:63
+msgid ""
+"Button link applicable only if you choose button type Custom Link For All "
+"Products "
+msgstr ""
+"Бутонната връзка е приложима само ако изберете тип бутон Персонализирана "
+"връзка за всички продукти"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:70
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:43
+msgid "Custom button label"
+msgstr "Етикет на персонализирания бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:70
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:43
+msgid "Give your custom button Text"
+msgstr "Дайте своя персонализиран Текст на бутона"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:71
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:44
+msgid "Choose Button Text Color"
+msgstr "Изберете цвят на текста на бутона"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:71
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:44
+msgid "Choose your button text color here."
+msgstr "Изберете тук цвета на текста на бутона."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:71
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:44
+msgid "This is button text color will be appear in the custom button ."
+msgstr "Това е цветът на бутона на бутона ще се появи в потребителския бутон."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:72
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:45
+msgid "Choose Button Background Color"
+msgstr "Изберете цвят на фона на бутоните"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:72
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:45
+msgid "Choose your button background color here."
+msgstr "Изберете цвета на фона на вашия бутон тук."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:72
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:45
+msgid "This is button background color will be appear in the custom button ."
+msgstr "Това е цветът на фона на бутона, ще се появи в бутона по избор."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:73
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:46
+msgid "Choose Button Text Color Hover"
+msgstr "Изберете цвят на текста на бутона"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:73
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:46
+msgid "Choose your button text color on hover here."
+msgstr "Изберете тук цвета на текста на бутона."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:73
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:46
+msgid ""
+"This is button text color on hover will be appear in the custom button ."
+msgstr "Това е цветът на текста на бутона, ще се появи в потребителския бутон."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:47
+msgid "Choose Button background Color Hover"
+msgstr "Изберете цвета на фона на вашия бутон "
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:47
+msgid "Choose your button background color on hover here."
+msgstr "Изберете цвета на фона на вашия бутон тук."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:47
+msgid ""
+"This is button background color on hover will be appear in the custom button "
+"."
+msgstr "Това е цветът на фона на бутона, ще се появи в бутона по избор."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:75
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:48
+msgid "Custom button Width"
+msgstr "Ширина на персонализирания бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:75
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:48
+msgid "Give your custom button Width in px"
+msgstr "Задаване ширина на бутона в px"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:76
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:49
+msgid "Custom button Height"
+msgstr "Персонализиран бутон височина"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:76
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:49
+msgid "Give your custom button Height"
+msgstr "Задайте височина на персонализирания бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:50
+msgid "Custom button Padding"
+msgstr "Персонализиран бутон подложка"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:50
+msgid "Give your custom button Padding"
+msgstr "Задайте подложката на персонализирания бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:78
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:51
+msgid "Custom button Border"
+msgstr "Бутон по избор рамка"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:78
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:51
+msgid "Give your custom button border size"
+msgstr "Задайте размер на рамката на персонализирания бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:79
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:52
+msgid "Custom button Font size"
+msgstr "Персонализиран бутон Размер на шрифта"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:79
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:52
+msgid "Give your custom button Font Size"
+msgstr "Задайте размер на шрифта на персонализирания бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:80
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:53
+msgid "Custom button border redius"
+msgstr "Радиус на рамката на потребителския бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:80
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:53
+msgid "Give your custom button border redius"
+msgstr "Задайте радиус на рамката на потребителския бутон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:81
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:54
+msgid "Choose Button Border Color"
+msgstr "Избор цвета на рамката на вашия бутон "
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:81
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:54
+msgid "Choose your button border color."
+msgstr "Изберете цвета на рамката на вашия бутон "
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:81
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:54
+msgid "This is button border color which will be appear in the custom button ."
+msgstr "Това е цветът на рамката на бутона ще се появи в потребителския бутон."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:82
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:55
+msgid "Custom button margin top"
+msgstr "Бутон по избор граница отгоре"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:82
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:55
+msgid "Give your custom button top margin"
+msgstr "Задайте Бутон по избор граница отгоре"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:83
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:56
+msgid "Custom button margin bottom"
+msgstr "Бутон по избор марж отдолу"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:83
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:56
+msgid "Give your custom button bottom margin"
+msgstr "Задайте Бутон по избор граница отдолу"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:87
+msgid "Captcha Enable ?"
+msgstr "Активиране на Captcha"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:87
+msgid "Do you want Captcha in for enquiry form."
+msgstr "Искате ли Captcha за формата за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:87
+msgid "Check this if you want captcha in the enquiry form."
+msgstr "Отметнете това ако искате Captcha във формуляра за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:88
+msgid "Subject Field Enable ?"
+msgstr "Поле на темата активирано?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:88
+msgid "Do you want Subject field in for enquiry form."
+msgstr "Искате ли Поле за тема във формата си за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:88
+msgid "Check this if you want subject field in the enquiry form."
+msgstr "Отметнете това ако искате поле за тема във формуляра за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:89
+msgid "Phone Field Enable ?"
+msgstr "Поле за телефон активирано?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:89
+msgid "Do you want Phone field in for enquiry form."
+msgstr "Искате ли Поле за телефон във формата си за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:89
+msgid "Check this if you want to Phone field in the enquiry form."
+msgstr "Отметнете това ако искате поле за телефон във формуляра за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:90
+msgid "Address Field Enable ?"
+msgstr "Поле за адрес активирано?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:90
+msgid "Do you want Address field in for enquiry form."
+msgstr "Искате ли Поле за адрес във формата си за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:90
+msgid "Check this if you want address field in the enquiry form."
+msgstr "Отметнете това ако искате поле за адрес във формуляра за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:91
+msgid "Comment Field Enable ?"
+msgstr "Поле за коментар активирано?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:91
+msgid "Do you want Comment field in for enquiry form."
+msgstr "Искате ли Поле за коментар във формата си за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:91
+msgid "Check this if you want comment field in the enquiry form."
+msgstr "Отметнете това ако искате поле за коментар във формуляра за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:92
+msgid "File Upload Field Enable ?"
+msgstr "Поле за качване на файл активирано?"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:92
+msgid "Do you want File Upload field in enquiry form."
+msgstr "Искате ли Поле за качване на файл във формата си за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:92
+msgid "Check this if you want file upload field in the enquiry form."
+msgstr ""
+"Отметнете това ако искате поле за качване на файл във формуляра за запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:93
+msgid "File Upload Size Limit"
+msgstr "Лимит за качване на файл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:93
+msgid "Enter File Upload size limit in MB."
+msgstr "Въведете Лимит за качване на файл в MB"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:93
+msgid "add maximum upload file size limit in MB."
+msgstr "Добавяне на ограничение за размера на максималното качване файла в MB."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:98
+msgid "Custom label for name"
+msgstr "Персонализиран етикет за име"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:98
+msgid "Given label will shown in the frontend form field in the place of Name."
+msgstr "Посоченият етикет ще се покаже в полето на формуляр на мястото на Име."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:98
+msgid "Enter custom label for Name."
+msgstr "Въведете персонализиран етикет за Име."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:99
+msgid "Custom label for email"
+msgstr "Персонализиран етикет за имейл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:99
+msgid ""
+"Given label will shown in the frontend form field in the place of Email."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляр на мястото на имейла."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:99
+msgid "Enter custom label for Email."
+msgstr "Въведете персонализиран етикет за имейл."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:100
+msgid "Custom label for subject"
+msgstr "Персонализиран етикет за тема"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:100
+msgid ""
+"Given label will shown in the frontend form field in the place of Subject."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляра  на мястото на Тема."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:100
+msgid "Enter custom label for Subject."
+msgstr "Въведете персонализиран етикет за тема."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:101
+msgid "Custom label for phone"
+msgstr "Персонализиран етикет за телефон"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:101
+msgid ""
+"Given label will shown in the frontend form field in the place of Phone."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляра на мястото на Телефон."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:101
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:102
+msgid "Enter custom label for Phone."
+msgstr "Въведете персонализиран етикет за \"Телефон\"."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:102
+msgid "Custom label for address"
+msgstr "Персонализиран етикет за адрес"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:102
+msgid ""
+"Given label will shown in the frontend form field in the place of Address."
+msgstr ""
+"Посоченият етикет ще се покаже в полето за формуляр за интерфейс вместо "
+"адреса."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:103
+msgid "Custom label for comment"
+msgstr "Персонализиран етикет за коментар"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:103
+msgid ""
+"Given label will shown in the frontend form field in the place of Comment."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляра за интерфейс на мястото "
+"на коментар."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:103
+msgid "Enter custom label for Comment."
+msgstr "Въведете персонализиран етикет за коментар."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:104
+msgid "Custom label for file upload"
+msgstr "Персонализиран етикет за качване на файл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:104
+msgid ""
+"Given label will shown in the frontend form field in the place of File "
+"Upload."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляра  на мястото на Качване "
+"на файл."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:104
+msgid "Enter custom label for File Upload."
+msgstr "Въведете Персонализиран етикет за качване на файл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:105
+msgid "Custom label for captcha"
+msgstr "Персонализиран етикет за captcha"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:105
+msgid ""
+"Given label will shown in the frontend form field in the place of Captcha."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляра  на мястото за Captcha."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:105
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:106
+msgid "Enter custom label for Captcha."
+msgstr "Въведете персонализиран етикет за Captcha."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:106
+msgid "Custom label for captcha Input"
+msgstr "Персонализиран етикет за captcha въвеждане"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:106
+msgid ""
+"Given label will shown in the frontend form field in the place of Captcha "
+"Input."
+msgstr ""
+"Посоченият етикет ще се покаже в полето на формуляр на мястото на captcha "
+"въвеждане."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:109
+msgid "Other Emails (commma seperated)"
+msgstr "Други имейли (разделени със запетая)"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:109
+msgid ""
+"Enter email address if you want to receive enquiry mail along with admin "
+"mail."
+msgstr ""
+"Въведете имейл адреса, ако искате да получите имейл за запитване заедно с "
+"администраторска поща."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:109
+msgid ""
+"if you add more than one email then you have to put comma seperated email id "
+"no space please."
+msgstr ""
+"Ако добавите повече от един имейл, тогава трябва да поставите отделен от "
+"запетая имейл адрес без място, моля."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:110
+msgid "Remove admin email"
+msgstr "Премахване на администраторския имейл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:110
+msgid "Do you want remove admin email from reciever list."
+msgstr ""
+"Искате ли да премахнете администраторския имейл от списъка с получатели."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:110
+msgid "Check this if you want to remove admin email from reciever list."
+msgstr ""
+"Поставете отметка, ако искате да премахнете адреса на администратора от "
+"списъка с получатели."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:111
+msgid "Enter mail id who get the email"
+msgstr "Въведете ID на поща, които да получават имейл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:111
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:111
+msgid "Enter mail id who get the email insteed of admin."
+msgstr "Въведете ID на поща, които да получават имейл"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:114
+msgid "Redirect to other page"
+msgstr "Пренасочи към друга страница"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:114
+msgid "Do you want to redirect to other page after enquiry successful."
+msgstr "Искате ли да се пренасочи към друга страница след успешно запитване ."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:114
+msgid ""
+"Check this if you want to redirect to other page after successful enquiry."
+msgstr ""
+"Отметнете това, ако искате да се пренасочи към други страници след успешно "
+"запитване."
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:115
+msgid "Select Redirect page"
+msgstr "Изберете страница за пренасочване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:115
+msgid "Select page where will be redirected after enquiry successful."
+msgstr "Изберете страница където ще бъдете препратени след успешно запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:115
+msgid "Select Redirection page."
+msgstr "Изберете страницата за пренасочване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:304
+msgid "General settings updated"
+msgstr "Общите настройки са актуализирани"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:317
+msgid "Enter your default settings below"
+msgstr "Въведете вашите настройки по подразбиране по-долу"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:325
+msgid "Configure your button layout settings below"
+msgstr "Конфигурирайте настройките за оформлението на бутоните по-долу"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:333
+msgid "Configure your enquiry form settings below"
+msgstr "Конфигуриране на настройките на формата за запитване по-долу"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:338
+msgid "Override the email settings for enquiry email reciever"
+msgstr "Преименуване на настройките за имейл адреса на приемника за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:343
+msgid "Redirect page settings."
+msgstr "Пренасочи към друга страница настройки"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:348
+msgid "Configure your enquiry form Labels"
+msgstr "Конфигуриране на етикетите на вашата форма за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:42
+msgid "Your own button style"
+msgstr "Изберете типа на бутона"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:42
+msgid "Enable the custom design for enquiry button"
+msgstr "Разрешаване на потребителски дизайн за бутона за запитване"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:161
+msgid "Enquiry Button settings updated"
+msgstr "бутон Запитване  настройки актуализирани"
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:174
+msgid "Configure the Enquiry Button"
+msgstr "Конфигуриране на бутона запитване"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:15
+#: templates/emails/plain/wc_catalog_enquiry_admin.php:14
+msgid "Dear Admin"
+msgstr "Уважаеми администратор"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:16
+#: templates/emails/plain/wc_catalog_enquiry_admin.php:15
+msgid "Please find the product enquiry, details are given below"
+msgstr "Запитване за продукт можете да намерите, подробности са дадени по-долу"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:22
+msgid "Product Details"
+msgstr "информация за продукта"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:26
+msgid "Product"
+msgstr "продукт"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:27
+msgid "Product Url"
+msgstr "URL адрес на продукта"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:29
+msgid "Product SKU"
+msgstr "Продукт SKU"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:61
+msgid "Customer Details"
+msgstr "Данни на клиента"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:63
+msgid "Name"
+msgstr "име"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:67
+msgid "Email"
+msgstr "електронна поща"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:72
+msgid "User Phone : "
+msgstr "Телефон на потребителя:"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:78
+msgid "User Address : "
+msgstr "Адрес на потребителя"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:84
+msgid "User Subject : "
+msgstr "Потребителско съобщение:"
+
+#: templates/emails/wc_catalog_enquiry_admin.php:90
+msgid "User Comments : "
+msgstr "Потребителски коментари:"
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:36
+msgid "WC Catalog Enquiry admin"
+msgstr "WC Каталог запитване admin"
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:37
+msgid "Admin will get an email when customer enquiry about a product"
+msgstr "Администраторът ще получи имейл при запитване на клиент за продукт"
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:91
+msgid "Product Enquiry for {PRODUCT_NAME} by {USER_NAME}"
+msgstr "Заявка за продукт за {PRODUCT_NAME} от {USER_NAME}"
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:101
+msgid "Enquiry for {PRODUCT_NAME}"
+msgstr "Запитване за {PRODUCT_NAME}"
+
+#. Name of the plugin
+msgid "WooCommerce Catalog Enquiry"
+msgstr "WooCommerce Каталог Запитване"
+
+#. Description of the plugin
+msgid "Convert your WooCommerce store into a catalog website in a click"
+msgstr ""
+"Преобразувайте своя магазин WooCommerce в каталонен сайт с едно кликване"
+
+#. Author URI of the plugin
+msgid "https://wc-marketplace.com/"
+msgstr "https://wc-marketplace.com/"
+
+#. Author of the plugin
+msgid "WC Marketplace, The Grey Parrots"
+msgstr "WC Marketplace, The Grey Parrots"

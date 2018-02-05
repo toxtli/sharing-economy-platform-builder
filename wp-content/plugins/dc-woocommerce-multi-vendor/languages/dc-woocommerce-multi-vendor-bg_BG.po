@@ -1,0 +1,4832 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dc-woocommerce-multi-vendor-bg_BG\n"
+"POT-Creation-Date: 2017-10-25 05:17+0000\n"
+"PO-Revision-Date: 2017-10-25 05:17+0000\n"
+"Last-Translator: admin <khokan@dualcube.com>\n"
+"Language-Team: Bulgarian\n"
+"Language: bg-BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Poedit-SearchPath-0: .."
+
+#: classes/class-wcmp-vendor-dashboard.php:71
+msgid "Something went wrong please try again later"
+msgstr ""
+
+#: classes/class-wcmp-vendor-dashboard.php:74
+#: classes/class-wcmp-post-commission.php:353
+#: classes/gateways/class-wcmp-gateway-paypal-masspay.php:56
+#: classes/gateways/class-wcmp-gateway-bank-transfer.php:36
+#: classes/gateways/class-wcmp-gateway-paypal-payout.php:64
+msgid "Invalid payment method"
+msgstr ""
+
+#: classes/class-wcmp-vendor-dashboard.php:77
+msgid "No payment method selected for withdrawal commission"
+msgstr ""
+
+#: classes/class-wcmp-vendor-dashboard.php:112
+#: templates/vendor-dashboard/vendor-transactions.php:53
+msgid "Commission IDs"
+msgstr ""
+
+#: classes/class-wcmp-ajax.php:1175
+msgid "No Vendor Matched!"
+msgstr ""
+
+#: classes/class-wcmp-post-commission.php:213
+#: classes/class-wcmp-post-commission.php:237
+msgid ")."
+msgstr ""
+
+#: classes/class-wcmp-post-commission.php:317
+msgid "Mark as Paid"
+msgstr ""
+
+#: classes/class-wcmp-post-commission.php:319
+msgid "Mark as Reverse"
+msgstr ""
+
+#: classes/class-wcmp-post-commission.php:356
+msgid "Please set payment method for this commission vendor"
+msgstr ""
+
+#: classes/class-wcmp-post-commission.php:479
+msgid "Mark paid"
+msgstr ""
+
+#: classes/class-wcmp-post-commission.php:480
+msgid "Export"
+msgstr ""
+
+#: classes/class-wcmp-email.php:31
+msgid "WCMp Footer text"
+msgstr ""
+
+#: classes/class-wcmp-email.php:32
+msgid "The text to appear in the footer of WCMp emails."
+msgstr ""
+
+#. %s: site name
+#: classes/class-wcmp-email.php:38
+#, php-format
+msgid "%s - Powered by WC Marketplace"
+msgstr ""
+
+#: classes/class-wcmp-post-transaction.php:181
+msgid "Gateway Fee"
+msgstr ""
+
+#: classes/class-wcmp-post-transaction.php:254
+msgid "Commission ID"
+msgstr ""
+
+#: admin/class-wcmp-settings.php:130 admin/class-wcmp-settings.php:132
+msgid "Setup wizard"
+msgstr ""
+
+#: admin/class-wcmp-settings.php:133
+msgid ""
+"If you need to access the setup wizard again, please click on the button "
+"below."
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:39
+msgid "Vendor Dashboard Color Scheme"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:41
+msgid "Background Color"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:41
+msgid "Choose your preferred dashboard background Color."
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:42
+msgid "Menu Background Color"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:42
+msgid "Choose your preferred dashboard menu Background Color."
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:43
+msgid "Menu Color"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:43
+msgid "Choose your preferred dashboard menu Color."
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:44
+msgid "Menu Hover Background Color"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:44
+msgid "Choose your preferred dashboard menu hover Background Color."
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:45
+msgid "Menu Hover Color"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:45
+msgid "Choose your preferred dashboard menu hover color."
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:49
+msgid "Vendor Shop"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:51
+msgid "Vendor Shop Template"
+msgstr ""
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:52
+msgid "Allow vendors to edit the shop template."
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:51
+msgid "Introduction"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:56
+msgid "Store Setup"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:61
+#: admin/class-wcmp-admin-setup-wizard.php:468
+msgid "Commission Setup"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:71
+#: admin/class-wcmp-admin-setup-wizard.php:625
+msgid "Capability"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:76
+msgid "Ready!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:89
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:90
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:91
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:92
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:93
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:94
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:95
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:96
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:97
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:98
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:134
+#: admin/class-wcmp-admin-setup-wizard.php:365
+msgid "WC Marketplace &rsaquo; Setup Wizard"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:193
+msgid "WC Marketplace requires WooCommerce plugin to be active!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:289
+#, php-format
+msgid ""
+"%1$s could not be installed (%2$s). <a href=\"%3$s\">Please install it "
+"manually by clicking here.</a>"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:309
+#, php-format
+msgid ""
+"%1$s was installed but could not be activated. <a href=\"%2$s\">Please "
+"activate it manually by clicking here.</a>"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:416
+msgid "Welcome to the WC Marketplace family!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:417
+msgid ""
+"Thank you for choosing WC Marketplace! This quick setup wizard will help you "
+"configure the basic settings and you will have your marketplace ready in no "
+"time. <strong>It’s completely optional and shouldn’t take longer than five "
+"minutes.</strong>"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:418
+msgid ""
+"If you don't want to go through the wizard right now, you can skip and "
+"return to the WordPress dashboard. Come back anytime if you change your mind!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:420
+msgid "Let's go!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:421
+msgid "Not right now"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:431
+msgid "Store setup"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:435
+msgid "Store URL"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:439
+msgctxt "slug"
+msgid ""
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:442
+msgid "/[this-text]/[seller-name])"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:454
+#: admin/class-wcmp-admin-setup-wizard.php:538
+#: admin/class-wcmp-admin-setup-wizard.php:611
+#: admin/class-wcmp-admin-setup-wizard.php:701
+msgid "Continue"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:455
+#: admin/class-wcmp-admin-setup-wizard.php:539
+#: admin/class-wcmp-admin-setup-wizard.php:612
+#: admin/class-wcmp-admin-setup-wizard.php:702
+msgid "Skip this step"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:583
+msgid "If checked, automatically vendors commission will disburse."
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:600
+msgid "Withdrawal Request"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:606
+msgid "Vendors can request for commission withdrawal."
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:655
+#: admin/class-wcmp-settings-capabilities-product.php:36
+msgid "Allow vendors to Edit published products."
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:716
+msgid "Yay! All done!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:718
+msgid ""
+"Your marketplace is ready. It's time to bring some sellers on your platform "
+"and start your journey. We wish you all the success for your business, you "
+"will be great!"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:722
+msgid "Next steps"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:724
+msgid "Create your vendor registration form"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:728
+msgid "Learn more"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:730
+msgid "Watch the tutorial videos"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:731
+msgid "Looking for help to get started"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:732
+msgid "Learn more about revenue models"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:915
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:926
+msgid "Pay via paypal masspay"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:931
+msgid "Pay via paypal payout"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:940
+msgid "Stripe Connect"
+msgstr ""
+
+#: admin/class-wcmp-admin-setup-wizard.php:946
+msgid "PayPal Adaptive"
+msgstr ""
+
+#: admin/class-wcmp-settings-payment-paypal_payout.php:45
+msgid "Enable Asynchronous Mode"
+msgstr ""
+
+#: admin/class-wcmp-settings-payment.php:40
+msgid "For "
+msgstr ""
+
+#: admin/class-wcmp-settings-payment.php:40
+msgid "Gateway Charge For "
+msgstr ""
+
+#: admin/class-wcmp-settings-payment.php:40
+msgid " (in percent)"
+msgstr ""
+
+#: admin/class-wcmp-settings-payment.php:68
+msgid "Payment Gateway Charge"
+msgstr ""
+
+#: admin/class-wcmp-settings-payment.php:68
+msgid ""
+"If checked, you can set payment gateway charge to vendor for commission "
+"disbursement. "
+msgstr ""
+
+#: admin/class-wcmp-settings-payment.php:197
+msgid ""
+"If you are not sure about how to setup commissions and payment options in "
+"your marketplace, kindly read this <a href='https://wc-marketplace."
+"com/knowledgebase/setting-up-commission-and-other-payments-for-wcmp/' "
+"terget='_blank'>article</a> before proceeding."
+msgstr ""
+
+#: templates/vendor-dashboard/vendor-billing.php:34
+msgid "Payment Method"
+msgstr ""
+
+#: templates/vendor-dashboard/shop-front.php:150
+msgid "Shop Template"
+msgstr ""
+
+#: templates/widget/vendor-list.php:17
+msgid "Search Vendor…"
+msgstr ""
+
+#: templates/shortcode/vendor_lists.php:67
+msgid "No vendor found!"
+msgstr ""
+
+#: classes/gateways/class-wcmp-gateway-paypal-masspay.php:43
+#: classes/gateways/class-wcmp-gateway-bank-transfer.php:26
+#: classes/gateways/class-wcmp-gateway-paypal-payout.php:51
+msgid "New transaction has been initiated"
+msgstr ""
+
+#: classes/gateways/class-wcmp-gateway-paypal-masspay.php:59
+msgid ""
+"Paypal masspay setting is not configured properly please contact site "
+"administrator"
+msgstr ""
+
+#: classes/gateways/class-wcmp-gateway-paypal-masspay.php:62
+#: classes/gateways/class-wcmp-gateway-paypal-payout.php:70
+msgid "Please update your paypal email to receive commission"
+msgstr ""
+
+#: classes/gateways/class-wcmp-gateway-paypal-payout.php:67
+msgid ""
+"Paypal payout setting is not configured properly please contact site "
+"administrator"
+msgstr ""
+
+#: classes/widgets/class-wcmp-widget-vendor-location.php:168
+#: classes/widgets/class-wcmp-widget-vendor-location.php:179
+msgid "Google Map API key"
+msgstr ""
+
+#: classes/widgets/class-wcmp-widget-vendor-location.php:181
+msgid "Click here to generate key"
+msgstr ""
+
+#: classes/emails/class-wcmp-email-vendor-new-order.php:31
+#: classes/emails/class-wcmp-email-vendor-new-order.php:48
+msgid "[{site_title}] New vendor order ({order_number}) - {order_date}"
+msgstr ""
+
+#: classes/emails/class-wcmp-email-vendor-new-order.php:58
+msgid "New vendor order"
+msgstr ""
+
+#: templates/vendor-dashboard/vendor-withdrawal/vendor-withdrawal-request.php:20
+#, php-format
+msgid "Withdrawal #%s details"
+msgstr ""
+
+#: dc_product_vendor.php:86
+msgid ""
+"WCMp plugin requires <a href=\"http://wordpress."
+"org/extend/plugins/woocommerce/\">WooCommerce</a> plugins to be active!"
+msgstr ""
+"WCMp Приставката изисква приставките <a href=\"http://wordpress."
+"org/extend/plugins/woocommerce/\"> WooCommerce </a> да бъдат активни!"
+
+#: includes/wcmp-core-functions.php:380 admin/class-wcmp-settings.php:73
+#: admin/class-wcmp-settings.php:73
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-wcmp-install.php:113
+msgctxt "page_slug"
+msgid "wcmp"
+msgstr "wcmp"
+
+#: includes/class-wcmp-install.php:113
+#: admin/class-wcmp-settings-vendor-general.php:40
+#: admin/class-wcmp-settings.php:182
+msgid "Vendor Dashboard"
+msgstr "Работна област на търговеца"
+
+#: includes/class-wcmp-install.php:114
+msgctxt "page_slug"
+msgid "wcmp_vendor_registration"
+msgstr "wcmp_търговец_регистрация"
+
+#: includes/class-wcmp-install.php:114
+#: admin/class-wcmp-settings-vendor-general.php:41
+#: admin/class-wcmp-settings.php:181 admin/class-wcmp-settings-general.php:34
+msgid "Vendor Registration"
+msgstr "Регистрация на търговец"
+
+#: includes/class-wcmp-install.php:341
+msgid "Pending Vendor"
+msgstr "Изчакващ търговец"
+
+#: includes/class-wcmp-install.php:347
+msgid "Rejected Vendor"
+msgstr "Отхвърлен търговец"
+
+#: includes/class-wcmp-install.php:353 classes/class-wcmp-report.php:91
+#: classes/class-wcmp-post-commission.php:384
+#: classes/class-wcmp-taxonomy.php:36 classes/class-wcmp-taxonomy.php:37
+#: classes/class-wcmp-product.php:556 classes/class-wcmp-product.php:719
+#: classes/class-wcmp-product.php:746 classes/class-wcmp-product.php:1188
+#: admin/class-wcmp-settings.php:150
+#: admin/class-wcmp-settings-to_do_list.php:160
+#: templates/single-product/multiple_vendors_products.php:27
+msgid "Vendor"
+msgstr "Търговец"
+
+#: templates/customer_support_details_to_buyer.php:34
+#: templates/vendor_message_to_buyer.php:27
+msgid "Vendor Details"
+msgstr "Детайли за търговец"
+
+#: templates/customer_support_details_to_buyer.php:40
+#: templates/vendor_message_to_buyer.php:33
+#: classes/class-wcmp-vendor-dashboard.php:204
+#: admin/class-wcmp-settings-to_do_list.php:80
+#: admin/class-wcmp-settings-to_do_list.php:119
+msgid "Vendor Name"
+msgstr "Име на търговеца"
+
+#: templates/customer_support_details_to_buyer.php:42
+#: templates/vendor_message_to_buyer.php:35
+#: admin/class-wcmp-settings-to_do_list.php:120
+#: templates/vendor-dashboard/dashboard/vendor-dasboard-pending-shipping-items-header.php:16
+msgid "Product Name"
+msgstr "Име на продукта"
+
+#: templates/customer_support_details_to_buyer.php:45
+#: templates/customer_support_details_to_buyer.php:81
+#: templates/vendor_message_to_buyer.php:41
+#: templates/vendor_message_to_buyer.php:61
+#: templates/vendor-dashboard/vendor-policy.php:40
+msgid "Customer Support Details"
+msgstr "Детайли за поддръжка на клиенти"
+
+#: templates/customer_support_details_to_buyer.php:47
+#: templates/customer_support_details_to_buyer.php:83
+#: templates/vendor_message_to_buyer.php:43
+#: templates/vendor_message_to_buyer.php:63 classes/class-wcmp-email.php:114
+#: classes/class-wcmp-email.php:181
+msgid "Email : "
+msgstr "Email:"
+
+#: templates/customer_support_details_to_buyer.php:52
+#: templates/customer_support_details_to_buyer.php:88
+#: templates/vendor_message_to_buyer.php:48
+#: templates/vendor_message_to_buyer.php:68 classes/class-wcmp-email.php:121
+#: classes/class-wcmp-email.php:191
+msgid "Phone : "
+msgstr "Телефон"
+
+#: templates/customer_support_details_to_buyer.php:55
+#: templates/customer_support_details_to_buyer.php:91
+#: templates/vendor_message_to_buyer.php:51
+#: templates/vendor_message_to_buyer.php:71
+msgid "Return Address "
+msgstr "Нашия обратен адрес:"
+
+#: templates/customer_support_details_to_buyer.php:76
+msgid "Customer Support Details & Product Return Address"
+msgstr "Данни за поддръжка на клиенти и адрес за връщане на продукти"
+
+#: templates/policies_tab.php:24 classes/class-wcmp-user.php:607
+#: templates/vendor-dashboard/vendor-policy.php:28
+msgid "Cancellation/Return/Exchange Policy"
+msgstr "Правила за анулиране / връщане / замяна"
+
+#: templates/policies_tab.php:25 classes/class-wcmp-user.php:615
+#: admin/class-wcmp-settings-general-policies.php:50
+#: templates/vendor-dashboard/vendor-policy.php:32
+msgid "Refund Policy"
+msgstr "Условия за връщане"
+
+#: templates/policies_tab.php:26 classes/class-wcmp-user.php:623
+#: admin/class-wcmp-settings-general-policies.php:40
+#: templates/vendor-dashboard/vendor-policy.php:36
+msgid "Shipping Policy"
+msgstr "Условия на доставка"
+
+#: templates/vendor_message_to_buyer.php:28 templates/widget/quick-info.php:32
+msgid "Message"
+msgstr "Съобщение"
+
+#: templates/vendor_tab.php:36 templates/widget/vendor-info.php:28
+#: templates/widget/vendor-info.php:29
+#, php-format
+msgid "More Products from %1$s"
+msgstr "Още продукти от %1$s"
+
+#: templates/wcmp-vendor-review-form.php:44
+msgid "Your Rating"
+msgstr "Вашата оценка"
+
+#: templates/wcmp-vendor-review-form.php:46
+msgid "Rate..."
+msgstr "Оценка..."
+
+#: templates/wcmp-vendor-review-form.php:47
+msgid "Perfect"
+msgstr "Перфектно"
+
+#: templates/wcmp-vendor-review-form.php:48
+msgid "Good"
+msgstr "Добро"
+
+#: templates/wcmp-vendor-review-form.php:49
+msgid "Average"
+msgstr "Средна"
+
+#: templates/wcmp-vendor-review-form.php:50
+msgid "Not that bad"
+msgstr "Не е толкова лошо"
+
+#: templates/wcmp-vendor-review-form.php:51
+msgid "Very Poor"
+msgstr "Много лошо"
+
+#: templates/wcmp-vendor-review-form.php:54
+msgid "Your Review"
+msgstr "Вашият отзив"
+
+#: templates/wcmp-vendor-review-form.php:77
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s Отзив за %s"
+msgstr[1] "%s Отзиви за %s"
+
+#: templates/wcmp-vendor-review-form.php:97
+msgid "There are no reviews yet."
+msgstr "Все още няма отзиви"
+
+#: templates/archive_vendor_info.php:47
+msgid "External Store URL"
+msgstr "URL адрес на външния магазин"
+
+#: templates/archive_vendor_info.php:86 classes/class-wcmp-user.php:314
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:173
+msgid "Description"
+msgstr "Описание"
+
+#: classes/class-wcmp-post-university.php:30
+msgctxt "post type general name"
+msgid "Knowledgebase"
+msgstr "Знание"
+
+#: classes/class-wcmp-post-university.php:31
+msgctxt "post type singular name"
+msgid "Knowledgebase"
+msgstr "Знание"
+
+#: classes/class-wcmp-post-university.php:32
+#: classes/class-wcmp-post-notices.php:71
+#: classes/class-wcmp-post-commission.php:58
+#: classes/class-wcmp-post-transaction.php:37
+#: classes/class-wcmp-post-vendorapplication.php:38
+msgid "Add New"
+msgstr "Добави нов"
+
+#: classes/class-wcmp-post-university.php:33
+#: classes/class-wcmp-post-notices.php:72
+#: classes/class-wcmp-post-commission.php:59
+#: classes/class-wcmp-post-transaction.php:38
+#: classes/class-wcmp-post-vendorapplication.php:39
+#, php-format
+msgid "Add New %s"
+msgstr "Добавяне на нов %s"
+
+#: classes/class-wcmp-post-university.php:33
+#: classes/class-wcmp-post-university.php:34
+#: classes/class-wcmp-post-university.php:35
+#: classes/class-wcmp-post-university.php:36
+#: classes/class-wcmp-post-university.php:37
+#: classes/class-wcmp-post-university.php:38
+#: classes/class-wcmp-post-university.php:39
+#: classes/class-wcmp-post-university.php:40
+#: classes/class-wcmp-post-university.php:42
+#: classes/class-wcmp-post-university.php:43
+#: classes/class-wcmp-vendor-hooks.php:171
+#: classes/class-wcmp-vendor-hooks.php:627 admin/class-wcmp-settings.php:124
+msgid "Knowledgebase"
+msgstr "Знание"
+
+#: classes/class-wcmp-post-university.php:34
+#: classes/class-wcmp-post-notices.php:73
+#: classes/class-wcmp-post-commission.php:60
+#: classes/class-wcmp-post-transaction.php:39
+#, php-format
+msgid "Edit %s"
+msgstr "редактиране %s"
+
+#: classes/class-wcmp-post-university.php:35
+#: classes/class-wcmp-post-notices.php:74
+#: classes/class-wcmp-post-commission.php:61
+#: classes/class-wcmp-post-transaction.php:40
+#: classes/class-wcmp-post-vendorapplication.php:41
+#, php-format
+msgid "New %s"
+msgstr "Нов %s"
+
+#: classes/class-wcmp-post-university.php:36
+#: classes/class-wcmp-post-notices.php:75
+#: classes/class-wcmp-post-commission.php:62
+#: classes/class-wcmp-post-transaction.php:41
+#: classes/class-wcmp-post-vendorapplication.php:42
+#, php-format
+msgid "All %s"
+msgstr "Всички %s"
+
+#: classes/class-wcmp-post-university.php:37
+#: classes/class-wcmp-post-notices.php:76
+#: classes/class-wcmp-post-commission.php:63
+#: classes/class-wcmp-post-transaction.php:42
+#: classes/class-wcmp-post-vendorapplication.php:40
+#: classes/class-wcmp-post-vendorapplication.php:43
+#, php-format
+msgid "View %s"
+msgstr "Изглед %s"
+
+#: classes/class-wcmp-post-university.php:38
+#: classes/class-wcmp-post-notices.php:77
+#: classes/class-wcmp-post-commission.php:64
+#: classes/class-wcmp-post-transaction.php:43
+#: classes/class-wcmp-post-vendorapplication.php:44
+msgid "Search %a"
+msgstr "Търсене %a"
+
+#: classes/class-wcmp-post-university.php:39
+#: classes/class-wcmp-post-notices.php:78
+#: classes/class-wcmp-post-commission.php:65
+#: classes/class-wcmp-post-transaction.php:44
+#: classes/class-wcmp-post-vendorapplication.php:45
+#, php-format
+msgid "No %s found"
+msgstr " %s не е намерен"
+
+#: classes/class-wcmp-post-university.php:40
+#: classes/class-wcmp-post-notices.php:79
+#: classes/class-wcmp-post-commission.php:66
+#: classes/class-wcmp-post-vendorapplication.php:46
+#, php-format
+msgid "No %s found in trash"
+msgstr " %s не е намерено в кошчето"
+
+#: classes/class-wcmp-report.php:82 admin/class-wcmp-settings.php:64
+#: admin/class-wcmp-settings.php:65
+msgid "WCMp"
+msgstr "WCMp"
+
+#: classes/class-wcmp-report.php:85 classes/class-wcmp-vendor-hooks.php:127
+#: classes/class-wcmp-vendor-hooks.php:603
+msgid "Overview"
+msgstr "Преглед"
+
+#: classes/class-wcmp-report.php:97 classes/class-wcmp-post-commission.php:383
+#: admin/class-wcmp-settings.php:189 templates/emails/vendor-new-order.php:23
+#: templates/emails/vendor-notify-shipped.php:28
+#: templates/emails/new-product.php:17
+msgid "Product"
+msgstr "продукт"
+
+#: classes/class-wcmp-post-notices.php:29
+msgid "Addtional Fields"
+msgstr "Допълнителни полета"
+
+#: classes/class-wcmp-post-notices.php:69
+msgctxt "post type general name"
+msgid "Announcements"
+msgstr "Съобщения"
+
+#: classes/class-wcmp-post-notices.php:70
+msgctxt "post type singular name"
+msgid "Announcements"
+msgstr "Съобщения"
+
+#: classes/class-wcmp-post-notices.php:72
+#: classes/class-wcmp-post-notices.php:73
+#: classes/class-wcmp-post-notices.php:74
+#: classes/class-wcmp-post-notices.php:75
+#: classes/class-wcmp-post-notices.php:76
+#: classes/class-wcmp-post-notices.php:77
+#: classes/class-wcmp-post-notices.php:78
+#: classes/class-wcmp-post-notices.php:79
+#: classes/class-wcmp-post-notices.php:81
+#: classes/class-wcmp-post-notices.php:82
+#: classes/class-wcmp-vendor-hooks.php:632
+#: templates/vendor-dashboard/navigation.php:33
+msgid "Announcements"
+msgstr "Съобщение"
+
+#: classes/class-wcmp-seller-review-rating.php:97
+msgid "Vendor Rating"
+msgstr "Рейтинг на търговеца"
+
+#: classes/class-wcmp-seller-review-rating.php:115
+#: classes/class-wcmp-seller-review-rating.php:117
+msgid "Vendor Name."
+msgstr "Име на търговеца"
+
+#: classes/class-wcmp-seller-review-rating.php:141
+msgid "Vendor Rating."
+msgstr "Рейтинг на търговеца"
+
+#: classes/class-wcmp-seller-review-rating.php:143
+msgid "Vendor Rating Star."
+msgstr "Рейтинг на търговеца звезди"
+
+#: classes/class-wcmp-seller-review-rating.php:144
+msgid "Please Select"
+msgstr "Моля изберете"
+
+#: classes/class-wcmp-seller-review-rating.php:144
+msgid "1 Star"
+msgstr "1 Звезда"
+
+#: classes/class-wcmp-seller-review-rating.php:144
+msgid "2 Star"
+msgstr "2 Звезди"
+
+#: classes/class-wcmp-seller-review-rating.php:144
+msgid "3 Star"
+msgstr "3 Звезди"
+
+#: classes/class-wcmp-seller-review-rating.php:144
+msgid "4 Star"
+msgstr "4 Звезди"
+
+#: classes/class-wcmp-seller-review-rating.php:144
+msgid "5 Star"
+msgstr "5 Звезди"
+
+#: classes/class-wcmp-vendor-hooks.php:41
+#: classes/class-wcmp-vendor-hooks.php:637
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: classes/class-wcmp-vendor-hooks.php:50
+msgid "Store Settings"
+msgstr "Настройки за магазина"
+
+#: classes/class-wcmp-vendor-hooks.php:56 classes/class-wcmp-endpoints.php:38
+#: admin/class-wcmp-settings-vendor-general.php:48
+msgid "Shop Front"
+msgstr " Витрина"
+
+#: classes/class-wcmp-vendor-hooks.php:63
+#: classes/class-wcmp-vendor-hooks.php:579 classes/class-wcmp-product.php:842
+#: classes/class-wcmp-product.php:1224 admin/class-wcmp-settings.php:163
+msgid "Policies"
+msgstr "Условия"
+
+#: classes/class-wcmp-vendor-hooks.php:70
+#: classes/class-wcmp-vendor-hooks.php:587
+msgid "Billing"
+msgstr "Фактуриране"
+
+#: classes/class-wcmp-vendor-hooks.php:77
+#: classes/class-wcmp-vendor-hooks.php:595
+#: classes/class-wcmp-vendor-dashboard.php:216
+#: classes/class-wcmp-vendor-dashboard.php:386
+#: classes/class-wcmp-vendor-dashboard.php:386
+#: classes/class-wcmp-vendor-dashboard.php:414
+#: admin/class-wcmp-settings-payment.php:61
+#: admin/class-wcmp-settings-capabilities-product.php:46
+msgid "Shipping"
+msgstr "Доставка"
+
+#: classes/class-wcmp-vendor-hooks.php:88
+msgid "Product Manager"
+msgstr "Продуктов мениджър"
+
+#: classes/class-wcmp-vendor-hooks.php:97
+msgid "Promote"
+msgstr "Промоция"
+
+#: classes/class-wcmp-vendor-hooks.php:103
+msgid "Add Coupon"
+msgstr "Добавете купон"
+
+#: classes/class-wcmp-vendor-hooks.php:110
+#: templates/shortcode/vendor_coupon.php:17
+msgid "Coupons"
+msgstr "купон"
+
+#: classes/class-wcmp-vendor-hooks.php:121
+msgid "Stats / Reports"
+msgstr "Статистики / Отчети"
+
+#: classes/class-wcmp-vendor-hooks.php:138
+#: classes/class-wcmp-vendor-dashboard.php:380
+#: classes/class-wcmp-vendor-dashboard.php:380
+#: classes/class-wcmp-vendor-dashboard.php:543
+msgid "Orders"
+msgstr "поръчки"
+
+#: classes/class-wcmp-vendor-hooks.php:147
+#: classes/class-wcmp-vendor-hooks.php:613
+#: classes/class-wcmp-vendor-hooks.php:620
+#: admin/class-wcmp-admin-setup-wizard.php:66
+#: admin/class-wcmp-admin-setup-wizard.php:553
+msgid "Payments"
+msgstr "Плащания"
+
+#: classes/class-wcmp-vendor-hooks.php:153
+msgid "Withdrawal"
+msgstr "Отстъпка"
+
+#: classes/class-wcmp-vendor-hooks.php:160
+#: classes/class-wcmp-vendor-hooks.php:622
+msgid "History"
+msgstr "История "
+
+#: classes/class-wcmp-vendor-hooks.php:180
+msgid "Sign out"
+msgstr "Отписване"
+
+#: classes/class-wcmp-vendor-hooks.php:299
+msgid "Sorry you are not authorized for this pages. Please contact with admin."
+msgstr ""
+"За съжаление не сте упълномощени за тези страници. Моля, свържете се с "
+"администратора."
+
+#: classes/class-wcmp-vendor-hooks.php:342
+msgid "Order is marked as shipped."
+msgstr "Поръчката е маркирана като изпратена."
+
+#: classes/class-wcmp-vendor-hooks.php:496
+msgid "All Options Saved"
+msgstr "Всички опции са запазени"
+
+#: classes/class-wcmp-vendor-hooks.php:569
+#: classes/class-wcmp-vendor-hooks.php:577
+#: classes/class-wcmp-vendor-hooks.php:585
+#: classes/class-wcmp-vendor-hooks.php:593
+msgid "Store Settings "
+msgstr "Настройки за магазина"
+
+#: classes/class-wcmp-vendor-hooks.php:571
+msgid "Store Front"
+msgstr "Store Front"
+
+#: classes/class-wcmp-vendor-hooks.php:573
+#: classes/class-wcmp-vendor-hooks.php:581
+#: classes/class-wcmp-vendor-hooks.php:589
+#: classes/class-wcmp-vendor-hooks.php:597
+#: admin/class-wcmp-settings-to_do_list.php:35
+#: admin/class-wcmp-settings-to_do_list.php:82
+#: admin/class-wcmp-settings-to_do_list.php:121
+msgid "Edit"
+msgstr "Редактиране"
+
+#: classes/class-wcmp-vendor-hooks.php:601
+msgid "Stats & Reports"
+msgstr "Статистики и Отчети"
+
+#: classes/class-wcmp-vendor-hooks.php:608
+msgid "Order &amp; Shipping"
+msgstr "Поръчки & amp; Доставка"
+
+#: classes/class-wcmp-vendor-hooks.php:615
+msgid "Withdrawals"
+msgstr "Отстъпки(Withdrawals)"
+
+#: classes/class-wcmp-vendor-dashboard.php:110
+#: classes/class-wcmp-vendor-order-page.php:85 classes/class-wcmp-admin.php:114
+#: templates/vendor-dashboard/vendor-orders.php:69
+#: templates/vendor-dashboard/vendor-orders.php:123
+#: templates/vendor-dashboard/vendor-orders.php:176
+#: templates/vendor-dashboard/vendor-transactions.php:51
+#: classes/reports/class-wcmp-report-overview.php:269
+msgid "Date"
+msgstr "Дата"
+
+#: classes/class-wcmp-vendor-dashboard.php:111
+msgid "Transaction ID"
+msgstr "номер на транзакцията"
+
+#: classes/class-wcmp-vendor-dashboard.php:113
+msgid "Mode"
+msgstr "Режим,начин"
+
+#: classes/class-wcmp-vendor-dashboard.php:114
+#: classes/class-wcmp-post-commission.php:59
+#: classes/class-wcmp-post-commission.php:60
+#: classes/class-wcmp-post-commission.php:61
+#: classes/class-wcmp-post-commission.php:63 classes/class-wcmp-product.php:808
+#: classes/class-wcmp-product.php:812 classes/class-wcmp-product.php:1157
+#: classes/class-wcmp-product.php:1167
+#: admin/class-wcmp-settings-to_do_list.php:161
+#: templates/emails/vendor-new-order.php:25
+msgid "Commission"
+msgstr "комисионна"
+
+#: classes/class-wcmp-vendor-dashboard.php:115
+#: templates/vendor-dashboard/vendor-transactions.php:54
+msgid "Fee"
+msgstr "Плащане"
+
+#: classes/class-wcmp-vendor-dashboard.php:116
+msgid "Credit"
+msgstr "Кредит"
+
+#: classes/class-wcmp-vendor-dashboard.php:127
+#: classes/class-wcmp-post-transaction.php:339
+msgid "PayPal"
+msgstr "PayPal"
+
+#: classes/class-wcmp-vendor-dashboard.php:129
+#: classes/class-wcmp-post-transaction.php:341
+#: admin/class-wcmp-admin-setup-wizard.php:935
+#: admin/class-wcmp-settings-payment.php:28
+msgid "Direct Bank Transfer"
+msgstr "Директен банков превод"
+
+#: classes/class-wcmp-vendor-dashboard.php:159
+msgid "Sorry. no transaction data is available upon your selection"
+msgstr "Извинете. При избора ви няма данни за транзакция"
+
+#: classes/class-wcmp-vendor-dashboard.php:201
+#: admin/class-wcmp-settings.php:190
+msgid "Order"
+msgstr "Поръчка"
+
+#: classes/class-wcmp-vendor-dashboard.php:202
+msgid "Date of Purchase"
+msgstr "Дата на покупката"
+
+#: classes/class-wcmp-vendor-dashboard.php:203
+msgid "Time Of Purchase"
+msgstr "Време на покупка"
+
+#: classes/class-wcmp-vendor-dashboard.php:205
+msgid "Items bought"
+msgstr "закупен продукт"
+
+#: classes/class-wcmp-vendor-dashboard.php:206
+#: templates/emails/vendor-new-order.php:24
+#: templates/emails/vendor-notify-shipped.php:29
+msgid "Quantity"
+msgstr "Количество"
+
+#: classes/class-wcmp-vendor-dashboard.php:207
+msgid "Discount Used"
+msgstr "Използвана отстъпка"
+
+#: classes/class-wcmp-vendor-dashboard.php:208
+msgid "Payment System"
+msgstr "Платежна система"
+
+#: classes/class-wcmp-vendor-dashboard.php:209
+#: admin/class-wcmp-settings-capabilities-order.php:41
+msgid "Customer Name"
+msgstr "Име на клиента"
+
+#: classes/class-wcmp-vendor-dashboard.php:210 classes/class-wcmp-user.php:500
+msgid "Customer Email"
+msgstr "Email на клиента"
+
+#: classes/class-wcmp-vendor-dashboard.php:211
+msgid "Customer Contact"
+msgstr "Свържете се с клиента"
+
+#: classes/class-wcmp-vendor-dashboard.php:212
+msgid "Billing Address Details"
+msgstr "Данни за адрес на плащане"
+
+#: classes/class-wcmp-vendor-dashboard.php:213
+msgid "Shipping Address Details"
+msgstr "Адрес за доставка"
+
+#: classes/class-wcmp-vendor-dashboard.php:214
+msgid "Order Status"
+msgstr "Статус на поръчката"
+
+#: classes/class-wcmp-vendor-dashboard.php:215
+#: admin/class-wcmp-settings-payment.php:60
+msgid "Tax"
+msgstr "данък"
+
+#: classes/class-wcmp-vendor-dashboard.php:217
+msgid "Commission Share"
+msgstr "Дял на комисионата"
+
+#: classes/class-wcmp-vendor-dashboard.php:436
+#: classes/class-wcmp-vendor-dashboard.php:756
+msgid "Shipping Data Updated"
+msgstr "Данните за доставка са актуализирани"
+
+#: classes/class-wcmp-vendor-dashboard.php:568
+msgid "No shipping class"
+msgstr "Няма клас за експедиция"
+
+#: classes/class-wcmp-vendor-dashboard.php:670
+#: classes/class-wcmp-vendor-dashboard.php:672 classes/class-wcmp-user.php:837
+#: classes/class-wcmp-user.php:872
+msgid "Slug already exists"
+msgstr "Slug вече съществува"
+
+#: classes/class-wcmp-vendor-dashboard.php:682
+#: classes/class-wcmp-vendor-dashboard.php:684
+msgid "Slug can not be empty"
+msgstr "Slug не може да бъде празен"
+
+#: classes/class-wcmp-vendor-dashboard.php:694
+#: classes/class-wcmp-vendor-dashboard.php:696
+msgid "Shop Title can not be empty"
+msgstr "Заглавието на магазина не може да бъде празно"
+
+#: classes/class-wcmp-vendor-dashboard.php:703
+#: classes/class-wcmp-vendor-dashboard.php:705
+msgid "Shop Title Update Error"
+msgstr "Грешка в актуализацията на магазина"
+
+#: classes/class-wcmp-vendor-dashboard.php:758
+msgid "Shipping Data Not Updated"
+msgstr "Данните за доставка не са актуализирани"
+
+#: classes/class-wcmp-payment-gateway.php:38
+#: classes/class-wcmp-post-transaction.php:123
+#, php-format
+msgid "Transaction - %s"
+msgstr "транзакция -%s"
+
+#: classes/class-wcmp-payment-gateway.php:38
+#: classes/class-wcmp-post-transaction.php:123
+msgctxt "Transaction date parsed by strftime"
+msgid "%B %e, %Y @ %I:%M %p"
+msgstr "%B %e, %Y @ %I:%M %p"
+
+#: classes/class-wcmp-endpoints.php:34
+#: admin/class-wcmp-settings-vendor-general.php:47
+msgid "Vendor Announcements"
+msgstr "Съобщения за доставчици"
+
+#: classes/class-wcmp-endpoints.php:42
+#: admin/class-wcmp-settings-vendor-general.php:50
+msgid "Vendor Billing"
+msgstr "Фактуриране от търговец"
+
+#: classes/class-wcmp-endpoints.php:46
+#: admin/class-wcmp-settings-vendor-general.php:49
+msgid "Vendor Policies"
+msgstr "Условия на търговеца"
+
+#: classes/class-wcmp-endpoints.php:50
+#: admin/class-wcmp-settings-vendor-general.php:51
+msgid "Vendor Shipping"
+msgstr "Доставка"
+
+#: classes/class-wcmp-endpoints.php:54
+#: admin/class-wcmp-settings-vendor-general.php:52
+msgid "Vendor Report"
+msgstr "Отчет на търговеца"
+
+#: classes/class-wcmp-endpoints.php:58
+#: admin/class-wcmp-settings-vendor-general.php:53
+msgid "Vendor Orders"
+msgstr "Поръчки на доставчици"
+
+#: classes/class-wcmp-endpoints.php:62
+msgid "Vendor Withdrawals"
+msgstr "Тегления на средства търговец"
+
+#: classes/class-wcmp-endpoints.php:66
+#: admin/class-wcmp-settings-vendor-general.php:55
+msgid "Transaction Details"
+msgstr "Детайли за транзакциите"
+
+#: classes/class-wcmp-endpoints.php:70
+#: admin/class-wcmp-settings-vendor-general.php:56
+#: admin/class-wcmp-settings-general.php:38
+msgid "Vendor Knowledgebase"
+msgstr "Търговец Знание"
+
+#: classes/class-wcmp-ajax.php:180
+msgid "No Suggestion found"
+msgstr "Няма намерени предложения"
+
+#: classes/class-wcmp-ajax.php:222 templates/vendor-dashboard/dashboard.php:54
+msgid "Admin Message:"
+msgstr "Admin Message:"
+
+#: classes/class-wcmp-ajax.php:230 templates/vendor-dashboard/dashboard.php:62
+msgid "DETAILS"
+msgstr "ПОДРОБНОСТИ"
+
+#: classes/class-wcmp-ajax.php:236
+msgid "No Messages Found:"
+msgstr "Няма намерени съобщения:"
+
+#: classes/class-wcmp-ajax.php:241
+msgid "Error in process:"
+msgstr "Грешка в процеса:"
+
+#: classes/class-wcmp-ajax.php:286
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:71
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-read.php:77
+msgid "Mark Unread"
+msgstr "Отметить как непрочитанное"
+
+#: classes/class-wcmp-ajax.php:302
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:68
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-unread.php:80
+msgid "Mark Read"
+msgstr "Маркирай като прочетено"
+
+#: classes/class-wcmp-ajax.php:318
+msgid "Mark Restore"
+msgstr "Маркирай за възстановяването"
+
+#: classes/class-wcmp-ajax.php:341 classes/class-wcmp-ajax.php:361
+msgid "no more data found"
+msgstr "Няма намерени повече данни"
+
+#: classes/class-wcmp-ajax.php:548 classes/class-wcmp-ajax.php:646
+#: classes/class-wcmp-ajax.php:702 classes/class-wcmp-ajax.php:892
+#: classes/reports/class-wcmp-report-vendor.php:186
+#: classes/reports/class-wcmp-report-product.php:192
+msgid "Sales and Earnings"
+msgstr "Продажби и приходи"
+
+#: classes/class-wcmp-ajax.php:551 classes/class-wcmp-ajax.php:649
+#: classes/class-wcmp-ajax.php:798 classes/class-wcmp-ajax.php:895
+#: classes/reports/class-wcmp-report-vendor.php:189
+#: classes/reports/class-wcmp-report-product.php:195
+msgid "Gross Sales"
+msgstr "Големи продажби"
+
+#: classes/class-wcmp-ajax.php:553 classes/class-wcmp-ajax.php:651
+#: classes/class-wcmp-ajax.php:800 classes/class-wcmp-ajax.php:897
+#: templates/vendor-dashboard/vendor-withdrawal.php:49
+#: templates/vendor-dashboard/vendor-report.php:37
+#: classes/reports/class-wcmp-report-vendor.php:191
+#: classes/reports/class-wcmp-report-product.php:197
+#: templates/vendor-dashboard/dashboard/vendor-dashboard-sales-item-header.php:20
+msgid "My Earnings"
+msgstr "Моите приходи"
+
+#: classes/class-wcmp-ajax.php:558 classes/class-wcmp-ajax.php:656
+#: classes/class-wcmp-ajax.php:706 classes/class-wcmp-ajax.php:805
+#: classes/reports/class-wcmp-report-product.php:202
+msgid "Month"
+msgstr "Месец"
+
+#: classes/class-wcmp-ajax.php:559 classes/class-wcmp-ajax.php:657
+#: classes/class-wcmp-ajax.php:903
+#: classes/reports/class-wcmp-report-vendor.php:197
+#: classes/reports/class-wcmp-report-product.php:203
+msgid "Sales Report"
+msgstr "Отчет за продажбите"
+
+#: classes/class-wcmp-ajax.php:568
+#: classes/reports/class-wcmp-report-product.php:212
+msgid "No product was sold in the given period."
+msgstr "През дадения период не е продаден продукт."
+
+#: classes/class-wcmp-ajax.php:666
+msgid "This product was not sold in the given period."
+msgstr "Този продукт не е бил продаден за дадения период."
+
+#: classes/class-wcmp-ajax.php:671
+msgid "Please select a product."
+msgstr "Моля, изберете продукт."
+
+#: classes/class-wcmp-ajax.php:707 templates/vendor-dashboard/dashboard.php:149
+#: templates/vendor-dashboard/dashboard.php:275
+#: templates/vendor-dashboard/dashboard/vendor-dashboard-sales-item-header.php:18
+msgid "Sales"
+msgstr "Продажби"
+
+#: classes/class-wcmp-ajax.php:711
+msgid "No Sales :("
+msgstr "Няма продажба :("
+
+#: classes/class-wcmp-ajax.php:806
+msgid "Vendor Earnings"
+msgstr "Заработка на търговеца"
+
+#: classes/class-wcmp-ajax.php:815
+msgid "This vendor did not generate any sales in the given period."
+msgstr "Този търговец не е генерирал продажби през даден период."
+
+#: classes/class-wcmp-ajax.php:902 classes/class-wcmp-taxonomy.php:38
+#: classes/reports/class-wcmp-report-vendor.php:196
+msgid "Vendors"
+msgstr "Търговци"
+
+#: classes/class-wcmp-ajax.php:912
+#: classes/reports/class-wcmp-report-vendor.php:206
+msgid "Any vendor did not generate any sales in the given period."
+msgstr "Нито един търговец не е реализирал продажби през даден период."
+
+#: classes/class-wcmp-ajax.php:1101
+msgid "Report an abuse for product"
+msgstr "Подайте сигнал за злоупотреба за продукт"
+
+#: classes/class-wcmp-ajax.php:1107
+#, php-format
+msgid ""
+"User %s (%s) is reporting an abuse on the following product: \n"
+msgstr ""
+"Потребител  %s (%s) съобщава злоупотреба за следния продукт: \n"
+
+#: classes/class-wcmp-ajax.php:1108
+#, php-format
+msgid ""
+"Product details: %s (ID: #%s) \n"
+msgstr ""
+"Информация за продукта: %s (ID: #%s) \n"
+
+#: classes/class-wcmp-ajax.php:1110
+#, php-format
+msgid ""
+"Vendor shop: %s \n"
+msgstr ""
+"Търговски магазин: %s \n"
+
+#: classes/class-wcmp-ajax.php:1112
+#, php-format
+msgid ""
+"Message: %s\n"
+msgstr ""
+"Съобщение: %s \n"
+
+#: classes/class-wcmp-ajax.php:1115
+#, php-format
+msgid ""
+"Product page:: %s\n"
+msgstr ""
+"Продуктова страница:: %s \n"
+
+#: classes/class-wcmp-frontend.php:283
+msgid " Shipping"
+msgstr "Доставка"
+
+#: classes/class-wcmp-frontend.php:319
+msgid "Report has been sent"
+msgstr "Отчетът е изпратен"
+
+#: classes/class-wcmp-frontend.php:343
+msgid "Please rate the vendor"
+msgstr "Моля, дайте оценка на търговеца"
+
+#: classes/class-wcmp-frontend.php:344
+msgid "Please review your vendor and minimum 10 Character required"
+msgstr "Моля,  вашия отзив за търговец изисква минимум 10 знака"
+
+#: classes/class-wcmp-frontend.php:345
+msgid "Your review submitted successfully"
+msgstr "Вашият ревю беше изпратен успешно"
+
+#: classes/class-wcmp-frontend.php:346
+msgid "Error in system please try again later"
+msgstr "Грешка в системата Моля, опитайте отново по-късно"
+
+#: classes/class-wcmp-post-commission.php:56
+msgctxt "post type general name"
+msgid "Commissions"
+msgstr "Комисионни"
+
+#: classes/class-wcmp-post-commission.php:57
+msgctxt "post type singular name"
+msgid "Commission"
+msgstr "Комисионна"
+
+#: classes/class-wcmp-post-commission.php:62
+#: classes/class-wcmp-post-commission.php:64
+#: classes/class-wcmp-post-commission.php:65
+#: classes/class-wcmp-post-commission.php:66
+#: classes/class-wcmp-post-commission.php:68
+#: classes/class-wcmp-post-commission.php:69
+msgid "Commissions"
+msgstr "Комисиони"
+
+#: classes/class-wcmp-post-commission.php:101
+msgid "Commission Details"
+msgstr "Детайли на комисионата"
+
+#: classes/class-wcmp-post-commission.php:212
+msgid "Order ID:"
+msgstr "Идент. № на поръчката:"
+
+#: classes/class-wcmp-post-commission.php:220
+msgid "Product:"
+msgstr "Продукт:"
+
+#: classes/class-wcmp-post-commission.php:221
+msgid "The product purchased that generated this commission."
+msgstr "Купеният продукт генерира тази комисиона."
+
+#: classes/class-wcmp-post-commission.php:228
+msgid "Vendor:"
+msgstr "Търговец:"
+
+#: classes/class-wcmp-post-commission.php:229
+msgid "The vendor who receives this commission."
+msgstr "Търговецътт, който получава тази комисиона."
+
+#: classes/class-wcmp-post-commission.php:236
+msgid "Amount:"
+msgstr "Сума:"
+
+#: classes/class-wcmp-post-commission.php:245
+msgid "The total value of this commission."
+msgstr "Общата стойност на тази комисиона."
+
+#: classes/class-wcmp-post-commission.php:249
+msgid "Shipping Amount:"
+msgstr "Сума доставка:"
+
+#: classes/class-wcmp-post-commission.php:250
+msgid "The total value of shipping."
+msgstr "Общата стойност на доставката."
+
+#: classes/class-wcmp-post-commission.php:257
+msgid "Tax Amount:"
+msgstr "Сума данъци:"
+
+#: classes/class-wcmp-post-commission.php:258
+msgid "The total value of this tax."
+msgstr "Общата стойност на тази такса."
+
+#: classes/class-wcmp-post-commission.php:382
+#: classes/class-wcmp-vendor-order-page.php:81
+#: templates/vendor-dashboard/vendor-withdrawal.php:48
+msgid "Order ID"
+msgstr "Номер на поръчка"
+
+#: classes/class-wcmp-post-commission.php:385
+#: classes/class-wcmp-post-transaction.php:176
+#: classes/class-wcmp-post-transaction.php:254
+#: admin/class-wcmp-settings-to_do_list.php:162
+msgid "Amount"
+msgstr "Сума"
+
+#: classes/class-wcmp-post-commission.php:386
+#: classes/class-wcmp-post-transaction.php:254
+#: templates/vendor-dashboard/vendor-orders.php:72
+#: templates/vendor-dashboard/vendor-orders.php:126
+#: templates/vendor-dashboard/vendor-orders.php:179
+msgid "Status"
+msgstr "Статус"
+
+#: classes/class-wcmp-post-commission.php:621
+msgid "Show Commission Status"
+msgstr "Показване на статуса на комисионата"
+
+#: classes/class-wcmp-post-commission.php:622
+msgid "Paid"
+msgstr "Платено"
+
+#: classes/class-wcmp-post-commission.php:623
+msgid "Unpaid"
+msgstr "неплатен"
+
+#: classes/class-wcmp-post-commission.php:624
+msgid "Reverse"
+msgstr "Върнато"
+
+#: classes/class-wcmp-email.php:35
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:172
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:190
+msgid "N/A"
+msgstr "N/A"
+
+#: classes/class-wcmp-email.php:107
+msgid "Customer Support Details of : "
+msgstr "Клиентска поддръжка детайли за: "
+
+#: classes/class-wcmp-email.php:126
+msgid "Return Address of : "
+msgstr "Адрес за връщане на:"
+
+#: classes/class-wcmp-email.php:131 classes/class-wcmp-email.php:207
+msgid "Address Line 1 : "
+msgstr "Адрес "
+
+#: classes/class-wcmp-email.php:136 classes/class-wcmp-email.php:217
+msgid "Address Line 2 : "
+msgstr "Адрес "
+
+#: classes/class-wcmp-email.php:141 classes/class-wcmp-email.php:227
+msgid "State : "
+msgstr "Област:"
+
+#: classes/class-wcmp-email.php:146 classes/class-wcmp-email.php:237
+msgid "City : "
+msgstr "Град:"
+
+#: classes/class-wcmp-email.php:151 classes/class-wcmp-email.php:247
+msgid "Country : "
+msgstr "Държава:"
+
+#: classes/class-wcmp-email.php:156 classes/class-wcmp-email.php:257
+msgid "Zip Code : "
+msgstr "Пощенски код:"
+
+#: classes/class-wcmp-email.php:175
+msgid "Customer Support Details :"
+msgstr "Детайли за поддръжка на клиенти:"
+
+#: classes/class-wcmp-email.php:200
+msgid "Our Return Address :"
+msgstr "Нашия обратен адрес:"
+
+#: classes/class-wcmp-post-transaction.php:35
+msgctxt "post type general name"
+msgid "Transactions"
+msgstr "Сделки"
+
+#: classes/class-wcmp-post-transaction.php:36
+msgctxt "post type singular name"
+msgid "Transaction"
+msgstr "Сделки"
+
+#: classes/class-wcmp-post-transaction.php:38
+#: classes/class-wcmp-post-transaction.php:39
+#: classes/class-wcmp-post-transaction.php:40
+#: classes/class-wcmp-post-transaction.php:41
+#: classes/class-wcmp-post-transaction.php:42
+msgid "Transaction"
+msgstr "Сделка"
+
+#: classes/class-wcmp-post-transaction.php:43
+#: classes/class-wcmp-post-transaction.php:44
+#: classes/class-wcmp-post-transaction.php:45
+#: classes/class-wcmp-post-transaction.php:47
+#: classes/class-wcmp-post-transaction.php:48
+msgid "Transactions"
+msgstr "Сделки"
+
+#: classes/class-wcmp-post-transaction.php:45
+#, php-format
+msgid "No %s found In trash"
+msgstr " %s не е намерено в кошечо"
+
+#: classes/class-wcmp-post-transaction.php:175
+msgid "Date of request"
+msgstr "Дата на искането"
+
+#: classes/class-wcmp-post-transaction.php:178
+msgid "Transfer Fee"
+msgstr "Такса за превод"
+
+#: classes/class-wcmp-post-transaction.php:185
+#: classes/class-wcmp-post-transaction.php:195
+#: classes/class-wcmp-post-transaction.php:198
+#: classes/class-wcmp-post-transaction.php:201
+msgid "Transaction Mode"
+msgstr "Режим на превода"
+
+#: classes/class-wcmp-post-transaction.php:185 classes/class-wcmp-user.php:522
+#: templates/vendor-dashboard/vendor-billing.php:29
+msgid "Direct Bank"
+msgstr "Банков превод"
+
+#: classes/class-wcmp-post-transaction.php:186 classes/class-wcmp-user.php:534
+msgid "Bank Account Type"
+msgstr "Тип банкова сметка"
+
+#: classes/class-wcmp-post-transaction.php:187
+msgid "Bank Account Number"
+msgstr "Номер на банкова сметка"
+
+#: classes/class-wcmp-post-transaction.php:188 classes/class-wcmp-user.php:549
+#: templates/vendor-dashboard/vendor-billing.php:65
+msgid "Bank Name"
+msgstr "Име на банка"
+
+#: classes/class-wcmp-post-transaction.php:189 classes/class-wcmp-user.php:556
+#: templates/vendor-dashboard/vendor-billing.php:68
+msgid "ABA Routing Number"
+msgstr "Номер на маршрут  ABA"
+
+#: classes/class-wcmp-post-transaction.php:190 classes/class-wcmp-user.php:563
+#: templates/vendor-dashboard/vendor-billing.php:71
+msgid "Bank Address"
+msgstr "Адрес на банката"
+
+#: classes/class-wcmp-post-transaction.php:191 classes/class-wcmp-user.php:570
+#: templates/vendor-dashboard/vendor-billing.php:73
+msgid "Destination Currency"
+msgstr "каква валута"
+
+#: classes/class-wcmp-post-transaction.php:192 classes/class-wcmp-user.php:577
+#: templates/vendor-dashboard/vendor-billing.php:76
+msgid "IBAN"
+msgstr "IBAN"
+
+#: classes/class-wcmp-post-transaction.php:193 classes/class-wcmp-user.php:584
+#: templates/vendor-dashboard/vendor-billing.php:79
+msgid "Account Holder Name"
+msgstr "Име на Притежателя на Сметка"
+
+#: classes/class-wcmp-post-transaction.php:195 classes/class-wcmp-user.php:516
+#: templates/vendor-dashboard/vendor-billing.php:23
+msgid "PayPal Masspay"
+msgstr "PayPal Masspay"
+
+#: classes/class-wcmp-post-transaction.php:196
+#: classes/class-wcmp-post-transaction.php:199 classes/class-wcmp-user.php:590
+msgid "PayPal Email"
+msgstr "PayPal Email"
+
+#: classes/class-wcmp-post-transaction.php:198 classes/class-wcmp-user.php:519
+#: templates/vendor-dashboard/vendor-billing.php:26
+msgid "PayPal Payout"
+msgstr "PayPal плащане"
+
+#: classes/class-wcmp-post-transaction.php:201
+msgid "Manual"
+msgstr "Ръководство"
+
+#: classes/class-wcmp-post-transaction.php:254 classes/class-wcmp-user.php:741
+#: classes/class-wcmp-vendor-order-page.php:83
+msgid "Products"
+msgstr "Продукти"
+
+#: classes/class-wcmp-post-transaction.php:326
+#: templates/vendor-dashboard/vendor-orders.php:43
+msgid "Completed"
+msgstr "Изпълнено"
+
+#: classes/class-wcmp-post-transaction.php:328
+#: templates/vendor-dashboard/vendor-orders.php:42
+msgid "Processing"
+msgstr "обработване се"
+
+#: classes/class-wcmp-user.php:237
+#: templates/shortcode/non_vendor_dashboard.php:37
+msgid ""
+"Congratulations! You have successfully applied as a Vendor. Please wait for "
+"further notifications from the admin."
+msgstr ""
+"Поздравления! Успешно кандидатствахте като търговец. Моля, изчакайте още "
+"уведомления от администратора."
+
+#: classes/class-wcmp-user.php:242
+msgid "Dashboard - manage your account here"
+msgstr "Dashboard - Управлявайте профила си тук"
+
+#: classes/class-wcmp-user.php:302
+msgid "Vendor Page Title"
+msgstr "Заглавие на страницата на търговеца"
+
+#: classes/class-wcmp-user.php:308
+msgid "Vendor Page Slug"
+msgstr "страница на търговец"
+
+#: classes/class-wcmp-user.php:320
+msgid "Hide address in frontend"
+msgstr "Скриване на адрес в интерфейса"
+
+#: classes/class-wcmp-user.php:327
+msgid "Hide phone in frontend"
+msgstr "Скриване на телефона в интерфейса"
+
+#: classes/class-wcmp-user.php:334
+msgid "Hide email in frontend"
+msgstr "Скриване на имейл в интерфейса"
+
+#: classes/class-wcmp-user.php:341
+msgid "Hide description in frontend"
+msgstr "Скриване на описанието в интерфейса"
+
+#: classes/class-wcmp-user.php:348 classes/class-wcmp-vendor-order-page.php:243
+msgid "Company Name"
+msgstr "Име на фирмата"
+
+#: classes/class-wcmp-user.php:354
+msgid "Address 1"
+msgstr "Адрес 1"
+
+#: classes/class-wcmp-user.php:360
+msgid "Address 2"
+msgstr "Адрес 2"
+
+#: classes/class-wcmp-user.php:366
+#: admin/class-wcmp-settings-general-customer_support_details.php:39
+msgid "City"
+msgstr "Град"
+
+#: classes/class-wcmp-user.php:372
+msgid "Postcode"
+msgstr "Пощенски код"
+
+#: classes/class-wcmp-user.php:378
+msgid "External store URL"
+msgstr "URL адрес на външния магазин"
+
+#: classes/class-wcmp-user.php:384
+msgid "External store URL label"
+msgstr "Етикет за URL адрес на външния магазин"
+
+#: classes/class-wcmp-user.php:390
+#: admin/class-wcmp-settings-general-customer_support_details.php:38
+msgid "State"
+msgstr "Област"
+
+#: classes/class-wcmp-user.php:396
+#: admin/class-wcmp-settings-general-customer_support_details.php:40
+msgid "Country"
+msgstr "Страна"
+
+#: classes/class-wcmp-user.php:402 classes/class-wcmp-vendor-order-page.php:263
+#: templates/vendor-dashboard/shop-front.php:53
+msgid "Phone"
+msgstr "Телефон"
+
+#: classes/class-wcmp-user.php:408
+msgid "Facebook Profile"
+msgstr "Facebook профил"
+
+#: classes/class-wcmp-user.php:414
+msgid "Twitter Profile"
+msgstr "Twitter"
+
+#: classes/class-wcmp-user.php:420
+msgid "Google+ Profile"
+msgstr "Google+"
+
+#: classes/class-wcmp-user.php:426
+msgid "LinkedIn Profile"
+msgstr "LinkedIn"
+
+#: classes/class-wcmp-user.php:432
+msgid "YouTube Channel"
+msgstr "YouTube канал"
+
+#: classes/class-wcmp-user.php:438
+msgid "Instagram Profile"
+msgstr "Instagram профил"
+
+#: classes/class-wcmp-user.php:444
+msgid "Logo"
+msgstr "Лого"
+
+#: classes/class-wcmp-user.php:451
+msgid "Banner"
+msgstr "Банер"
+
+#: classes/class-wcmp-user.php:458
+msgid "Customer address1"
+msgstr "Адрес на клиента1"
+
+#: classes/class-wcmp-user.php:464
+msgid "Customer address2"
+msgstr "Адрес на клиента2"
+
+#: classes/class-wcmp-user.php:470
+msgid "Customer Country"
+msgstr "Държава на клиента"
+
+#: classes/class-wcmp-user.php:476
+msgid "Customer Return State"
+msgstr "Държава за връщане на клиенти"
+
+#: classes/class-wcmp-user.php:482
+msgid "Customer Return City"
+msgstr "Град за връщане на клиенти"
+
+#: classes/class-wcmp-user.php:488
+msgid "Customer Return Zip"
+msgstr "Пощенски код"
+
+#: classes/class-wcmp-user.php:494
+msgid "Customer Phone"
+msgstr "Телефонен номер на клиента"
+
+#: classes/class-wcmp-user.php:514 classes/class-wcmp-user.php:526
+#: templates/vendor-dashboard/vendor-billing.php:21
+msgid "Payment Mode"
+msgstr "Начин на плащане"
+
+#: classes/class-wcmp-user.php:536
+#: templates/vendor-dashboard/vendor-billing.php:58
+msgid "Current"
+msgstr "Текущ"
+
+#: classes/class-wcmp-user.php:536
+#: templates/vendor-dashboard/vendor-billing.php:59
+msgid "Savings"
+msgstr "спестявания"
+
+#: classes/class-wcmp-user.php:542
+msgid "Bank Account Name"
+msgstr "Име на банкова сметка"
+
+#: classes/class-wcmp-user.php:599
+msgid "Enter the title of Policies Tab"
+msgstr "Въведете заглавието на раздела Политики"
+
+#: classes/class-wcmp-user.php:631 templates/vendor-dashboard/shop-front.php:49
+msgid "Message to Buyers"
+msgstr "Съобщение до купувачите"
+
+#: classes/class-wcmp-user.php:638
+msgid "Is Message to buyer Hide From Users"
+msgstr "Съобщение до купувача се скрива от потребителите"
+
+#: classes/class-wcmp-user.php:648
+msgid "Commission Amount"
+msgstr "Сума на комисионата"
+
+#: classes/class-wcmp-user.php:654
+msgid "Withhold Tax"
+msgstr "удържа данъци"
+
+#: classes/class-wcmp-user.php:661
+msgid "Withhold Shipping"
+msgstr "Отказване на пратката"
+
+#: classes/class-wcmp-user.php:668
+msgid "Block this vendor with all items"
+msgstr "Блокирайте този търговец с всички елементи"
+
+#: classes/class-wcmp-user.php:680 classes/class-wcmp-user.php:696
+msgid "Commission Percentage(%)"
+msgstr "Процент комисиона (%)"
+
+#: classes/class-wcmp-user.php:686
+msgid "Commission(fixed), Per Transaction"
+msgstr "Комисиона (фиксирана) на продажба"
+
+#: classes/class-wcmp-user.php:702
+msgid "Commission Fixed Per Unit"
+msgstr "Комисионната е фиксирана на бройка"
+
+#: classes/class-wcmp-user.php:774 classes/class-wcmp-admin.php:100
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:52
+msgid "View"
+msgstr "преглед"
+
+#: classes/class-wcmp-user.php:780 classes/class-wcmp-user.php:786
+#: classes/class-wcmp-admin.php:102
+msgid "Approve"
+msgstr "Потвърждавам"
+
+#: classes/class-wcmp-user.php:781 classes/class-wcmp-admin.php:103
+#: admin/class-wcmp-settings-to_do_list.php:37
+msgid "Reject"
+msgstr "Отхвърляне"
+
+#: classes/class-wcmp-user.php:807 classes/class-wcmp-taxonomy.php:43
+msgid "View Vendor"
+msgstr "Преглед на търговеца"
+
+#: classes/class-wcmp-user.php:827
+msgid "Slug Already Exists"
+msgstr "Slug вече съществува"
+
+#: classes/class-wcmp-user.php:866
+msgid "Title Update Error"
+msgstr "Грешка при актуализирането на заглавието"
+
+#: classes/class-wcmp-user.php:930
+msgid "Select a Vendor."
+msgstr "Изберете търговец"
+
+#: classes/class-wcmp-taxonomy.php:21 classes/class-wcmp-admin.php:265
+msgctxt "slug"
+msgid "vendor"
+msgstr "Търговец"
+
+#: classes/class-wcmp-taxonomy.php:39
+msgid "Search Vendors"
+msgstr "Търсене в търговци"
+
+#: classes/class-wcmp-taxonomy.php:40
+msgid "All Vendors"
+msgstr "Всички търговци"
+
+#: classes/class-wcmp-taxonomy.php:41
+msgid "Parent Vendor"
+msgstr "Родителски търговец"
+
+#: classes/class-wcmp-taxonomy.php:42
+msgid "Parent Vendor:"
+msgstr "Родителски търговец"
+
+#: classes/class-wcmp-taxonomy.php:44
+msgid "Edit Vendor"
+msgstr "Редактиране на търговеца"
+
+#: classes/class-wcmp-taxonomy.php:45
+msgid "Update Vendor"
+msgstr "Обновяване търговец"
+
+#: classes/class-wcmp-taxonomy.php:46
+msgid "Add New Vendor"
+msgstr "Добавяне на нов търговец"
+
+#: classes/class-wcmp-taxonomy.php:47
+msgid "New Vendor Name"
+msgstr "Име на нов търговец"
+
+#: classes/class-wcmp-taxonomy.php:48
+msgid "Popular Vendors"
+msgstr "Популярни търговци"
+
+#: classes/class-wcmp-taxonomy.php:49
+msgid "Separate vendors with commas"
+msgstr "Отделете търговците със запетаи"
+
+#: classes/class-wcmp-taxonomy.php:50
+msgid "Add or remove vendors"
+msgstr "Добавете или премахнете търговци"
+
+#: classes/class-wcmp-taxonomy.php:51
+msgid "Choose from most used vendors"
+msgstr "Изберете от най-използваните доставчици"
+
+#: classes/class-wcmp-taxonomy.php:52
+msgid "No vendors found"
+msgstr "Няма намерени търговци"
+
+#: classes/class-wcmp-vendor-order-page.php:82
+msgid "Customer"
+msgstr "Клиент"
+
+#: classes/class-wcmp-vendor-order-page.php:84
+msgid "Total"
+msgstr "Всичко"
+
+#: classes/class-wcmp-vendor-order-page.php:88
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:45
+msgid "Shipped"
+msgstr "Доставят"
+
+#: classes/class-wcmp-vendor-order-page.php:118
+msgid "Mark as Shipped"
+msgstr "Маркирайте като изпратено"
+
+#: classes/class-wcmp-vendor-order-page.php:142
+msgid "Orders Marked as shipped."
+msgstr "Поръчки, маркирани като изпратени."
+
+#: classes/class-wcmp-vendor-order-page.php:235
+msgid "CPF"
+msgstr "CPF"
+
+#: classes/class-wcmp-vendor-order-page.php:238
+msgid "RG"
+msgstr "RG"
+
+#: classes/class-wcmp-vendor-order-page.php:244
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: classes/class-wcmp-vendor-order-page.php:247
+msgid "State Registration"
+msgstr "Област,регистрация"
+
+#: classes/class-wcmp-vendor-order-page.php:251
+msgid "Company"
+msgstr "Компания"
+
+#: classes/class-wcmp-vendor-order-page.php:257
+msgid "Birthdate"
+msgstr "Рожден ден"
+
+#: classes/class-wcmp-vendor-order-page.php:260
+msgid "Sex"
+msgstr "Пол"
+
+#: classes/class-wcmp-vendor-order-page.php:267
+msgid "Cell Phone"
+msgstr "Телефон"
+
+#: classes/class-wcmp-capabilities.php:263
+#: classes/class-wcmp-capabilities.php:285
+msgid "Sold By"
+msgstr "Продаден от"
+
+#: classes/class-wcmp-calculate-commission.php:187
+#, php-format
+msgid "Commission - %s"
+msgstr "Комисионна - %s"
+
+#: classes/class-wcmp-calculate-commission.php:187
+msgctxt "Commission date parsed by strftime"
+msgid "%B %e, %Y @ %I:%M %p"
+msgstr "%B %e, %Y @ %I:%M %p"
+
+#: classes/class-wcmp-post-vendorapplication.php:39
+#: classes/class-wcmp-post-vendorapplication.php:40
+#: classes/class-wcmp-post-vendorapplication.php:41
+#: classes/class-wcmp-post-vendorapplication.php:42
+#: classes/class-wcmp-post-vendorapplication.php:43
+#: classes/class-wcmp-post-vendorapplication.php:44
+#: classes/class-wcmp-post-vendorapplication.php:45
+#: classes/class-wcmp-post-vendorapplication.php:46
+msgid "Application"
+msgstr "Заявка"
+
+#: classes/class-wcmp-post-vendorapplication.php:48
+#: classes/class-wcmp-post-vendorapplication.php:49
+msgid "Vendor Application"
+msgstr "Заявка на търговец"
+
+#: classes/class-wcmp-product.php:157
+msgid "More Offers"
+msgstr "Други оферти"
+
+#: classes/class-wcmp-product.php:426
+msgid "SKU must be unique"
+msgstr "SKU трябва да е уникален"
+
+#: classes/class-wcmp-product.php:558 classes/class-wcmp-product.php:748
+msgid "Search for vendor"
+msgstr "Търсене на търговец"
+
+#: classes/class-wcmp-product.php:559 classes/class-wcmp-product.php:744
+msgid "Choose a vendor"
+msgstr "Избери търговец"
+
+#: classes/class-wcmp-product.php:762 classes/class-wcmp-product.php:766
+#: classes/class-wcmp-product.php:785 classes/class-wcmp-product.php:789
+#: classes/class-wcmp-product.php:1115 classes/class-wcmp-product.php:1136
+#: admin/class-wcmp-admin-setup-wizard.php:507
+#: admin/class-wcmp-settings-payment.php:56
+msgid "Commission Percentage"
+msgstr "Комисионна процент"
+
+#: classes/class-wcmp-product.php:773 classes/class-wcmp-product.php:777
+msgid "Commission Fixed per transaction"
+msgstr "Комисията е фиксирана за всяка продажба"
+
+#: classes/class-wcmp-product.php:796 classes/class-wcmp-product.php:800
+#: classes/class-wcmp-product.php:1126 classes/class-wcmp-product.php:1145
+msgid "Commission Fixed per unit"
+msgstr "Комисионната е фиксирана на бройка"
+
+#: classes/class-wcmp-product.php:823
+msgid "Unassign vendor"
+msgstr "непотвърден търговец"
+
+#: classes/class-wcmp-product.php:1074 classes/class-wcmp-product.php:1094
+msgid "Commission (percentage)"
+msgstr "Комисионна (процент)"
+
+#: classes/class-wcmp-product.php:1084 classes/class-wcmp-product.php:1102
+msgid "Commission (fixed) Per Transaction"
+msgstr "Комисиона (фиксирана) на продажба"
+
+#: classes/class-wcmp-product.php:1336
+msgid "Report Abuse"
+msgstr "Съобщете за злоупотреба"
+
+#: classes/class-wcmp-product.php:1342
+msgid "Report an abuse for product "
+msgstr "Подайте сигнал за злоупотреба за продукт"
+
+#: classes/class-wcmp-product.php:1348 templates/widget/quick-info.php:29
+msgid "Name"
+msgstr "Име"
+
+#: classes/class-wcmp-product.php:1354 classes/class-wcmp-admin.php:113
+#: admin/class-wcmp-settings-vendor-registration.php:42
+#: admin/class-wcmp-settings-general-customer_support_details.php:34
+#: templates/widget/quick-info.php:31
+msgid "Email"
+msgstr "Email"
+
+#: classes/class-wcmp-product.php:1360
+msgid "Leave a message explaining the reasons for your abuse report"
+msgstr "Оставете съобщение, обясняващо причините за сигнал за злоупотреба"
+
+#: classes/class-wcmp-product.php:1367
+msgid "Report"
+msgstr "доклад"
+
+#: classes/class-wcmp-admin.php:52
+msgid "Vendor Form Data"
+msgstr "Vendor Form Data"
+
+#: classes/class-wcmp-admin.php:112
+msgid "Username"
+msgstr "Потребител"
+
+#: classes/class-wcmp-admin.php:255
+msgid "Vendor Shop Base"
+msgstr "База на магазина на търговците"
+
+#: classes/class-wcmp-admin.php:302
+msgid "Frontend  Dashboard"
+msgstr "Frontend  Dashboard"
+
+#: classes/class-wcmp-admin.php:305
+msgid "Frontend Dashboard"
+msgstr "Frontend Dashboard"
+
+#: classes/class-wcmp-admin.php:314 classes/class-wcmp-admin.php:317
+msgid "Shop Settings"
+msgstr "Настройки на магазина"
+
+#: classes/class-wcmp-admin.php:347
+msgid "Powered by"
+msgstr "Създадено"
+
+#: classes/class-wcmp-admin.php:347 admin/class-wcmp-settings.php:106
+msgid "WC Marketplace"
+msgstr "WC Marketplace"
+
+#: classes/class-wcmp-admin.php:370
+msgid ""
+"\"Knowledgebase\" section is visible only to vendors through the vendor "
+"dashboard. You may use this section to onboard your vendors. Share tutorials,"
+" best practices, \"how to\" guides or whatever you feel is appropriate with "
+"your vendors."
+msgstr ""
+"Секцията \"Знание\" е видима само за продавачите чрез таблото за управление "
+"на производителя. Можете да използвате този раздел, за да сте на борда на "
+"продавачите си. Споделяйте уроци, най-добри практики, ръководства \"как да\" "
+"или каквото смятате, че е подходящо с вашите продавачи."
+
+#: classes/class-wcmp-admin.php:373
+msgid ""
+"Announcements are visible only to vendors through the vendor "
+"dashboard(message section). You may use this section to broadcast your "
+"announcements."
+msgstr ""
+"Съобщенията се виждат само от търговците чрез таблото за управление на "
+"търговеца (секция за съобщения). Можете да използвате тази секция, за да "
+"излъчвате съобщенията си."
+
+#: classes/class-wcmp-vendor-details.php:568
+#, php-format
+msgid "Quantity: %s"
+msgstr "Количество: %s"
+
+#: classes/class-wcmp-vendor-details.php:576
+#, php-format
+msgid "Total: %s"
+msgstr "Всичко: %s"
+
+#: classes/class-wcmp-vendor-details.php:578
+#, php-format
+msgid "Commission: %s"
+msgstr "Комисиона: %s"
+
+#: classes/class-wcmp-vendor-details.php:653
+msgid "Commission Subtotal:"
+msgstr "Комисиона Междинна сума:"
+
+#: classes/class-wcmp-vendor-details.php:657
+msgid "Tax Subtotal:"
+msgstr "Междинна сума данък:"
+
+#: classes/class-wcmp-vendor-details.php:661
+msgid "Shipping Subtotal:"
+msgstr "Междинна сума доставка:"
+
+#: classes/class-wcmp-vendor-details.php:665
+msgid "Total:"
+msgstr "Общо:"
+
+#: admin/class-wcmp-settings-notices.php:30
+msgid "Notices Enable/Disable :"
+msgstr "Бележки Активиране / деактивиране:"
+
+#: admin/class-wcmp-settings-notices.php:57
+msgid "Page Settings Updated"
+msgstr "Настройките на страницата бяха актуализирани"
+
+#: admin/class-wcmp-settings-vendor-general.php:38
+msgid "WCMp pages"
+msgstr "WCMp страници"
+
+#: admin/class-wcmp-settings-vendor-general.php:40
+msgid "Choose your preferred page for vendor dashboard."
+msgstr "Изберете желаната страница за работно място на търговеца."
+
+#: admin/class-wcmp-settings-vendor-general.php:41
+msgid "Choose your preferred page for vendor Registration"
+msgstr "Изберете предпочитаната от вас страница за регистрация на търговец"
+
+#: admin/class-wcmp-settings-vendor-general.php:45
+msgid "WCMp vendor dashboard endpoints"
+msgstr "wcmp_Работна областна търговеца крайна точка"
+
+#: admin/class-wcmp-settings-vendor-general.php:47
+msgid "Set Endpoint for vendor Announcements page"
+msgstr "Задайте крайна точка за страницата с обяви на доставчиците"
+
+#: admin/class-wcmp-settings-vendor-general.php:48
+msgid "Set Endpoint for Shop Front page"
+msgstr "Задайте крайна точка за началната страница на магазина"
+
+#: admin/class-wcmp-settings-vendor-general.php:49
+msgid "Set Endpoint for Vendor Plicies page"
+msgstr "Поставете крайна точка към условията на страницата на търговеца"
+
+#: admin/class-wcmp-settings-vendor-general.php:50
+msgid "Set Endpoint for Vendor Billing page"
+msgstr "Задаване крайна точка страницата за плащане на търговеца"
+
+#: admin/class-wcmp-settings-vendor-general.php:51
+msgid "Set Endpoint for Vendor Shipping page"
+msgstr "Задай крайна точка на страница доставка на търговеца"
+
+#: admin/class-wcmp-settings-vendor-general.php:52
+msgid "Set Endpoint for Vendor Report page"
+msgstr "Задай крайна точка страница отчети на търговеца"
+
+#: admin/class-wcmp-settings-vendor-general.php:53
+msgid "Set Endpoint for vendor orders page"
+msgstr "Задайте крайна точка за страницата с поръчки на търговеца"
+
+#: admin/class-wcmp-settings-vendor-general.php:54
+msgid "Vendor Widthdrawals"
+msgstr "Тегления на средства от търговец"
+
+#: admin/class-wcmp-settings-vendor-general.php:54
+msgid "Set Endpoint for vendor Widthdrawals page"
+msgstr ""
+"Задайте крайна точка на страницатапоказваща средствата на търговеца\n"
+"Задать конечную точку для страницы вывода средств продавца"
+
+#: admin/class-wcmp-settings-vendor-general.php:55
+msgid "Set Endpoint for Transaction Details page"
+msgstr "Задаване крайна точка страницата с детайли за транзакциите"
+
+#: admin/class-wcmp-settings-vendor-general.php:56
+msgid "Set Endpoint for Vendor Knowledgebase page"
+msgstr "Задайте крайна точка за страницата на базата знания на търговците"
+
+#: admin/class-wcmp-settings-vendor-general.php:113
+#: admin/class-wcmp-settings-vendor-dashboard.php:93
+#: admin/class-wcmp-settings-capabilities-order.php:118
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:70
+#: admin/class-wcmp-settings-capabilities-product.php:170
+msgid "Vendor Settings Updated"
+msgstr "Настройките на доставчиците бяха актуализирани"
+
+#: admin/class-wcmp-settings.php:72 admin/class-wcmp-settings.php:72
+msgid "Reports"
+msgstr "Отчети"
+
+#: admin/class-wcmp-settings.php:74 admin/class-wcmp-settings.php:74
+msgid "To-do List"
+msgstr "Списък със задачи"
+
+#: admin/class-wcmp-settings.php:75 admin/class-wcmp-settings.php:75
+msgid "Extensions"
+msgstr "Разширения"
+
+#: admin/class-wcmp-settings.php:111
+msgid "Help &amp; Support"
+msgstr "Помощ &amp; Поддръжка"
+
+#: admin/class-wcmp-settings.php:118
+msgid "Found a bug?"
+msgstr "Намерихте  бъг?"
+
+#: admin/class-wcmp-settings.php:137
+msgid "For more information:"
+msgstr "За повече информация:"
+
+#: admin/class-wcmp-settings.php:138
+msgid "WordPress.org Project"
+msgstr "Проект WordPress.org"
+
+#: admin/class-wcmp-settings.php:139
+msgid "Github Project"
+msgstr "Проект Github"
+
+#: admin/class-wcmp-settings.php:140
+msgid "View Demo"
+msgstr "Преглед на демо"
+
+#: admin/class-wcmp-settings.php:141
+msgid "Supported Themes"
+msgstr "Поддържани теми"
+
+#: admin/class-wcmp-settings.php:142
+msgid "Official Extensions"
+msgstr "Официални разширения"
+
+#: admin/class-wcmp-settings.php:149 admin/class-wcmp-settings.php:162
+#: templates/vendor-dashboard/shop-front.php:26
+msgid "General"
+msgstr "Основни"
+
+#: admin/class-wcmp-settings.php:152
+msgid "Frontend"
+msgstr "Frontend"
+
+#: admin/class-wcmp-settings.php:153
+msgid "Payment"
+msgstr "Плащане"
+
+#: admin/class-wcmp-settings.php:154
+msgid "Capabilities"
+msgstr "Възможности"
+
+#: admin/class-wcmp-settings.php:164
+msgid "Customer Support"
+msgstr "Поддръжка на клиенти"
+
+#: admin/class-wcmp-settings.php:171
+msgid "Payment Settings"
+msgstr "Настройки  плащане"
+
+#: admin/class-wcmp-settings.php:172
+#: admin/class-wcmp-admin-setup-wizard.php:925
+#: admin/class-wcmp-settings-payment.php:28
+msgid "Paypal Masspay"
+msgstr "Конфигуриране на Paypal Masspay актуализирани"
+
+#: admin/class-wcmp-settings.php:173
+#: admin/class-wcmp-admin-setup-wizard.php:930
+#: admin/class-wcmp-settings-payment.php:28
+msgid "Paypal Payout"
+msgstr "Плащане чрез PayPal"
+
+#: admin/class-wcmp-settings.php:191
+msgid "Miscellaneous"
+msgstr "Разни"
+
+#: admin/class-wcmp-settings.php:199
+msgid ""
+"Configure the \"Product Add\" page for vendors. Choose the features you want "
+"to show to your vendors."
+msgstr ""
+"Конфигурирайте страницата \"Добавяне на продукт\" за доставчиците. Изберете "
+"функциите, които искате да се показват на вашите доставчици."
+
+#: admin/class-wcmp-settings.php:200
+msgid "Configure which vendor details you want to reveal to your users"
+msgstr ""
+"Конфигурирайте кои детайли на търговец искате да покажете на вашите "
+"потребители"
+
+#: admin/class-wcmp-settings.php:314
+#, php-format
+msgid ""
+"<h4 style=\\'border-bottom: 1px solid rgb(215, 211, 211);padding-bottom: "
+"21px;\\'>%s</h4>"
+msgstr ""
+"<h4 style=\\'border-bottom: 1px solid rgb(215, 211, 211);padding-bottom: "
+"21px;\\'>%s</h4>"
+
+#: admin/class-wcmp-settings.php:429
+msgid "<br><b>MassPay Sync</b><br>"
+msgstr "<br><b>Синхронизация MassPay</b><br>"
+
+#: admin/class-wcmp-settings.php:430
+#, php-format
+msgid "Next MassPay cron @ %s"
+msgstr "Next MassPay cron @ %s"
+
+#: admin/class-wcmp-settings.php:431
+#, php-format
+msgid "<br>Now the time is %s"
+msgstr "<br>Времето е  %s"
+
+#: admin/class-wcmp-settings-vendor-dashboard.php:52
+#: admin/class-wcmp-settings-general-policies.php:36
+#: admin/class-wcmp-settings-general-policies.php:44
+#: admin/class-wcmp-settings-general-policies.php:54
+#: admin/class-wcmp-settings-general-policies.php:63
+msgid "Vendor Can Edit"
+msgstr "Търговеца може да редактира"
+
+#: admin/class-wcmp-admin-setup-wizard.php:446
+#: admin/class-wcmp-settings-general.php:39
+msgid "Single Product Multiple Vendors"
+msgstr "Единичен продукт с много търговци"
+
+#: admin/class-wcmp-admin-setup-wizard.php:472
+#: admin/class-wcmp-settings-payment.php:47
+msgid "Revenue Sharing Mode"
+msgstr "Режим на споделяне на приходите"
+
+#: admin/class-wcmp-admin-setup-wizard.php:477
+#: admin/class-wcmp-settings-payment.php:49
+msgid "Admin fees"
+msgstr "Администратор такси"
+
+#: admin/class-wcmp-admin-setup-wizard.php:478
+#: admin/class-wcmp-settings-payment.php:49
+msgid "Vendor Commissions"
+msgstr "Търговец Комисиони"
+
+#: admin/class-wcmp-admin-setup-wizard.php:483
+#: admin/class-wcmp-settings-payment.php:54
+msgid "Commission Type"
+msgstr "Тип на комисионната"
+
+#: admin/class-wcmp-admin-setup-wizard.php:489
+#: admin/class-wcmp-admin-setup-wizard.php:517
+#: admin/class-wcmp-admin-setup-wizard.php:527
+#: admin/class-wcmp-settings-payment.php:54
+#: admin/class-wcmp-settings-payment.php:57
+#: admin/class-wcmp-settings-payment.php:58
+msgid "Fixed Amount"
+msgstr "Фиксирана сума"
+
+#: admin/class-wcmp-admin-setup-wizard.php:490
+#: admin/class-wcmp-settings-payment.php:54
+msgid "Percentage"
+msgstr "Процент"
+
+#: admin/class-wcmp-admin-setup-wizard.php:491
+#: admin/class-wcmp-settings-payment.php:54
+msgid "%age + Fixed (per transaction)"
+msgstr "%% + Фиксиран (на сделка)"
+
+#: admin/class-wcmp-admin-setup-wizard.php:492
+#: admin/class-wcmp-settings-payment.php:54
+msgid "%age + Fixed (per unit)"
+msgstr "%% + Фиксиран (на бройка)"
+
+#: admin/class-wcmp-admin-setup-wizard.php:497
+#: admin/class-wcmp-settings-payment.php:55
+msgid "Commission value"
+msgstr "комисионна стойност"
+
+#: admin/class-wcmp-admin-setup-wizard.php:555
+#: admin/class-wcmp-settings-payment.php:34
+msgid "Allowed Payment Methods"
+msgstr "Позволени начини на плащане"
+
+#: admin/class-wcmp-admin-setup-wizard.php:577
+#: admin/class-wcmp-settings-payment.php:70
+msgid "Disbursal Schedule"
+msgstr "Задайте график"
+
+#: admin/class-wcmp-admin-setup-wizard.php:587
+#: admin/class-wcmp-settings-payment.php:71
+msgid "Set Schedule"
+msgstr "Задайте график"
+
+#: admin/class-wcmp-admin-setup-wizard.php:592
+#: admin/class-wcmp-settings-payment.php:71
+msgid "Weekly"
+msgstr "седмично"
+
+#: admin/class-wcmp-admin-setup-wizard.php:593
+#: admin/class-wcmp-settings-payment.php:71
+msgid "Daily"
+msgstr "ежедневно"
+
+#: admin/class-wcmp-admin-setup-wizard.php:594
+#: admin/class-wcmp-settings-payment.php:71
+msgid "Monthly"
+msgstr "Месечно"
+
+#: admin/class-wcmp-admin-setup-wizard.php:595
+#: admin/class-wcmp-settings-payment.php:71
+msgid "Fortnightly"
+msgstr "всеки две седмици"
+
+#: admin/class-wcmp-admin-setup-wizard.php:596
+#: admin/class-wcmp-settings-payment.php:71
+msgid "Hourly"
+msgstr "всеки час"
+
+#: admin/class-wcmp-admin-setup-wizard.php:632
+#: admin/class-wcmp-settings-capabilities-product.php:34
+msgid "Submit Products"
+msgstr "Добави продукти"
+
+#: admin/class-wcmp-admin-setup-wizard.php:635
+#: admin/class-wcmp-settings-capabilities-product.php:34
+msgid "Allow vendors to submit products for approval/publishing."
+msgstr ""
+"Позволете на търговците да изпращат продукти за одобрение / публикуване."
+
+#: admin/class-wcmp-admin-setup-wizard.php:642
+#: admin/class-wcmp-settings-capabilities-product.php:35
+msgid "Publish Products"
+msgstr "Публикуване на продукти"
+
+#: admin/class-wcmp-admin-setup-wizard.php:645
+#: admin/class-wcmp-settings-capabilities-product.php:35
+msgid ""
+"If checked, products uploaded by vendors will be directly published without "
+"admin approval."
+msgstr ""
+"Ако е поставена отметка, продуктите, качени от доставчиците, ще бъдат "
+"публикувани директно без одобрение от администратора."
+
+#: admin/class-wcmp-admin-setup-wizard.php:652
+#: admin/class-wcmp-settings-capabilities-product.php:36
+msgid "Edit Publish Products"
+msgstr "Редактирайте Публикуване на продукти"
+
+#: admin/class-wcmp-admin-setup-wizard.php:662
+#: admin/class-wcmp-settings-capabilities-product.php:37
+#: templates/shortcode/vendor_coupon.php:37
+#: templates/shortcode/vendor_coupon.php:40
+msgid "Submit Coupons"
+msgstr "Създай купони"
+
+#: admin/class-wcmp-admin-setup-wizard.php:665
+#: admin/class-wcmp-settings-capabilities-product.php:37
+msgid "Allow vendors to create coupons."
+msgstr "Позволете на доставчиците да създават купони."
+
+#: admin/class-wcmp-admin-setup-wizard.php:672
+#: admin/class-wcmp-settings-capabilities-product.php:38
+msgid "Publish Coupons"
+msgstr "Публикуване на купони"
+
+#: admin/class-wcmp-admin-setup-wizard.php:675
+#: admin/class-wcmp-settings-capabilities-product.php:38
+msgid ""
+"If checked, coupons added by vendors will be directly published without "
+"admin approval."
+msgstr ""
+"Ако е отметнато, купони, добавените доставчици, ще бъдат публикувани "
+"директно, без одобрение от администратора."
+
+#: admin/class-wcmp-admin-setup-wizard.php:682
+#: admin/class-wcmp-settings-capabilities-product.php:39
+msgid "Edit Publish Coupons"
+msgstr "Редактиране публикувани купони"
+
+#: admin/class-wcmp-admin-setup-wizard.php:685
+#: admin/class-wcmp-settings-capabilities-product.php:39
+msgid "Allow Vendor To edit delete published shop coupons."
+msgstr ""
+"Разрешаване на търговец редактиране  изтриване на публикувани купони от "
+"магазина."
+
+#: admin/class-wcmp-admin-setup-wizard.php:692
+#: admin/class-wcmp-settings-capabilities-product.php:40
+msgid "Upload Media Files"
+msgstr "Качване на файлове с мултимедия"
+
+#: admin/class-wcmp-admin-setup-wizard.php:695
+#: admin/class-wcmp-settings-capabilities-product.php:40
+msgid "Allow vendors to upload media files."
+msgstr "Разрешаване на доставчиците да качват мултимедийни файлове."
+
+#: admin/class-wcmp-settings-capabilities-order.php:32
+msgid "Order Notes"
+msgstr "Поръчки Бележки"
+
+#: admin/class-wcmp-settings-capabilities-order.php:34
+msgid "View Order Note"
+msgstr "Преглед на забележка към поръчката "
+
+#: admin/class-wcmp-settings-capabilities-order.php:34
+msgid "Vendor can see order notes."
+msgstr "Търговецът може да вижда бележките към поръчките."
+
+#: admin/class-wcmp-settings-capabilities-order.php:35
+msgid "Add Order Note"
+msgstr "Добавяне на бележка към поръчката"
+
+#: admin/class-wcmp-settings-capabilities-order.php:35
+msgid "Vendor can add order notes."
+msgstr "Търговецът може да добавя бележки към поръчките."
+
+#: admin/class-wcmp-settings-capabilities-order.php:38
+msgid "Order Export Data / Report Export Data"
+msgstr "Поръчки експорт данни /отчет на експортирните данни"
+
+#: admin/class-wcmp-settings-capabilities-order.php:40
+msgid "Allow vendors to export orders."
+msgstr "Разрешете на търговците да експортират поръчки."
+
+#: admin/class-wcmp-settings-capabilities-order.php:42
+msgid "E-mail and Phone Number"
+msgstr "E-mail и номер на  телефона"
+
+#: admin/class-wcmp-settings-capabilities-order.php:43
+#: admin/class-wcmp-settings-capabilities-order.php:50
+#: templates/emails/vendor-new-order.php:78
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:167
+#: templates/emails/plain/vendor-new-order.php:64
+#: templates/emails/plain/vendor-notify-shipped.php:49
+msgid "Billing Address"
+msgstr "Адрес на плащане"
+
+#: admin/class-wcmp-settings-capabilities-order.php:44
+#: admin/class-wcmp-settings-capabilities-order.php:51
+#: templates/emails/vendor-new-order.php:91
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:185
+#: templates/emails/plain/vendor-new-order.php:70
+#: templates/emails/plain/vendor-notify-shipped.php:52
+msgid "Shipping Address"
+msgstr "Адрес доставка"
+
+#: admin/class-wcmp-settings-capabilities-order.php:47
+msgid "Order Email Settings for Vendor"
+msgstr "Настройка на email на търговеца"
+
+#: admin/class-wcmp-settings-capabilities-order.php:49
+msgid "Name, Phone no. and Email"
+msgstr "Име, телефонен номер."
+
+#: admin/class-wcmp-settings-capabilities-order.php:52
+msgid "Order Calculations"
+msgstr "Изчисляване на поръчките"
+
+#: admin/class-wcmp-settings-payment-paypal_masspay.php:47
+msgid "API Username"
+msgstr "API Потребител"
+
+#: admin/class-wcmp-settings-payment-paypal_masspay.php:48
+msgid "API Password"
+msgstr "API парола"
+
+#: admin/class-wcmp-settings-payment-paypal_masspay.php:49
+msgid "API Signature"
+msgstr "API сигнатура"
+
+#: admin/class-wcmp-settings-payment-paypal_masspay.php:50
+#: admin/class-wcmp-settings-payment-paypal_payout.php:46
+msgid "Enable Test Mode"
+msgstr "Активиране на тестов режим"
+
+#: admin/class-wcmp-settings-payment-paypal_masspay.php:82
+msgid "Paypal Masspay Settings Updated"
+msgstr "Настройките на Paypal Masspay бяха актуализирани"
+
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:33
+msgid "Message to buyer"
+msgstr "Съобщение за клиента"
+
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:33
+msgid ""
+"Allow vendors to add vendor shop specific message in \"Thank you\" page and "
+"order mail."
+msgstr ""
+"Позволявам на търговеца да добавя съобщение на страницата \"Благодаря Ви!\" "
+"и писмо за поръчката"
+
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:34
+msgid "Enable store url"
+msgstr "Включете линк към магазина"
+
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:34
+msgid "Vendor can add external store url."
+msgstr "Търговецът може да добави външен URL адрес на магазина."
+
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:35
+msgid "Enable hide option for vendor"
+msgstr "Включи скрити настройки за търговците"
+
+#: admin/class-wcmp-settings-capabilities-miscellaneous.php:35
+msgid "Vendor can hide some details from shop."
+msgstr "Търговецът може да скрие някои подробности от магазина."
+
+#: admin/class-wcmp-settings-payment-paypal_payout.php:43
+msgid "Client Id"
+msgstr "Id на клиента"
+
+#: admin/class-wcmp-settings-payment-paypal_payout.php:44
+msgid "Client Secret"
+msgstr "Тайната дума на клиента"
+
+#: admin/class-wcmp-settings-payment-paypal_payout.php:78
+msgid "Paypal Payout Settings Updated"
+msgstr "PayPal Payout настройки актуализиран"
+
+#: admin/class-wcmp-settings-general-policies.php:33
+msgid "Policy Settings"
+msgstr "Настройки на правилата"
+
+#: admin/class-wcmp-settings-general-policies.php:35
+msgid "Policy Tab Title"
+msgstr "Заглавие Раздел \"Политика\""
+
+#: admin/class-wcmp-settings-general-policies.php:36
+msgid "Allow vendors to edit the policy tab label."
+msgstr ""
+"Разрешете на търговците да редактират заглавието на раздел \"Правила\"."
+
+#: admin/class-wcmp-settings-general-policies.php:42
+msgid "Enable Shipping Policy"
+msgstr "Включване Условия на доставка"
+
+#: admin/class-wcmp-settings-general-policies.php:43
+#: admin/class-wcmp-settings-general-policies.php:53
+#: admin/class-wcmp-settings-general-policies.php:62
+msgid "Product Wise"
+msgstr "Разбивка на продукта"
+
+#: admin/class-wcmp-settings-general-policies.php:44
+msgid "Allow vendors to edit the shipping policy."
+msgstr "Разрешете на търговците да редактират условията на доставка."
+
+#: admin/class-wcmp-settings-general-policies.php:45
+#: admin/class-wcmp-settings-general-policies.php:55
+#: admin/class-wcmp-settings-general-policies.php:64
+msgid "Label"
+msgstr "Етикет"
+
+#: admin/class-wcmp-settings-general-policies.php:46
+#: admin/class-wcmp-settings-general-policies.php:56
+#: admin/class-wcmp-settings-general-policies.php:65
+msgid "Policy Content"
+msgstr "Съдържание на правилата"
+
+#: admin/class-wcmp-settings-general-policies.php:52
+msgid "Enable Refund Policy"
+msgstr "Включване Условия за връщане"
+
+#: admin/class-wcmp-settings-general-policies.php:54
+msgid "Allow vendors to edit the refund policy."
+msgstr ""
+"Разрешете на търговците да редактират условията за възстановяване на суми."
+
+#: admin/class-wcmp-settings-general-policies.php:59
+msgid "Cancellation / Return / Exchange Policy"
+msgstr "Правила за анулиране / връщане / замяна"
+
+#: admin/class-wcmp-settings-general-policies.php:61
+msgid "Enable Cancellation / Return / Exchange Policy"
+msgstr "Включане Правила за анулиране / връщане / замяна"
+
+#: admin/class-wcmp-settings-general-policies.php:63
+msgid "Allow vendors to edit the cancellation / return / exchange policy."
+msgstr ""
+"Разрешаване търговците да редактират правилата за анулиране / връщане / "
+"замяна"
+
+#: admin/class-wcmp-settings-general-policies.php:123
+msgid "Policies Settings Updated"
+msgstr "настройка на Условия актуализирани"
+
+#: admin/class-wcmp-settings-vendor-registration.php:39
+msgid "Textbox"
+msgstr "Текст прозорец"
+
+#: admin/class-wcmp-settings-vendor-registration.php:45
+msgid "Url"
+msgstr "URL-адрес"
+
+#: admin/class-wcmp-settings-vendor-registration.php:48
+msgid "Textarea"
+msgstr "Текстова област"
+
+#: admin/class-wcmp-settings-vendor-registration.php:51
+msgid "List"
+msgstr "Списък"
+
+#: admin/class-wcmp-settings-vendor-registration.php:54
+msgid "Check Box"
+msgstr "Чек бокс"
+
+#: admin/class-wcmp-settings-vendor-registration.php:57
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: admin/class-wcmp-settings-vendor-registration.php:60
+msgid "Attachment"
+msgstr "Прикачи"
+
+#: admin/class-wcmp-settings-vendor-registration.php:63
+msgid "Section"
+msgstr "Раздел"
+
+#: admin/class-wcmp-settings-frontend.php:31
+msgid "Enable \"Sold by\""
+msgstr "Активиране на \"Продаден от\""
+
+#: admin/class-wcmp-settings-frontend.php:31
+msgid "On shop page."
+msgstr "Включване страницата на магазина."
+
+#: admin/class-wcmp-settings-frontend.php:32
+msgid "On cart and checkout page."
+msgstr "Включване На кошницата и страницата за плащане."
+
+#: admin/class-wcmp-settings-frontend.php:33
+msgid "Vendor Tab"
+msgstr "Раздел Търговец"
+
+#: admin/class-wcmp-settings-frontend.php:33
+msgid "Display vendor details on product page."
+msgstr ""
+"Показване на избраната или актуална информация за търговеца на продукта."
+
+#: admin/class-wcmp-settings-frontend.php:34
+msgid "\"Sold by\" label"
+msgstr "Етикет \"Продаден от\""
+
+#: admin/class-wcmp-settings-frontend.php:34
+msgid ""
+"Add the text you want to replace the phrase \\\"Sold by {vendor name}\\\"."
+msgstr ""
+"Добави текста, който искате да замените израза \\ \"Продадено от {vendor "
+"name}\\\"."
+
+#: admin/class-wcmp-settings-frontend.php:35
+msgid "Vendor Slug"
+msgstr "Слуг на Търговеца"
+
+#: admin/class-wcmp-settings-frontend.php:35
+#, php-format
+msgid ""
+"To change the slug (/vendor/) , go to %s\\\"Settings/Permalinks\\\"%s . Type "
+"in your desired slug in the \"\\Vendor Shop base\\\" text box. Eg: yoursite."
+"com/slug/[vendor_name]."
+msgstr ""
+"За да промените \"slug\" (/ търговеца /), отворете% s \\ "
+"\"Настройки/Permalinks \\\"%s. Въведете желания шрифт в текстовото поле \"\\ "
+"Vendor Shop base \\\". Например: yoursite.com/slug/[vendor_name]."
+
+#: admin/class-wcmp-settings-frontend.php:36
+msgid "Show \"Report abuse\" link"
+msgstr "Покажи \"сигнал за нарушение\""
+
+#: admin/class-wcmp-settings-frontend.php:36
+msgid "A \"Report abuse\" link will appear in single product page."
+msgstr ""
+"В страницата на всеки продукт ще се появи връзка \"Подаване на сигнал за "
+"злоупотреба\"."
+
+#: admin/class-wcmp-settings-frontend.php:36
+msgid "All Products"
+msgstr "Всички продукти"
+
+#: admin/class-wcmp-settings-frontend.php:36
+msgid "Only for Vendor's Products"
+msgstr "Само за продукти на търговеца"
+
+#: admin/class-wcmp-settings-frontend.php:36
+#: admin/class-wcmp-settings-frontend.php:38
+msgid "Disable"
+msgstr "Изключване"
+
+#: admin/class-wcmp-settings-frontend.php:37
+msgid "\"Report Abuse\" label"
+msgstr "Етикет \"сигнал за нарушение\""
+
+#: admin/class-wcmp-settings-frontend.php:38
+msgid "\"Related product\" settings"
+msgstr "Настройки за \"Свързан продукт\""
+
+#: admin/class-wcmp-settings-frontend.php:38
+msgid "Select related products to show in single product pages."
+msgstr ""
+"Изберете свързани с тях продукти за показване на страниците на един и същи "
+"продукт."
+
+#: admin/class-wcmp-settings-frontend.php:38
+msgid "Related Products from Entire Store"
+msgstr "Свързани продукти от целия магазин"
+
+#: admin/class-wcmp-settings-frontend.php:38
+msgid "Related Products from Vendor's Store"
+msgstr "Свързани продукти от магазина на търговеца"
+
+#: admin/class-wcmp-settings-frontend.php:39
+msgid "Blocked Vendor Notice"
+msgstr "уведомление за блокиране на търговец"
+
+#: admin/class-wcmp-settings-frontend.php:99
+msgid "Frontend Settings Updated"
+msgstr "Frontend Настройки Актуализирани"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:32
+msgid "Return Address & Customer Support Details "
+msgstr "Aдрес за връщане и поддръжка на клиенти Детайли"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:35
+msgid "Phone Number"
+msgstr "Телефон"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:36
+msgid "Address Line 1"
+msgstr "Адрес"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:37
+msgid "Address Line 2"
+msgstr "Адрес"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:41
+msgid "ZipCode"
+msgstr "Пощенски код"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:46
+msgid "Vendor customer support"
+msgstr "Поддръжка клиенти от търговеца"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:48
+msgid "Vendor Shop Support"
+msgstr "Vendor Shop Поддръжка"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:48
+msgid ""
+"Allow vendors to add vendor shop specific customer support details. If left "
+"blank by the vendor, the site wide customer support details would be on "
+"display."
+msgstr ""
+"Позволете на търговците да добавят подробности за клиентската поддръжка на "
+"магазина си. Ако се остави празен от Търговецът, подробностите за поддръжка "
+"на сайта ще бъдат изведени там."
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:97
+msgid "Customer Support Details Settings Updated"
+msgstr "Настройки за поддръжка на клиенти се обновяват"
+
+#: admin/class-wcmp-settings-general-customer_support_details.php:108
+msgid "Enter the store wide customer support deails here."
+msgstr "Тук въведете подробните данни за поддръжка на магазина."
+
+#: admin/class-wcmp-settings-to_do_list.php:30
+msgid "Pending Vendor Approval"
+msgstr "Одобрение на чакащ търговец"
+
+#: admin/class-wcmp-settings-to_do_list.php:34
+msgid "Pending User"
+msgstr "Чакащ потребител"
+
+#: admin/class-wcmp-settings-to_do_list.php:36
+msgid "Activate"
+msgstr "Активирате"
+
+#: admin/class-wcmp-settings-to_do_list.php:38
+#: admin/class-wcmp-settings-to_do_list.php:83
+#: admin/class-wcmp-settings-to_do_list.php:122
+#: admin/class-wcmp-settings-to_do_list.php:165
+msgid "Dismiss"
+msgstr "Отхвърляне"
+
+#: admin/class-wcmp-settings-to_do_list.php:76
+msgid "Pending Coupons Approval"
+msgstr "Одобрение за чакащи купони"
+
+#: admin/class-wcmp-settings-to_do_list.php:81
+msgid "Coupon Name"
+msgstr "Име на купона"
+
+#: admin/class-wcmp-settings-to_do_list.php:115
+msgid "Pending Products Approval"
+msgstr "Одобрение на продукти в очакване"
+
+#: admin/class-wcmp-settings-to_do_list.php:156
+msgid "Pending Bank Transfer"
+msgstr "Чакащ банков превод"
+
+#: admin/class-wcmp-settings-to_do_list.php:163
+msgid "Account Detail"
+msgstr "Детайл на сметката"
+
+#: admin/class-wcmp-settings-to_do_list.php:164
+msgid "Notify the Vendor"
+msgstr "Уведомява търговеца"
+
+#: admin/class-wcmp-settings-to_do_list.php:187
+msgid "Account Name- "
+msgstr "Сметка име-"
+
+#: admin/class-wcmp-settings-to_do_list.php:187
+msgid "Account No - "
+msgstr "Сметка №-"
+
+#: admin/class-wcmp-settings-to_do_list.php:187
+msgid "Bank Name - "
+msgstr "Име на банка -"
+
+#: admin/class-wcmp-settings-to_do_list.php:187
+msgid "IBAN - "
+msgstr "IBAN - "
+
+#: admin/class-wcmp-settings-general.php:34
+msgid ""
+"Anyone can register as vendor. Leave it unchecked if you want to keep your "
+"site an invite only marketpace."
+msgstr ""
+"Всеки може да се регистрира като продавач. Оставете го без отметка, ако "
+"искате да запазите сайта си само за поканени от вас търговци."
+
+#: admin/class-wcmp-settings-general.php:35
+msgid "Approve Vendors Manually"
+msgstr "Одобрява доставчици ръчно"
+
+#: admin/class-wcmp-settings-general.php:35
+msgid ""
+"If left unchecked, every vendor applicant will be auto-approved, which is "
+"not a recommended setting."
+msgstr ""
+"Ако останат нечекнато, всеки кандидат търговец ще бъде автоматично одобрен, "
+"което не е препоръчителната настройка."
+
+#: admin/class-wcmp-settings-general.php:36
+msgid "Disallow vendors wp-admin access"
+msgstr "Забраняване на търговците wp-admin достъп"
+
+#: admin/class-wcmp-settings-general.php:36
+msgid ""
+"Get the <a href=\"https://wc-marketplace.com/product/wcmp-frontend-"
+"manager/\">Front-end manager</a> to offer a single dashboard for all vendor "
+"purpose and eliminate their backend access requirement."
+msgstr ""
+"Get the <a href=\"https://wc-marketplace.com/product/wcmp-frontend-"
+"manager/\">Front-end manager</a> to offer a single dashboard for all vendor "
+"purpose and eliminate their backend access requirement."
+
+#: admin/class-wcmp-settings-general.php:38
+msgid "Enable \"Knowledgebase\" section on vendor dashboard."
+msgstr "Активирайте секцията \"Знание\" в таблото за управление на търговците."
+
+#: admin/class-wcmp-settings-general.php:39
+msgid ""
+"Allow multiple vendors to sell same product. Buyers can choose their "
+"preffered vendor."
+msgstr ""
+"Разрешете на няколко търговеца да продават един и същ продукт. Купувачите "
+"могат да изберат предпочитания от тях търговец."
+
+#: admin/class-wcmp-settings-general.php:40
+msgid "Enable Vendor Review"
+msgstr "Активиране на преглед на доставчиците"
+
+#: admin/class-wcmp-settings-general.php:40
+msgid "Buyers can rate and review vendor."
+msgstr "Купувачите могат да оценяват и да преглеждат търговеца."
+
+#: admin/class-wcmp-settings-general.php:41
+msgid "Only buyers, purchased from the vendor can rate."
+msgstr "Само купувачи, закупили от търговеца, могат да дават оценка."
+
+#: admin/class-wcmp-settings-general.php:42
+msgid "Enable Policies "
+msgstr "Активиране на правилата"
+
+#: admin/class-wcmp-settings-general.php:42
+msgid "If enabled a policy section will be added to single product page"
+msgstr ""
+"Ако е активирана секция с правила, ще бъде добавена към страницата на всеки "
+"продукт"
+
+#: admin/class-wcmp-settings-general.php:43
+msgid "Enable Customer Support"
+msgstr "Включване Поддръжка на клиенти"
+
+#: admin/class-wcmp-settings-general.php:43
+msgid "Show support channel details in \"Thank You\" page and new order email."
+msgstr ""
+"Покажете подробности за канала за поддръжка в страницата \"Благодарим ви\" и "
+"имейла за нова поръчка."
+
+#: admin/class-wcmp-settings-general.php:94
+msgid "General Settings Updated"
+msgstr "Общите настройки са актуализирани"
+
+#: admin/class-wcmp-settings-payment.php:49
+msgid "Mode "
+msgstr "Режим"
+
+#: admin/class-wcmp-settings-payment.php:52
+msgid "What to Pay"
+msgstr "Какво да плати"
+
+#: admin/class-wcmp-settings-payment.php:54
+msgid "Choose Commission Type"
+msgstr "Изберете типа на комисионната"
+
+#: admin/class-wcmp-settings-payment.php:54
+msgid ""
+"Choose your preferred commission type. It will affect all commission "
+"calculations."
+msgstr ""
+"Въведете предпочитам вид на комисионна. Това ще засегне всички изчисления на "
+"комисионната."
+
+#: admin/class-wcmp-settings-payment.php:55
+msgid ""
+"This will be the default commission(in percentage or fixed) paid to vendors "
+"if product and vendor specific commission is not set. "
+msgstr ""
+"Това ще бъде комисионната по подразбиране (в проценти или фиксирана), "
+"платена на търговците, ако не е зададена конкретна комисионна за продукта и "
+"търговеца."
+
+#: admin/class-wcmp-settings-payment.php:56
+msgid ""
+"This will be the default percentage paid to vendors if product and vendor "
+"specific commission is not set. "
+msgstr ""
+"Това ще бъде процента по подразбиране, изплатен на търговците, ако не е "
+"зададена конкретна комисионна за продукта и търговеца."
+
+#: admin/class-wcmp-settings-payment.php:57
+msgid "Fixed (per transaction)"
+msgstr "Фиксирана (на сделка)"
+
+#: admin/class-wcmp-settings-payment.php:58
+msgid "Fixed (per unit)"
+msgstr "Фиксирана (за единица)"
+
+#: admin/class-wcmp-settings-payment.php:59
+msgid "Share Coupon Discount"
+msgstr "Отстъпка за купон за споделяне"
+
+#: admin/class-wcmp-settings-payment.php:59
+msgid ""
+"Vendors commission will be calculated AFTER deducting the discount, "
+"otherwise, the site owner will bear the cost of the coupon."
+msgstr ""
+"Комисионната на доставчиците ще бъде изчислена след приспадането на "
+"отстъпката, в противен случай собственикът на сайта ще поеме разходите за "
+"купона."
+
+#: admin/class-wcmp-settings-payment.php:60
+msgid "Transfer the tax collected (per product) to the vendor. "
+msgstr "Прехвърлете събирания данък (за продукт) на търговците."
+
+#: admin/class-wcmp-settings-payment.php:61
+msgid "Transfer shipping charges collected (per product) to the vendor."
+msgstr ""
+"Прехвърлете таксите за доставка, които се събират (за продукт) на търговеца."
+
+#: admin/class-wcmp-settings-payment.php:62
+msgid "Disbursement threshold"
+msgstr "Праг за изплащане"
+
+#: admin/class-wcmp-settings-payment.php:62
+msgid "Threshold amount required to disburse commission."
+msgstr "Прагова сума, необходима за изплащане на комисиона."
+
+#: admin/class-wcmp-settings-payment.php:63
+msgid "Withdrawl Locking Period"
+msgstr "Отложен период на блокиране"
+
+#: admin/class-wcmp-settings-payment.php:63
+msgid ""
+"Minimum time required, before an individual commision is ready for withdrawl."
+msgstr ""
+"Необходимо е минимално време, преди отделната комисиonna да бъде готова за "
+"изтегляне."
+
+#: admin/class-wcmp-settings-payment.php:66
+msgid "How/When to Pay "
+msgstr "Как / Кога да плащате"
+
+#: admin/class-wcmp-settings-payment.php:70
+msgid "If checked, automatically vendors commission will disburse. "
+msgstr "Ако е поставена отметка, комисионните автоматично ще бъдат изплатени."
+
+#: admin/class-wcmp-settings-payment.php:72
+msgid "Withdrawl Request"
+msgstr "Искане за оттегляне"
+
+#: admin/class-wcmp-settings-payment.php:72
+msgid "Vendors can request for commission withdrawal. "
+msgstr "Доставчиците могат да поискат отменяне на комисионна"
+
+#: admin/class-wcmp-settings-payment.php:73
+msgid "Withdrawal Charges"
+msgstr "Разходи оттегляне"
+
+#: admin/class-wcmp-settings-payment.php:73
+msgid ""
+"Vendor will be charged this amount per withdrawal after the quota of free "
+"withdrawals is over."
+msgstr ""
+"Търговецът ще бъде изискана тази сума за оттегляне, когато квотата за "
+"безплатно изтегляне  приключи."
+
+#: admin/class-wcmp-settings-payment.php:74
+msgid "Number of Free Withdrawals"
+msgstr "Брой безплатно изтегляне"
+
+#: admin/class-wcmp-settings-payment.php:74
+msgid "Number of Free Withdrawal Requests."
+msgstr "Брой на безплатно изтегляне."
+
+#: admin/class-wcmp-settings-payment.php:177
+msgid "Payment Settings Updated"
+msgstr "Настройки на разплащанията актуализиран"
+
+#: admin/class-wcmp-settings-payment.php:188
+msgid ""
+"Payment can be done only if vendors have valid PayPal Email Id in their "
+"profile. You can add from [Users->Edit Users->PayPal Email]"
+msgstr ""
+"Плащането се извършва само ако търговците имат валиден PayPal имейл Id в "
+"техния профил. Можете да добавите от [потребители-> редактиране "
+"потребителите-> PayPal имейл]"
+
+#: admin/class-wcmp-settings-capabilities-product.php:32
+msgid "Products Capability"
+msgstr "възможности на продукта"
+
+#: admin/class-wcmp-settings-capabilities-product.php:43
+msgid "Product Side Panel "
+msgstr "Продуктов страничен панел"
+
+#: admin/class-wcmp-settings-capabilities-product.php:45
+msgid "Inventory"
+msgstr "Инвентаризация"
+
+#: admin/class-wcmp-settings-capabilities-product.php:47
+msgid "Linked Products"
+msgstr "свързани стоки"
+
+#: admin/class-wcmp-settings-capabilities-product.php:48
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: admin/class-wcmp-settings-capabilities-product.php:49
+msgid "Advanced"
+msgstr "Продукти на фокус"
+
+#: admin/class-wcmp-settings-capabilities-product.php:52
+msgid "Product Types "
+msgstr "Вид на продукта"
+
+#: admin/class-wcmp-settings-capabilities-product.php:54
+msgid "Simple"
+msgstr "Обикновен"
+
+#: admin/class-wcmp-settings-capabilities-product.php:55
+msgid "Variable"
+msgstr "Продукт с вариации"
+
+#: admin/class-wcmp-settings-capabilities-product.php:56
+msgid "Grouped"
+msgstr "Групирани"
+
+#: admin/class-wcmp-settings-capabilities-product.php:57
+msgid "External / Affiliate"
+msgstr "Външни / Affiliate"
+
+#: admin/class-wcmp-settings-capabilities-product.php:61
+msgid "Type Options "
+msgstr "Тип опции"
+
+#: admin/class-wcmp-settings-capabilities-product.php:63
+msgid "Virtual"
+msgstr "Виртуални"
+
+#: admin/class-wcmp-settings-capabilities-product.php:64
+msgid "Downloadable"
+msgstr "за изтегляне"
+
+#: admin/class-wcmp-settings-capabilities-product.php:67
+msgid "Miscellaneous "
+msgstr "Разни"
+
+#: admin/class-wcmp-settings-capabilities-product.php:69
+#: templates/vendor-dashboard/dashboard/vendor-dashboard-sales-item-header.php:17
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/class-wcmp-settings-capabilities-product.php:70
+msgid "Taxes"
+msgstr "данъци"
+
+#: admin/class-wcmp-settings-capabilities-product.php:71
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:135
+msgid "Add Comment"
+msgstr "Добави коментар"
+
+#: admin/class-wcmp-settings-capabilities-product.php:72
+msgid "Comment Box"
+msgstr "Коментари"
+
+#: admin/class-wcmp-settings-capabilities-product.php:73
+msgid "Stylesheet"
+msgstr "Стил"
+
+#: admin/class-wcmp-settings-capabilities-product.php:73
+msgid ""
+"You can add CSS in the text area that will be loaded on the product page."
+msgstr ""
+"Можете да добавите текстово поле CSS, които ще бъдат добавени към страницата "
+"на продукта."
+
+#: templates/vendor-dashboard/vendor-billing.php:48
+msgid "Paypal"
+msgstr "Paypal"
+
+#: templates/vendor-dashboard/vendor-billing.php:49
+#: templates/vendor-dashboard/vendor-billing.php:50
+msgid "Enter your Paypal ID"
+msgstr "Введите  Paypal ID"
+
+#: templates/vendor-dashboard/vendor-billing.php:53
+msgid "Bank Transfer"
+msgstr "банков превод"
+
+#: templates/vendor-dashboard/vendor-billing.php:54
+msgid "Enter your Bank Details"
+msgstr "Въведете данните си за банката"
+
+#: templates/vendor-dashboard/vendor-billing.php:63
+msgid "Account Number"
+msgstr "Номер на сметка"
+
+#: templates/vendor-dashboard/vendor-billing.php:87
+#: templates/vendor-dashboard/shop-front.php:172
+#: templates/vendor-dashboard/vendor-policy.php:71
+msgid "Save Options"
+msgstr "Запази настройките"
+
+#: templates/vendor-dashboard/dashboard.php:24
+msgid ""
+"<h4>You have not configured your store properly missing some required fields!"
+"</h4>"
+msgstr ""
+"<H4> Не сте конфигурирали някой задължителни полета в магазина </ H4>\n"
+"<h4>Вы не настроили некоторые обязательные поля</h4>"
+
+#: templates/vendor-dashboard/dashboard.php:69
+msgid "Today"
+msgstr "Днес"
+
+#: templates/vendor-dashboard/dashboard.php:70
+msgid " This Week"
+msgstr "Тази седмица"
+
+#: templates/vendor-dashboard/dashboard.php:137
+msgid "Todays Sales"
+msgstr "Продажбите днес"
+
+#: templates/vendor-dashboard/dashboard.php:141
+msgid "Todays Earnings"
+msgstr "Приходите днес"
+
+#: templates/vendor-dashboard/dashboard.php:145
+msgid "Net Balance"
+msgstr "Нетен баланс"
+
+#: templates/vendor-dashboard/dashboard.php:165
+#: templates/vendor-dashboard/dashboard.php:195
+#: templates/vendor-dashboard/dashboard.php:290
+#: templates/vendor-dashboard/dashboard.php:317
+#: templates/vendor-dashboard/vendor-orders.php:48
+#: templates/vendor-dashboard/vendor-orders.php:96
+#: templates/vendor-dashboard/vendor-orders.php:102
+#: templates/vendor-dashboard/vendor-orders.php:149
+#: templates/vendor-dashboard/vendor-orders.php:155
+#: templates/vendor-dashboard/vendor-orders.php:202
+#: templates/vendor-dashboard/vendor-withdrawal.php:26
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:97
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-unread.php:103
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-archive.php:84
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-read.php:104
+msgid "Showing Results"
+msgstr "Показване на резултатите"
+
+#: templates/vendor-dashboard/dashboard.php:166
+#: templates/vendor-dashboard/dashboard.php:291
+msgid "  out of  "
+msgstr "извън"
+
+#: templates/vendor-dashboard/dashboard.php:169
+#: templates/vendor-dashboard/dashboard.php:196
+#: templates/vendor-dashboard/dashboard.php:294
+#: templates/vendor-dashboard/dashboard.php:318
+#: templates/vendor-dashboard/vendor-orders.php:91
+#: templates/vendor-dashboard/vendor-orders.php:144
+#: templates/vendor-dashboard/vendor-orders.php:197
+#: templates/vendor-dashboard/vendor-transactions.php:66
+#: templates/vendor-dashboard/vendor-withdrawal.php:67
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:99
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-unread.php:105
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-archive.php:86
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-read.php:106
+msgid "Show More"
+msgstr "Показване на повече "
+
+#: templates/vendor-dashboard/dashboard.php:174
+#: templates/vendor-dashboard/dashboard.php:298
+msgid "Pending Shipping"
+msgstr "Чакащи доставка"
+
+#: templates/vendor-dashboard/dashboard.php:195
+#: templates/vendor-dashboard/dashboard.php:317
+msgid " out of "
+msgstr "извън"
+
+#: templates/vendor-dashboard/dashboard.php:263
+msgid "Weekly Sales"
+msgstr "Седмични продажби"
+
+#: templates/vendor-dashboard/dashboard.php:267
+msgid "Weekly Earnings"
+msgstr "Седмични приходи"
+
+#: templates/vendor-dashboard/dashboard.php:271
+msgid "Weekly Balance"
+msgstr "Седмичен баланс"
+
+#: templates/vendor-dashboard/vendor-orders.php:17
+#: templates/vendor-dashboard/vendor-transactions.php:23
+msgid " Showing stats and reports for  :"
+msgstr "Показват се статистики и отчети за:"
+
+#: templates/vendor-dashboard/vendor-orders.php:32
+#: templates/vendor-dashboard/vendor-transactions.php:34
+#: templates/vendor-dashboard/vendor-report.php:25
+msgid "Select Date Range :"
+msgstr "Изберете период от време:"
+
+#: templates/vendor-dashboard/vendor-orders.php:34
+msgid "from"
+msgstr "от"
+
+#: templates/vendor-dashboard/vendor-orders.php:35
+msgid "to"
+msgstr "за"
+
+#: templates/vendor-dashboard/vendor-orders.php:36
+#: templates/vendor-dashboard/vendor-transactions.php:37
+#: templates/vendor-dashboard/vendor-report.php:28
+#: classes/reports/views/html-wcmp-report-by-product.php:54
+#: classes/reports/views/html-wcmp-report-by-vendor.php:54
+msgid "Show"
+msgstr "Показване"
+
+#: templates/vendor-dashboard/vendor-orders.php:41
+#: templates/vendor-dashboard/vendor-announcements.php:18
+msgid "All"
+msgstr "Всички"
+
+#: templates/vendor-dashboard/vendor-orders.php:68
+#: templates/vendor-dashboard/vendor-orders.php:122
+#: templates/vendor-dashboard/vendor-orders.php:175
+msgid "ID"
+msgstr "ID"
+
+#: templates/vendor-dashboard/vendor-orders.php:70
+#: templates/vendor-dashboard/vendor-orders.php:124
+#: templates/vendor-dashboard/vendor-orders.php:177
+#: templates/vendor-dashboard/dashboard/vendor-dasboard-pending-shipping-items-header.php:18
+msgid "dd/mm"
+msgstr "дд/мм"
+
+#: templates/vendor-dashboard/vendor-orders.php:71
+#: templates/vendor-dashboard/vendor-orders.php:125
+#: templates/vendor-dashboard/vendor-orders.php:178
+msgid "Earnings"
+msgstr "печалба"
+
+#: templates/vendor-dashboard/vendor-orders.php:73
+#: templates/vendor-dashboard/vendor-orders.php:127
+#: templates/vendor-dashboard/vendor-orders.php:180
+msgid "Actions"
+msgstr "Действия"
+
+#: templates/vendor-dashboard/vendor-orders.php:84
+#: templates/vendor-dashboard/vendor-orders.php:138
+#: templates/vendor-dashboard/vendor-orders.php:191
+#: templates/vendor-dashboard/vendor-transactions.php:64
+#: templates/vendor-dashboard/vendor-report.php:68
+msgid "Download CSV"
+msgstr "Изтеглете CSV"
+
+#: templates/vendor-dashboard/vendor-transactions.php:52
+msgid "Transc.ID"
+msgstr "Transc.ID"
+
+#: templates/vendor-dashboard/vendor-transactions.php:55
+msgid "Net Earnings"
+msgstr "Нетни приходи"
+
+#: templates/vendor-dashboard/vendor-transactions.php:72
+msgid "Sorry. No transactions are available."
+msgstr "Извинете. Няма налични транзакции."
+
+#: templates/vendor-dashboard/vendor-university.php:47
+msgid "Sorry no knowledgebase found"
+msgstr "Съжаляваме,няма такъв самоучител"
+
+#: templates/vendor-dashboard/vendor-withdrawal.php:21
+msgid "Your Threshold value for withdrawals is :"
+msgstr "Вашата прагова стойност за тегления е:"
+
+#: templates/vendor-dashboard/vendor-withdrawal.php:25
+msgid "Completed Orders"
+msgstr "Завършени поръчки"
+
+#: templates/vendor-dashboard/vendor-withdrawal.php:32
+msgid "out of "
+msgstr "извън"
+
+#: templates/vendor-dashboard/vendor-withdrawal.php:62
+msgid "Request Withdrawals"
+msgstr "Request Withdrawals"
+
+#: templates/vendor-dashboard/vendor-withdrawal.php:78
+msgid "Your next scheduled payment date is on:"
+msgstr "Следващата Ви дата на плащане е насрочена:"
+
+#: templates/vendor-dashboard/vendor-report.php:13
+msgid "Showing stats and reports for : "
+msgstr "Показват се статистики и отчети за:"
+
+#: templates/vendor-dashboard/vendor-report.php:33
+#: classes/reports/class-wcmp-report-overview.php:339
+#: classes/reports/views/html-wcmp-report-by-product.php:64
+#: classes/reports/views/html-wcmp-report-by-vendor.php:64
+msgid "Total Sales"
+msgstr "Всичко продажби"
+
+#: templates/vendor-dashboard/vendor-report.php:42
+msgid " Total number of"
+msgstr "Общ брой "
+
+#: templates/vendor-dashboard/vendor-report.php:42
+msgid "Order placed"
+msgstr "Поръчката е направена"
+
+#: templates/vendor-dashboard/vendor-report.php:45
+msgid "Number of "
+msgstr "Количество"
+
+#: templates/vendor-dashboard/vendor-report.php:45
+msgid "Purchased Products"
+msgstr "Закупени продукти"
+
+#: templates/vendor-dashboard/vendor-report.php:48
+msgid " Number of "
+msgstr "Количество"
+
+#: templates/vendor-dashboard/vendor-report.php:48
+msgid " Coupons used"
+msgstr "Използвани купони"
+
+#: templates/vendor-dashboard/vendor-report.php:51
+msgid " Total "
+msgstr "Всичко"
+
+#: templates/vendor-dashboard/vendor-report.php:51
+msgid " Coupon Discount "
+msgstr "Купон отстъпка"
+
+#: templates/vendor-dashboard/vendor-report.php:51
+msgid " value "
+msgstr "стойност"
+
+#: templates/vendor-dashboard/vendor-report.php:54
+msgid "  Number of  "
+msgstr "Число "
+
+#: templates/vendor-dashboard/vendor-report.php:54
+msgid "  Unique Customers  "
+msgstr "Уникални клиенти"
+
+#: templates/vendor-dashboard/vendor-report.php:65
+msgid "Download CSV to get complete Stats & Reports"
+msgstr "Изтеглете CSV, за да получите пълни статистически данни и отчети"
+
+#: templates/vendor-dashboard/vendor-announcements.php:19
+msgid "Read"
+msgstr "Четене"
+
+#: templates/vendor-dashboard/vendor-announcements.php:20
+msgid "Unread"
+msgstr "непрочетен"
+
+#: templates/vendor-dashboard/vendor-announcements.php:21
+msgid "Archive"
+msgstr "Архив"
+
+#: templates/vendor-dashboard/navigation.php:28
+msgid "Shop Name"
+msgstr "Име на магазина"
+
+#: templates/vendor-dashboard/navigation.php:31
+msgid "Shop"
+msgstr "Магазин"
+
+#: templates/vendor-dashboard/shop-front.php:30
+msgid "Store Name *"
+msgstr "Име на магазина *"
+
+#: templates/vendor-dashboard/shop-front.php:31
+#: templates/vendor-dashboard/shop-front.php:41
+msgid "Enter your Store Name here"
+msgstr "Въведете името на магазина си тук"
+
+#: templates/vendor-dashboard/shop-front.php:32
+msgid " Store Slug *"
+msgstr " Slug на магазина*"
+
+#: templates/vendor-dashboard/shop-front.php:43
+msgid "Shop Description"
+msgstr "Описание на магазина"
+
+#: templates/vendor-dashboard/shop-front.php:45
+#: templates/vendor-dashboard/shop-front.php:57
+#: templates/vendor-dashboard/shop-front.php:67
+msgid "Hide from user"
+msgstr "Скриване от потребителя"
+
+#: templates/vendor-dashboard/shop-front.php:63
+msgid "Email *"
+msgstr "Email *"
+
+#: templates/vendor-dashboard/shop-front.php:73
+#: templates/vendor-dashboard/dashboard/vendor-dasboard-pending-shipping-items-header.php:20
+msgid "Address"
+msgstr "Адрес"
+
+#: templates/vendor-dashboard/shop-front.php:77
+msgid " Hide from user"
+msgstr "Скриване от потребителя"
+
+#: templates/vendor-dashboard/shop-front.php:106
+msgid "Media Files"
+msgstr "Медийни файлове"
+
+#: templates/vendor-dashboard/shop-front.php:112
+#: templates/vendor-dashboard/shop-front.php:121
+msgid "Upload"
+msgstr "Качи"
+
+#: templates/vendor-dashboard/shop-front.php:113
+#: templates/vendor-dashboard/shop-front.php:122
+msgid "Replace"
+msgstr "Заменете"
+
+#: templates/vendor-dashboard/shop-front.php:126
+msgid "Social Media"
+msgstr "Социална медия"
+
+#: templates/vendor-dashboard/shop-front.php:128
+msgid "Enter your Social Media profile URL below:"
+msgstr "Въведете URL адреса на профила си в Социална мрежа по-долу:"
+
+#: templates/vendor-dashboard/shop-front.php:170
+#: templates/vendor-dashboard/vendor-policy.php:69
+msgid "* This field is required, you must fill some information."
+msgstr "* Това поле е задължително, трябва да попълните някаква информация."
+
+#: templates/vendor-dashboard/vendor-policy.php:23
+msgid "Policy Tab Label"
+msgstr "Етикет на раздела за правила"
+
+#: templates/vendor-dashboard/vendor-policy.php:24
+msgid "Policies. "
+msgstr "Условия."
+
+#: templates/vendor-dashboard/vendor-policy.php:29
+#: templates/vendor-dashboard/vendor-policy.php:33
+#: templates/vendor-dashboard/vendor-policy.php:37
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout. "
+msgstr ""
+"Факт е, че читателят ще бъде разсеян от четивното съдържание на страницата, "
+"когато разглежда нейното оформление."
+
+#: templates/vendor-dashboard/vendor-policy.php:42
+msgid "Phone*"
+msgstr "Телефон*"
+
+#: templates/vendor-dashboard/vendor-policy.php:46
+msgid "Email*"
+msgstr "Email*"
+
+#: templates/vendor-dashboard/vendor-policy.php:50
+msgid "Address*"
+msgstr "Адрес*"
+
+#: templates/single-product/load-more-button.php:19
+msgid " Load More "
+msgstr "Зареди още"
+
+#: templates/single-product/multiple_vendors_products.php:28
+#: templates/emails/vendor-notify-shipped.php:30
+msgid "Price"
+msgstr "Цена"
+
+#: templates/single-product/multiple_vendors_products.php:31
+msgid "Price Low To High"
+msgstr "Цена от ниска към висока"
+
+#: templates/single-product/multiple_vendors_products.php:32
+msgid "Price High To Low"
+msgstr "Цена от висока към ниска"
+
+#: templates/single-product/multiple_vendors_products.php:33
+msgid "Rating High To Low"
+msgstr "Оценка от висок към нисък"
+
+#: templates/single-product/multiple_vendors_products.php:34
+msgid "Rating Low To High"
+msgstr "Оценка от  Ниска към висока"
+
+#: templates/single-product/multiple_vendors_products.php:48
+msgid "Sorry no more offers available"
+msgstr "Съжалявам, няма повече налични оферти"
+
+#: templates/single-product/multiple_vendors_products_link.php:42
+msgid "More Vendors"
+msgstr "Други търговци"
+
+#: templates/single-product/multiple_vendors_products_body.php:64
+msgid "Add to Cart"
+msgstr "Добави в количката"
+
+#: templates/single-product/multiple_vendors_products_body.php:66
+msgid "Details"
+msgstr "подробности"
+
+#: templates/review/review-link.php:30 templates/review/review-link.php:31
+msgid "Leave Vendor feedback"
+msgstr "Оставете отзиви за търговеца"
+
+#: templates/review/review-link.php:32 templates/review/rating.php:34
+#: templates/review/rating_vendor_lists.php:32 templates/review/review.php:37
+#: templates/review/rating-vendor-tab.php:32
+msgid "out of 5"
+msgstr "от 5"
+
+#: templates/review/rating.php:33 templates/review/rating_vendor_lists.php:31
+#: templates/review/rating-vendor-tab.php:31
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Оценено % s от 5"
+
+#: templates/review/rating.php:41
+msgid " No Reviews Yet "
+msgstr "Все още няма ревюта."
+
+#: templates/review/rating_vendor_lists.php:35
+msgid "No Rating Yet"
+msgstr "Все още няма оценка"
+
+#: templates/review/review.php:36
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Оценено %d  от 5"
+
+#: templates/review/review.php:42
+msgid "Your comment is awaiting approval"
+msgstr "Вашият коментар чака одобрение"
+
+#: templates/review/review.php:49
+msgid "verified buyer"
+msgstr "Проверен купувач"
+
+#: templates/review/rating-vendor-tab.php:43
+msgid " No Reviews Yet"
+msgstr "Все още няма ревюта."
+
+#: templates/widget/store-location.php:16
+msgid "Show in Google Maps"
+msgstr "Показване на Google картата"
+
+#: templates/widget/quick-info.php:13
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:162
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:94
+msgid "Submit"
+msgstr "Изпрати"
+
+#: templates/widget/quick-info.php:30
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:146
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:129
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:157
+#: classes/emails/class-wcmp-email-vendor-new-order.php:149
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:144
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:119
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:140
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:126
+#: classes/emails/class-wcmp-email-vendor-transaction.php:126
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/emails/vendor-new-order.php:17
+#, php-format
+msgid ""
+"A new order was received and marked as processing from %s. Their order is as "
+"follows:"
+msgstr "Получена е нова поръчка и е означена като обработка от% s. Детайли:"
+
+#: templates/emails/vendor-new-order.php:59
+#: templates/emails/vendor-notify-shipped.php:59
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:146
+#: templates/emails/plain/vendor-new-order.php:50
+#: templates/emails/plain/vendor-notify-shipped.php:41
+msgid "Customer Details"
+msgstr "Данни на клиента"
+
+#: templates/emails/vendor-new-order.php:61
+msgid "Customer Name:"
+msgstr "Потребителско име:"
+
+#: templates/emails/vendor-new-order.php:62
+#: templates/emails/vendor-notify-shipped.php:62
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:153
+#: templates/emails/plain/vendor-new-order.php:53
+#: templates/emails/plain/vendor-notify-shipped.php:44
+msgid "Email:"
+msgstr "Email:"
+
+#: templates/emails/vendor-new-order.php:65
+#: templates/emails/vendor-notify-shipped.php:65
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:155
+#: templates/emails/plain/vendor-new-order.php:56
+#: templates/emails/plain/vendor-notify-shipped.php:47
+msgid "Telephone:"
+msgstr "Телефон:"
+
+#: templates/emails/vendor-new-account.php:18
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. We will process your application and "
+"revert shortly."
+msgstr ""
+"Благодарим Ви, че създадохте профил на% s. Ще обработим заявката Ви и скоро "
+"ще отговорим."
+
+#: templates/emails/vendor-new-account.php:20
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr "Паролата ви бе генерирана автоматично: <strong>% s </ strong>"
+
+#: templates/emails/vendor-new-account.php:22
+#: templates/emails/plain/vendor-new-account.php:23
+#, php-format
+msgid "You can access your account area here: %s."
+msgstr "Тук можете да влезете в областта на профила си:% s."
+
+#: templates/emails/vendor-notify-shipped.php:19
+#: templates/emails/plain/vendor-notify-shipped.php:15
+msgid ""
+"Some of the items you had ordered have been shipped. The items that have "
+"been shipped are as follows:"
+msgstr ""
+"Някои от артикулите, които сте поръчали, са били изпратени. Изпратените "
+"пратки са както следва:"
+
+#: templates/emails/vendor-notify-shipped.php:23
+#, php-format
+msgid "Order: %s"
+msgstr "Поръчка №%s"
+
+#: templates/emails/vendor-notify-shipped.php:68
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:87
+msgid "Shipment Tracking Details"
+msgstr "Данни за проследяването на пратката"
+
+#: templates/emails/vendor-notify-shipped.php:69
+msgid "Tracking Url:"
+msgstr "URL адрес за проследяване:"
+
+#: templates/emails/vendor-notify-shipped.php:70
+msgid "Tracking Id:"
+msgstr "Id за проследяване:"
+
+#: templates/emails/vendor-commissions-transaction.php:22
+#, php-format
+msgid ""
+"Hello,<br>You have successfully completed a withdrawal of $%s on %s through "
+"PayPal. The order details are as follows:"
+msgstr ""
+"Здравейте, Вие успешно приключихте изтеглянето на $% s на% s чрез PayPal. "
+"Данните за поръчката са както следва:"
+
+#: templates/emails/vendor-commissions-transaction.php:24
+#: templates/emails/plain/vendor-commissions-transaction.php:20
+#, php-format
+msgid ""
+"Hello,<br>This is to notify you that your withdrawal request for $%s on %s "
+"has been successfully processed. The order details are as follows:  "
+msgstr ""
+"Здравейте, <br>това е да ви известява, че си оттегляне искане за $%s на %s е "
+"успешно обработена. Данни на поръчката са както следва:"
+
+#: templates/emails/vendor-direct-bank.php:22
+#: templates/emails/plain/vendor-direct-bank.php:17
+#, php-format
+msgid ""
+"Hello,<br>We have received a new withdrawal request for $%s from you and "
+"your request is being processed.The order details are as follows:"
+msgstr ""
+"Здравейте, <br>сме получили нова заявка за $%s от вас и вашата заявка се "
+"обработва. Данни на поръчката са както следва:"
+
+#: templates/emails/admin-new-vendor-account.php:17
+#: templates/emails/plain/admin-new-vendor-account.php:18
+#, php-format
+msgid ""
+"A new user has applied to be a vendor on %s. His/her email is <strong>"
+"%s</strong>."
+msgstr ""
+"Нов потребител със заявка за ставане на търговец % s. Имейлът му е <strong>% "
+"s </ strong>."
+
+#: templates/emails/rejected-vendor-account.php:17
+#, php-format
+msgid ""
+"Thanks for creating an account with us on %s. Unfortunately your request has "
+"been rejected."
+msgstr ""
+"Благодарим Ви, че създадохте профил с нас на% s. За съжаление искането ви бе "
+"отхвърлено."
+
+#: templates/emails/rejected-vendor-account.php:18
+#, php-format
+msgid "You may contact the site admin at %s."
+msgstr "Можете да се свържете с администратора на сайта на% s."
+
+#: templates/emails/admin-widthdrawal-request.php:26
+#, php-format
+msgid ""
+"Hello,<br> %s has successfully completed a withdrawal of $%s on %s through "
+"PayPal. The order details are as follows:"
+msgstr ""
+"Здравейте,% s успешно завърши изтеглянето на $% s на% s чрез PayPal. Данните "
+"за поръчката са както следва:"
+
+#: templates/emails/admin-widthdrawal-request.php:28
+#: templates/emails/plain/admin-widthdrawal-request.php:19
+#, php-format
+msgid ""
+"Hello,<br>There is a new withdrawal request for $%s from a vendor %s at your "
+"site. The order details are as following:"
+msgstr ""
+"Здравейте, <br> Има нова заявка за изтегляне за% s от търговец% s на сайта "
+"Ви. Данните за поръчката са както следва:"
+
+#: templates/emails/new-admin-product.php:19
+#: templates/emails/plain/new-admin-product.php:18
+#: templates/emails/plain/new-product.php:17
+#, php-format
+msgid ""
+"Hi there! This is to notify that a new product has been submitted in %s."
+msgstr "Здравейте! Това е известие за нов продукт в% s."
+
+#: templates/emails/new-admin-product.php:22
+#: templates/emails/plain/new-admin-product.php:20
+#: templates/emails/plain/new-product.php:19
+#, php-format
+msgid "Product title: %s"
+msgstr "Заглавие на продукта:% s"
+
+#: templates/emails/new-admin-product.php:23
+#: templates/emails/new-product.php:27
+#: templates/emails/plain/new-admin-product.php:22
+#: templates/emails/plain/new-product.php:21
+#, php-format
+msgid "Submitted by: %s"
+msgstr "Изпратено от:% s"
+
+#: templates/emails/new-admin-product.php:26
+#: templates/emails/plain/new-admin-product.php:25
+#: templates/emails/plain/new-product.php:23
+#, php-format
+msgid "Edit product: %s"
+msgstr "Редактиране на продукта:% s"
+
+#: templates/emails/new-admin-product.php:28
+#: templates/emails/plain/new-admin-product.php:27
+#, php-format
+msgid "View product: %s"
+msgstr "Преглед на продукта:% s"
+
+#: templates/emails/approved-vendor-account.php:16
+#: templates/emails/plain/approved-vendor-account.php:19
+#, php-format
+msgid "Congratulations! There is a new vendor application on %s."
+msgstr "Поздравления! Има ново приложение за търговец на% s."
+
+#: templates/emails/approved-vendor-account.php:18
+msgid "Application status: Approved"
+msgstr "Статус на приложението: Одобрен"
+
+#: templates/emails/approved-vendor-account.php:19
+#: templates/emails/plain/approved-vendor-account.php:23
+#, php-format
+msgid "Applicant Username: %s"
+msgstr "Applicant Username: %s"
+
+#: templates/emails/approved-vendor-account.php:21
+#: templates/emails/plain/approved-vendor-account.php:25
+msgid "You have been cleared for landing! Congratulations and welcome aboard!"
+msgstr "Бяхте добавени към сайта! Поздравления и добре дошли на борда!"
+
+#: templates/emails/new-product.php:16
+msgid "Coupon"
+msgstr "Купон"
+
+#: templates/emails/new-product.php:23
+#, php-format
+msgid "Hi there! This is a notification about a new %s on %s."
+msgstr "Здравейте! Това е известие за нов% s на% s."
+
+#: templates/emails/new-product.php:26
+#, php-format
+msgid "%s title: %s"
+msgstr "%s название: %s"
+
+#: templates/emails/new-product.php:28
+#, php-format
+msgid "Edit %s: %s"
+msgstr "Редактиране %s: %s"
+
+#: templates/shortcode/vendor_registration.php:10
+msgid "Account Details"
+msgstr "Детайли за акаунта"
+
+#: templates/shortcode/vendor_coupon.php:22
+msgid "Coupon Code"
+msgstr "Код на купона"
+
+#: templates/shortcode/vendor_coupon.php:23
+msgid "Usage Count"
+msgstr "Брой потребители"
+
+#: templates/shortcode/vendor_coupon.php:37
+msgid "Submit another coupon by"
+msgstr "Изпратете друг купон до"
+
+#: templates/shortcode/vendor_coupon.php:40
+msgid ""
+"Sorry! You have not created any coupon till now.You can create your product "
+"specific coupon from -"
+msgstr ""
+"За съжаление! Досега не сте създали талон. Можете да създадете продуктовия "
+"си купон от -"
+
+#: templates/shortcode/vendor_coupon.php:43
+msgid "Sorry ! You do not have the capability to add coupons."
+msgstr "Съжалявам! Нямате възможност да добавите талони."
+
+#: templates/shortcode/non_vendor_dashboard.php:28
+msgid ""
+"You have logged in as Administrator. Please log out and then view this page."
+msgstr ""
+"Влезли сте като администратор. Моля, излезте и след това разгледайте тази "
+"страница."
+
+#: templates/shortcode/vendor_lists.php:21
+msgid "By date"
+msgstr "По Дата"
+
+#: templates/shortcode/vendor_lists.php:24
+msgid "By Alphabetically"
+msgstr "По азбучен ред"
+
+#: templates/shortcode/vendor_lists.php:27
+msgid "By Category"
+msgstr "По категория"
+
+#: templates/shortcode/vendor_lists.php:41
+msgid "Sort"
+msgstr "Вид"
+
+#: classes/gateways/class-wcmp-gateway-paypal-masspay.php:90
+#: classes/gateways/class-wcmp-gateway-paypal-payout.php:116
+#, php-format
+msgid "Total commissions earned from %1$s as at %2$s on %3$s"
+msgstr "Общо комисиони, получени от %1$s   %2$s на %3$s"
+
+#: classes/widgets/class-wcmp-widget-vendor-info.php:27
+msgid "WCMp Product Vendor's Info"
+msgstr "WCMp Информация за търговеца на продукта"
+
+#: classes/widgets/class-wcmp-widget-vendor-info.php:29
+msgid "Display selected or current product vendor info."
+msgstr ""
+"Показване на избраната или актуална информация за търговеца на продукта."
+
+#: classes/widgets/class-wcmp-widget-vendor-info.php:141
+#: classes/widgets/class-wcmp-widget-vendor-list.php:125
+msgid "Title (optional):"
+msgstr "Заглавие (по избор):"
+
+#: classes/widgets/class-wcmp-widget-vendor-info.php:144
+msgid "This widget shows.."
+msgstr "Тази притурка показва .."
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:26
+msgid "WCMp Vendor Quick Info"
+msgstr "WCMp кратка информация за продавача"
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:27
+msgid "Add a quick info contact form in vendor's store page."
+msgstr ""
+"Добавете формуляр за кратка информация за връзка в страницата на магазина на "
+"търговеца."
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:39
+msgid "Unable to send email. Please try again."
+msgstr "Изпращането на имейл не може да се изпрати. Моля, опитайте отново."
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:43
+msgid "Email sent successfully."
+msgstr "Имейлът е изпратен успешно."
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:159
+msgid "Quick Info"
+msgstr "кратка информация"
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:160
+msgid "Do you need more information? Write to us!"
+msgstr "Имате ли нужда от повече информация? Пишете ни!"
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:168
+#: classes/widgets/class-wcmp-widget-vendor-location.php:174
+msgid "Title"
+msgstr "Заглавие"
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:178
+msgid "Submit Button Label Text"
+msgstr "текста на етикета на бутона \"изпрати\""
+
+#: classes/widgets/class-wcmp-widget-vendor-quick-info.php:183
+msgid "Hide from guests"
+msgstr "Скрийте от гостите"
+
+#: classes/widgets/class-wcmp-widget-vendor-list.php:26
+msgid "Display a list of vendors."
+msgstr "Показване на списък с търговците."
+
+#: classes/widgets/class-wcmp-widget-vendor-list.php:28
+msgid "WCMp Product Vendors List"
+msgstr "WCMp  Списък с търговци на продукти"
+
+#: classes/widgets/class-wcmp-widget-vendor-list.php:128
+msgid "This widget shows a list of shop vendors.."
+msgstr "Тази притурка показва списък на продавачите на магазини."
+
+#: classes/widgets/class-wcmp-widget-vendor-location.php:27
+msgid "WCMp Store Location"
+msgstr "WCMp Местоположението на магазина"
+
+#: classes/widgets/class-wcmp-widget-vendor-location.php:28
+msgid "Display the vendor's store location in Google Maps."
+msgstr "Показване на местоположението на магазина на търговеца в Google Карти."
+
+#: classes/widgets/class-wcmp-widget-vendor-location.php:167
+msgid "Store Location"
+msgstr "Местоположението на магазина"
+
+#: classes/emails/class-wcmp-email-approved-vendor-new-account.php:33
+msgid "Approved Vendor Account"
+msgstr "Одобрен профил на търговец"
+
+#: classes/emails/class-wcmp-email-approved-vendor-new-account.php:34
+#: classes/emails/class-wcmp-email-rejected-vendor-new-account.php:34
+msgid ""
+"Vendor new account emails are sent when site admin approves a pending vendor."
+msgstr ""
+"Имейлите на нови профили на търговци се изпращат, когато администратор на "
+"сайта одобри предстоящ търговец."
+
+#: classes/emails/class-wcmp-email-approved-vendor-new-account.php:39
+#: classes/emails/class-wcmp-email-vendor-new-account.php:39
+#: classes/emails/class-wcmp-email-rejected-vendor-new-account.php:39
+msgid "Your account on {site_title}"
+msgstr "Вашият профил в {site_title}"
+
+#: classes/emails/class-wcmp-email-approved-vendor-new-account.php:40
+#: classes/emails/class-wcmp-email-vendor-new-account.php:40
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:40
+#: classes/emails/class-wcmp-email-rejected-vendor-new-account.php:40
+msgid "Welcome to {site_title}"
+msgstr "Добре дошли в {site_title}"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:35
+msgid "New Vendor Product By Admin"
+msgstr "Нов търговец продукт от Admin"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:36
+msgid ""
+"New order emails are sent when a new product is assigned to a vendor by the "
+"admin"
+msgstr ""
+"New order emails are sent when a new product is assigned to a vendor by the "
+"admin"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:38
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:38
+msgid "New product submitted: {product_name}"
+msgstr "Изпратен нов продукт: {product_name}"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:39
+msgid "[{blogname}] Admin has assigned new product to You- {product_name}"
+msgstr "[{Blogname}] Администраторът е задал нов ваш продукт- {product_name}"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:140
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:123
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:144
+#: classes/emails/class-wcmp-email-vendor-new-order.php:143
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:131
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:113
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:134
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:120
+#: classes/emails/class-wcmp-email-vendor-transaction.php:120
+msgid "Enable/Disable"
+msgstr "Включване / Изключване"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:142
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:146
+#: classes/emails/class-wcmp-email-vendor-new-order.php:145
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:133
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:136
+msgid "Enable this email notification."
+msgstr "Активирайте това известие по имейл."
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:148
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:131
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:159
+#: classes/emails/class-wcmp-email-vendor-new-order.php:151
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:146
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:121
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:142
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:128
+#: classes/emails/class-wcmp-email-vendor-transaction.php:128
+#, php-format
+msgid ""
+"This controls the email subject line. Leave it blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Настройка темата за имейли. Оставете го празно, за да използвате обекта по "
+"подразбиране: <code>% s </ code>."
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:153
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:136
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:164
+#: classes/emails/class-wcmp-email-vendor-new-order.php:156
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:151
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:126
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:147
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:133
+#: classes/emails/class-wcmp-email-vendor-transaction.php:133
+msgid "Email Heading"
+msgstr "Заглавие на писмото"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:155
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:166
+#: classes/emails/class-wcmp-email-vendor-new-order.php:158
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:153
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:149
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave it blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Конфигуриране на Заглавие, съдържащо се в известия по имейл. Оставете празно,"
+" за да използвате по подразбиране заглавие: <code>% s</code>."
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:160
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:143
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:171
+#: classes/emails/class-wcmp-email-vendor-new-order.php:163
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:158
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:133
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:154
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:140
+#: classes/emails/class-wcmp-email-vendor-transaction.php:140
+msgid "Email Type"
+msgstr "Въведете Email"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:162
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:173
+#: classes/emails/class-wcmp-email-vendor-new-order.php:165
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:160
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:156
+msgid "Choose which format of email to be sent."
+msgstr "Изберете кой формат да бъде изпратен."
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:166
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:177
+#: classes/emails/class-wcmp-email-vendor-new-order.php:169
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:164
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:160
+msgid "Plain Text"
+msgstr "Обикновен текст"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:167
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:178
+#: classes/emails/class-wcmp-email-vendor-new-order.php:170
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:165
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:161
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/emails/class-wcmp-email-admin-added-new-product-to-vendor.php:168
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:179
+#: classes/emails/class-wcmp-email-vendor-new-order.php:171
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:166
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:162
+msgid "Multipart"
+msgstr "Многопластов"
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:29
+msgid "Withdrawal request to Admin from Vendor by BAC"
+msgstr "Искане до администратора от продавача за плащане през BAC"
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:30
+msgid "New commissions withdrawal request have been submitted."
+msgstr "Бяха подадени заявки за теглене на нови комисиони."
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:32
+msgid "New Commission Withdrawal Request"
+msgstr "Ново искане за оттегляне на комисионна"
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:33
+msgid "[{site_title}] Commission Widthdrawal Request"
+msgstr "[{site_title}] Искане за изтегляне от Комисията"
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:125
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:115
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:122
+#: classes/emails/class-wcmp-email-vendor-transaction.php:122
+msgid "Enable notification for this email"
+msgstr "Активирайте известието за този имейл"
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:138
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:128
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:135
+#: classes/emails/class-wcmp-email-vendor-transaction.php:135
+#, php-format
+msgid ""
+"This controls the main heading contained in the email notification. Leave it "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Това контролира заглавието, съдържащо се в известието по имейл. Оставете го "
+"празно, за да използвате заглавието по подразбиране: <code>% s </ code>."
+
+#: classes/emails/class-wcmp-email-admin-withdrawal-request.php:145
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:135
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:142
+#: classes/emails/class-wcmp-email-vendor-transaction.php:142
+msgid "Choose format for the email that will be sent."
+msgstr "Изберете формат за имейл, който ще бъде изпратен."
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:35
+msgid "New Vendor Product"
+msgstr "Нов продукт от търговец"
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:36
+msgid ""
+"Notification emails are sent when a new product is submitted by a vendor."
+msgstr ""
+"Съобщенията на имейли се изпращат, когато даден нов продукт се подава от "
+"търговеца."
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:39
+msgid "[{blogname}] New product submitted by {vendor_name} - {product_name}"
+msgstr "[{blogname}] Нов продукт, качен от {vendor_name} - {product_name}"
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:81
+msgid "New Vendor Coupon"
+msgstr "Нов купон на търговец"
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:82
+msgid ""
+"Notification emails are sent when a new coupon is submitted by a vendor."
+msgstr ""
+"Имейлите за известия се изпращат, когато бъде изпратен нов купон от търговец."
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:84
+msgid "New coupon submitted: {product_name}"
+msgstr "Подаден нов купон: {product_name}"
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:85
+msgid "[{blogname}] New coupon submitted by {vendor_name} - {product_name}"
+msgstr "[{blogname}] Нов купон подаден от {vendor_name} - {product_name}"
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:150
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:137
+msgid "Recipient(s)"
+msgstr "Получатели"
+
+#: classes/emails/class-wcmp-email-vendor-new-product-added.php:152
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:139
+#, php-format
+msgid ""
+"Enter recipient(s) (comma separated) for this email. Defaults to <code>"
+"%s</code>."
+msgstr ""
+"Въведете получател (и) (разделени със запетая) за този имейл. По "
+"подразбиране е <code>% s </ code>."
+
+#: classes/emails/class-wcmp-email-vendor-new-order.php:27
+msgid "Vendor New order"
+msgstr "Търговец Нова поръчка"
+
+#: classes/emails/class-wcmp-email-vendor-new-order.php:28
+msgid "New order notification emails are sent when order is processing."
+msgstr ""
+"Номерата за известия за нови поръчки се изпращат, когато поръчката се "
+"обработва."
+
+#: classes/emails/class-wcmp-email-vendor-new-order.php:30
+msgid "New Vendor Order"
+msgstr "Нова поръчка за търговеца"
+
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:26
+msgid "Admin New Vendor Account"
+msgstr "Администратор на нов търговец"
+
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:27
+msgid "New emails are sent when a user applies to be a vendor."
+msgstr "Нови имейли се изпращат, когато потребителят кандидатства за търговец."
+
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:29
+#: classes/emails/class-wcmp-email-vendor-new-account.php:33
+msgid "New Vendor Account"
+msgstr "Нов профил на търговец"
+
+#: classes/emails/class-wcmp-email-admin-new-vendor-account.php:30
+msgid "[{site_title}] New Vendor Account"
+msgstr "[{site_title}] Нов профил на търговец"
+
+#: classes/emails/class-wcmp-email-vendor-new-account.php:34
+msgid ""
+"Vendor new account emails are sent when a customer signs up via the checkout "
+"or My Account page."
+msgstr ""
+"Имейлите на нов профил на търговец се изпращат, когато клиент се запише чрез "
+"страницата за плащане или страницата \"Моят профил\"."
+
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:29
+#: classes/emails/class-wcmp-email-vendor-transaction.php:29
+msgid "Transactions (for Vendor)"
+msgstr "Транзакции (за търговци)"
+
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:30
+#: classes/emails/class-wcmp-email-vendor-transaction.php:30
+msgid "New commissions have been credited to vendor."
+msgstr "Нови поръчки бяха зачислени на продавача."
+
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:32
+msgid " Transaction Details"
+msgstr "Детайли за транзакциите"
+
+#: classes/emails/class-wcmp-email-vendor-new-commission-transaction.php:33
+msgid ""
+"[{site_title}] The transaction you requested was successfully completed."
+msgstr "[{Site_title}] Заявената от вас транзакция бе успешно завършена."
+
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:33
+msgid "Notify as Shipped."
+msgstr "Уведомявай като изпратено."
+
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:34
+msgid "Confirm customer that vendor has shipped the order."
+msgstr "Потвърдете клиента, че продавачът е изпратил поръчката."
+
+#: classes/emails/class-wcmp-email-vendor-notify-shipped.php:39
+msgid "Your Order on {site_title} has been Shipped"
+msgstr "Вашата поръчка на {site_title} е изпратена"
+
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:29
+msgid "Commission Paid (for Vendor) by BAC"
+msgstr "Платено от комисионата (за търговеца) за BAC"
+
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:30
+msgid "New commissions withdrawal request have been submitted by vendor."
+msgstr "Молба за теглене на нови комисиони е подадена от търговеца."
+
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:32
+msgid "Vendor's Commission Requests"
+msgstr "Заявки за продавачите, комисионна"
+
+#: classes/emails/class-wcmp-email-vendor-direct-bank.php:33
+msgid "[{site_title}] Commission Payment Request"
+msgstr "[{Site_title}] Искане за плащане на комисиона"
+
+#: classes/emails/class-wcmp-email-rejected-vendor-new-account.php:33
+msgid "Rejected Vendor Account"
+msgstr "Отхвърлен профил на търговец"
+
+#: classes/emails/class-wcmp-email-vendor-transaction.php:32
+msgid "Vendor's New Transaction"
+msgstr "Нова транзакция на търговец"
+
+#: classes/emails/class-wcmp-email-vendor-transaction.php:33
+msgid "[{site_title}] New Transaction"
+msgstr "[{site_title}] Нова транзакция"
+
+#: classes/reports/class-wcmp-report-vendor.php:26
+#: classes/reports/class-wcmp-report-product.php:24
+#: classes/reports/class-wcmp-report-overview.php:231
+msgid "Year"
+msgstr "Година"
+
+#: classes/reports/class-wcmp-report-vendor.php:27
+#: classes/reports/class-wcmp-report-product.php:25
+#: classes/reports/class-wcmp-report-overview.php:232
+msgid "Last Month"
+msgstr "Последния месец"
+
+#: classes/reports/class-wcmp-report-vendor.php:28
+#: classes/reports/class-wcmp-report-product.php:26
+#: classes/reports/class-wcmp-report-overview.php:233
+msgid "This Month"
+msgstr "този месец"
+
+#: classes/reports/class-wcmp-report-vendor.php:29
+#: classes/reports/class-wcmp-report-product.php:27
+#: classes/reports/class-wcmp-report-overview.php:234
+msgid "Last 7 Days"
+msgstr "Последните 7 дни"
+
+#: classes/reports/class-wcmp-report-vendor.php:209
+msgid "Your store has no vendors."
+msgstr "Вашият магазин няма търговци."
+
+#: classes/reports/class-wcmp-report-product.php:215
+msgid "Your store has no products."
+msgstr "Вашият магазин няма продукти."
+
+#: classes/reports/class-wcmp-report-overview.php:179
+#, php-format
+msgid "%s Average Daily Sales"
+msgstr "%s Средни дневни продажби"
+
+#: classes/reports/class-wcmp-report-overview.php:183
+#, php-format
+msgid "%s Average Monthly Sales"
+msgstr "% s Средно месечно продажби"
+
+#: classes/reports/class-wcmp-report-overview.php:188
+#, php-format
+msgid "%s Gross Sales in this Period"
+msgstr "%s Брутни продажби през този период"
+
+#: classes/reports/class-wcmp-report-overview.php:189
+msgid "This is the sum of the order totals"
+msgstr "Това е сумата от всички поръчки"
+
+#: classes/reports/class-wcmp-report-overview.php:202
+#, php-format
+msgid "%s Number of Orders Placed"
+msgstr "%s Брой заявени поръчки"
+
+#: classes/reports/class-wcmp-report-overview.php:208
+#, php-format
+msgid "%s Net Earnings in this Period"
+msgstr "%s Нетни приходи в този период"
+
+#: classes/reports/class-wcmp-report-overview.php:215
+#, php-format
+msgid "%s Net Vendor Commission"
+msgstr "%s нето търговец комисиона"
+
+#: classes/reports/class-wcmp-report-overview.php:273
+msgid "Export CSV"
+msgstr "Експорт в CSV"
+
+#: classes/reports/class-wcmp-report-overview.php:332
+msgid "Number of Orders"
+msgstr "Брой поръчки"
+
+#: classes/reports/class-wcmp-report-overview.php:349
+msgid "Average Order Value"
+msgstr "Средна стойност поръчки"
+
+#: classes/reports/class-wcmp-report-overview.php:359
+#: classes/reports/views/html-wcmp-report-by-product.php:65
+#: classes/reports/views/html-wcmp-report-by-vendor.php:65
+msgid "Total Earnings"
+msgstr "Общо приходи"
+
+#: classes/reports/class-wcmp-report-overview.php:370
+msgid "Total Earnings by Vendor"
+msgstr "Общо приходи от търговци"
+
+#: templates/vendor-dashboard/dashboard/vendor-dashboard-sales-item-header.php:19
+msgid "Discount"
+msgstr "Отстъпка"
+
+#: templates/vendor-dashboard/dashboard/vendor-dasboard-pending-shipping-items-header.php:17
+msgid "Order Date"
+msgstr "Дата на поръчката:"
+
+#: templates/vendor-dashboard/dashboard/vendor-dasboard-pending-shipping-items-header.php:19
+msgid "L/B/H/W"
+msgstr "L/B/H/W"
+
+#: templates/vendor-dashboard/dashboard/vendor-dasboard-pending-shipping-items-header.php:21
+msgid "Charges"
+msgstr "Разходи"
+
+#: templates/vendor-dashboard/vendor-withdrawal/vendor-withdrawal-request.php:64
+#, php-format
+msgid ""
+"Hello,<br>Unfortunately your request for withdrawal amount could not be "
+"completed. You may try again later, or check you PayPal settings in your "
+"account page, or contact the admin at <b>%s</b>"
+msgstr ""
+"Hello,<br>Unfortunately your request for withdrawal amount could not be "
+"completed. You may try again later, or check you PayPal settings in your "
+"account page, or contact the admin at <b>%s</b>"
+
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:73
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-unread.php:81
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-read.php:78
+msgid "Delete"
+msgstr "Изтрий"
+
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:83
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-unread.php:90
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-archive.php:71
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-read.php:87
+msgid "Read More"
+msgstr "Прочетете повече"
+
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-all.php:97
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-unread.php:103
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-archive.php:84
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-read.php:104
+msgid "out of"
+msgstr "извън"
+
+#: templates/vendor-dashboard/vendor-announcements/vendor-announcements-archive.php:62
+msgid "Restore"
+msgstr "Възстановяване"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:23
+msgid "Order Details"
+msgstr "Детайли за поръчката"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:26
+msgid "Product Title"
+msgstr "Заглавие на продукта"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:27
+msgid "Product Quantity"
+msgstr "Количество продукт"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:28
+msgid "Line Subtotal"
+msgstr "Линия за междинна сума"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:30
+msgid "Purchase Note"
+msgstr "Бележка при поръчка"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:72
+msgid "Coupon Used :"
+msgstr "Използван купон:"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:88
+msgid "Sorry No Coupons of yours is used."
+msgstr "За съжаление не се използват купони."
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:98
+msgid "Customer Note"
+msgstr "Бележка от клиента"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:100
+msgid "No customer note."
+msgstr "Няма Бележка от клиента"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:109
+msgid "Comments"
+msgstr "Коментари"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:120
+#, php-format
+msgid "Added %s ago"
+msgstr "Добавено преди% s"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:140
+msgid "Add comment"
+msgstr "Добави коментар"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:151
+msgid "Name:"
+msgstr "Име:"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-order-details.php:202
+msgid "<div class=\"wcmp_headding3\">No such order found</div>"
+msgstr "<div class=\"wcmp_headding3\">Няма намерена такава поръчка</div>"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:47
+msgid "Mark as shipped"
+msgstr "Маркирайте като изпратено"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:58
+msgid "Download"
+msgstr "Изтегляне"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:88
+msgid "Enter Tracking Url"
+msgstr "Въведете URL за проследяване"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:89
+msgid "http://example.com/tracking/"
+msgstr "http://example.com/tracking/"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:90
+msgid "Enter Tracking ID"
+msgstr "Въведете идентификационен номер за проследяване"
+
+#: templates/vendor-dashboard/vendor-orders/vendor-orders-item.php:91
+msgid "XXXXXXXXXXXXX"
+msgstr "XXXXXXXXXXXXX"
+
+#: templates/emails/plain/vendor-new-order.php:17
+#, php-format
+msgid ""
+"A new order was received and marked as completed from %s. Their order is as "
+"follows:"
+msgstr "Получена нова поръчка и маркирана като завършена от% s. Детайли:"
+
+#: templates/emails/plain/vendor-new-order.php:23
+#: templates/emails/plain/vendor-notify-shipped.php:21
+#, php-format
+msgid "Order Number: %s"
+msgstr "Номер поръчка: %s"
+
+#: templates/emails/plain/vendor-new-order.php:24
+#: templates/emails/plain/vendor-notify-shipped.php:22
+#, php-format
+msgid "Order Link: %s"
+msgstr "Линк на поръчката: %s"
+
+#: templates/emails/plain/vendor-new-order.php:25
+#: templates/emails/plain/vendor-notify-shipped.php:23
+#, php-format
+msgid "Order Date: %s"
+msgstr "Дата на поръчката: %s"
+
+#: templates/emails/plain/vendor-new-order.php:25
+#: templates/emails/plain/vendor-notify-shipped.php:23
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: templates/emails/plain/vendor-new-account.php:18
+#, php-format
+msgid ""
+"Thanks for creating an account with %s. We have received your application "
+"for vendor registration. We will verify the information provided by you and "
+"inform you via email. Your username is <strong>%s</strong>."
+msgstr ""
+"Благодарим Ви, че създадохте профил с% s. Получихме заявката Ви за "
+"регистрация на Търговец. Ще потвърдим предоставената от Вас информация и ще "
+"Ви информираме по имейл. Вашето потребителско име е <strong>% s </ strong>."
+
+#: templates/emails/plain/vendor-new-account.php:21
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr "Паролата ви е  <strong>% s </ strong>."
+
+#: templates/emails/plain/vendor-commissions-transaction.php:18
+#, php-format
+msgid ""
+"Hello,<br>You have successfully completed a withdrawal of $%s on %s through "
+"Paypal. The order details are as follows:"
+msgstr ""
+"Здравейте, <br>успешно сте завършили отмяна на $%s на %s чрез Paypal. Данни "
+"на поръчката са както следва:"
+
+#: templates/emails/plain/rejected-vendor-account.php:17
+#, php-format
+msgid ""
+"Thanks for creating an account as Pending Vendor on %s. But your request has "
+"been rejected due to some reason."
+msgstr ""
+"Благодарим Ви, че създадохте профил като чакащ търговец на% s. Но вашето "
+"искане беше отхвърлено поради някаква причина."
+
+#: templates/emails/plain/admin-widthdrawal-request.php:17
+#, php-format
+msgid ""
+"Hello,<br> %s has successfully completed a withdrawal of $%s on %s through "
+"Paypal. The order details are as follows:"
+msgstr ""
+"Здравейте,% s успешно завърши изтеглянето на $% s на% s чрез Paypal. Данните "
+"за поръчката са както следва:"
+
+#: templates/emails/plain/approved-vendor-account.php:21
+#, php-format
+msgid "Application Status: %s"
+msgstr "Състояние на приложението:% s"
+
+#: classes/reports/views/html-wcmp-report-by-product.php:24
+#: classes/reports/views/html-wcmp-report-by-vendor.php:24
+#: classes/reports/views/html-report-by-date.php:25
+msgid "Custom"
+msgstr "клиент"
+
+#: classes/reports/views/html-wcmp-report-by-product.php:42
+#: classes/reports/views/html-wcmp-report-by-vendor.php:42
+#: classes/reports/views/html-report-by-date.php:43
+msgid "Go"
+msgstr "Отивам"
+
+#: classes/reports/views/html-wcmp-report-by-product.php:51
+msgid "Search for a product..."
+msgstr "Търсене на продукт..."
+
+#: classes/reports/views/html-wcmp-report-by-product.php:62
+#: classes/reports/views/html-wcmp-report-by-vendor.php:62
+msgid "Sort By : "
+msgstr "Подредба по:"
+
+#: classes/reports/views/html-wcmp-report-by-vendor.php:51
+msgid "Search for a vendor..."
+msgstr "Търсене на търговец"
+
+#. Description of the plugin
+msgid ""
+"A Free Extension That Transforms Your WooCommerce Site into a Marketplace."
+msgstr ""
+"Безплатно разширение, което трансформира Вашия Уеб маркетинг сайт в "
+"Marketplace."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wc-marketplace.com/"
+msgstr "https://wc-marketplace.com/"
+
+#. Author of the plugin
+msgid "WC Marketplace, The Grey Parrots"
+msgstr "WC Marketplace, The Grey Parrots"

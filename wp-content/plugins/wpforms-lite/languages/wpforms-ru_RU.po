@@ -1,0 +1,4564 @@
+# Copyright (C) 2017 WPForms
+# This file is distributed under the same license as the WPForms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms 1.4.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpforms\n"
+"POT-Creation-Date: 2017-09-26 15:04:59+00:00\n"
+"PO-Revision-Date: 2017-09-28 16:22+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: includes/admin/admin.php:128 pro/includes/admin/class-addons.php:241
+msgid "Activate"
+msgstr "Активировать"
+
+#: includes/admin/admin.php:129 pro/includes/admin/class-addons.php:198
+msgid "Active"
+msgstr "Активный"
+
+#: includes/admin/admin.php:130 pro/includes/admin/class-addons.php:236
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: includes/admin/admin.php:131 pro/includes/admin/class-addons.php:204
+msgid "Inactive"
+msgstr "Неактивный"
+
+#: includes/admin/admin.php:132 pro/includes/admin/class-addons.php:246
+msgid "Install Addon"
+msgstr "Установить"
+
+#: includes/admin/admin.php:134 includes/admin/builder/class-builder.php:297
+#: includes/admin/class-editor.php:97
+#: pro/includes/admin/entries/class-entries-single.php:601
+msgid "Cancel"
+msgstr "Отменить"
+
+#: includes/admin/admin.php:135 includes/admin/builder/class-builder.php:299
+#: includes/admin/class-editor.php:71 includes/class-preview.php:160
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/admin/admin.php:136
+msgid "Are you sure you want to delete this entry?"
+msgstr "Вы уверены, что хотите удалить эту запись?"
+
+#: includes/admin/admin.php:137
+msgid "Are you sure you want to delete ALL entries?"
+msgstr "Вы уверены, что хотите удалить ВСЕ записи?"
+
+#: includes/admin/admin.php:138
+#: pro/includes/admin/entries/class-entries-single.php:508
+msgid "Hide Empty Fields"
+msgstr "Спрятать пустые поля"
+
+#: includes/admin/admin.php:139
+#: pro/includes/admin/entries/class-entries-single.php:508
+msgid "Show Empty Fields"
+msgstr "Показать пустые поля"
+
+#: includes/admin/admin.php:140
+msgid "Entries Field Columns"
+msgstr "Колонки таблицы записей"
+
+#: includes/admin/admin.php:141
+msgid "Are you sure you want to delete this note?"
+msgstr "Вы уверены, что хотите удалить эту заметку?"
+
+#: includes/admin/admin.php:142
+#: pro/includes/admin/entries/class-entries-list-table.php:364
+msgid "Unstar entry"
+msgstr "Снять отметку с записи"
+
+#: includes/admin/admin.php:143
+#: pro/includes/admin/entries/class-entries-list-table.php:364
+msgid "Star entry"
+msgstr "Отметить запись"
+
+#: includes/admin/admin.php:144
+#: pro/includes/admin/entries/class-entries-list-table.php:369
+msgid "Mark entry read"
+msgstr "Отметить прочитанным"
+
+#: includes/admin/admin.php:145
+#: pro/includes/admin/entries/class-entries-list-table.php:369
+msgid "Mark entry unread"
+msgstr "Отметить непрочитанным"
+
+#: includes/admin/admin.php:146
+msgid "Select fields"
+msgstr "Выбрать поля"
+
+#: includes/admin/admin.php:147
+msgid "Are you sure you want to delete this form?"
+msgstr "Вы действительно хотите удалить эту форму?"
+
+#: includes/admin/admin.php:148
+msgid "Are you sure you want to duplicate this form?"
+msgstr "Вы действительно хотите создать дубликат этой формы?"
+
+#: includes/admin/admin.php:149 includes/admin/builder/class-builder.php:307
+msgid "Heads up!"
+msgstr "Осторожно!"
+
+#: includes/admin/admin.php:151 includes/admin/builder/class-builder.php:298
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/admin.php:152
+msgid "Are you sure you want to disconnect this account?"
+msgstr "Вы действительно хотите отключить эту учетную запись?"
+
+#: includes/admin/admin.php:153
+msgid "Could not authenticate with the provider."
+msgstr "Не удалось выполнить аутентификацию с поставщиком."
+
+#: includes/admin/admin.php:154
+msgid "Save and Refresh"
+msgstr "Сохранить и обновить"
+
+#: includes/admin/admin.php:155
+msgid "Upload or Choose Your Image"
+msgstr "Загрузить или выбрать изображение"
+
+#: includes/admin/admin.php:156
+msgid "Use Image"
+msgstr "Использовать изображение"
+
+#. translators: %1$s - WPForms plugin name; %2$s - opening a link tag; %3$s -
+#. closing a link tag.
+#: includes/admin/admin.php:351
+msgid ""
+"Your site is running an outdated version of PHP that is no longer supported "
+"and may cause issues with %1$s. %2$sRead more%3$s for additional information."
+msgstr ""
+"Ваш сайт работает на очень старой версии PHP, которая большая не "
+"поддерживается и может быть причиной проблем в работе %1$s. %2$sПрочтите "
+"больше%3$s на нашем сайте."
+
+#: includes/admin/ajax-actions.php:24
+msgid "You do not have permission."
+msgstr "У вас недостаточно прав."
+
+#: includes/admin/ajax-actions.php:29
+msgid "No data provided"
+msgstr "Данные не были предоставлены"
+
+#: includes/admin/ajax-actions.php:69
+msgid "An error occurred and the form could not be saved"
+msgstr "Произошла ошибка и форма не может быть сохранена"
+
+#: includes/admin/ajax-actions.php:95
+msgid "No form name provided"
+msgstr "Имя формы не было предоставлено"
+
+#: includes/admin/ajax-actions.php:132
+msgid "Error creating form"
+msgstr "Ошибка при создании формы"
+
+#: includes/admin/ajax-actions.php:150
+msgid "No form ID provided"
+msgstr "ID формы не предоставлен"
+
+#: includes/admin/ajax-actions.php:173
+msgid "Error updating form template"
+msgstr "Ошибка при обновлении формы"
+
+#: includes/admin/ajax-actions.php:281 includes/fields/class-base.php:405
+msgid "post type"
+msgstr "тип записи"
+
+#: includes/admin/ajax-actions.php:309 includes/fields/class-base.php:412
+msgid "taxonomy"
+msgstr "таксономия"
+
+#: includes/admin/builder/class-builder.php:284
+#: includes/class-conditional-logic-core.php:441
+msgid "AND"
+msgstr "И"
+
+#: includes/admin/builder/class-builder.php:286
+msgid "Add New Choices"
+msgstr "Добавить новые варианты"
+
+#: includes/admin/builder/class-builder.php:287
+#: includes/fields/class-base.php:363
+msgid "Bulk Add"
+msgstr "Массово добавить"
+
+#: includes/admin/builder/class-builder.php:288
+msgid "Hide Bulk Add"
+msgstr "Спрятать массовое добавление"
+
+#: includes/admin/builder/class-builder.php:289
+msgid "Add Choices (one per line)"
+msgstr "Добавить варианты (по одной в строке)"
+
+#: includes/admin/builder/class-builder.php:290
+msgid ""
+"Blue\n"
+"Red\n"
+"Green"
+msgstr ""
+"Синий\n"
+"Красный\n"
+"Зеленый"
+
+#: includes/admin/builder/class-builder.php:291
+msgid "Show presets"
+msgstr "Показать пресеты"
+
+#: includes/admin/builder/class-builder.php:292
+msgid "Hide presets"
+msgstr "Скрыть пресеты"
+
+#: includes/admin/builder/class-builder.php:296
+msgid ""
+"The {source} {type} contains over {limit} items ({total}). This may make the "
+"field difficult for your vistors to use and/or cause the form to be slow."
+msgstr ""
+"{source} {type} содержит более {limit} элементов ({total}). Это может "
+"затруднить использование вашими посетителями поля и/или привести к "
+"замедлению формы."
+
+#: includes/admin/builder/class-builder.php:300
+msgid ""
+"Due to form changes, conditional logic rules have been removed or updated:"
+msgstr ""
+"Из-за изменений формы, правила условной логики были удалены или обновлены:"
+
+#: includes/admin/builder/class-builder.php:301
+msgid ""
+"Are you sure you want to disable conditional logic? This will remove the "
+"rules for this field or setting."
+msgstr ""
+"Вы уверены, что хотите отключить условную логику? Это действие удалит все "
+"правила для этого поля или настройки."
+
+#: includes/admin/builder/class-builder.php:302
+#: pro/includes/admin/entries/class-entries-list-table.php:212
+#: pro/includes/admin/entries/class-entries-list-table.php:223
+#: pro/includes/admin/entries/class-entries-list.php:399
+#: pro/includes/admin/entries/class-entries-list.php:413
+msgid "Field"
+msgstr "Поле"
+
+#: includes/admin/builder/class-builder.php:303
+msgid "Field Locked"
+msgstr "Поле заблокировано"
+
+#: includes/admin/builder/class-builder.php:304
+msgid "This field cannot be deleted or duplicated."
+msgstr "Это поле нельзя удалить или дублировать."
+
+#: includes/admin/builder/class-builder.php:305
+msgid "Available Fields"
+msgstr "Доступные поля"
+
+#: includes/admin/builder/class-builder.php:306
+msgid "No fields available"
+msgstr "Нет доступных полей"
+
+#: includes/admin/builder/class-builder.php:309
+msgid "No email fields"
+msgstr "Нет полей электронной почты"
+
+#: includes/admin/builder/class-builder.php:310
+msgid "Are you sure you want to delete this notification?"
+msgstr "Вы уверены, что хотите удалить это уведомление?"
+
+#: includes/admin/builder/class-builder.php:311
+msgid "Enter a notification name"
+msgstr "Введите название уведомления"
+
+#: includes/admin/builder/class-builder.php:312
+msgid "Eg: User Confirmation"
+msgstr "Например: Подтверждение пользователя"
+
+#: includes/admin/builder/class-builder.php:313
+msgid "You must provide a notification name"
+msgstr "Вы должны указать название уведомления"
+
+#: includes/admin/builder/class-builder.php:314
+msgid ""
+"Form must contain one notification. To disable all notifications use the "
+"Notifications dropdown setting."
+msgstr ""
+"Форма должна содержать как минимум одно уведомление. Чтобы отключить все "
+"уведомления, используйте настройку включения/отключения уведомлений."
+
+#: includes/admin/builder/class-builder.php:315 lite/wpforms-lite.php:84
+#: pro/wpforms-pro.php:408
+msgid "Default Notification"
+msgstr "Стандартное уведомление"
+
+#: includes/admin/builder/class-builder.php:316
+#: includes/admin/builder/class-builder.php:491
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/admin/builder/class-builder.php:317
+msgid "Saving ..."
+msgstr "Сохранение ..."
+
+#: includes/admin/builder/class-builder.php:318
+msgid "Saved!"
+msgstr "Сохранено!"
+
+#: includes/admin/builder/class-builder.php:319
+msgid "Save and Exit"
+msgstr "Сохранить и выйти"
+
+#: includes/admin/builder/class-builder.php:321
+#: includes/fields/class-base.php:550
+msgid "Show Layouts"
+msgstr "Показать макеты"
+
+#: includes/admin/builder/class-builder.php:322
+msgid "Hide Layouts"
+msgstr "Скрыть макеты"
+
+#: includes/admin/builder/class-builder.php:323
+msgid "Select your layout"
+msgstr "Выберите ваш макет"
+
+#: includes/admin/builder/class-builder.php:324
+msgid "Select your column"
+msgstr "Выберите вашу колонку"
+
+#: includes/admin/builder/class-builder.php:325
+#: includes/admin/builder/class-builder.php:446
+msgid "Loading"
+msgstr "Загрузка"
+
+#: includes/admin/builder/class-builder.php:331
+msgid "Use Template"
+msgstr "Использовать шаблон"
+
+#: includes/admin/builder/class-builder.php:332
+msgid ""
+"Changing templates on an existing form will DELETE existing form fields. Are "
+"you sure you want apply the new template?"
+msgstr ""
+"Изменение шаблонов в существующей форме УДАЛИТ существующие поля формы. Вы "
+"уверены, что хотите применить новый шаблон?"
+
+#: includes/admin/builder/class-builder.php:333
+msgid ""
+"You are almost done. To embed this form on your site, please paste the "
+"following shortcode inside a post or page."
+msgstr ""
+"Вы почти закончили. Чтобы внедрить эту форму на сайт, пожалуйста, вставьте "
+"следующий шорткод внутри записи или страницы."
+
+#: includes/admin/builder/class-builder.php:334
+msgid "Or you can follow the instructions in this video."
+msgstr "Или вы можете следовать инструкциям в этом видео."
+
+#: includes/admin/builder/class-builder.php:335
+#: includes/admin/builder/class-builder.php:496
+msgid "Exit"
+msgstr "Выход"
+
+#: includes/admin/builder/class-builder.php:337
+msgid "If you exit without saving, your changes will be lost."
+msgstr "Если не сохранитесь, внесённые изменения будут утеряны."
+
+#: includes/admin/builder/class-builder.php:338
+msgid "Are you sure you want to delete this field?"
+msgstr "Вы уверены, что хотите удалить это поле?"
+
+#: includes/admin/builder/class-builder.php:339
+msgid "Are you sure you want to duplicate this field?"
+msgstr "Вы уверено, что хотите создать дубликат этого поля?"
+
+#: includes/admin/builder/class-builder.php:340
+msgid "(copy)"
+msgstr "(копия)"
+
+#: includes/admin/builder/class-builder.php:341
+msgid "Please enter a form name."
+msgstr "Пожалуйста, введите название формы."
+
+#: includes/admin/builder/class-builder.php:342
+msgid "This item must contain at least one choice."
+msgstr "Этот элемент должен содержать по крайней мере один вариант."
+
+#: includes/admin/builder/class-builder.php:343
+#: includes/fields/class-base.php:253 includes/fields/class-base.php:599
+#: lite/wpforms-lite.php:76 pro/wpforms-pro.php:401
+msgid "Off"
+msgstr "Выкл"
+
+#: includes/admin/builder/class-builder.php:344
+#: includes/fields/class-base.php:253 lite/wpforms-lite.php:75
+#: pro/wpforms-pro.php:400
+msgid "On"
+msgstr "Вкл"
+
+#: includes/admin/builder/class-builder.php:345
+msgid "or"
+msgstr "или"
+
+#: includes/admin/builder/class-builder.php:346
+#: includes/templates/class-suggestion.php:61
+msgid "Other"
+msgstr "Другое"
+
+#: includes/admin/builder/class-builder.php:347
+#: includes/class-conditional-logic-core.php:367
+msgid "is"
+msgstr "является"
+
+#: includes/admin/builder/class-builder.php:348
+#: includes/class-conditional-logic-core.php:368
+msgid "is not"
+msgstr "не является"
+
+#: includes/admin/builder/class-builder.php:349
+#: includes/class-conditional-logic-core.php:369
+msgid "empty"
+msgstr "пусто"
+
+#: includes/admin/builder/class-builder.php:350
+#: includes/class-conditional-logic-core.php:370
+msgid "not empty"
+msgstr "не пусто"
+
+#: includes/admin/builder/class-builder.php:351
+#: includes/class-conditional-logic-core.php:375
+msgid "contains"
+msgstr "содержит"
+
+#: includes/admin/builder/class-builder.php:352
+#: includes/class-conditional-logic-core.php:376
+msgid "does not contain"
+msgstr "не содержит"
+
+#: includes/admin/builder/class-builder.php:353
+#: includes/class-conditional-logic-core.php:377
+msgid "starts with"
+msgstr "начинается с"
+
+#: includes/admin/builder/class-builder.php:354
+#: includes/class-conditional-logic-core.php:378
+msgid "ends with"
+msgstr "заканчивается на"
+
+#: includes/admin/builder/class-builder.php:355
+msgid ""
+"Form entries must be stored to accept payments. Please enable saving form "
+"entries in the General settings first."
+msgstr ""
+"Записи формы должны храниться для принятия платежей. Сначала включите "
+"сохранение записей в основных настройках формы."
+
+#: includes/admin/builder/class-builder.php:356
+#: pro/includes/fields/class-page-break.php:199
+#: pro/includes/fields/class-page-break.php:521
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: includes/admin/builder/class-builder.php:357
+#: includes/class-conditional-logic-core.php:441
+msgid "Create new rule"
+msgstr "Создать новое правило"
+
+#: includes/admin/builder/class-builder.php:358
+msgid "Add new group"
+msgstr "Добавить новую группу"
+
+#: includes/admin/builder/class-builder.php:359
+#: includes/class-conditional-logic-core.php:442
+msgid "Delete rule"
+msgstr "Удалить правило"
+
+#: includes/admin/builder/class-builder.php:361
+#: includes/admin/builder/functions.php:255 includes/fields/class-base.php:496
+msgid "Show Smart Tags"
+msgstr "Показать смарт-теги"
+
+#: includes/admin/builder/class-builder.php:362
+msgid "Hide Smart Tags"
+msgstr "Скрыть смарт-теги"
+
+#: includes/admin/builder/class-builder.php:363
+#: includes/class-conditional-logic-core.php:326
+msgid "-- Select Field --"
+msgstr "-- Выбрать поле --"
+
+#: includes/admin/builder/class-builder.php:364
+#: includes/class-conditional-logic-core.php:421
+msgid "-- Select Choice --"
+msgstr "-- Выбрать вариант --"
+
+#: includes/admin/builder/class-builder.php:397
+msgid "Countries"
+msgstr "Страны"
+
+#: includes/admin/builder/class-builder.php:401
+msgid "Countries Postal Code"
+msgstr "Почтовый индекс стран"
+
+#: includes/admin/builder/class-builder.php:405
+msgid "States"
+msgstr "Штаты"
+
+#: includes/admin/builder/class-builder.php:409
+msgid "States Postal Code"
+msgstr "Почтовый индекс штатов"
+
+#: includes/admin/builder/class-builder.php:413
+msgid "Months"
+msgstr "Месяцы"
+
+#: includes/admin/builder/class-builder.php:417
+msgid "Days"
+msgstr "Дни"
+
+#: includes/admin/builder/class-builder.php:469
+msgid "Now editing"
+msgstr "Сейчас редактируется"
+
+#: includes/admin/builder/class-builder.php:479
+#: pro/includes/admin/entries/class-entries-list.php:528
+msgid "Preview Form"
+msgstr "Предпросмотр формы"
+
+#: includes/admin/builder/class-builder.php:481
+#: includes/admin/overview/class-overview-table.php:182
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: includes/admin/builder/class-builder.php:484
+msgid "Embed Form"
+msgstr "Встроить форму"
+
+#: includes/admin/builder/class-builder.php:486
+msgid "Embed"
+msgstr "Шорткод"
+
+#: includes/admin/builder/class-builder.php:489
+msgid "Save Form"
+msgstr "Сохранить форму"
+
+#: includes/admin/builder/functions.php:194
+msgid "Field #"
+msgstr "Поле #"
+
+#: includes/admin/builder/panels/class-fields.php:21
+msgid "Fields"
+msgstr "Поля"
+
+#: includes/admin/builder/panels/class-fields.php:66
+msgid "Add Fields"
+msgstr "Добавить новые поля"
+
+#: includes/admin/builder/panels/class-fields.php:73
+msgid "Field Options"
+msgstr "Параметры поля"
+
+#: includes/admin/builder/panels/class-fields.php:100
+msgid ""
+"You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+"\">setup your form</a> before you can manage the fields."
+msgstr ""
+"Вам нужно <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+"\">настроить вашу форм</a>, прежде чем вы cможете управлять полями."
+
+#: includes/admin/builder/panels/class-fields.php:123
+#: includes/admin/builder/panels/class-settings.php:130
+msgid "Submit"
+msgstr "Отправить"
+
+#: includes/admin/builder/panels/class-fields.php:143
+msgid "Standard Fields"
+msgstr "Стандартные поля"
+
+#: includes/admin/builder/panels/class-fields.php:147
+msgid "Fancy Fields"
+msgstr "Сложные поля"
+
+#: includes/admin/builder/panels/class-fields.php:151
+msgid "Payment Fields"
+msgstr "Поля оплаты"
+
+#: includes/admin/builder/panels/class-fields.php:201
+msgid "You don't have any fields yet."
+msgstr "У вас еще нет полей."
+
+#: includes/admin/builder/panels/class-fields.php:232
+msgid "You don't have any fields yet. Add some!"
+msgstr "У вас еще нет полей. Добавьте некоторые!"
+
+#: includes/admin/builder/panels/class-fields.php:252
+#: includes/fields/class-base.php:796
+msgid "Duplicate Field"
+msgstr "Дублировать поле"
+
+#: includes/admin/builder/panels/class-fields.php:254
+#: includes/fields/class-base.php:797
+msgid "Delete Field"
+msgstr "Удалить поле"
+
+#: includes/admin/builder/panels/class-fields.php:256
+#: includes/fields/class-base.php:798
+msgid "Click to edit. Drag to reorder."
+msgstr "Нажмите, чтобы изменить. Перетащите, чтобы изменить порядок."
+
+#: includes/admin/builder/panels/class-providers.php:21
+msgid "Marketing"
+msgstr "Маркетинг"
+
+#: includes/admin/builder/panels/class-providers.php:55
+msgid ""
+"We need to save your progress to continue to the Marketing panel. Is that OK?"
+msgstr ""
+"Нам нужно сохранить ваш прогресс, чтобы перейти к маркетинговой панели. Вы "
+"согласны?"
+
+#: includes/admin/builder/panels/class-providers.php:56
+msgid "Are you sure you want to delete this connecton?"
+msgstr "Вы уверены, что хотите удалить это соединение?"
+
+#: includes/admin/builder/panels/class-providers.php:57
+msgid "Enter a %type% nickname"
+msgstr "Введите для %type% псевдоним"
+
+#: includes/admin/builder/panels/class-providers.php:58
+msgid "Eg: Newsletter Optin"
+msgstr "Например: Подписка на рассылку"
+
+#: includes/admin/builder/panels/class-providers.php:59
+msgid "You must provide a connection nickname"
+msgstr "Вы должны указать псевдоним соединения"
+
+#: includes/admin/builder/panels/class-providers.php:60
+msgid "Field required"
+msgstr "Поле обязательное"
+
+#: includes/admin/builder/panels/class-providers.php:97
+#: pro/includes/admin/builder/panels/class-payments.php:60
+msgid ""
+"You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+"\">setup your form</a> before you can manage these settings."
+msgstr ""
+"Вам нужно <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+"\">настроить вашу форм</a>, прежде чем вы cможете управлять этими "
+"настройками."
+
+#: includes/admin/builder/panels/class-providers.php:108
+msgid "Install Your Marketing Integration"
+msgstr "Установите вашу маркетинговую интеграцию"
+
+#: includes/admin/builder/panels/class-providers.php:109
+msgid ""
+"It seems you do not have any marketing addons activated. You can head over "
+"to the <a href=\"%s\">Addons page</a> to install and activate the addon for "
+"your provider."
+msgstr ""
+"Кажется, у вас нет никаких активированных маркетинговых расширений. Вы "
+"можете перейти на <a href=\"%s\">страницу всех расширений</a> , чтобы "
+"установить и активировать расширения для вашего провайдера."
+
+#: includes/admin/builder/panels/class-providers.php:115
+msgid "Select Your Marketing Integration"
+msgstr "Выберите вашу маркетинговую интеграцию"
+
+#: includes/admin/builder/panels/class-providers.php:116
+msgid ""
+"Select your email marketing service provider or CRM from the options on the "
+"left. If you don't see your email marketing service listed, then let us know "
+"and we'll do our best to get it added as fast as possible."
+msgstr ""
+"Выберите провайдера электронного маркетинга или CRM из вариантов слева. Если "
+"вы не видите вашего сервиса электронного маркетинга, то дайте нам знать и мы "
+"сделаем все возможное, чтобы добавить его как можно быстрее."
+
+#: includes/admin/builder/panels/class-settings.php:21
+#: includes/admin/class-menu.php:84 includes/admin/class-menu.php:195
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/builder/panels/class-settings.php:57
+#: includes/admin/builder/panels/class-settings.php:87
+#: includes/admin/class-settings.php:166 includes/admin/class-settings.php:247
+msgid "General"
+msgstr "Общие"
+
+#: includes/admin/builder/panels/class-settings.php:58 lite/wpforms-lite.php:61
+#: lite/wpforms-lite.php:71 pro/wpforms-pro.php:387 pro/wpforms-pro.php:396
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: includes/admin/builder/panels/class-settings.php:59
+#: includes/admin/builder/panels/class-settings.php:187
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+#: includes/admin/builder/panels/class-settings.php:77
+msgid ""
+"You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+"\">setup your form</a> before you can manage the settings."
+msgstr ""
+"Вам нужно <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+"\">настроить вашу форм</a>, прежде чем вы cможете управлять настройками."
+
+#: includes/admin/builder/panels/class-settings.php:94
+#: includes/admin/builder/panels/class-setup.php:55
+#: includes/class-smart-tags.php:37
+msgid "Form Name"
+msgstr "Название формы"
+
+#: includes/admin/builder/panels/class-settings.php:104
+msgid "Form Description"
+msgstr "Описание формы"
+
+#: includes/admin/builder/panels/class-settings.php:111
+msgid "Hide form name and description area"
+msgstr "Скрыть имя и описание формы"
+
+#: includes/admin/builder/panels/class-settings.php:118
+msgid "Form CSS Class"
+msgstr "CSS класс формы"
+
+#: includes/admin/builder/panels/class-settings.php:120
+msgid ""
+"Enter CSS class names for the form wrapper. Multiple class names should be "
+"separated with spaces."
+msgstr ""
+"Введите имена классов CSS для обертки формы. Имена классов должны быть "
+"разделены пробелами."
+
+#: includes/admin/builder/panels/class-settings.php:128
+msgid "Submit Button Text"
+msgstr "Текст кнопки Отправить"
+
+#: includes/admin/builder/panels/class-settings.php:138
+msgid "Submit Button Processing Text"
+msgstr "Текст на кнопке во время отправки"
+
+#: includes/admin/builder/panels/class-settings.php:140
+msgid ""
+"Enter the submit button text you would like the button display while the "
+"form submit is processing."
+msgstr ""
+"Введите текст для кнопки Отправить, который вы хотите, чтобы отображался на "
+"кнопке во время отправки формы."
+
+#: includes/admin/builder/panels/class-settings.php:148
+msgid "Submit Button CSS Class"
+msgstr "CSS класс кнопки отправки формы"
+
+#: includes/admin/builder/panels/class-settings.php:150
+msgid ""
+"Enter CSS class names for the form submit button. Multiple names should be "
+"separated with spaces."
+msgstr ""
+"Введите имена классов CSS для кнопки отправки формы. Несколько имен следует "
+"разделять пробелами."
+
+#: includes/admin/builder/panels/class-settings.php:158
+msgid "Enable anti-spam honeypot"
+msgstr "Включить анти-спам"
+
+#: includes/admin/builder/panels/class-settings.php:169
+msgid "Enable Google invisible reCAPTCHA"
+msgstr "Включить невидимую Google reCAPTCHA"
+
+#: includes/admin/builder/panels/class-settings.php:169
+msgid "Enable Google reCAPTCHA (v2)"
+msgstr "Включить Google reCAPTCHA (v2)"
+
+#: includes/admin/builder/panels/class-settings.php:194
+msgid "Confirmation Type"
+msgstr "Тип подтверждения"
+
+#: includes/admin/builder/panels/class-settings.php:198
+#: includes/templates/class-suggestion.php:76 lite/wpforms-lite.php:189
+#: pro/wpforms-pro.php:542
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/admin/builder/panels/class-settings.php:199
+msgid "Show Page"
+msgstr "Показать страницу"
+
+#: includes/admin/builder/panels/class-settings.php:200
+msgid "Go to URL (Redirect)"
+msgstr "Перенаправить на URL (редирект)"
+
+#: includes/admin/builder/panels/class-settings.php:209
+msgid "Confirmation Message"
+msgstr "Подтверждающее сообщение"
+
+#: includes/admin/builder/panels/class-settings.php:211
+msgid "Thanks for contacting us! We will be in touch with you shortly."
+msgstr "Спасибо, что написали нам! Мы скоро свяжемся с вами."
+
+#: includes/admin/builder/panels/class-settings.php:222
+msgid "Automatically scroll to the confirmation message"
+msgstr "Автоматически прокрутить к сообщению подтверждения"
+
+#: includes/admin/builder/panels/class-settings.php:235
+msgid "Confirmation Page"
+msgstr "Страница подтверждения"
+
+#: includes/admin/builder/panels/class-settings.php:245
+msgid "Confirmation Redirect URL"
+msgstr "URL-адрес перенаправления подтверждения"
+
+#: includes/admin/builder/panels/class-setup.php:21
+msgid "Setup"
+msgstr "Настройка"
+
+#: includes/admin/builder/panels/class-setup.php:56
+msgid "Enter your form name here&hellip;"
+msgstr "Ведите название формы здесь&hellip;"
+
+#: includes/admin/builder/panels/class-setup.php:60
+msgid "Select a Template"
+msgstr "Выберите шаблон"
+
+#: includes/admin/builder/panels/class-setup.php:64
+msgid ""
+"To speed up the process, you can select from one of our pre-made templates "
+"or start with a <strong><a href=\"#\" class=\"wpforms-trigger-blank\">blank "
+"form.</a></strong>"
+msgstr ""
+"Чтобы ускорить процесс, вы можете выбрать один из наших предварительно "
+"изготовленных шаблонов или начать с <strong><a href=\"#\" class=\"wpforms-"
+"trigger-blank\">пустой формы.</a></strong>"
+
+#: includes/admin/builder/panels/class-setup.php:70
+msgid "Additional Templates"
+msgstr "Дополнительные шаблоны"
+
+#. translators: %1$s - opening tag, %2$s - closing tag, %3$s - opening tag,
+#. %4$s - closing tag.
+#: includes/admin/builder/panels/class-setup.php:80
+msgid ""
+"Have a suggestion for a new template? %1$sWe'd love to hear it%2$s. Also, "
+"you can %3$screate your own templates%4$s!"
+msgstr ""
+"У вас есть предложение по новой форме? %1$sМы с удовольствием вас выслушаем"
+"%2$s. Также вы можете %3$sсоздать ваши собственные шаблоны%4$s!"
+
+#: includes/admin/builder/panels/class-setup.php:93
+msgid "Search additional templates..."
+msgstr "Поиск дополнительных шаблонов..."
+
+#. translators:%1$s - opening a tag, %2$s - close tag, %3$s - opening tag, %4$s
+#. - close tag.
+#: includes/admin/builder/panels/class-setup.php:104
+msgid ""
+"More are available in the %1$sForm Templates Pack addon%2$s or by "
+"%3$screating your own%4$s."
+msgstr ""
+"Больше доступно в %1$sрасширении Шаблонов форм%2$s или %3$sсоздайте свои%4$s."
+
+#: includes/admin/builder/panels/class-setup.php:147
+msgid "Selected"
+msgstr "Выбранный"
+
+#: includes/admin/builder/panels/class-setup.php:157
+msgctxt "Template name"
+msgid "%s template"
+msgstr "Шаблон %s"
+
+#: includes/admin/builder/panels/class-setup.php:157
+msgctxt "Template name"
+msgid "Create a %s"
+msgstr "Шаблон: %s"
+
+#: includes/admin/class-editor.php:44 includes/admin/class-editor.php:46
+#: includes/admin/class-editor.php:101
+msgid "Add Form"
+msgstr "Добавить форму"
+
+#: includes/admin/class-editor.php:70
+msgid "Insert Form"
+msgstr "Вставить форму"
+
+#: includes/admin/class-editor.php:79
+msgid "Select a form below to insert"
+msgstr "Выберите форму ниже, чтобы вставить"
+
+#: includes/admin/class-editor.php:85
+msgid "Show form name"
+msgstr "Показать название формы"
+
+#: includes/admin/class-editor.php:86
+msgid "Show form description"
+msgstr "Показать описание формы"
+
+#: includes/admin/class-editor.php:89
+#: includes/admin/overview/class-overview-table.php:333
+#: pro/includes/admin/entries/class-entries-list.php:311
+msgid ""
+"Whoops, you haven't created a form yet. Want to <a href=\"%s\">give it a go</"
+"a>?"
+msgstr ""
+"Упс, вы еще не создали формы еще. Хотите <a href=\"%s\">создать форму</a>?"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: includes/admin/class-menu.php:39 includes/admin/class-menu.php:40
+#: includes/admin/class-menu.php:51 includes/admin/class-menu.php:103
+#: includes/integrations.php:45
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/admin/class-menu.php:52
+msgid "All Forms"
+msgstr "Все формы"
+
+#: includes/admin/class-menu.php:61
+msgid "WPForms Builder"
+msgstr "Конструктор WPForms"
+
+#: includes/admin/class-menu.php:62
+#: includes/admin/overview/class-overview.php:124
+msgid "Add New"
+msgstr "Новая форма"
+
+#: includes/admin/class-menu.php:71
+msgid "Form Entries"
+msgstr "Записи формы"
+
+#: includes/admin/class-menu.php:72
+#: includes/admin/overview/class-overview-table.php:174
+#: pro/includes/admin/entries/class-entries-list.php:332
+#: pro/wpforms-pro.php:322
+msgid "Entries"
+msgstr "Записи"
+
+#: includes/admin/class-menu.php:83
+msgid "WPForms Settings"
+msgstr "Настройки WPForms"
+
+#: includes/admin/class-menu.php:93
+msgid "WPForms Tools"
+msgstr "Инструменты WPForms"
+
+#: includes/admin/class-menu.php:94
+msgid "Tools"
+msgstr "Инструменты"
+
+#: includes/admin/class-menu.php:104
+msgid "Info"
+msgstr "Информация"
+
+#: includes/admin/class-menu.php:113 pro/includes/admin/class-addons.php:83
+msgid "WPForms Addons"
+msgstr "Расширения WPForms"
+
+#: includes/admin/class-menu.php:114
+msgid "Addons"
+msgstr "Расширения"
+
+#: includes/admin/class-review.php:92
+msgid ""
+"Hey, I noticed you collected over 50 entries from WPForms - that’s awesome! "
+"Could you please do me a BIG favor and give it a 5-star rating on WordPress "
+"to help us spread the word and boost our motivation?"
+msgstr ""
+"Я заметил, что у вас уже больше 50 записей с WPForms - это прекрасно! Могли "
+"бы вы сделать мне большое одолжение и поставить 5-звездочный рейтинг на "
+"сайте WordPress.org, чтобы помочь в разработке и подпитать нашу мотивацию?"
+
+#: includes/admin/class-review.php:93 includes/admin/class-review.php:150
+msgid "~ Syed Balkhi<br>Co-Founder of WPForms"
+msgstr "~ Сайед Балхи<br>Соучредитель WPForms"
+
+#: includes/admin/class-review.php:95 includes/admin/class-review.php:152
+msgid "Ok, you deserve it"
+msgstr "Хорошо, вы это заслуживаете"
+
+#: includes/admin/class-review.php:96 includes/admin/class-review.php:153
+msgid "Nope, maybe later"
+msgstr "Нет, может быть позже"
+
+#: includes/admin/class-review.php:97 includes/admin/class-review.php:154
+msgid "I already did"
+msgstr "Уже сделано"
+
+#: includes/admin/class-review.php:149
+msgid ""
+"Hey, I noticed you created a contact form with WPForms - that’s awesome! "
+"Could you please do me a BIG favor and give it a 5-star rating on WordPress "
+"to help us spread the word and boost our motivation?"
+msgstr ""
+"Эй, я заметил, у вас контактную форму WPForms - это прекрасно! Могли бы вы "
+"сделать мне большое одолжение и поставить 5-звездочный рейтинг на WordPress, "
+"чтобы помочь нам рассказать о плагине другим и подпитать нашу мотивацию?"
+
+#: includes/admin/class-review.php:202
+msgid ""
+"Please rate <strong>WPForms</strong> <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%s\" "
+"target=\"_blank\">WordPress.org</a> to help us spread the word. Thank you "
+"from the WPForms team!"
+msgstr ""
+"Пожалуйста, оцените <strong>WPForms</strong> на <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> на <a "
+"href=\"%s\" target=\"_blank\">WordPress.org,</a> чтобы подпитать нашу "
+"мотивацию. Спасибо вам от команды WPForms!"
+
+#: includes/admin/class-settings.php:142
+msgid "Settings were successfully saved."
+msgstr "Настройки успешно сохранены."
+
+#: includes/admin/class-settings.php:168 includes/admin/class-settings.php:173
+#: includes/admin/class-settings.php:178 includes/admin/class-settings.php:183
+#: pro/wpforms-pro.php:154
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: includes/admin/class-settings.php:171 includes/admin/class-settings.php:276
+#: includes/admin/class-settings.php:365 includes/fields/class-email.php:21
+#: includes/fields/class-email.php:68 includes/fields/class-email.php:306
+#: includes/templates/class-contact.php:41
+#: includes/templates/class-subscribe.php:44
+#: includes/templates/class-suggestion.php:41
+#: pro/includes/templates/class-donation.php:43
+#: pro/includes/templates/class-order.php:43
+#: pro/includes/templates/class-request-quote.php:47
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/class-settings.php:176 includes/admin/class-settings.php:316
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/admin/class-settings.php:181
+msgid "Validation"
+msgstr "Валидация"
+
+#: includes/admin/class-settings.php:186 includes/admin/class-settings.php:386
+#: includes/admin/class-settings.php:393
+msgid "Integrations"
+msgstr "Интеграции"
+
+#: includes/admin/class-settings.php:225
+msgid ""
+"reCAPTCHA is a free anti-spam service from Google which helps to protect "
+"your website from spam and abuse while letting real people pass through with "
+"ease."
+msgstr ""
+"reCAPTCHA - бесплатная служба защиты от нежелательной почты от Google, "
+"которая помогает защитить ваш сайт от спама и злоупотреблений, позволяя "
+"реальным людям проходить ее с легкостью."
+
+#: includes/admin/class-settings.php:226
+msgid ""
+"Google's original <a href=\"https://www.google.com/recaptcha/intro/\" target="
+"\"_blank\" rel=\"noopener noreferrer\">v2 reCAPTCHA</a> prompts users to "
+"check a box to prove they're human, whereas <a href=\"https://www.google.com/"
+"recaptcha/intro/invisible.html\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">Invisible reCAPTCHA</a> uses advanced technology to detect real users "
+"without requiring any input."
+msgstr ""
+"<a href=\"https://www.google.com/recaptcha/intro/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">v2 reCAPTCHA от</a> от Google предлагает "
+"пользователям установить флажок, чтобы доказать, что они люди, тогда как <a "
+"href=\"https://www.google.com/recaptcha/intro/invisible.html\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Invisible reCAPTCHA</a> использует "
+"передовые технологии для обнаружения реальных пользователей, не требуя ввода."
+
+#: includes/admin/class-settings.php:227
+msgid ""
+"Sites already using v2 reCAPTCHA will need to create new site keys before "
+"switching to the Invisible reCAPTCHA."
+msgstr ""
+"Сайтам, уже использующим v2 reCAPTCHA, необходимо будет создать новые ключи "
+"сайта до перехода на Invisible reCAPTCHA."
+
+#: includes/admin/class-settings.php:228
+msgid ""
+"<a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">Read our walk "
+"through</a> to learn more and for step-by-step directions."
+msgstr ""
+"<a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">Прочитайте наш "
+"туториал</a>, чтобы узнать больше и для получения пошагового руководства."
+
+#: includes/admin/class-settings.php:235
+msgid "License"
+msgstr "Лицензия"
+
+#: includes/admin/class-settings.php:235
+msgid "Your license key provides access to updates and addons."
+msgstr "Ваш лицензионный ключ обеспечивает доступ к обновлениям и расширениям."
+
+#: includes/admin/class-settings.php:242
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: includes/admin/class-settings.php:254
+msgid "Include Form Styling"
+msgstr "Включить стили формы"
+
+#: includes/admin/class-settings.php:255
+msgid "Determines which CSS files to load for the site."
+msgstr "Определяет, какие файлы CSS загружать на сайте."
+
+#: includes/admin/class-settings.php:260
+msgid "Base and form theme styling"
+msgstr "Базовые стили и скин формы"
+
+#: includes/admin/class-settings.php:261
+msgid "Base styling only"
+msgstr "Только базовый стиль"
+
+#: includes/admin/class-settings.php:262
+msgid "No styling"
+msgstr "Без стилей"
+
+#: includes/admin/class-settings.php:267
+msgid "Load Assets Globally"
+msgstr "Загружать CSS/JS файлы глобально на сайте"
+
+#: includes/admin/class-settings.php:268
+msgid ""
+"Check this if you would like to load WPForms assets site-wide. Only check if "
+"your site is having compatibility issues or instructed to by support."
+msgstr ""
+"Установите этот флажок, если вы хотите загрузить CSS/JS файлы WPForms по "
+"всему сайту. Актуально только если у вашего сайта проблемы с совместимостью "
+"или вам сказала это сделать служба поддержки."
+
+#: includes/admin/class-settings.php:283
+msgid "Template"
+msgstr "Шаблон"
+
+#: includes/admin/class-settings.php:284
+msgid ""
+"Determines how email notifications will be formatted. HTML Templates are the "
+"default."
+msgstr ""
+"Определяет способ форматирования уведомлений по электронной почте. Шаблон "
+"HTML выбран по умолчанию."
+
+#: includes/admin/class-settings.php:288
+msgid "HTML Template"
+msgstr "HTML шаблон"
+
+#: includes/admin/class-settings.php:289
+msgid "Plain text"
+msgstr "Простой текст"
+
+#: includes/admin/class-settings.php:294
+msgid "Header Image"
+msgstr "Картинка шапки"
+
+#: includes/admin/class-settings.php:295
+msgid ""
+"Upload or choose a logo to be displayed at the top of email notifications."
+"<br>Recommended size is 300x100 or smaller for best support on all devices."
+msgstr ""
+"Загрузите или выберите логотип, который будет отображаться в верхней части "
+"email уведомлений. <br>Рекомендуемый размер 300x100 или меньше для лучшей "
+"поддержки на всех устройствах."
+
+#: includes/admin/class-settings.php:300
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: includes/admin/class-settings.php:301
+msgid "Customize the background color of the HTML email template."
+msgstr "Настройте цвет фона HTML шаблона электронной почты."
+
+#: includes/admin/class-settings.php:307
+msgid "Carbon Copy"
+msgstr "Копия письма"
+
+#: includes/admin/class-settings.php:308
+msgid ""
+"Check this if you would like to enable the ability to CC: email addresses in "
+"the form notification settings."
+msgstr ""
+"Установите этот флажок, если вы хотите включить возможность использования "
+"CC: email адресов в настройках уведомлений формы."
+
+#: includes/admin/class-settings.php:323
+#: pro/includes/fields/class-date-time.php:154
+msgid "Type"
+msgstr "Тип"
+
+#: includes/admin/class-settings.php:327
+msgid "v2 reCAPTCHA"
+msgstr "v2 reCAPTCHA"
+
+#: includes/admin/class-settings.php:328
+msgid "Invisible reCAPTCHA"
+msgstr "Невидимая reCAPTCHA"
+
+#: includes/admin/class-settings.php:333
+msgid "Site Key"
+msgstr "Ключ сайта"
+
+#: includes/admin/class-settings.php:338
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#: includes/admin/class-settings.php:346
+msgid "Validation Messages"
+msgstr "Сообщения о валидации"
+
+#: includes/admin/class-settings.php:346
+msgid ""
+"These messages are displayed to the user as they fill out a form in real-"
+"time."
+msgstr ""
+"Эти сообщения отображаются пользователям в режиме реального времени, пока "
+"они заполняют форму."
+
+#: includes/admin/class-settings.php:353 includes/fields/class-base.php:337
+msgid "Required"
+msgstr "Обязательное поле"
+
+#: includes/admin/class-settings.php:355 includes/class-frontend.php:1005
+#: includes/fields/class-base.php:901 includes/fields/class-name.php:485
+#: includes/fields/class-number.php:152
+#: pro/includes/fields/class-address.php:767
+#: pro/includes/fields/class-date-time.php:563
+#: pro/includes/fields/class-file-upload.php:332
+#: pro/includes/fields/class-password.php:371
+#: pro/includes/fields/class-payment-dropdown.php:208
+#: pro/includes/fields/class-payment-multiple.php:175
+#: pro/includes/fields/class-payment-single.php:189
+#: pro/includes/fields/class-url.php:154
+msgid "This field is required."
+msgstr "Это поле обязательное."
+
+#: includes/admin/class-settings.php:359
+msgid "Website URL"
+msgstr "Адрес сайта"
+
+#: includes/admin/class-settings.php:361 includes/class-frontend.php:1006
+#: pro/includes/fields/class-url.php:159
+msgid "Please enter a valid URL."
+msgstr "Пожалуйста, введите действующий URL."
+
+#: includes/admin/class-settings.php:367 includes/class-frontend.php:1007
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите правильный email адрес."
+
+#: includes/admin/class-settings.php:371
+msgid "Number"
+msgstr "Число"
+
+#: includes/admin/class-settings.php:373 includes/class-frontend.php:1008
+#: includes/fields/class-number.php:157
+msgid "Please enter a valid number."
+msgstr "Введите корректное число."
+
+#: includes/admin/class-settings.php:377
+msgid "Confirm Value"
+msgstr "Подтвердить значение"
+
+#: includes/admin/class-settings.php:379 includes/class-frontend.php:1009
+#: pro/includes/fields/class-password.php:394
+msgid "Field values do not match."
+msgstr "Значения полей не совпадают."
+
+#: includes/admin/class-settings.php:386 includes/admin/class-settings.php:393
+msgid ""
+"Manage integrations with popular providers such as Constant Contact, "
+"MailChimp, Zapier, and more."
+msgstr ""
+"Управляйте интеграцией с популярными поставщиками, такими как Constant "
+"Contact, MailChimp, Zapier и другими."
+
+#: includes/admin/class-settings.php:495
+msgid "Want to better protect your contact forms from spam?"
+msgstr "Хотите лучше защитить свои контактные формы от спама?"
+
+#: includes/admin/class-settings.php:497
+msgid ""
+"WPForms custom captcha addon allows you to add custom questions captcha or "
+"math questions captcha to your WordPress forms. Since we know spam is a huge "
+"problem for contact forms, WPForms goes above and beyond to help you protect "
+"your forms."
+msgstr ""
+"Расширение Captcha для WPForms позволяет добавлять пользовательские вопросы "
+"к капче или математические вопросы в вашу WordPress форму. Поскольку мы "
+"знаем, что спам - это огромная проблема для контактных форм, WPForms идет "
+"дальше, чтобы помочь вам защитить ваши формы."
+
+#: includes/admin/class-settings.php:499
+msgid "Click here to Upgrade"
+msgstr "Нажмите здесь для Обновления"
+
+#: includes/admin/class-tools.php:89
+msgid "Import/Export"
+msgstr "Импорт/Экспорт"
+
+#: includes/admin/class-tools.php:90
+msgid "System Info"
+msgstr "Информация о системе"
+
+#: includes/admin/class-tools.php:99
+msgid ""
+"Import was successfully finished. You can go and <a href=\"%s\">check your "
+"forms</a>."
+msgstr ""
+"Импорт успешно завершен. Вы можете пойти и <a href=\"%s\">проверить ваши "
+"формы</a>."
+
+#: includes/admin/class-tools.php:130
+msgid "Form Import"
+msgstr "Импорт формы"
+
+#: includes/admin/class-tools.php:131
+msgid "Select an export file."
+msgstr "Выберите файл экспорта."
+
+#: includes/admin/class-tools.php:136
+msgid "No file chosen"
+msgstr "Файл не выбран"
+
+#: includes/admin/class-tools.php:138
+msgid "Choose a file&hellip;"
+msgstr "Выберите файл&hellip;"
+
+#: includes/admin/class-tools.php:144
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/admin/class-tools.php:150
+msgid "Form Export"
+msgstr "Экспорт формы"
+
+#: includes/admin/class-tools.php:151
+msgid ""
+"Form exports files can be used to create a backup of your forms or to import "
+"forms into another site."
+msgstr ""
+"Файлы экспорта форм могут использоваться для создания резервной копии ваших "
+"форм или для импорта форм на другой сайт."
+
+#: includes/admin/class-tools.php:156
+msgid "Select form(s)"
+msgstr "Выберите форму(ы)"
+
+#: includes/admin/class-tools.php:163
+msgid "You need to create a form before you can use form export."
+msgstr ""
+"Вам необходимо создать форму, прежде чем вы сможете использовать экспорт "
+"формы."
+
+#: includes/admin/class-tools.php:169
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/admin/class-tools.php:174
+msgid "Form Template Export"
+msgstr "Шаблон формы"
+
+#: includes/admin/class-tools.php:177
+msgid ""
+"The following code can be used to register your custom form template. Copy "
+"and paste the following code to your theme's functions.php file or include "
+"it within an external file."
+msgstr ""
+"Следующий код может использоваться для регистрации вашего собственного "
+"шаблона форм. Скопируйте и вставьте следующий код в файл functions.php вашей "
+"темы или включите его во внешний файл."
+
+#: includes/admin/class-tools.php:178
+msgid ""
+"For more information <a href=\"%s\" target=\"blank\" rel=\"noopener "
+"noreferrer\">see our documentation</a>."
+msgstr ""
+"Для получения дополнительной информации <a href=\"%s\" target=\"blank\" rel="
+"\"noopener noreferrer\">почитайте нашу документацию</a>."
+
+#: includes/admin/class-tools.php:182
+msgid ""
+"Select a form to generate PHP code that can be used to register a custom "
+"form template."
+msgstr ""
+"Выберите форму для генерации PHP-кода, который можно использовать для "
+"регистрации пользовательского шаблона формы."
+
+#: includes/admin/class-tools.php:194
+msgid "You need to create a form before you can generate a template."
+msgstr "Вам нужно создать форму, прежде чем вы сможете сгенерировать шаблон."
+
+#: includes/admin/class-tools.php:200
+msgid "Export Template"
+msgstr "Экспорт шаблона"
+
+#: includes/admin/class-tools.php:215
+msgid "System Information"
+msgstr "Системная информация"
+
+#: includes/admin/class-tools.php:277
+msgid "Please upload a valid .json form export file."
+msgstr "Пожалуйста, загрузите корректный файл .json экспорта."
+
+#: includes/admin/class-tools.php:278
+#: pro/includes/admin/entries/class-entries-export.php:340
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/admin/class-tools.php:402 includes/admin/class-tools.php:406
+#: pro/includes/admin/entries/class-entries-single.php:733
+#: pro/includes/admin/entries/class-entries-single.php:1087
+msgid "M j, Y @ g:ia"
+msgstr "M j, Y @ g:ia"
+
+#: includes/admin/class-welcome.php:39 includes/admin/class-welcome.php:40
+#: includes/admin/class-welcome.php:117
+msgid "Welcome to WPForms"
+msgstr "Добро пожаловать в WPForms"
+
+#: includes/admin/class-welcome.php:113
+msgid "Sullie the WPForms mascot"
+msgstr "Сулли - эмблема WPForms"
+
+#: includes/admin/class-welcome.php:118
+msgid ""
+"Thank you for choosing WPForms - the most powerful drag & drop WordPress "
+"form builder in the market."
+msgstr ""
+"Благодарим вас за то, что вы выбрали WPForms - самый мощный инструмент для "
+"создания форм в конструкторе для WordPress на рынке."
+
+#: includes/admin/class-welcome.php:121 includes/admin/class-welcome.php:122
+msgid "Watch how to create your first form"
+msgstr "Посмотрите, как создать свою первую форму"
+
+#: includes/admin/class-welcome.php:127
+msgid ""
+"WPForms makes it easy to create forms in WordPress. You can watch the video "
+"tutorial or read our guide on how create your first form."
+msgstr ""
+"WPForms упрощает создание форм в WordPress. Вы можете посмотреть видеоурок "
+"или прочитать наше руководство о том, как создать свою первую форму."
+
+#: includes/admin/class-welcome.php:131 includes/admin/class-welcome.php:282
+msgid "Create Your First Form"
+msgstr "Создайте свою первую форму"
+
+#: includes/admin/class-welcome.php:134
+msgid "Read the Full Guide"
+msgstr "Прочтите полное руководство"
+
+#: includes/admin/class-welcome.php:146
+msgid "Welcome Features &amp; Addons"
+msgstr "Возможности &amp; Расширения"
+
+#: includes/admin/class-welcome.php:147
+msgid ""
+"WPForms is both easy to use and extremely powerful. We have tons of helpful "
+"features that allow us to give you everything you need from a form builder."
+msgstr ""
+"WPForms одновременно легок в использовании и невероятно функционален. У нас "
+"есть множество полезных функций, которые позволяют дать вам все, что вам "
+"может понадобиться в конструкторе форм."
+
+#: includes/admin/class-welcome.php:153
+msgid "Drag &amp; Drop Form Builder"
+msgstr "Drag &amp; Drop Конструктор Форм"
+
+#: includes/admin/class-welcome.php:154
+msgid ""
+"Easily create an amazing form in just a few minutes without writing any code."
+msgstr ""
+"Легко создайте отличную форму всего за несколько минут, не написав никакого "
+"кода."
+
+#: includes/admin/class-welcome.php:159
+msgid "Form Templates"
+msgstr "Шаблоны форм"
+
+#: includes/admin/class-welcome.php:160
+msgid "Start with pre-built form templates to save even more time."
+msgstr ""
+"Начните с заранее настроенных шаблонов форм, чтобы сэкономить еще больше "
+"времени."
+
+#: includes/admin/class-welcome.php:165
+msgid "Responsive Mobile Friendly"
+msgstr "Доступный на мобильном"
+
+#: includes/admin/class-welcome.php:166
+msgid ""
+"WPForms is 100% responsive meaning it works on mobile, tablets & desktop."
+msgstr ""
+"WPForms на 100% мобилен, что означает работу на мобильных устройствах, "
+"планшетах и ​​настольных компьютерах."
+
+#: includes/admin/class-welcome.php:171
+msgid "Smart Conditional Logic"
+msgstr "Умная условная логика"
+
+#: includes/admin/class-welcome.php:172
+msgid "Easily create high performance forms with our smart conditional logic."
+msgstr ""
+"Легко создайте высокопроизводительные формы с помощью нашей условной логики."
+
+#: includes/admin/class-welcome.php:177
+msgid "Instant Notifications"
+msgstr "Мгновенные уведомления"
+
+#: includes/admin/class-welcome.php:178
+msgid ""
+"Respond to leads quickly with our instant form notification feature for your "
+"team."
+msgstr ""
+"Быстро реагируйте на запросы с помощью нашей функции мгновенного уведомления "
+"о форме для вашей команды."
+
+#: includes/admin/class-welcome.php:183
+msgid "Entry Management"
+msgstr "Управление записями"
+
+#: includes/admin/class-welcome.php:184
+msgid "View all your leads in one place to streamline your workflow."
+msgstr ""
+"Просматривайте всех своих лидов в одном месте, чтобы оптимизировать рабочий "
+"процесс."
+
+#: includes/admin/class-welcome.php:189
+msgid "Payments Made Easy"
+msgstr "Платежи с легкостью"
+
+#: includes/admin/class-welcome.php:190
+msgid ""
+"Easily collect payments, donations, and online orders without hiring a "
+"developer."
+msgstr ""
+"Легко собирайте платежи, пожертвования и онлайн-заказы без найма "
+"разработчика."
+
+#: includes/admin/class-welcome.php:195
+msgid "Marketing &amp; Subscriptions"
+msgstr "Маркетинг и подписки"
+
+#: includes/admin/class-welcome.php:196
+msgid ""
+"Create subscription forms and connect with your email marketing service."
+msgstr ""
+"Создайте форму подписки и подключитесь к вашей службе email маркетинга."
+
+#: includes/admin/class-welcome.php:201
+msgid "Easy to Embed"
+msgstr "Легко вставить"
+
+#: includes/admin/class-welcome.php:202
+msgid ""
+"Easily embed your forms in blog posts, pages, sidebar widgets, footer, etc."
+msgstr ""
+"Легко встраивайте свои формы в записи в блогах, страницах, виджетах боковой "
+"панели, подвале и т.д."
+
+#: includes/admin/class-welcome.php:207
+msgid "Spam Protection"
+msgstr "Защита от спама"
+
+#: includes/admin/class-welcome.php:208
+msgid "Our smart captcha and honeypot automatically prevent spam submissions."
+msgstr ""
+"Наш умная-captcha и honeypot автоматически предотвращают отправку спама."
+
+#: includes/admin/class-welcome.php:214
+msgid "See All Features"
+msgstr "Все возможности"
+
+#: includes/admin/class-welcome.php:226 lite/wpforms-lite.php:442
+msgid "Upgrade to PRO"
+msgstr "Обновить до PRO"
+
+#: includes/admin/class-welcome.php:228
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/admin/class-welcome.php:229
+msgid "Post Submissions"
+msgstr "Предложение записей"
+
+#: includes/admin/class-welcome.php:230
+#: pro/includes/admin/entries/class-entries-single.php:843
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/admin/class-welcome.php:231
+msgid "Signatures"
+msgstr "Подписи"
+
+#: includes/admin/class-welcome.php:232
+msgid "User Registration"
+msgstr "Регистрация пользователя"
+
+#: includes/admin/class-welcome.php:233
+msgid "Form Abandonment"
+msgstr "Form Abandonment"
+
+#: includes/admin/class-welcome.php:234
+msgid "Geolocation"
+msgstr "Геолокация"
+
+#: includes/admin/class-welcome.php:235
+msgid "Unlimited Sites"
+msgstr "Неограниченное число сайтов"
+
+#: includes/admin/class-welcome.php:236
+msgid "Zapier"
+msgstr "Zapier"
+
+#: includes/admin/class-welcome.php:237
+msgid "Priority Support"
+msgstr "Приоритетная поддержка"
+
+#: includes/admin/class-welcome.php:242
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/admin/class-welcome.php:245
+msgid "per year"
+msgstr "в год"
+
+#: includes/admin/class-welcome.php:247 pro/includes/admin/class-addons.php:249
+msgid "Upgrade Now"
+msgstr "Обновить сейчас"
+
+#: includes/admin/class-welcome.php:258
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: includes/admin/class-welcome.php:262
+msgid ""
+"WPForms is by far the easiest form plugin to use. My clients love it – it’s "
+"one of the few plugins they can use without any training. As a developer I "
+"appreciate how fast, modern, clean and extensible it is."
+msgstr ""
+"WPForms на сегодняшний день является самым простым плагином для "
+"использования. Мои клиенты любят его - это один из немногих плагинов, "
+"которые они могут использовать без какой-либо подготовки. Как разработчик я "
+"ценю, насколько быстрым, современным, чистым и расширяемым он является."
+
+#: includes/admin/class-welcome.php:268
+msgid ""
+"As a business owner, time is my most valuable asset. WPForms allow me to "
+"create smart online forms with just a few clicks. With their pre-built form "
+"templates and the drag & drop builder, I can create a new form that works in "
+"less than 2 minutes without writing a single line of code. Well worth the "
+"investment."
+msgstr ""
+"Для владельца бизнеса время является самым важным активом. WPForms позволяет "
+"мне создать умные онлайн формы с помощью всего пары кликов. С шаблонами для "
+"форм и drag & drop билдеров форм я могу создать новые формы, которые "
+"действительно работают, меньше чем за 2 минуты, не прикасаясь к коду. Это "
+"очень даже стоит инвестиций."
+
+#: includes/admin/class-welcome.php:285
+msgid "Upgrade to WPForms Pro"
+msgstr "Обновиться до WPForms Pro"
+
+#: includes/admin/overview/class-overview-table.php:53
+#: includes/fields/class-name.php:21 includes/fields/class-name.php:276
+#: includes/templates/class-contact.php:34
+#: includes/templates/class-subscribe.php:37
+#: includes/templates/class-suggestion.php:34
+#: pro/includes/templates/class-donation.php:36
+#: pro/includes/templates/class-order.php:36
+#: pro/includes/templates/class-request-quote.php:33
+msgid "Name"
+msgstr "Имя"
+
+#: includes/admin/overview/class-overview-table.php:54
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/admin/overview/class-overview-table.php:55
+msgid "Created"
+msgstr "Создано"
+
+#: includes/admin/overview/class-overview-table.php:142
+#: includes/admin/overview/class-overview-table.php:159
+msgid "Edit this form"
+msgstr "Редактировать форму"
+
+#: includes/admin/overview/class-overview-table.php:160
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/admin/overview/class-overview-table.php:173
+msgid "View entries"
+msgstr "Посмотреть записи"
+
+#: includes/admin/overview/class-overview-table.php:181
+msgid "View preview"
+msgstr "Предпросмотр"
+
+#: includes/admin/overview/class-overview-table.php:198
+msgid "Duplicate this form"
+msgstr "Дублировать эту форму"
+
+#: includes/admin/overview/class-overview-table.php:199
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: includes/admin/overview/class-overview-table.php:215
+msgid "Delete this form"
+msgstr "Удалить эту форму"
+
+#: includes/admin/overview/class-overview-table.php:216
+#: includes/admin/overview/class-overview-table.php:235
+#: pro/includes/admin/entries/class-entries-list-table.php:418
+#: pro/includes/admin/entries/class-entries-list-table.php:439
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/admin/overview/class-overview-table.php:275
+msgid "Form was successfully deleted."
+msgstr "Форма была успешна удалена."
+
+#: includes/admin/overview/class-overview-table.php:277
+msgid "Forms were successfully deleted."
+msgstr "Формы были успешно удалены."
+
+#: includes/admin/overview/class-overview-table.php:287
+#: includes/admin/overview/class-overview-table.php:318
+msgid "Security check failed. Please try again."
+msgstr "Ошибка во время проверки безопасности. Пожалуйста, попробуйте еще раз."
+
+#: includes/admin/overview/class-overview-table.php:306
+msgid "Form was successfully duplicated."
+msgstr "Форма была успешно продублирована."
+
+#: includes/admin/overview/class-overview-table.php:308
+msgid "Forms were successfully duplicated."
+msgstr "Формы были успешно продублированы."
+
+#: includes/admin/overview/class-overview.php:76
+msgid "Number of forms per page:"
+msgstr "Количество форм на странице:"
+
+#: includes/admin/overview/class-overview.php:123
+msgid "Forms Overview"
+msgstr "Обзор форм"
+
+#: includes/admin/settings-api.php:69
+msgid "The callback function used for the %s setting is missing."
+msgstr "Функция обратного вызова, используемая для %s, отсутствует."
+
+#: includes/admin/settings-api.php:97
+msgid "You're using WPForms Lite - no license needed. Enjoy!"
+msgstr "Вы используете WPForms Lite - лицензия не требуется. Наслаждайтесь!"
+
+#: includes/admin/settings-api.php:98
+msgid ""
+"To unlock more features consider <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">upgrading to Pro</a>.</p>"
+msgstr ""
+"Чтобы разблокировать больше функций, рассмотрите возможность <a href=\"%s\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">обновления до Pro</a>.</p>"
+
+#: includes/admin/settings-api.php:106
+msgid "Verify Key"
+msgstr "Проверка ключа"
+
+#: includes/admin/settings-api.php:110
+msgid "Deactivate Key"
+msgstr "Деактивировать ключ"
+
+#: includes/admin/settings-api.php:114
+msgid "Your license key type is %s."
+msgstr "Тип лицензионного ключа - %s."
+
+#: includes/admin/settings-api.php:115
+msgid ""
+"If your license has been upgraded or is incorrect, <a href=\"#\" id="
+"\"wpforms-setting-license-key-refresh\">click here to force a refresh</a>."
+msgstr ""
+"Если ваша лицензия была обновлена ​​или указана неверно, <a href=\"#\" id="
+"\"wpforms-setting-license-key-refresh\">нажмите здесь, чтобы принудительно "
+"обновить</a>."
+
+#: includes/admin/settings-api.php:253
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: includes/class-conditional-logic-core.php:158
+msgid "this field if"
+msgstr "это поле, если"
+
+#: includes/class-conditional-logic-core.php:165
+msgid "Show"
+msgstr "Показать"
+
+#: includes/class-conditional-logic-core.php:166
+msgid "Hide"
+msgstr "Спрятать"
+
+#: includes/class-conditional-logic-core.php:201
+#: includes/class-conditional-logic-core.php:258
+msgid "Enable conditional logic"
+msgstr "Включить условную логику"
+
+#: includes/class-conditional-logic-core.php:202
+msgid "Check this option to enable conditional logic on this field."
+msgstr "Установите этот флажок, чтобы включить условную логику в этом поле."
+
+#: includes/class-conditional-logic-core.php:260
+msgid "Check this option to enable conditional logic."
+msgstr "Установите этот флажок, чтобы включить условную логику."
+
+#: includes/class-conditional-logic-core.php:457
+msgid "Add rule group"
+msgstr "Добавить группу правил"
+
+#: includes/class-frontend.php:1010
+#: pro/includes/fields/class-file-upload.php:367
+#: pro/includes/fields/class-file-upload.php:383
+#: pro/includes/fields/class-file-upload.php:400 pro/wpforms-pro.php:187
+msgid "File type is not allowed."
+msgstr "Тип файла не разрешается."
+
+#: includes/class-frontend.php:1011 pro/wpforms-pro.php:193
+msgid "File exceeds max size allowed."
+msgstr "Размер файла превышает максимально разрешенный размер."
+
+#: includes/class-frontend.php:1012 pro/wpforms-pro.php:199
+msgid "Please enter time in 12-hour AM/PM format (eg 8:45 AM)."
+msgstr "Введите время в 12-часовом формате AM / PM (например, 8:45 AM)."
+
+#: includes/class-frontend.php:1013 pro/wpforms-pro.php:205
+msgid "Please enter time in 24-hour format (eg 22:45)."
+msgstr "Введите время в 24-часовом формате (например, 22:45)."
+
+#: includes/class-frontend.php:1014
+#: pro/includes/fields/class-payment-total.php:199 pro/wpforms-pro.php:211
+msgid "Payment is required."
+msgstr "Оплата обязательна."
+
+#: includes/class-frontend.php:1015 pro/wpforms-pro.php:217
+msgid "Please enter a valid credit card number."
+msgstr "Укажите действительный номер карты."
+
+#: includes/class-frontend.php:1078
+msgid "<a href=\"%s\">Go to the full page</a> to view and submit the form."
+msgstr ""
+"<a href=\"%s\">Перейдите на полную страницу</a> для просмотра и заполнения "
+"формы."
+
+#: includes/class-logging.php:38
+msgid "WPForms Logs"
+msgstr "Логи WPForms"
+
+#: includes/class-logging.php:38
+msgid "Logs"
+msgstr "Логи"
+
+#: includes/class-preview.php:123
+msgid "Hide empty fields"
+msgstr "Скрыть пустые поля"
+
+#: includes/class-preview.php:125 includes/class-preview.php:165
+msgid "Show empty fields"
+msgstr "Показать пустые поля"
+
+#: includes/class-preview.php:134
+msgid "Hide notes"
+msgstr "Скрыть заметки"
+
+#: includes/class-preview.php:136 includes/class-preview.php:166
+msgid "Show notes"
+msgstr "Показать заметки"
+
+#: includes/class-preview.php:145
+msgid "Normal view"
+msgstr "Обычный вид"
+
+#: includes/class-preview.php:147 includes/class-preview.php:167
+msgid "Compact view"
+msgstr "Компактный вид"
+
+#: includes/class-preview.php:158
+msgid "Entry #%d"
+msgstr "Запись #%d"
+
+#: includes/class-preview.php:161
+#: pro/includes/admin/entries/class-entries-single.php:987
+msgid "Print"
+msgstr "Печать"
+
+#: includes/class-preview.php:175
+#: pro/includes/admin/entries/class-entries-single.php:520
+msgid "This entry does not have any fields"
+msgstr "У этой записи нет заполненных полей"
+
+#. translators: %d - field ID
+#: includes/class-preview.php:192
+#: pro/includes/admin/entries/class-entries-single.php:536
+msgid "Field ID #%d"
+msgstr "Поле ID #%d"
+
+#: includes/class-preview.php:196
+#: pro/includes/admin/entries/class-entries-single.php:541
+msgid "Empty"
+msgstr "Пусто"
+
+#: includes/class-preview.php:207
+#: pro/includes/admin/entries/class-entries-single.php:578
+msgid "Notes"
+msgstr "Заметки"
+
+#. translators: %1$s - user name; %2$s - date
+#: includes/class-preview.php:221
+msgid "Added by %1$s on %2$s"
+msgstr "Добавил(а) %1$s %2$s"
+
+#: includes/class-preview.php:266
+msgid ""
+"This is the WPForms preview page. All your form previews will be handled on "
+"this page."
+msgstr ""
+"Это предварительный просмотр страницы WPForms. Все ваши образцы формы будут "
+"обрабатываться на этой странице."
+
+#: includes/class-preview.php:267
+msgid ""
+"The page is set to private, so it is not publicly accessible. Please do not "
+"delete this page :) ."
+msgstr ""
+"Страница настроена как приватная, так что она публично недоступна. "
+"Пожалуйста, не удаляйте эту страницу :) ."
+
+#: includes/class-preview.php:272
+msgid "WPForms Preview"
+msgstr "Предпросмотр WPForms"
+
+#: includes/class-preview.php:375
+msgid "This is a preview of your form. This page is not publicly accessible."
+msgstr ""
+"Это предварительный просмотр вашей формы. Эта страница недоступна для "
+"общественности."
+
+#: includes/class-preview.php:377
+msgid "Close this window"
+msgstr "Закрыть это окно"
+
+#: includes/class-preview.php:379
+msgctxt "Form name"
+msgid "%s Preview"
+msgstr "Просмотр %s"
+
+#: includes/class-process.php:79
+msgid "Invalid form."
+msgstr "Неверная форма."
+
+#: includes/class-process.php:111
+msgid "Incorrect reCAPTCHA, please try again."
+msgstr "Ошибка reCAPTCHA, пожалуйста, попробуйте еще раз."
+
+#: includes/class-process.php:114
+msgid "reCAPTCHA is required."
+msgstr "reCAPTCHA обязательна."
+
+#: includes/class-process.php:126 includes/class-process.php:174
+msgid "Form has not been submitted, please see the errors below."
+msgstr "Форма не была отправлена, пожалуйста, проверьте ошибки."
+
+#: includes/class-process.php:135
+msgid "WPForms honeypot field triggered."
+msgstr "Сработало анти-спам поле WPForms."
+
+#: includes/class-process.php:354 pro/wpforms-pro.php:380
+msgctxt "Form name"
+msgid "New %s Entry"
+msgstr "Новая запись: %s"
+
+#: includes/class-smart-tags.php:34
+msgid "Site Administrator Email"
+msgstr "Электронная почта администратора"
+
+#: includes/class-smart-tags.php:35
+msgid "Entry ID"
+msgstr "ID Записи"
+
+#: includes/class-smart-tags.php:36
+msgid "Form ID"
+msgstr "ID формы"
+
+#: includes/class-smart-tags.php:38
+msgid "Embedded Post/Page Title"
+msgstr "Заголовок записи, где встроено"
+
+#: includes/class-smart-tags.php:39
+msgid "Embedded Post Page URL"
+msgstr "URL записи, где встроено"
+
+#: includes/class-smart-tags.php:40
+msgid "Embedded Post/Page ID"
+msgstr "ID записи, где встроено"
+
+#: includes/class-smart-tags.php:41
+#: pro/includes/admin/entries/class-entries-export.php:203
+#: pro/includes/admin/entries/class-entries-list-table.php:165
+#: pro/includes/fields/class-date-time.php:73
+#: pro/includes/fields/class-date-time.php:130
+#: pro/includes/fields/class-date-time.php:269
+#: pro/includes/fields/class-date-time.php:277
+#: pro/includes/fields/class-date-time.php:368
+msgid "Date"
+msgstr "Дата"
+
+#: includes/class-smart-tags.php:42
+msgid "Query String Variable"
+msgstr "Переменная строка запроса"
+
+#: includes/class-smart-tags.php:43
+msgid "User IP Address"
+msgstr "IP адрес пользователя"
+
+#: includes/class-smart-tags.php:44
+msgid "User ID"
+msgstr "ID пользователя"
+
+#: includes/class-smart-tags.php:45
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: includes/class-smart-tags.php:46
+msgid "User Email"
+msgstr "Email пользователя"
+
+#: includes/class-smart-tags.php:47
+msgid "Author ID"
+msgstr "ID автора"
+
+#: includes/class-smart-tags.php:48
+msgid "Author Name"
+msgstr "Имя автора"
+
+#: includes/class-smart-tags.php:49
+msgid "Author Email"
+msgstr "Email автора"
+
+#: includes/class-smart-tags.php:50
+msgid "Referrer URL"
+msgstr "URL отправителя"
+
+#: includes/class-smart-tags.php:51
+msgid "Login URL"
+msgstr "URL логина"
+
+#: includes/class-smart-tags.php:52
+msgid "Logout URL"
+msgstr "Страница выхода"
+
+#: includes/class-smart-tags.php:53
+msgid "Register URL"
+msgstr "URL страницы регистрации"
+
+#: includes/class-smart-tags.php:54
+msgid "Lost Password URL"
+msgstr "URL-адрес страницы восстановления пароля"
+
+#: includes/class-widget.php:43
+msgctxt "Widget"
+msgid "Display a form."
+msgstr "Показать форму."
+
+#: includes/class-widget.php:52
+msgctxt "Widget"
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/class-widget.php:120
+msgctxt "Widget"
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: includes/class-widget.php:129
+msgctxt "Widget"
+msgid "Form:"
+msgstr "Форма:"
+
+#: includes/class-widget.php:135
+msgctxt "Widget"
+msgid "Select your form"
+msgstr "Выберите вашу форму"
+
+#: includes/class-widget.php:141
+msgctxt "Widget"
+msgid "No forms"
+msgstr "Форм нет"
+
+#: includes/class-widget.php:149
+msgctxt "Widget"
+msgid "Display form name"
+msgstr "Показывать заголовок формы"
+
+#: includes/class-widget.php:153
+msgctxt "Widget"
+msgid "Display form description"
+msgstr "Показывать описание формы"
+
+#: includes/emails/class-emails.php:331
+msgid ""
+"You cannot send emails with WPForms_WP_Emails until init/admin_init has been "
+"reached"
+msgstr ""
+"Вы не можете отправлять email с WPForms пока не дошло дело до хука init/"
+"admin_init"
+
+#: includes/emails/class-emails.php:472 includes/emails/class-emails.php:495
+#: includes/fields/class-checkbox.php:193 includes/fields/class-radio.php:193
+#: includes/fields/class-select.php:199
+msgid "(empty)"
+msgstr "(пусто)"
+
+#: includes/emails/class-emails.php:473 includes/emails/class-emails.php:496
+msgid "Field ID #"
+msgstr "ID поля #"
+
+#: includes/emails/class-emails.php:505
+msgid "An empty form was submitted."
+msgstr "Была отправлена пустая форма."
+
+#. translators: %s - link to a site.
+#: includes/emails/templates/footer-default.php:41
+msgid "Sent from %s"
+msgstr "Отправлено c %s"
+
+#: includes/fields/class-base.php:315
+msgid ""
+"Enter text for the form field label. Field labels are recommended and can be "
+"hidden in the Advanced Settings."
+msgstr ""
+"Введите текст для названия этого поля формы. В настройках вы сможете скрыть "
+"их, но эти названия полей рекомендованы для использования."
+
+#: includes/fields/class-base.php:316
+msgid "Label"
+msgstr "Заголовок"
+
+#: includes/fields/class-base.php:325
+msgid "Enter text for the form field description."
+msgstr "Введите текст для описания поля формы."
+
+#: includes/fields/class-base.php:326
+msgid "Description"
+msgstr "Описание"
+
+#: includes/fields/class-base.php:336
+msgid ""
+"Check this option to mark the field required. A form will not submit unless "
+"all required fields are provided."
+msgstr ""
+"Установите этот флажок, чтобы пометить поле в качестве обязательного. Форма "
+"не будет отправлена, если все необходимые поля не заполнены."
+
+#: includes/fields/class-base.php:353
+msgid "Enter code for the form field."
+msgstr "Введите код для поля формы."
+
+#: includes/fields/class-base.php:354
+msgid "Code"
+msgstr "Код"
+
+#: includes/fields/class-base.php:362 includes/fields/class-base.php:444
+msgid "Add choices for the form field."
+msgstr "Добавьте варианты выбора для поля."
+
+#: includes/fields/class-base.php:375
+msgid "Choices"
+msgstr "Варианты"
+
+#. translators: %1$s - source name; %2$s - type name.
+#: includes/fields/class-base.php:421
+msgid "Choices are dynamically populated from the %1$s %2$s"
+msgstr "Варианты динамически загружаются из: %1$s - %2$s"
+
+#: includes/fields/class-base.php:453
+msgid "Items"
+msgstr "Элементы"
+
+#: includes/fields/class-base.php:495
+msgid "Enter text for the default form field value."
+msgstr "Введите текст для значения поля формы по умолчанию."
+
+#: includes/fields/class-base.php:497 includes/fields/class-name.php:283
+#: includes/fields/class-name.php:298 includes/fields/class-name.php:313
+#: includes/fields/class-name.php:328 pro/includes/fields/class-address.php:329
+#: pro/includes/fields/class-address.php:348
+#: pro/includes/fields/class-address.php:369
+#: pro/includes/fields/class-address.php:387
+#: pro/includes/fields/class-address.php:407
+#: pro/includes/fields/class-address.php:431
+msgid "Default Value"
+msgstr "Значение по умолчанию"
+
+#: includes/fields/class-base.php:507
+msgid "Select the default form field size."
+msgstr "Выберите размер поля по умолчанию."
+
+#: includes/fields/class-base.php:509
+msgid "Small"
+msgstr "Небольшой"
+
+#: includes/fields/class-base.php:510
+msgid "Medium"
+msgstr "Средний"
+
+#: includes/fields/class-base.php:511
+msgid "Large"
+msgstr "Большой"
+
+#: includes/fields/class-base.php:513
+msgid "Field Size"
+msgstr "Размер поля"
+
+#: includes/fields/class-base.php:526
+msgid "Advanced Options"
+msgstr "Расширенные Опции"
+
+#: includes/fields/class-base.php:537
+msgid "Enter text for the form field placeholder."
+msgstr "Введите текст для замещающего текста поля."
+
+#: includes/fields/class-base.php:538
+msgid "Placeholder Text"
+msgstr "Замещающий текст"
+
+#: includes/fields/class-base.php:548
+msgid ""
+"Enter CSS class names for the form field container. Class names should be "
+"separated with spaces."
+msgstr ""
+"Введите имена классов CSS для контейнера поля формы. Имена классов должны "
+"быть разделены пробелами."
+
+#: includes/fields/class-base.php:553
+msgid "CSS Classes"
+msgstr "Классы CSS"
+
+#: includes/fields/class-base.php:562
+msgid "Check this option to hide the form field label."
+msgstr "Установите этот флажок, чтобы скрыть метку поля формы."
+
+#: includes/fields/class-base.php:564
+msgid "Hide Label"
+msgstr "Скрыть название поля"
+
+#: includes/fields/class-base.php:572
+msgid "Check this option to hide the form field sub-label."
+msgstr "Установите этот флажок, чтобы скрыть дополнительную метку поля формы."
+
+#: includes/fields/class-base.php:574
+msgid "Hide Sub-Labels"
+msgstr "Скрыть подзаголовки"
+
+#: includes/fields/class-base.php:582
+msgid "Select the layout for displaying field choices."
+msgstr "Выберите макет отображения вариантов выбора поля."
+
+#: includes/fields/class-base.php:584
+msgid "One Column"
+msgstr "Одна колонка"
+
+#: includes/fields/class-base.php:585
+msgid "Two Columns"
+msgstr "Две колонки"
+
+#: includes/fields/class-base.php:586
+msgid "Three Columns"
+msgstr "Три колонки"
+
+#: includes/fields/class-base.php:588
+msgid "Choice Layout"
+msgstr "Выбор макета"
+
+#: includes/fields/class-base.php:597
+msgid "Select auto-populate method to use."
+msgstr "Выберите метод автоматического заполнения."
+
+#: includes/fields/class-base.php:600 includes/fields/class-base.php:621
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: includes/fields/class-base.php:601 includes/fields/class-base.php:632
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: includes/fields/class-base.php:603
+msgid "Dynamic Choices"
+msgstr "Динамические варианты"
+
+#: includes/fields/class-base.php:642
+msgid "Select %s to use for auto-populating field choices."
+msgstr ""
+"Выберите %s, чтобы использовать для автоматического заполнения вариантов "
+"выбора поля."
+
+#: includes/fields/class-base.php:643
+msgid "Dynamic %s Source"
+msgstr "Динамический источник для %s"
+
+#: includes/fields/class-base.php:757
+msgid "You do no have permission."
+msgstr "У вас недостаточно прав."
+
+#: includes/fields/class-base.php:762
+msgid "No form ID found"
+msgstr "ID формы не найден"
+
+#: includes/fields/class-base.php:767
+msgid "No field type found"
+msgstr "Тип поля не найден"
+
+#: includes/fields/class-checkbox.php:21
+msgid "Checkboxes"
+msgstr "Чекбоксы"
+
+#: includes/fields/class-checkbox.php:27 includes/fields/class-radio.php:27
+#: includes/fields/class-select.php:27
+msgid "First Choice"
+msgstr "Первый вариант"
+
+#: includes/fields/class-checkbox.php:32 includes/fields/class-radio.php:32
+#: includes/fields/class-select.php:32
+msgid "Second Choice"
+msgstr "Второй вариант"
+
+#: includes/fields/class-checkbox.php:37 includes/fields/class-radio.php:37
+#: includes/fields/class-select.php:37
+msgid "Third Choice"
+msgstr "Третий вариант"
+
+#: includes/fields/class-checkbox.php:89 includes/fields/class-radio.php:89
+#: includes/fields/class-select.php:89
+msgid "Check this to manually set form field values."
+msgstr "Установите этот флажок для ручного ввода данных формы."
+
+#: includes/fields/class-checkbox.php:97 includes/fields/class-radio.php:97
+#: includes/fields/class-select.php:97
+msgid "Show Values"
+msgstr "Показать значения"
+
+#: includes/fields/class-checkbox.php:211 includes/fields/class-radio.php:211
+msgid ""
+"Showing the first 20 choices.<br> All %d choices will be displayed when "
+"viewing the form."
+msgstr ""
+"Показаны первые 20 вариантов.<br>Все %d вариантов будут отображаться при "
+"просмотре формы."
+
+#: includes/fields/class-email.php:91 includes/fields/class-email.php:311
+msgid "Confirm Email"
+msgstr "Подтвердите email"
+
+#: includes/fields/class-email.php:207
+msgid "Enable Email Confirmation"
+msgstr "Включить подтверждение адреса email"
+
+#: includes/fields/class-email.php:208
+msgid "Check this option to ask users to provide an email address twice."
+msgstr ""
+"Установите этот флажок, чтобы попросить пользователя дважды ввести адрес "
+"электронной почты."
+
+#: includes/fields/class-email.php:246
+#: pro/includes/fields/class-password.php:227
+msgid "Confirmation Placeholder Text"
+msgstr "Замещающий текст подтверждения"
+
+#: includes/fields/class-email.php:247
+#: pro/includes/fields/class-password.php:228
+msgid "Enter text for the confirmation field placeholder."
+msgstr "Введите текст для замещающего текста подтверждения."
+
+#: includes/fields/class-name.php:82 includes/fields/class-name.php:377
+msgid "First"
+msgstr "Имя"
+
+#: includes/fields/class-name.php:103 includes/fields/class-name.php:382
+msgid "Middle"
+msgstr "Отчество"
+
+#: includes/fields/class-name.php:124 includes/fields/class-name.php:387
+msgid "Last"
+msgstr "Фамилия"
+
+#: includes/fields/class-name.php:220
+#: pro/includes/fields/class-date-time.php:60
+#: pro/includes/fields/class-date-time.php:147
+#: pro/includes/fields/class-date-time.php:187
+#: pro/includes/fields/class-phone.php:78
+msgid "Format"
+msgstr "Формат"
+
+#: includes/fields/class-name.php:221
+msgid "Select format to use for the name form field"
+msgstr "Выберите формат для поля имени"
+
+#: includes/fields/class-name.php:232
+msgid "Simple"
+msgstr "Просто"
+
+#: includes/fields/class-name.php:233
+msgid "First Last"
+msgstr "Имя Фамилия"
+
+#: includes/fields/class-name.php:234
+msgid "First Middle Last"
+msgstr "Имя Отчество Фамилия"
+
+#: includes/fields/class-name.php:276
+msgid "Name field advanced options."
+msgstr "Дополнительные опции поля имени."
+
+#: includes/fields/class-name.php:279 includes/fields/class-name.php:294
+#: includes/fields/class-name.php:309 includes/fields/class-name.php:324
+#: pro/includes/fields/class-address.php:325
+#: pro/includes/fields/class-address.php:344
+#: pro/includes/fields/class-address.php:365
+#: pro/includes/fields/class-address.php:383
+#: pro/includes/fields/class-address.php:403
+#: pro/includes/fields/class-address.php:427
+#: pro/includes/fields/class-date-time.php:135
+#: pro/includes/fields/class-date-time.php:179
+msgid "Placeholder"
+msgstr "Замещающий текст"
+
+#: includes/fields/class-name.php:291
+msgid "First Name"
+msgstr "Имя"
+
+#: includes/fields/class-name.php:291
+msgid "First name field advanced options."
+msgstr "Дополнительные опции поля имени."
+
+#: includes/fields/class-name.php:306
+msgid "Middle Name"
+msgstr "Отчество"
+
+#: includes/fields/class-name.php:306
+msgid "Middle name field advanced options."
+msgstr "Дополнительные опции поля отчества."
+
+#: includes/fields/class-name.php:321
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: includes/fields/class-name.php:321
+msgid "Last name field advanced options."
+msgstr "Дополнительные опции поля фамилии."
+
+#: includes/fields/class-number.php:21
+msgid "Numbers"
+msgstr "Числа"
+
+#: includes/fields/class-radio.php:21
+msgid "Multiple Choice"
+msgstr "Радио-кнопки"
+
+#: includes/fields/class-select.php:21
+msgid "Dropdown"
+msgstr "Список"
+
+#: includes/fields/class-text.php:21
+msgid "Single Line Text"
+msgstr "Строка текста"
+
+#: includes/fields/class-textarea.php:21
+msgid "Paragraph Text"
+msgstr "Текст"
+
+#: includes/integrations.php:32
+msgid "Select a form to display"
+msgstr "Выберите форму для отображения"
+
+#: includes/integrations.php:39
+msgid "No forms found"
+msgstr "Формы не найдены"
+
+#: includes/integrations.php:48
+msgid "Content"
+msgstr "Содержание"
+
+#: includes/integrations.php:49
+msgid "Add your form"
+msgstr "Добавить вашу форму"
+
+#: includes/integrations.php:53
+msgid "Form"
+msgstr "Форма"
+
+#: includes/integrations.php:57
+msgid "Select a form to add it to your post or page."
+msgstr "Выберите форму для добавления на вашу страницу или запись."
+
+#: includes/integrations.php:62
+msgid "Display Form Name"
+msgstr "Отображать заголовок формы"
+
+#: includes/integrations.php:65 includes/integrations.php:80
+msgid "No"
+msgstr "Нет"
+
+#: includes/integrations.php:66 includes/integrations.php:81
+msgid "Yes"
+msgstr "Да"
+
+#: includes/integrations.php:69
+msgid "Would you like to display the forms name?"
+msgstr "Хотите показывать название формы?"
+
+#: includes/integrations.php:77
+msgid "Display Form Description"
+msgstr "Отображать описание формы"
+
+#: includes/integrations.php:84
+msgid "Would you like to display the forms description?"
+msgstr "Хотите показывать описание формы?"
+
+#: includes/providers/class-base.php:93
+msgid "Connection"
+msgstr "Подключение"
+
+#: includes/providers/class-base.php:163 includes/providers/class-base.php:1116
+#: includes/providers/class-base.php:1164
+msgid "You do not have permission"
+msgstr "У вас нет доступа"
+
+#: includes/providers/class-base.php:467
+msgctxt "Name field label"
+msgid "%s (Full)"
+msgstr "%s (ФИО)"
+
+#: includes/providers/class-base.php:478
+msgctxt "Name field label"
+msgid "%s (First)"
+msgstr "%s (Имя)"
+
+#: includes/providers/class-base.php:490
+msgctxt "Name field label"
+msgid "%s (Middle)"
+msgstr "%s (Отчество)"
+
+#: includes/providers/class-base.php:502
+msgctxt "Name field label"
+msgid "%s (Last)"
+msgstr "%s (Фамилия)"
+
+#: includes/providers/class-base.php:702
+msgid "Select Account"
+msgstr "Выберите учетную запись"
+
+#: includes/providers/class-base.php:714
+#: includes/providers/class-constant-contact.php:492
+msgid "Add New Account"
+msgstr "Добавить новую учётную запись"
+
+#: includes/providers/class-base.php:747
+msgid "Select List"
+msgstr "Выберите список"
+
+#: includes/providers/class-base.php:793
+msgid "Select Groups"
+msgstr "Выберите группы"
+
+#: includes/providers/class-base.php:795
+msgid ""
+"We also noticed that you have some segments in your list. You can select "
+"specific list segments below if needed. This is optional."
+msgstr ""
+"Мы заметили, что у вас есть несколько сегментов в вашем списке. При "
+"необходимости можно выбрать определенный список сегментов ниже. Это не "
+"обязательно."
+
+#: includes/providers/class-base.php:855 includes/providers/class-base.php:860
+msgid "List Fields"
+msgstr "Список полей"
+
+#: includes/providers/class-base.php:860
+msgid "Available Form Fields"
+msgstr "Доступные поля формы"
+
+#: includes/providers/class-base.php:934
+msgid "Process"
+msgstr "Обработать"
+
+#: includes/providers/class-base.php:935
+msgid "Don't process"
+msgstr "Не обрабатывать"
+
+#: includes/providers/class-base.php:937
+msgid "this connection if"
+msgstr "это подключение если"
+
+#: includes/providers/class-base.php:938
+msgid "Marketing provider connection"
+msgstr "Подключение поставщика услуг маркетинга"
+
+#: includes/providers/class-base.php:1052
+msgctxt "Provider Type"
+msgid "Add New %s"
+msgstr "Добавить: %s"
+
+#: includes/providers/class-base.php:1124
+#: includes/providers/class-base.php:1172
+msgid "Missing data"
+msgstr "Данные отсутствуют"
+
+#: includes/providers/class-base.php:1140
+msgid "Connection missing"
+msgstr "Отсутствует соединение"
+
+#: includes/providers/class-base.php:1184
+msgid "Could not connect to the provider."
+msgstr "Не удалось выполнить подключение к поставщику."
+
+#: includes/providers/class-base.php:1193
+#: includes/providers/class-base.php:1266
+msgctxt "Connection date"
+msgid "Connected on: %s"
+msgstr "Подключено: %s"
+
+#: includes/providers/class-base.php:1194
+#: includes/providers/class-base.php:1267
+msgid "Disconnect"
+msgstr "Отключить"
+
+#. translators: %s - provider name.
+#: includes/providers/class-base.php:1222
+msgid "Connect to %s"
+msgstr "Подключить к %s"
+
+#. translators: %s - provider name.
+#: includes/providers/class-base.php:1249
+msgid "Integrate %s with WPForms"
+msgstr "Интегрируйте %s с WPForms"
+
+#: includes/providers/class-base.php:1252
+msgid "Connected"
+msgstr "Активно"
+
+#: includes/providers/class-base.php:1277
+msgctxt "New Provider Account"
+msgid "Add New Account"
+msgstr "Добавить новую учётную запись"
+
+#: includes/providers/class-base.php:1284
+msgid ""
+"Please fill out all of the fields below to add your new provider account."
+msgstr ""
+"Пожалуйста, заполните все поля ниже, чтобы добавить новую учетную запись "
+"провайдера."
+
+#: includes/providers/class-constant-contact.php:116
+msgid "Constant Contact Subscription stopped by conditional logic"
+msgstr "Подписка Constant Contact остановлена условной логикой"
+
+#: includes/providers/class-constant-contact.php:134
+#: includes/providers/class-constant-contact.php:307
+#: includes/providers/class-constant-contact.php:394
+msgid "Constant Contact API Error"
+msgstr "Ошибка API Constant Contact"
+
+#: includes/providers/class-constant-contact.php:495
+msgid ""
+"Please fill out all of the fields below to register your new Constant "
+"Contact account."
+msgstr ""
+"Пожалуйста, заполните все поля ниже, чтобы зарегистрировать новую учетную "
+"запись Constant Contact."
+
+#: includes/providers/class-constant-contact.php:497
+#: includes/providers/class-constant-contact.php:575
+msgid ""
+"Click here for documentation on connecting WPForms with Constant Contact."
+msgstr ""
+"Нажмите здесь для получения документации по подключению WPForms с Constant "
+"Contact."
+
+#: includes/providers/class-constant-contact.php:502
+#: includes/providers/class-constant-contact.php:580
+msgid ""
+"Because Constant Contact requires external authentication, you will need to "
+"register WPForms with Constant Contact before you can proceed."
+msgstr ""
+"Поскольку для Constant Contact требуется внешняя аутентификация, вам "
+"необходимо будет зарегистрировать WPForms с Constant Contact, прежде чем вы "
+"сможете продолжить."
+
+#: includes/providers/class-constant-contact.php:506
+#: includes/providers/class-constant-contact.php:584
+msgid "Click here to register with Constant Contact"
+msgstr "Нажмите здесь, чтобы зарегистрироваться в Constant Contact"
+
+#: includes/providers/class-constant-contact.php:509
+#: includes/providers/class-constant-contact.php:587
+msgid "Authorization Code"
+msgstr "Код авторизации"
+
+#: includes/providers/class-constant-contact.php:511
+#: includes/providers/class-constant-contact.php:589
+msgid "Account Nickname"
+msgstr "Псевдоним учетной записи"
+
+#: includes/providers/class-constant-contact.php:513
+msgid "Connect"
+msgstr "Подключить"
+
+#: includes/providers/class-constant-contact.php:550
+msgid ""
+"Get the most out of <strong>WPForms</strong> &mdash; use it with an active "
+"Constant Contact account."
+msgstr ""
+"Получите максимальную отдачу от <strong>WPForms</strong> - используйте его с "
+"активной учетной записью Constant Contact."
+
+#: includes/providers/class-constant-contact.php:553
+#: includes/providers/class-constant-contact.php:639
+msgid "Try Constant Contact for Free"
+msgstr "Попробуйте Constant Contact бесплатно"
+
+#: includes/providers/class-constant-contact.php:554
+msgid ""
+"Learn More about the <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">power of email marketing</a>"
+msgstr ""
+"Узнайте больше о <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">возможностях электронного маркетинга</a>"
+
+#: includes/providers/class-constant-contact.php:636
+msgid ""
+"Get the most out of the <strong>WPForms</strong> plugin &mdash; use it with "
+"an active Constant Contact account."
+msgstr ""
+"Получите максимальную отдачу от плагина <strong>WPForms</strong> - "
+"используйте его с активной учетной записью Constant Contact."
+
+#: includes/providers/class-constant-contact.php:640
+msgid "Connect your existing account"
+msgstr "Подключить вашу существующую учетную запись"
+
+#: includes/providers/class-constant-contact.php:641
+msgid "Learn More about the <a href=\"%s\">power of email marketing</a>"
+msgstr ""
+"Узнайте больше о <a href=\"%s\">возможностях электронного маркетинга</a>"
+
+#: includes/providers/class-constant-contact.php:699
+msgid "Grow Your Website with WPForms + Email Marketing"
+msgstr "Развивайте свой сайт с помощью WPForms и email маркетинга"
+
+#: includes/providers/class-constant-contact.php:700
+msgid "Wondering if email marketing is really worth your time?"
+msgstr ""
+"Хотите узнать, действительно ли маркетинг электронной почты стоит вашего "
+"времени?"
+
+#: includes/providers/class-constant-contact.php:701
+msgid ""
+"Email is hands-down the most effective way to nurture leads and turn them "
+"into customers, with a return on investment (ROI) of <strong>$44 back for "
+"every $1 spent</strong> according to Direct Marketing Association."
+msgstr ""
+"Электронная почта - это самый эффективный способ подготавливать "
+"потенциальных клиентов и превратиь их в действующих клиентов с возвратом "
+"инвестиций (ROI) в <strong>размере 44 доллара США за каждый потраченный 1 "
+"доллар США</strong>, согласно Direct Marketing Association."
+
+#: includes/providers/class-constant-contact.php:702
+msgid ""
+"Here are 3 big reasons why every smart business in the world has an email "
+"list:"
+msgstr ""
+"Вот 3 большие причины, по которым каждый умный бизнес в мире имеет список "
+"адресов электронной почты:"
+
+#: includes/providers/class-constant-contact.php:706
+msgid ""
+"<strong>Email is still #1</strong> - At least 91% of consumers check their "
+"email on a daily basis. You get direct access to your subscribers, without "
+"having to play by social media&#39;s rules and algorithms."
+msgstr ""
+"<strong>Электронная почта по-прежнему № 1</strong> - По крайней мере 91% "
+"пользователей ежедневно проверяют электронную почту. Вы получаете прямой "
+"доступ к своим подписчикам, без необходимости играть по правилам и "
+"алгоритмам социальных сетей."
+
+#: includes/providers/class-constant-contact.php:707
+msgid ""
+"<strong>You own your email list</strong> - Unlike with social media, your "
+"list is your property and no one can revoke your access to it."
+msgstr ""
+"<strong>Свой собственный список email</strong> - В отличие от социальных "
+"сетей, ваш список является вашей собственностью, и никто не может отменить "
+"ваш доступ к нему."
+
+#: includes/providers/class-constant-contact.php:708
+msgid ""
+"<strong>Email converts</strong> - People who buy products marketed through "
+"email spend 138% more than those who don&#39;t receive email offers."
+msgstr ""
+"<strong>Email'ы конвертируются</strong> - Люди, которые покупают продукты, "
+"продаваемые по электронной почте, тратят на 138% больше, чем те, кто не "
+"получает такие предложения."
+
+#: includes/providers/class-constant-contact.php:710
+msgid ""
+"That&#39;s why it&#39;s crucial to start collecting email addresses and "
+"building your list as soon as possible."
+msgstr ""
+"Вот почему очень важно начать собирать адреса электронной почты и создавать "
+"свой контактный список как можно скорее."
+
+#: includes/providers/class-constant-contact.php:711
+msgid ""
+"For more details, see this guide on <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">why building your email list is so important</a>."
+msgstr ""
+"Для получения дополнительной информации прочтите руководство по тому, <a "
+"href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">почему создание "
+"списка адресов электронной почты так важно</a>."
+
+#: includes/providers/class-constant-contact.php:713
+msgid "You&#39;ve Already Started - Here&#39;s the Next Step (It&#39;s Easy)"
+msgstr "Вы уже начали - вот следующий шаг (это легко)"
+
+#: includes/providers/class-constant-contact.php:714
+msgid "Here are the 3 things you need to build an email list:"
+msgstr ""
+"Вот 3 вещи, которые вам нужны для создания списка адресов электронной почты:"
+
+#: includes/providers/class-constant-contact.php:716
+msgid "A Website or Blog"
+msgstr "Веб-сайт или блог"
+
+#: includes/providers/class-constant-contact.php:717
+msgid "High-Converting Form Builder"
+msgstr "Конструктор форм для высокопроизводительных форм"
+
+#: includes/providers/class-constant-contact.php:718
+msgid "The Best Email Marketing Service"
+msgstr "Лучшая служба электронного маркетинга"
+
+#: includes/providers/class-constant-contact.php:720
+msgid ""
+"With a powerful email marketing service like Constant Contact, you can "
+"instantly send out mass notifications and beautifully designed newsletters "
+"to engage your subscribers."
+msgstr ""
+"Благодаря мощной службе маркетинга электронной почты, такой как Constant "
+"Contact, вы можете мгновенно отправлять массовые уведомления и красиво "
+"оформленные информационные бюллетени, чтобы привлечь ваших подписчиков."
+
+#: includes/providers/class-constant-contact.php:722
+msgid "Get Started with Constant Contact for Free"
+msgstr "Начните работать с Constant Contact бесплатно"
+
+#: includes/providers/class-constant-contact.php:723
+msgid ""
+"WPForms plugin makes it fast and easy to capture all kinds of visitor "
+"information right from your WordPress site - even if you don&#39;t have a "
+"Constant Contact account."
+msgstr ""
+"Плагин WPForms позволяет быстро и легко захватывать все виды информации о "
+"посетителях прямо с вашего WordPress сайта - даже если у вас нет учетной "
+"записи Constant Contact."
+
+#: includes/providers/class-constant-contact.php:724
+msgid ""
+"But when you combine WPForms with Constant Contact, you can nurture your "
+"contacts and engage with them even after they leave your website. When you "
+"use Constant Contact + WPForms together, you can:"
+msgstr ""
+"Но когда вы объединяете WPForms с Constant Contact, вы можете развивать "
+"контакты и общаться с ними даже после того, как они покинут ваш сайт. Когда "
+"вы используете Constant Contact + WPForms вместе, вы можете:"
+
+#: includes/providers/class-constant-contact.php:726
+msgid "Seamlessly add new contacts to your email list"
+msgstr "Лешко добавляйте новые контакты в список рассылки"
+
+#: includes/providers/class-constant-contact.php:727
+msgid "Create and send professional email newsletters"
+msgstr ""
+"Создавайте и отправляйте профессиональные рассылки по электронной почте"
+
+#: includes/providers/class-constant-contact.php:728
+msgid "Get expert marketing and support"
+msgstr "Получить экспертный маркетинг и поддержку"
+
+#: includes/providers/class-constant-contact.php:731
+msgid "Try Constant Contact Today"
+msgstr "Попробуйте Constant Contact сегодня"
+
+#: includes/providers/class-constant-contact.php:733
+msgid "WPForms Makes List Building Easy"
+msgstr "WPForms делает создание списков email простым"
+
+#: includes/providers/class-constant-contact.php:734
+msgid ""
+"When creating WPForms, our goal was to make a WordPress forms plugin "
+"that&#39;s both EASY and POWERFUL."
+msgstr ""
+"При создании WPForms наша цель состояла в том, чтобы сделать плагин форм для "
+"WordPress, который является одновременно ЛЕГКИМ и МОЩНЫМ."
+
+#: includes/providers/class-constant-contact.php:735
+msgid ""
+"We made the form creation process extremely intuitive, so you can create a "
+"form to start capturing emails within 5 minutes or less."
+msgstr ""
+"Мы сделали процесс создания формы чрезвычайно интуитивным, поэтому вы можете "
+"создать форму, чтобы начать получать электронные письма, в течение 5 минут "
+"или даже меньше."
+
+#: includes/providers/class-constant-contact.php:736
+msgid "Here&#39;s how it works."
+msgstr "Вот как это работает."
+
+#: includes/providers/class-constant-contact.php:740
+msgid "1. Select from our pre-built templates, or create a form from scratch."
+msgstr ""
+"1. Выберите из наших предварительно построенных шаблонов или создайте форму "
+"с нуля."
+
+#: includes/providers/class-constant-contact.php:744
+msgid "2. Drag and drop any field you want onto your signup form."
+msgstr ""
+"2. Перетащите любое поле, которое вы хотите, в свою регистрационную форму."
+
+#: includes/providers/class-constant-contact.php:748
+msgid "3. Connect your Constant Contact email list."
+msgstr "3. Подключите свой email список из Constant Contact."
+
+#: includes/providers/class-constant-contact.php:752
+msgid "4. Add your new form to any post, page, or sidebar."
+msgstr ""
+"4. Добавьте свою новую форму в любую запись, страницу или боковую колонку "
+"сайта."
+
+#: includes/providers/class-constant-contact.php:755
+msgid ""
+"It doesn&#39;t matter what kind of business you run, what kind of website "
+"you have, or what industry you are in - you need to start building your "
+"email list today."
+msgstr ""
+"Неважно, какой бизнес вы ведете, какой у вас сайт или в какой вы отрасли - "
+"вам нужно начать создавать свой список адресов электронной почты сегодня."
+
+#: includes/providers/class-constant-contact.php:756
+msgid "With Constant Contact + WPForms, growing your list is easy."
+msgstr ""
+"Со связкой Constant Contact + WPForms увеличивать свой список подписчиков "
+"очень просто."
+
+#: includes/templates/class-blank.php:21
+msgid "Blank Form"
+msgstr "Пустая форма"
+
+#: includes/templates/class-blank.php:23
+msgid ""
+"The blank form allows you to create any type of form using our drag & drop "
+"builder."
+msgstr ""
+"Пустая форма позволяет вам создавать любой тип формы с помощью нашего drag & "
+"drop конструктора."
+
+#: includes/templates/class-blank.php:34
+#: includes/templates/class-contact.php:65
+#: includes/templates/class-subscribe.php:52
+#: includes/templates/class-suggestion.php:90
+#: pro/includes/templates/class-donation.php:66
+#: pro/includes/templates/class-order.php:100
+#: pro/includes/templates/class-request-quote.php:70
+msgid "Sending..."
+msgstr "Отправка..."
+
+#: includes/templates/class-contact.php:21
+msgid "Simple Contact Form"
+msgstr "Простая контактная форма"
+
+#: includes/templates/class-contact.php:23
+msgid ""
+"Allow your users to contact you with this simple contact form. You can add "
+"and remove fields as needed."
+msgstr ""
+"Разрешите вашим пользователям связаться с вами через эту простую контактную "
+"форму. Можно добавлять и удалять поля по мере необходимости."
+
+#: includes/templates/class-contact.php:48
+#: pro/includes/templates/class-donation.php:58
+#: pro/includes/templates/class-order.php:92
+msgid "Comment or Message"
+msgstr "Комментарий или сообщение"
+
+#: includes/templates/class-subscribe.php:21
+msgid "Newsletter Signup Form"
+msgstr "Форма подписки на рассылку"
+
+#: includes/templates/class-subscribe.php:23
+msgid ""
+"Add subscribers and grow your email list with this newsletter signup form. "
+"You can add and remove fields as needed."
+msgstr ""
+"Добавляйте подписчиков и увеличивайте ваш список электронных адресов с этой "
+"формой подписки. Можно добавлять и удалять поля по мере необходимости."
+
+#: includes/templates/class-subscribe.php:28
+#: pro/includes/templates/class-donation.php:27
+#: pro/includes/templates/class-order.php:27
+msgid "Don&#39;t Forget"
+msgstr "Не забудьте"
+
+#: includes/templates/class-subscribe.php:29
+msgid "Click the marketing tab to configure your newsletter service provider"
+msgstr ""
+"Щелкните вкладку маркетинга для настройки провайдера новостной рассылки"
+
+#: includes/templates/class-suggestion.php:21
+msgid "Suggestion Form"
+msgstr "Форма предложений"
+
+#: includes/templates/class-suggestion.php:23
+msgid ""
+"Ask your users for suggestions with this simple form template. You can add "
+"and remove fields as needed."
+msgstr ""
+"Попросите пользователей поделиться предложениями через простой шаблон формы. "
+"Можно добавлять и удалять поля по мере необходимости."
+
+#: includes/templates/class-suggestion.php:42
+msgid "Please enter your email, so we can follow up with you."
+msgstr ""
+"Пожалуйста, введите адрес электронной почты, так что мы сможем с вами "
+"связаться."
+
+#: includes/templates/class-suggestion.php:49
+msgid "Which department do you have a suggestion for?"
+msgstr "Для какого отдела у вас есть предложение?"
+
+#: includes/templates/class-suggestion.php:52
+msgid "Sales"
+msgstr "Продажи"
+
+#: includes/templates/class-suggestion.php:55
+msgid "Customer Support"
+msgstr "Поддержка клиента"
+
+#: includes/templates/class-suggestion.php:58
+msgid "Product Development"
+msgstr "Разработка продукта"
+
+#: includes/templates/class-suggestion.php:69
+msgid "Subject"
+msgstr "Тема"
+
+#: lite/wpforms-lite.php:53
+msgid "New %s Entry"
+msgstr "Новая запись для %s"
+
+#: lite/wpforms-lite.php:92 pro/wpforms-pro.php:445
+msgid "Send To Email Address"
+msgstr "Отправить на email адрес"
+
+#: lite/wpforms-lite.php:95 pro/wpforms-pro.php:448
+msgid ""
+"Enter the email address to receive form entry notifications. For multiple "
+"notifications, separate email addresses with a comma."
+msgstr ""
+"Введите адрес электронной почты, чтобы получать на него уведомления о "
+"записях для формы. Для отправки нескольких уведомлений каждый адрес "
+"электронной почты должен быть отделен запятой."
+
+#: lite/wpforms-lite.php:111 pro/wpforms-pro.php:464
+msgid "CC"
+msgstr "Копия"
+
+#: lite/wpforms-lite.php:127 pro/wpforms-pro.php:480
+msgid "Email Subject"
+msgstr "Тема письма"
+
+#: lite/wpforms-lite.php:129 pro/wpforms-pro.php:482
+msgctxt "Form name"
+msgid "New Entry: %s"
+msgstr "Новая запись: %s"
+
+#: lite/wpforms-lite.php:142 pro/wpforms-pro.php:495
+msgid "From Name"
+msgstr "От имени"
+
+#: lite/wpforms-lite.php:158 pro/wpforms-pro.php:511
+msgid "From Email"
+msgstr "С email адреса"
+
+#: lite/wpforms-lite.php:174 pro/wpforms-pro.php:527
+msgid "Reply-To"
+msgstr "Отправлять ответы"
+
+#: lite/wpforms-lite.php:199 pro/wpforms-pro.php:552
+msgid ""
+"To display all form fields, use the <code>{all_fields}</code> Smart Tag."
+msgstr ""
+"Для отображения всех полей формы, используйте смарт-тег <code>{all_fields}</"
+"code>."
+
+#: lite/wpforms-lite.php:253 pro/includes/templates/class-request-quote.php:20
+msgid "Request A Quote Form"
+msgstr "Форма запроса предварительной оценки"
+
+#: lite/wpforms-lite.php:255 pro/includes/templates/class-request-quote.php:22
+msgid ""
+"Start collecting leads with this pre-made Request a quote form. You can add "
+"and remove fields as needed."
+msgstr ""
+"Начните собирать лидов с этой готовой формой Запроса оценки. Вы можете "
+"добавлять и удалять поля по мере необходимости."
+
+#: lite/wpforms-lite.php:258 pro/includes/templates/class-donation.php:20
+msgid "Donation Form"
+msgstr "Форма пожертвования"
+
+#: lite/wpforms-lite.php:260 pro/includes/templates/class-donation.php:22
+msgid ""
+"Start collecting donation payments on your website with this ready-made "
+"Donation form. You can add and remove fields as needed."
+msgstr ""
+"Начните собирать пожертвования на своем сайте с помощью этой готовой формы "
+"для пожертвований. Вы можете добавлять и удалять поля по мере необходимости."
+
+#: lite/wpforms-lite.php:263 pro/includes/templates/class-order.php:20
+msgid "Billing / Order Form"
+msgstr "Форма оплаты / заказа"
+
+#: lite/wpforms-lite.php:265
+msgid ""
+"Collect payments for product and service orders with this ready-made form "
+"template. You can add and remove fields as needed."
+msgstr ""
+"Принимайте платежи за продукты и услуги с помощью готового шаблона формы. Вы "
+"можете добавлять и удалять поля по мере необходимости."
+
+#: lite/wpforms-lite.php:270
+msgid "Unlock Pre-Made Form Templates"
+msgstr "Откройте уже готовые шаблоны форм"
+
+#: lite/wpforms-lite.php:270
+msgid "Upgrade"
+msgstr "Обновить"
+
+#: lite/wpforms-lite.php:273
+msgid ""
+"While WPForms Lite allows you to create any type of form, you can speed up "
+"the process by unlocking our other pre-built form templates among other "
+"features, so you never have to start from scratch again..."
+msgstr ""
+"В то время как WPForms Lite позволяет вам создать любой тип формы, вы можете "
+"ускорить процесс, используя наши шаблоны готовых форм среди других функций, "
+"так что вам никогда не придется начинать с нуля снова..."
+
+#: lite/wpforms-lite.php:416
+#: pro/includes/admin/builder/panels/class-payments.php:21
+#: pro/wpforms-pro.php:152 pro/wpforms-pro.php:223
+msgid "Payments"
+msgstr "Платежи"
+
+#: lite/wpforms-lite.php:440
+msgid "is a PRO Feature"
+msgstr "это функция PRO"
+
+#: lite/wpforms-lite.php:441
+msgid ""
+"We're sorry, %name% is not available on your plan.<br><br>Please upgrade to "
+"the PRO plan to unlock all these awesome features."
+msgstr ""
+"Жаль, расширение %name% не доступно на вашем плане.<br><br>Выполните "
+"обновление до PRO плана, чтобы разблокировать все эти потрясающие "
+"возможности."
+
+#: pro/includes/admin/ajax-actions.php:24
+msgid "Addon deactivated."
+msgstr "Расширение деактивировано."
+
+#: pro/includes/admin/ajax-actions.php:26
+msgid "Could not deactivate addon. Please deacticate from the Plugins page."
+msgstr ""
+"Во время деактивации расширения произошла ошибка. Пожалуйста, деактивируйте "
+"его на странице плагинов."
+
+#: pro/includes/admin/ajax-actions.php:47
+msgid "Addon activated."
+msgstr "Расширение активировано."
+
+#: pro/includes/admin/ajax-actions.php:51
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr ""
+"Не удалось активировать расширение. Пожалуйста, активируйте на странице "
+"плагинов."
+
+#: pro/includes/admin/ajax-actions.php:67
+#: pro/includes/admin/ajax-actions.php:86
+#: pro/includes/admin/ajax-actions.php:89
+#: pro/includes/admin/ajax-actions.php:115
+msgid ""
+"Could not install addon. Please download from wpforms.com and install "
+"manually."
+msgstr ""
+"Не удалось установить расширение. Пожалуйста, скачайте с сайта wpforms.com и "
+"установите вручную."
+
+#: pro/includes/admin/ajax-actions.php:109
+msgid "Addon installed."
+msgstr "Расширение установлено."
+
+#: pro/includes/admin/ajax-actions.php:225
+#: pro/includes/admin/ajax-actions.php:270
+msgid "Please enter a license key."
+msgstr "Пожалуйста, введите лицензионный ключ."
+
+#: pro/includes/admin/builder/panels/class-payments.php:71
+msgid "Install Your Payment Integration"
+msgstr "Установите вашу интеграцию с платежами"
+
+#: pro/includes/admin/builder/panels/class-payments.php:72
+msgid ""
+"It seems you do not have any payment addons activated. You can head over to "
+"the <a href=\"%s\">Addons page</a> to install and activate the addon for "
+"your payment service."
+msgstr ""
+"Кажется, у вас нет никаких активированных расширений для платежей. Вы можете "
+"перейти на <a href=\"%s\">страницу расширений</a>, чтобы установить и "
+"активировать расширения для оплаты."
+
+#: pro/includes/admin/builder/panels/class-payments.php:78
+msgid "Select Your Payment Integration"
+msgstr "Выберите интеграцию платежей"
+
+#: pro/includes/admin/builder/panels/class-payments.php:79
+msgid ""
+"Select your payment provider from the options on the left. If you don't see "
+"your payment service listed, then let us know and we'll do our best to get "
+"it added as fast as possible."
+msgstr ""
+"Выберите платежного провайдера из вариантов слева. Если вы не видите вашего "
+"платежного оператора, то дайте нам знать и мы сделаем все возможное, чтобы "
+"добавить его как можно быстрее."
+
+#: pro/includes/admin/class-addons.php:84
+msgid "Refresh Addons"
+msgstr "Обновить список расширений"
+
+#: pro/includes/admin/class-addons.php:90
+msgid ""
+"There was an issue retrieving the addons for this site. Please click on the "
+"button above the refresh the addons data."
+msgstr ""
+"Во время получения расширений для этого сайта произошла ошибка. Пожалуйста, "
+"нажмите кнопку выше для обновления данных о расширениях."
+
+#: pro/includes/admin/class-addons.php:96
+msgid ""
+"In order to get access to Addons, you need to resolve your license key "
+"errors."
+msgstr ""
+"Чтобы получить доступ к расширениям, вам необходимо решить проблемы с "
+"лицензионным ключом."
+
+#: pro/includes/admin/class-addons.php:102
+msgid ""
+"In order to get access to Addons, you need to verify your license key for "
+"WPForms."
+msgstr ""
+"Чтобы получить доступ к расширениям, вам необходимо верифицировать "
+"лицензионный ключ для WPForms."
+
+#: pro/includes/admin/class-addons.php:110
+msgid "Addons have successfully been refreshed."
+msgstr "Расширения успешно обновлены."
+
+#: pro/includes/admin/class-addons.php:118
+msgid ""
+"Improve your forms with our premium addons. Missing an addon that you think "
+"you should be able to see? Click the <a href=\"%s\">Refresh Addons</a> "
+"button above."
+msgstr ""
+"Улучшите свои формы с помощью наших премиальных расширений. Отсутствует "
+"расширение, которое, по вашему мнению, вы должны увидеть? Нажмите кнопку <a "
+"href=\"%s\">Обновить список расширений</a> выше."
+
+#: pro/includes/admin/class-addons.php:121
+msgid "Available Addons"
+msgstr "Доступные расширения"
+
+#: pro/includes/admin/class-addons.php:166
+msgid "Unlock More Features..."
+msgstr "Открыть больше возможностей..."
+
+#: pro/includes/admin/class-addons.php:167
+msgid ""
+"Want to get even more features? <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Upgrade your WPForms account</a> and unlock the "
+"following extensions."
+msgstr ""
+"Хотите получить еще больше функций? <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Обновите учетную запись WPForms</a> и разблокируйте "
+"следующие расширения."
+
+#: pro/includes/admin/class-addons.php:201
+msgid "Not Installed"
+msgstr "Не установлено"
+
+#: pro/includes/admin/class-addons.php:225
+#: pro/includes/admin/entries/class-entries-list-table.php:162
+msgid "Status"
+msgstr "Статус"
+
+#: pro/includes/admin/class-license.php:93
+#: pro/includes/admin/class-license.php:181
+#: pro/includes/admin/class-license.php:270
+msgid ""
+"There was an error connecting to the remote key API. Please try again later."
+msgstr "Ошибка подключения по ключу API. Пожалуйста, повторите попытку позже."
+
+#: pro/includes/admin/class-license.php:112
+msgid "Congratulations! This site is now receiving automatic updates."
+msgstr "Поздравляем! Этот сайт теперь получает автоматические обновления."
+
+#: pro/includes/admin/class-license.php:200
+#: pro/includes/admin/class-license.php:354
+msgid ""
+"Your license key for WPForms is invalid. The key no longer exists or the "
+"user associated with the key has been deleted. Please use a different key to "
+"continue receiving automatic updates."
+msgstr ""
+"Ваш лицензионный ключ для WPForms недействителен. Ключ больше не существует "
+"или был удален пользователем, связанным с ключом. Пожалуйста, используйте "
+"другой ключ, чтобы продолжить получать автоматические обновления."
+
+#: pro/includes/admin/class-license.php:213
+msgid ""
+"Your license key for WPForms has expired. Please renew your license key on "
+"WPForms.com to continue receiving automatic updates."
+msgstr ""
+"Срок действия вашего лицензионного ключа для WPForms истек. Обновите "
+"лицензионный ключ на WPForms.com, чтобы продолжить получать автоматические "
+"обновления."
+
+#: pro/includes/admin/class-license.php:226
+#: pro/includes/admin/class-license.php:345
+msgid ""
+"Your license key for WPForms has been disabled. Please use a different key "
+"to continue receiving automatic updates."
+msgstr ""
+"Ваш лицензионный ключ для WPForms был отключен. Пожалуйста, используйте "
+"другой ключ, чтобы продолжить получать автоматические обновления."
+
+#: pro/includes/admin/class-license.php:241
+msgid "Your key has been refreshed successfully."
+msgstr "Ваш ключ был успешно обновлен."
+
+#: pro/includes/admin/class-license.php:290
+msgid "You have deactivated the key from this site successfully."
+msgstr "Вы успешно отключили ключ этого сайта."
+
+#: pro/includes/admin/class-license.php:327
+msgid ""
+"Please <a href=\"%s\">enter and activate</a> your license key for WPForms to "
+"enable automatic updates."
+msgstr ""
+"Пожалуйста, <a href=\"%s\">введите и активируйте</a> ваш лицензионный ключ "
+"WPForms для включения автоматического обновления."
+
+#: pro/includes/admin/class-license.php:336
+msgid ""
+"Your license key for WPForms has expired. <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">Please click here to renew your license key and continue "
+"receiving automatic updates.</a>"
+msgstr ""
+"Истек срок действия лицензионного ключа для WPForms. <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener\">Пожалуйста, нажмите здесь, чтобы обновить ваш "
+"лицензионный ключ и продолжить получать автоматические обновления.</a>"
+
+#: pro/includes/admin/entries/class-entries-export.php:204
+msgid "Date GMT"
+msgstr "Дата GMT"
+
+#: pro/includes/admin/entries/class-entries-export.php:205
+msgid "ID"
+msgstr "ID"
+
+#: pro/includes/admin/entries/class-entries-export.php:339
+msgid "You do not have permission to export entries."
+msgstr "У вас недостаточно прав для экспорта записей."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:129
+msgid "All"
+msgstr "Все"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:130
+msgid "Unread"
+msgstr "Непрочитанные"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:131
+msgid "Starred"
+msgstr "Отмечено"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:156
+#: pro/includes/fields/class-payment-total.php:21
+msgid "Total"
+msgstr "Всего"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:167
+#: pro/includes/admin/entries/class-entries-single.php:1019
+msgid "Actions"
+msgstr "Действия"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:168
+msgid "Change columns to display"
+msgstr "Изменить колонки для отображения"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:318
+#: pro/includes/admin/entries/class-entries-single.php:833
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:325
+#: pro/includes/admin/entries/class-entries-single.php:776
+msgid "Completed"
+msgstr "Завершенный"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:399
+msgid "View Form Entry"
+msgstr "Просмотреть запись формы"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:400
+msgid "View"
+msgstr "Просмотр"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:417
+msgid "Delete Form Entry"
+msgstr "Удалить запись формы"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:434
+msgid "Mark Read"
+msgstr "Отметить прочитанным"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:435
+#: pro/includes/admin/entries/class-entries-single.php:1003
+msgid "Mark Unread"
+msgstr "Отметить непрочитанным"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:436
+#: pro/includes/admin/entries/class-entries-single.php:968
+msgid "Star"
+msgstr "Поставить отметку"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:437
+#: pro/includes/admin/entries/class-entries-single.php:968
+msgid "Unstar"
+msgstr "Удалить отметку"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:438
+msgid "----------"
+msgstr "----------"
+
+#: pro/includes/admin/entries/class-entries-list-table.php:496
+msgid "Entry was successfully marked as read."
+msgstr "Запись была успешно помечена как прочитанная."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:498
+msgid "Entries were successfully marked as read."
+msgstr "Запись были успешно помечены как прочитанные."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:522
+msgid "Entry was successfully marked as unread."
+msgstr "Запись была успешно помечена как непрочитанная."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:524
+msgid "Entries were successfully marked as unread."
+msgstr "Записи были успешно помечены как непрочитанные."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:548
+msgid "Entry was successfully starred."
+msgstr "Запись была успешно отмечена."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:550
+msgid "Entries were successfully starred."
+msgstr "Запись были успешно отмечены."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:574
+msgid "Entry was successfully unstarred."
+msgstr "Отметка к записи была успешно убрана."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:576
+msgid "Entries were successfully unstarred."
+msgstr "С записей была успешно снята отметка."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:595
+msgid "Entry was successfully deleted."
+msgstr "Запись была успешно удалена."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:597
+msgid "Entries were successfully deleted."
+msgstr "Записи были успешно удалены."
+
+#: pro/includes/admin/entries/class-entries-list-table.php:613
+msgid "Whoops, it appears you do not have any form entries yet."
+msgstr "К сожалению, у вас нет никаких записей для формы."
+
+#: pro/includes/admin/entries/class-entries-list.php:142
+msgid "Number of entries per page:"
+msgstr "Количество записей на странице:"
+
+#: pro/includes/admin/entries/class-entries-list.php:226
+msgid "All entries marked as read."
+msgstr "Все записи помечены как прочитанные."
+
+#: pro/includes/admin/entries/class-entries-list.php:283
+msgid "All entries for the currently selected form were successfully deleted."
+msgstr "Все записи для выбранной формы были успешно удалены."
+
+#: pro/includes/admin/entries/class-entries-list.php:386
+msgid "Select the fields to show when viewing the entries list for this form."
+msgstr ""
+"Выберите поля, которые будут отображаться при просмотре списка записей для "
+"этой формы."
+
+#: pro/includes/admin/entries/class-entries-list.php:388
+msgid ""
+"Currently columns have not been configured, so we're showing the first 3 "
+"fields."
+msgstr ""
+"В настоящее время столбцы не настроены, поэтому мы показываем первые 3 поля."
+
+#: pro/includes/admin/entries/class-entries-list.php:492
+msgid "Select Form"
+msgstr "Выберите форму"
+
+#: pro/includes/admin/entries/class-entries-list.php:498
+msgid "Open form selector"
+msgstr "Открыть переключатель форм"
+
+#: pro/includes/admin/entries/class-entries-list.php:523
+msgid "Edit This Form"
+msgstr "Редактировать форму"
+
+#: pro/includes/admin/entries/class-entries-list.php:533
+msgid "Download Export (CSV)"
+msgstr "Экспорт (CSV)"
+
+#: pro/includes/admin/entries/class-entries-list.php:538
+msgid "Mark All Read"
+msgstr "Отметить все прочитанным"
+
+#: pro/includes/admin/entries/class-entries-list.php:543
+msgid "Delete All"
+msgstr "Удалить все"
+
+#: pro/includes/admin/entries/class-entries-single.php:164
+msgid "This entry has been starred."
+msgstr "Эта запись была отмечена."
+
+#: pro/includes/admin/entries/class-entries-single.php:181
+msgid "This entry has been unstarred."
+msgstr "С этой записи была снята отметка."
+
+#: pro/includes/admin/entries/class-entries-single.php:214
+msgid "This entry has been marked unread."
+msgstr "Эта запись была помечена непрочитанной."
+
+#: pro/includes/admin/entries/class-entries-single.php:241
+msgid "Note deleted."
+msgstr "Заметка удалена."
+
+#: pro/includes/admin/entries/class-entries-single.php:277
+msgid "Note added."
+msgstr "Заметка добавлена."
+
+#: pro/includes/admin/entries/class-entries-single.php:311
+msgid "Notifications sent!"
+msgstr "Уведомления отправлены!"
+
+#: pro/includes/admin/entries/class-entries-single.php:329
+msgid "Invalid entry ID."
+msgstr "Неверный ID записи."
+
+#: pro/includes/admin/entries/class-entries-single.php:342
+msgid "Entry not found."
+msgstr "Запись не найдена."
+
+#: pro/includes/admin/entries/class-entries-single.php:355
+msgid "Form not found."
+msgstr "Форма не найдена."
+
+#: pro/includes/admin/entries/class-entries-single.php:439
+msgid "View Entry"
+msgstr "Просмотреть запись"
+
+#: pro/includes/admin/entries/class-entries-single.php:441
+msgid "Back to All Entries"
+msgstr "Назад ко всем записям формы"
+
+#: pro/includes/admin/entries/class-entries-single.php:445
+msgid "Entry %1$s of %2$s"
+msgstr "Запись %1$s из %2$s"
+
+#: pro/includes/admin/entries/class-entries-single.php:448
+msgid "Previous form entry"
+msgstr "Предыдущая запись формы"
+
+#: pro/includes/admin/entries/class-entries-single.php:452
+msgid "Current form entry"
+msgstr "Текущая запись формы"
+
+#: pro/includes/admin/entries/class-entries-single.php:454
+msgid "Next form entry"
+msgstr "Следующая запись формы"
+
+#: pro/includes/admin/entries/class-entries-single.php:585
+#: pro/includes/admin/entries/class-entries-single.php:600
+msgid "Add Note"
+msgstr "Добавить заметку"
+
+#: pro/includes/admin/entries/class-entries-single.php:609
+msgid "No notes."
+msgstr "Нет заметок."
+
+#. translators: %1$s - user link; %2$s - date; %3$s - separator; %4$s - link to
+#. delete a note
+#: pro/includes/admin/entries/class-entries-single.php:646
+msgid "Added by %1$s on %2$s %3$s %4$s"
+msgstr "Добавил(а) %1$s %2$s %3$s %4$s"
+
+#: pro/includes/admin/entries/class-entries-single.php:650
+msgctxt "Entry: note"
+msgid "Delete"
+msgstr "Удалить"
+
+#: pro/includes/admin/entries/class-entries-single.php:688
+msgid "Debug Information"
+msgstr "Отладочная информация"
+
+#: pro/includes/admin/entries/class-entries-single.php:717
+msgid "Entry Details"
+msgstr "Детали записи"
+
+#: pro/includes/admin/entries/class-entries-single.php:726
+msgid "Entry ID:"
+msgstr "ID записи:"
+
+#: pro/includes/admin/entries/class-entries-single.php:732
+msgid "Submitted:"
+msgstr "Отправлено:"
+
+#: pro/includes/admin/entries/class-entries-single.php:739
+msgid "Modified:"
+msgstr "Изменено:"
+
+#: pro/includes/admin/entries/class-entries-single.php:740
+msgid "M j, Y @ H:i"
+msgstr "M j, Y @ H:i"
+
+#: pro/includes/admin/entries/class-entries-single.php:748
+msgid "User:"
+msgstr "Пользователь:"
+
+#: pro/includes/admin/entries/class-entries-single.php:767
+msgid "User IP:"
+msgstr "IP пользователя:"
+
+#: pro/includes/admin/entries/class-entries-single.php:775
+msgid "Status:"
+msgstr "Статус:"
+
+#: pro/includes/admin/entries/class-entries-single.php:801
+msgid "Delete Entry"
+msgstr "Удалить эту запись"
+
+#: pro/includes/admin/entries/class-entries-single.php:849
+msgid "PayPal Standard"
+msgstr "PayPal Стандарт"
+
+#: pro/includes/admin/entries/class-entries-single.php:862
+msgid "Payment Details"
+msgstr "Детали оплаты"
+
+#: pro/includes/admin/entries/class-entries-single.php:870
+msgid "Status: %s"
+msgstr "Статус: %s"
+
+#: pro/includes/admin/entries/class-entries-single.php:874
+msgid "Total: %s"
+msgstr "Итого: %s"
+
+#: pro/includes/admin/entries/class-entries-single.php:879
+msgid "Gateway: %s"
+msgstr "Шлюз: %s"
+
+#: pro/includes/admin/entries/class-entries-single.php:881
+msgctxt "Gateway mode"
+msgid "Test"
+msgstr "Тест"
+
+#: pro/includes/admin/entries/class-entries-single.php:887
+msgid "Transaction ID:"
+msgstr "ID операции:"
+
+#: pro/includes/admin/entries/class-entries-single.php:892
+msgid "Note:"
+msgstr "Заметка:"
+
+#: pro/includes/admin/entries/class-entries-single.php:992
+msgid "Export (CSV)"
+msgstr "Экспорт (CSV)"
+
+#: pro/includes/admin/entries/class-entries-single.php:997
+msgid "Resend Notifications"
+msgstr "Повторно отправить уведомления"
+
+#: pro/includes/admin/entries/class-entries-single.php:1068
+msgid "Related Entries"
+msgstr "Связанные записи"
+
+#: pro/includes/admin/entries/class-entries-single.php:1073
+msgid "The user who created this entry also submitted the entries below."
+msgstr "Пользователь, создавший эту запись, также отправил следующие."
+
+#: pro/includes/admin/entries/class-entries-single.php:1088
+msgid "(Abandoned)"
+msgstr "(Заброшено)"
+
+#: pro/includes/class-conditional-logic-fields.php:95
+msgid "Conditionals"
+msgstr "Условные операторы"
+
+#: pro/includes/class-conditional-logic-fields.php:364
+msgid "Entry Notification stopped by conditional logic."
+msgstr "Уведомление о записи было отменено условной логикой."
+
+#: pro/includes/fields/class-address.php:29
+#: pro/includes/templates/class-order.php:58
+msgid "Address"
+msgstr "Адрес"
+
+#: pro/includes/fields/class-address.php:38
+#: pro/includes/fields/class-phone.php:90
+msgid "US"
+msgstr "США"
+
+#: pro/includes/fields/class-address.php:39
+#: pro/includes/fields/class-address.php:48
+#: pro/includes/fields/class-address.php:321
+msgid "Address Line 1"
+msgstr "Адресная строка 1"
+
+#: pro/includes/fields/class-address.php:40
+#: pro/includes/fields/class-address.php:49
+#: pro/includes/fields/class-address.php:340
+msgid "Address Line 2"
+msgstr "Адресная строка 2"
+
+#: pro/includes/fields/class-address.php:41
+#: pro/includes/fields/class-address.php:50
+#: pro/includes/fields/class-address.php:361
+msgid "City"
+msgstr "Город"
+
+#: pro/includes/fields/class-address.php:42
+msgid "Zip Code"
+msgstr "Почтовый индекс"
+
+#: pro/includes/fields/class-address.php:43
+msgid "State"
+msgstr "Штат"
+
+#: pro/includes/fields/class-address.php:47
+#: pro/includes/fields/class-phone.php:91
+msgid "International"
+msgstr "Международный"
+
+#: pro/includes/fields/class-address.php:51
+msgid "Postal Code"
+msgstr "Почтовый индекс"
+
+#: pro/includes/fields/class-address.php:52
+#: pro/includes/fields/class-address.php:379
+msgid "State / Province / Region"
+msgstr "Штат / Провинция / Регион"
+
+#: pro/includes/fields/class-address.php:54
+#: pro/includes/fields/class-address.php:423
+msgid "Country"
+msgstr "Страна"
+
+#: pro/includes/fields/class-address.php:272
+msgid "Select scheme format for the address field."
+msgstr "Выберите формат адреса для поля Адрес."
+
+#: pro/includes/fields/class-address.php:279
+msgid "Scheme"
+msgstr "Формат"
+
+#: pro/includes/fields/class-address.php:399
+msgid "ZIP / Postal"
+msgstr "Почтовый индекс"
+
+#: pro/includes/fields/class-date-time.php:22
+msgid "Date / Time"
+msgstr "Дата / Время"
+
+#: pro/includes/fields/class-date-time.php:61
+msgid "Select format for the date field."
+msgstr "Выберите формат для поля даты."
+
+#: pro/includes/fields/class-date-time.php:72
+msgid "Date and Time"
+msgstr "Дата и время"
+
+#: pro/includes/fields/class-date-time.php:74
+#: pro/includes/fields/class-date-time.php:174
+#: pro/includes/fields/class-date-time.php:284
+#: pro/includes/fields/class-date-time.php:394
+msgid "Time"
+msgstr "Время"
+
+#: pro/includes/fields/class-date-time.php:131
+msgid "Advanced date options."
+msgstr "Расширенные параметры даты."
+
+#: pro/includes/fields/class-date-time.php:151
+msgid "Date Picker"
+msgstr "Выбор даты"
+
+#: pro/includes/fields/class-date-time.php:152
+msgid "Date Dropdown"
+msgstr "Выпадающий список даты"
+
+#: pro/includes/fields/class-date-time.php:167
+msgid "15 minutes"
+msgstr "15 минут"
+
+#: pro/includes/fields/class-date-time.php:168
+msgid "30 minute"
+msgstr "30 минут"
+
+#: pro/includes/fields/class-date-time.php:169
+msgid "1 hour"
+msgstr "1 час"
+
+#: pro/includes/fields/class-date-time.php:175
+msgid "Advanced time options"
+msgstr "Дополнительные опции времени"
+
+#: pro/includes/fields/class-date-time.php:195
+msgid "Interval"
+msgstr "Интервал"
+
+#: pro/includes/fields/class-divider.php:21
+msgid "Section Divider"
+msgstr "Разделитель секции"
+
+#: pro/includes/fields/class-file-upload.php:29
+msgid "File Upload"
+msgstr "Загрузка файла"
+
+#: pro/includes/fields/class-file-upload.php:152
+msgid "Allowed File Extensions"
+msgstr "Разрешенные расширения файлов"
+
+#: pro/includes/fields/class-file-upload.php:153
+msgid "Enter the extensions you would like to allow, comma separated."
+msgstr "Введите расширения, которые вы хотите разрешить, разделенные запятой."
+
+#: pro/includes/fields/class-file-upload.php:178
+msgid "Max File Size"
+msgstr "Максимальный размер файла"
+
+#: pro/includes/fields/class-file-upload.php:179
+msgid ""
+"Enter the max file size, in megabytes, to allow. If left blank, the value "
+"defaults to the maximum size the server allows which is %s."
+msgstr ""
+"Введите максимально разрешенный размер файла, в мегабайтах. Если оставить "
+"поле пустым, по умолчанию значение для максимального размера будет %s."
+
+#: pro/includes/fields/class-file-upload.php:227
+msgid "Store file in WordPress Media Library"
+msgstr "Хранить файл в WordPress медиа библиотеке"
+
+#: pro/includes/fields/class-file-upload.php:228
+msgid ""
+"Check this option to store the final uploaded file in the WordPress Media "
+"Library"
+msgstr ""
+"Установите этот флажок для сохранения загруженного файла в библиотеке "
+"WordPress Media"
+
+#: pro/includes/fields/class-file-upload.php:314
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+"Загруженный файл превышает директиву upload_max_filesize, заданную в php.ini."
+
+#: pro/includes/fields/class-file-upload.php:315
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"Загруженный файл превышает директиву MAX_FILE_SIZE, заданную в HTML форме."
+
+#: pro/includes/fields/class-file-upload.php:316
+msgid "The uploaded file was only partially uploaded."
+msgstr "Загружаемый файл был загружен лишь частично."
+
+#: pro/includes/fields/class-file-upload.php:317
+msgid "No file was uploaded."
+msgstr "Файл не был загружен."
+
+#: pro/includes/fields/class-file-upload.php:319
+msgid "Missing a temporary folder."
+msgstr "Отсутствует временная папка."
+
+#: pro/includes/fields/class-file-upload.php:320
+msgid "Failed to write file to disk."
+msgstr "Не удалось записать файл на диск."
+
+#: pro/includes/fields/class-file-upload.php:321
+msgid "File upload stopped by extension."
+msgstr "Расширение файла остановило его загрузку."
+
+#: pro/includes/fields/class-file-upload.php:323
+msgid "File upload error. %s"
+msgstr "Ошибка во время загрузки файла. %s"
+
+#: pro/includes/fields/class-file-upload.php:342
+msgid "File exceeds max size allowed"
+msgstr "Размер файла превышает максимально разрешенный размер"
+
+#: pro/includes/fields/class-file-upload.php:358
+msgid "File must have an extension."
+msgstr "Файл должен иметь расширение."
+
+#: pro/includes/fields/class-hidden.php:21
+msgid "Hidden Field"
+msgstr "Скрытое поле"
+
+#: pro/includes/fields/class-html.php:21
+msgid "HTML"
+msgstr "HTML"
+
+#: pro/includes/fields/class-html.php:116
+msgid "HTML / Code Block"
+msgstr "Блок для HTML кода"
+
+#: pro/includes/fields/class-html.php:117
+msgid "Contents of this field are not displayed in the admin area."
+msgstr "Содержимое этого поля не отображается в области администратора."
+
+#: pro/includes/fields/class-page-break.php:25
+#: pro/includes/fields/class-page-break.php:528
+msgid "Page Break"
+msgstr "Разрыв страницы"
+
+#. translators: %1$s - current step in multi-page form; %2$d - total number of
+#. pages.
+#: pro/includes/fields/class-page-break.php:145
+msgid "Step %1$s of %2$d"
+msgstr "Шаг %1$s из %2$d"
+
+#: pro/includes/fields/class-page-break.php:284
+msgid "Progress Bar"
+msgstr "Индикатор Полоса"
+
+#: pro/includes/fields/class-page-break.php:285
+msgid "Circles"
+msgstr "Круги"
+
+#: pro/includes/fields/class-page-break.php:286
+msgid "Connector"
+msgstr "Коннектор"
+
+#: pro/includes/fields/class-page-break.php:287
+msgid "None"
+msgstr "Отсутствует"
+
+#: pro/includes/fields/class-page-break.php:294
+msgid "Progress Indicator"
+msgstr "Индикатор заполнения"
+
+#: pro/includes/fields/class-page-break.php:295
+msgid ""
+"Select theme for Page Indicator which is displayed at the top of the form."
+msgstr ""
+"Выберите тему для индикатора страницы, который отображается в верхней части "
+"формы."
+
+#: pro/includes/fields/class-page-break.php:320
+msgid "Page Indicator Color"
+msgstr "Цвет индикатора страницы"
+
+#: pro/includes/fields/class-page-break.php:321
+msgid "Select the primary color for the Page Indicator theme."
+msgstr "Выберите основной цвет для индикатора страницы."
+
+#: pro/includes/fields/class-page-break.php:349
+msgid "Page Title"
+msgstr "Заголовок страницы"
+
+#: pro/includes/fields/class-page-break.php:350
+msgid "Enter text for the page title."
+msgstr "Введите текст заголовка страницы."
+
+#: pro/includes/fields/class-page-break.php:376
+msgid "Next Label"
+msgstr "Следующий ярлык"
+
+#: pro/includes/fields/class-page-break.php:377
+msgid "Enter text for Next page navigation button."
+msgstr "Введите текст для кнопки Следующая страница."
+
+#: pro/includes/fields/class-page-break.php:386
+#: pro/includes/fields/class-page-break.php:523
+msgid "Next"
+msgstr "Следующий"
+
+#: pro/includes/fields/class-page-break.php:405
+msgid "Display Previous"
+msgstr "Показать предыдущее"
+
+#: pro/includes/fields/class-page-break.php:406
+msgid "Toggle displaying the Previous page navigation button."
+msgstr "Переключатель отображения кнопки навигации Предыдущая страница."
+
+#: pro/includes/fields/class-page-break.php:430
+msgid "Previous Label"
+msgstr "Предыдущий ярлык"
+
+#: pro/includes/fields/class-page-break.php:431
+msgid "Enter text for Previous page navigation button."
+msgstr "Введите текст для кнопки Предыдущая страница."
+
+#: pro/includes/fields/class-page-break.php:476
+msgid "Page Navigation Alignment"
+msgstr "Выравнивание навигации страницы"
+
+#: pro/includes/fields/class-page-break.php:477
+msgid "Select the alignment for the Next/Previous page navigation buttons"
+msgstr ""
+"Выберите выравнивание для кнопок навигации к следующей/предыдущей странице "
+"формы"
+
+#: pro/includes/fields/class-page-break.php:487
+msgid "Left"
+msgstr "Слева"
+
+#: pro/includes/fields/class-page-break.php:488
+msgid "Right"
+msgstr "Справа"
+
+#: pro/includes/fields/class-page-break.php:489
+msgid "Center"
+msgstr "По центру"
+
+#: pro/includes/fields/class-page-break.php:490
+msgid "Split"
+msgstr "Разделить"
+
+#: pro/includes/fields/class-page-break.php:527
+msgid "First Page"
+msgstr "Первая страница"
+
+#: pro/includes/fields/class-password.php:21
+#: pro/includes/fields/class-password.php:66
+#: pro/includes/fields/class-password.php:286
+msgid "Password"
+msgstr "Пароль"
+
+#: pro/includes/fields/class-password.php:89
+#: pro/includes/fields/class-password.php:291
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: pro/includes/fields/class-password.php:188
+msgid "Enable Password Confirmation"
+msgstr "Включить подтверждение пароля"
+
+#: pro/includes/fields/class-password.php:189
+msgid "Check this option to ask users to provide their password twice."
+msgstr ""
+"Установите этот флажок, чтобы попросить пользователя дважды ввести пароль."
+
+#: pro/includes/fields/class-payment-credit-card.php:21 pro/wpforms-pro.php:215
+msgid "Credit Card"
+msgstr "Кредитная карта"
+
+#: pro/includes/fields/class-payment-credit-card.php:73
+#: pro/includes/fields/class-payment-credit-card.php:300
+msgid "Card Number"
+msgstr "Номер карты"
+
+#: pro/includes/fields/class-payment-credit-card.php:96
+#: pro/includes/fields/class-payment-credit-card.php:305
+msgid "Security Code"
+msgstr "Код безопасности"
+
+#: pro/includes/fields/class-payment-credit-card.php:117
+#: pro/includes/fields/class-payment-credit-card.php:312
+msgid "Name on Card"
+msgstr "Имя на карте"
+
+#: pro/includes/fields/class-payment-credit-card.php:131
+#: pro/includes/fields/class-payment-credit-card.php:317
+msgid "Expiration"
+msgstr "Срок действия"
+
+#: pro/includes/fields/class-payment-credit-card.php:239
+msgid "Card Number Placeholder Text"
+msgstr "Вспомогательный текст для Номера карты"
+
+#: pro/includes/fields/class-payment-credit-card.php:248
+msgid "Security Code Placeholder Text"
+msgstr "Замещающий текст для кода безопасности"
+
+#: pro/includes/fields/class-payment-credit-card.php:257
+msgid "Name on Card Placeholder Text"
+msgstr "Замещающий текст для поля Имя на карте"
+
+#: pro/includes/fields/class-payment-credit-card.php:355
+msgid ""
+"This page is insecure. Credit Card field should be used for testing purposes "
+"only."
+msgstr ""
+"Эта страница является небезопасной. Поле кредитной карты должно "
+"использоваться только в целях тестирования."
+
+#: pro/includes/fields/class-payment-dropdown.php:21
+msgid "Dropdown Items"
+msgstr "Элементы списка"
+
+#: pro/includes/fields/class-payment-dropdown.php:28
+#: pro/includes/fields/class-payment-multiple.php:28
+#: pro/includes/templates/class-order.php:71
+msgid "First Item"
+msgstr "Первый элемент"
+
+#: pro/includes/fields/class-payment-dropdown.php:33
+#: pro/includes/fields/class-payment-multiple.php:33
+#: pro/includes/templates/class-order.php:75
+msgid "Second Item"
+msgstr "Второй элемент"
+
+#: pro/includes/fields/class-payment-dropdown.php:38
+#: pro/includes/fields/class-payment-multiple.php:38
+#: pro/includes/templates/class-order.php:79
+msgid "Third Item"
+msgstr "Третий элемент"
+
+#: pro/includes/fields/class-payment-dropdown.php:214
+#: pro/includes/fields/class-payment-multiple.php:180
+msgid "Invalid payment option"
+msgstr "Неверный способ оплаты"
+
+#: pro/includes/fields/class-payment-multiple.php:21
+msgid "Multiple Items"
+msgstr "Много элементов"
+
+#: pro/includes/fields/class-payment-single.php:21
+#: pro/includes/fields/class-payment-single.php:58
+msgid "Single Item"
+msgstr "Один элемент"
+
+#: pro/includes/fields/class-payment-single.php:49
+msgid "Enter the price of the item, without a currency symbol."
+msgstr "Введите цену товара без символа валюты."
+
+#: pro/includes/fields/class-payment-single.php:50
+msgid "Item Price"
+msgstr "Цена за элемент"
+
+#: pro/includes/fields/class-payment-single.php:56
+msgid "Select the item type."
+msgstr "Выберите тип элемента."
+
+#: pro/includes/fields/class-payment-single.php:59
+msgid "User Defined"
+msgstr "Заданная пользователем"
+
+#: pro/includes/fields/class-payment-single.php:60
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: pro/includes/fields/class-payment-single.php:62
+msgid "Item Type"
+msgstr "Тип элемента"
+
+#: pro/includes/fields/class-payment-single.php:98
+#: pro/includes/fields/class-payment-single.php:142
+msgid "Price"
+msgstr "Цена"
+
+#: pro/includes/fields/class-payment-single.php:104
+msgid ""
+"Note: Item type is set to hidden and will not be visible when viewing the "
+"form."
+msgstr ""
+"Примечание: Тип элемента имеет значение скрытый и не будет виден при "
+"просмотре формы."
+
+#: pro/includes/fields/class-payment-single.php:199
+msgid "Amount mismatch"
+msgstr "Суммы не совпадают"
+
+#: pro/includes/fields/class-phone.php:21
+#: pro/includes/templates/class-order.php:50
+#: pro/includes/templates/class-request-quote.php:54
+msgid "Phone"
+msgstr "Телефон"
+
+#: pro/includes/fields/class-phone.php:79
+msgid "Select format for the phone form field"
+msgstr "Выберите формат для поля номера телефона"
+
+#: pro/includes/fields/class-url.php:22
+msgid "Website / URL"
+msgstr "Веб-сайт / URL"
+
+#: pro/includes/payments/functions.php:22
+msgid "U.S. Dollar"
+msgstr "Доллар США"
+
+#: pro/includes/payments/functions.php:30
+msgid "Pound Sterling"
+msgstr "Фунты стерлингов"
+
+#: pro/includes/payments/functions.php:38
+msgid "Euro"
+msgstr "Евро"
+
+#: pro/includes/payments/functions.php:46
+msgid "Australian Dollar"
+msgstr "Австралийский доллар"
+
+#: pro/includes/payments/functions.php:54
+msgid "Brazilian Real"
+msgstr "Бразильский реал"
+
+#: pro/includes/payments/functions.php:62
+msgid "Canadian Dollar"
+msgstr "Канадский доллар"
+
+#: pro/includes/payments/functions.php:70
+msgid "Czech Koruna"
+msgstr "Чешская крона"
+
+#: pro/includes/payments/functions.php:78
+msgid "Danish Krone"
+msgstr "Датская крона"
+
+#: pro/includes/payments/functions.php:86
+msgid "Hong Kong Dollar"
+msgstr "Гонконгский доллар"
+
+#: pro/includes/payments/functions.php:94
+msgid "Hungarian Forint"
+msgstr "Венгерский форинт"
+
+#: pro/includes/payments/functions.php:102
+msgid "Israeli New Sheqel"
+msgstr "Израильский шекель"
+
+#: pro/includes/payments/functions.php:110
+msgid "Malaysian Ringgit"
+msgstr "Малазийский ринггит"
+
+#: pro/includes/payments/functions.php:118
+msgid "Mexican Peso"
+msgstr "Мексиканский песо"
+
+#: pro/includes/payments/functions.php:126
+msgid "Norwegian Krone"
+msgstr "Норвежская крона"
+
+#: pro/includes/payments/functions.php:134
+msgid "New Zealand Dollar"
+msgstr "Новозеландский доллар"
+
+#: pro/includes/payments/functions.php:142
+msgid "Philippine Peso"
+msgstr "Филиппинский песо"
+
+#: pro/includes/payments/functions.php:150
+msgid "Polish Zloty"
+msgstr "Польский злотый"
+
+#: pro/includes/payments/functions.php:158
+msgid "Russian Ruble"
+msgstr "Российский Рубль"
+
+#: pro/includes/payments/functions.php:166
+msgid "Singapore Dollar"
+msgstr "Сингапурский доллар"
+
+#: pro/includes/payments/functions.php:174
+msgid "South African Rand"
+msgstr "Южноафриканский рэнд"
+
+#: pro/includes/payments/functions.php:182
+msgid "Swedish Krona"
+msgstr "Шведская крона"
+
+#: pro/includes/payments/functions.php:190
+msgid "Swiss Franc"
+msgstr "Швейцарский франк"
+
+#: pro/includes/payments/functions.php:198
+msgid "Taiwan New Dollar"
+msgstr "Тайваньский доллар"
+
+#: pro/includes/payments/functions.php:206
+msgid "Thai Baht"
+msgstr "Таиландский бат"
+
+#: pro/includes/templates/class-donation.php:28
+#: pro/includes/templates/class-order.php:28
+msgid "Click the Payments tab to configure your payment provider"
+msgstr "Перейдите на вкладку Платежи, чтобы настроить поставщика платежей"
+
+#: pro/includes/templates/class-donation.php:50
+msgid "Donation Amount"
+msgstr "Сумма пожертвования"
+
+#: pro/includes/templates/class-order.php:22
+msgid ""
+"Collect Payments for product and service orders with this ready-made form "
+"template. You can add and remove fields as needed."
+msgstr ""
+"Принимайте платежи за продукты и услуги с помощью готового шаблона формы. Вы "
+"можете добавлять и удалять поля по мере необходимости."
+
+#: pro/includes/templates/class-order.php:67
+msgid "Available Items"
+msgstr "Доступные элементы"
+
+#: pro/includes/templates/class-order.php:87
+msgid "Total Amount"
+msgstr "Общая сумма"
+
+#: pro/includes/templates/class-request-quote.php:40
+msgid "Business / Organization"
+msgstr "Бизнес / Организация"
+
+#: pro/includes/templates/class-request-quote.php:62
+msgid "Request"
+msgstr "Запрос"
+
+#: pro/wpforms-pro.php:185
+msgid "File Extension"
+msgstr "Расширение файла"
+
+#: pro/wpforms-pro.php:191
+msgid "File Size"
+msgstr "Размер файла"
+
+#: pro/wpforms-pro.php:197
+msgid "Time (12 hour)"
+msgstr "Время (12 часов)"
+
+#: pro/wpforms-pro.php:203
+msgid "Time (24 hour)"
+msgstr "Время (24 часа)"
+
+#: pro/wpforms-pro.php:209
+msgid "Payment Required"
+msgstr "Требуется оплата"
+
+#: pro/wpforms-pro.php:230
+msgid "Currency"
+msgstr "Валюта"
+
+#: pro/wpforms-pro.php:307
+msgid "Disable storing entry information in WordPress"
+msgstr "Отключить хранение записей формы в WordPress"
+
+#: pro/wpforms-pro.php:388
+msgid "Add New Notification"
+msgstr "Добавить новое уведомление"
+
+#: pro/wpforms-pro.php:565
+msgid "Send"
+msgstr "Отправить"
+
+#: pro/wpforms-pro.php:566
+msgid "Don't send"
+msgstr "Не отправлять"
+
+#: pro/wpforms-pro.php:568
+msgid "this notification if"
+msgstr "это уведомление если"
+
+#: pro/wpforms-pro.php:569
+msgid "Email notifications"
+msgstr "Email уведомления"
+
+#. translators: %s - Addons page URL in site admin area.
+#: pro/wpforms-pro.php:573
+msgid ""
+"Install the <a href=\"%s\">Conditional Logic addon</a> to enable conditional "
+"logic for Email Notifications."
+msgstr ""
+"Установите <a href=\"%s\">расширение Conditional Logic</a> для включения "
+"условной логики для уведомлений по электронной почте."
+
+#. translators: %s - URL to an announcement page.
+#: pro/wpforms-pro.php:624
+msgid ""
+"Conditional logic functionality is now included in the core WPForms plugin! "
+"The WPForms Conditional Logic addon can be removed without affecting your "
+"forms. For more details <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">read our announcement</a>."
+msgstr ""
+"Функциональность условной логики теперь включена в ядро плагина WPForms! "
+"Расширение WPForms Conditional Logic может быть удалено без ущерба для ваших "
+"форм. Для более подробной информации <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">прочитайте наше объявление</a>."
+
+#: wpforms.php:58
+msgid "Please deactivate WPForms Lite before activating WPForms."
+msgstr "Пожалуйста, отключите WPForms Lite перед активацией WPForms."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpforms.com"
+msgstr "https://wpforms.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Beginner friendly WordPress contact form plugin. Use our Drag & Drop form "
+"builder to create your WordPress forms."
+msgstr ""
+"Удобный для новичков WordPress плагин контактных форм! Используйте "
+"конструктор Drag & Drop для того, чтобы создавать формы WordPress."
+
+#~ msgid "Show note"
+#~ msgstr "Показать заметки"
+
+#~ msgid "Click the payments tab to configure your payment provider"
+#~ msgstr "Перейдите на вкладку Платежи, чтобы настроить поставщика платежей"
+
+#~ msgctxt "Widget name."
+#~ msgid "WPForms"
+#~ msgstr "WPForms"
+
+#~ msgctxt "Date connected"
+#~ msgid "Connected on: %s"
+#~ msgstr "Подключено: %s"
+
+#~ msgctxt "Delete a note on a single entry page"
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "This field is required"
+#~ msgstr "Это поле обязательное"
+
+#, fuzzy
+#~ msgid "Please enter a valid URL"
+#~ msgstr "Пожалуйста, введите правильный адрес"
+
+#, fuzzy
+#~ msgid "Sent from <a href=\"%s\" style=\"color:#bbbbbb;\">%s</a>"
+#~ msgstr "Отправлено <a href=\"%s\" style=\"color:#bbbbbb;\">%s</a>"
+
+#~ msgid "DD"
+#~ msgstr "DD"
+
+#~ msgid "MM"
+#~ msgstr "MM"
+
+#, fuzzy
+#~ msgid "YYYY"
+#~ msgstr "ГГГГ"
+
+#, fuzzy
+#~ msgid "YY"
+#~ msgstr "YY"
+
+#, fuzzy
+#~ msgid "Form Title"
+#~ msgstr "Название формы"
+
+#~ msgid " Status:"
+#~ msgstr "Статус:"
+
+#, fuzzy
+#~| msgid "All entries marked as read."
+#~ msgid "Entry was marked as unread."
+#~ msgid_plural "Entries were marked as unread."
+#~ msgstr[0] "Все записи помечены как прочитанные."
+#~ msgstr[1] "Все записи помечены как прочитанные."
+#~ msgstr[2] "Все записи помечены как прочитанные."
+
+#~ msgid "E-mail"
+#~ msgstr "Email"
+
+#, fuzzy
+#~ msgid "Entry was starred."
+#~ msgid_plural "Entries were starred."
+#~ msgstr[0] "Эта запись была отмечена."
+#~ msgstr[1] "Эта запись была отмечена."
+#~ msgstr[2] "Эта запись была отмечена."
+
+#, fuzzy
+#~ msgid "Entry was unstarred."
+#~ msgid_plural "Entries were unstarred."
+#~ msgstr[0] "Эта запись была неотмечена."
+#~ msgstr[1] "Эта запись была неотмечена."
+#~ msgstr[2] "Эта запись была неотмечена."
+
+#, fuzzy
+#~| msgid "Connected on: "
+#~ msgid "Connected on:"
+#~ msgstr "Подключен:"
+
+#~ msgid ""
+#~ "Choices are dynamically populated from the <span class=\"dynamic-name\">"
+#~ "%s</span> <span class=\"dynamic-type\">%s</span>"
+#~ msgstr "Варианты заполняются динамически из %s %s"
+
+#~ msgid "Check this to manual set form field values."
+#~ msgstr "Установите этот флажок для ручного ввода данных формы."
+
+#~ msgid ""
+#~ "\tYour license key for WPForms is invalid. The key no longer exists or "
+#~ "the user associated with the key has been deleted. Please use a different "
+#~ "key to continue receiving automatic updates."
+#~ msgstr ""
+#~ "Ваш лицензионный ключ для WPForms недействителен. Ключ больше не "
+#~ "существует или был удален пользователем, связанным с ключом. Пожалуйста, "
+#~ "используйте другой ключ, чтобы продолжить получать автоматические "
+#~ "обновления."
+
+#~ msgid "All entries deleted."
+#~ msgstr "Все записи удалены."
+
+#~ msgid "Added by"
+#~ msgstr "Добавлено"
+
+#, fuzzy
+#~ msgid "on"
+#~ msgstr "вкл"
+
+#, fuzzy
+#~ msgid "Step"
+#~ msgstr "Крок"
+
+#, fuzzy
+#~ msgid "of"
+#~ msgstr "из"

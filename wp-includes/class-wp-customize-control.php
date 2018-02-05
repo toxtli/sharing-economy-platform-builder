@@ -421,9 +421,9 @@ class WP_Customize_Control {
 		$id    = 'customize-control-' . str_replace( array( '[', ']' ), array( '-', '' ), $this->id );
 		$class = 'customize-control customize-control-' . $this->type;
 
-		?><li id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $class ); ?>">
-			<?php $this->render_content(); ?>
-		</li><?php
+		printf( '<li id="%s" class="%s">', esc_attr( $id ), esc_attr( $class ) );
+		$this->render_content();
+		echo '</li>';
 	}
 
 	/**
@@ -649,7 +649,9 @@ class WP_Customize_Control {
 					type="<?php echo esc_attr( $this->type ); ?>"
 					<?php echo $describedby_attr; ?>
 					<?php $this->input_attrs(); ?>
-					value="<?php echo esc_attr( $this->value() ); ?>"
+					<?php if ( ! isset( $this->input_attrs['value'] ) ) : ?>
+						value="<?php echo esc_attr( $this->value() ); ?>"
+					<?php endif; ?>
 					<?php $this->link(); ?>
 					/>
 				<?php
@@ -767,6 +769,12 @@ require_once( ABSPATH . WPINC . '/customize/class-wp-customize-nav-menu-location
 
 /**
  * WP_Customize_Nav_Menu_Name_Control class.
+ *
+ * As this file is deprecated, it will trigger a deprecation notice if instantiated. In a subsequent
+ * release, the require_once() here will be removed and _deprecated_file() will be called if file is
+ * required at all.
+ *
+ * @deprecated 4.9.0 This file is no longer used due to new menu creation UX.
  */
 require_once( ABSPATH . WPINC . '/customize/class-wp-customize-nav-menu-name-control.php' );
 

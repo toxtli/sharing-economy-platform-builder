@@ -1,0 +1,43 @@
+.enquiry_form_wrapper_hide {
+	display: none;
+}
+
+.add_enquiry {
+	background: #3d3d3d;
+	padding: 5px 10px;         
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border:#f0f0f0 1px solid;
+	border-bottom: 1px solid #00897b;
+	color: #ffffff;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	display: table-cell;
+	cursor: pointer;
+}
+
+.add_enquiry span { margin-left: 3px; }
+.add_enquiry:hover { background-color: #00897b; color: #fff; }
+
+#enquiry_form .comment-form-author, #enquiry_form .comment-form-email {
+  width: 44%;
+}
+
+.enquiry_reviews .commentlist li .comment_container .comment-text {
+	width: 100% !important;
+	float: left !important;
+	margin-top: 40px;
+}
+
+#reviews .commentlist li .comment_container .comment-text .enquiry-by {
+	float: right;
+	font-size: .875em;
+	line-height: 1;
+	height: 1em;
+}

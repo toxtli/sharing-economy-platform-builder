@@ -1,0 +1,224 @@
+/*
+ ########## BreezingForms 1.6.5 QuickMode ##########
+ @autor crosstec.de
+ @copyright Copyright (C) 2009 crosstec.de. All rights reserved.
+ ########################################
+*/
+.bfElementGroup input[type='radio']{
+    vertical-align: top;
+}
+.bfElementGroupNoWrap input[type='radio']{
+    vertical-align: top;
+}
+.bfElementGroup input[type='checkbox']{
+    vertical-align: top;
+}
+.bfElementGroupNoWrap input[type='checkbox']{
+    vertical-align: top;
+}
+.bfQuickMode label{
+    cursor: pointer;
+}
+/* ##### General BreezingForms styles ##### */
+
+.bfQuickMode {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bfQuickMode fieldset {
+    padding: 10px 10px 0px 10px;
+    border: 1px solid #ccc;
+    margin: 0px 0px 10px 0px;
+    width: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.bfQuickMode legend {
+    padding: 5px;
+    background: #92c1ff;
+    color: #fff;
+    font-size: 120%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: normal !important;
+    margin-top: 18px !important;
+    border: none !important;
+}
+
+.bfQuickMode p.bfElemWrap {
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    background: #eff5fa;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.bfQuickMode span.bfElemWrap {
+    padding: 5px;
+    background: #eff5fa;
+    margin: 0px 10px 10px 0px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* ##### inline ##### */
+
+.bfQuickMode fieldset fieldset legend {
+    border-width: 1px !important;
+    border-style: solid !important;
+    padding: 5px;
+    background: #fff;
+    color: #92c1ff;
+    border-color: #92c1ff;
+    font-size: 110%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: normal !important;
+    margin-top: 18px !important;
+}
+
+.bfQuickMode fieldset fieldset legend {
+    border-width: 1px !important;
+    border-style: solid !important;
+    padding: 5px;
+    background: #fff;
+    color: #92c1ff;
+    border-color: #92c1ff;
+    font-size: 110%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: normal !important;
+    margin-top: 18px !important;
+}
+
+.bfQuickMode fieldset.bfInline {
+    margin: 0px 10px 10px 0px;
+    padding: 10px 10px 0px 10px;
+}
+
+.bfQuickMode fieldset.bfInline p {
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+/* ##### Input Fields ##### */
+
+.bfQuickMode input[type=text], .bfQuickMode input[type=password], .bfQuickMode textarea, .bfQuickMode select {
+    border: 1px solid #ccc;
+    padding: 2px;
+    line-height: normal;
+}
+
+.bfQuickMode textarea:hover, .bfQuickMode input[type='text']:hover, .bfQuickMode input[type='password']:hover, .bfQuickMode select:hover {
+    border-color: #92c1ff;
+}
+
+.bfQuickMode textarea:focus, .bfQuickMode input[type='text']:focus, .bfQuickMode input[type='password']:focus, .bfQuickMode select:focus {
+    border-color: #0071bc; outline: 2px solid #92c1ff;
+}
+
+.bfQuickMode input[type='button'], .bfQuickMode input[type='submit'], .bfQuickMode input[type='checkbox'], .bfQuickMode input[type='image'], .bfQuickMode input[type='radio'], .bfQuickMode input[type='reset'], .bfQuickMode select, .bfQuickMode button {
+    cursor: pointer;
+}
+
+.bfQuickMode input[type='hidden'] { display: none; }
+
+/* ##### page intro ##### */
+
+.bfQuickMode .bfPageIntro {
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    background: none;
+    border: none;
+    font-weight: normal;
+}
+
+/* ##### error messages #####*/
+
+.bfQuickMode .bfErrorMessage {
+    background: #ffeded;
+    font-weight: bold;
+    float: none;
+    display: block;
+    color: red;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* ##### max length message ##### */
+
+.bfMaxLengthCounter {
+    color: #0071bc;
+}
+
+/* ##### tooltip ##### */
+
+.bfQuickMode span.hasTip {
+    background: transparent url('img/icon_info.png') right top no-repeat;
+}
+
+/* ##### Section Description #####*/
+
+.bfQuickMode .bfSectionDescription {
+    background: none;
+    border: none;
+    font-weight: normal;
+}
+
+.bfQuickMode .bfSectionDescription p {
+    background: none;
+    border: none;
+}
+
+/* ##### required ##### */
+
+.bfQuickMode .bfRequired {
+    background: none;
+    font-size: 100%;
+    font-weight: bold;
+    border: none;
+    padding: 0px 0px 0px 5px;
+    margin: 0px;
+    color: #f00;
+    float: none;
+}
+
+/* ##### buttons ##### */
+
+.bfQuickMode button[type='submit'], .bfQuickMode button[type='reset']  {
+    padding: 2px 5px 2px 5px;
+    margin: 0px;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100%;
+    background: #0071bc;
+    text-shadow:#000 0px 0px 2px;
+    border: 1px solid #00388a;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.bfQuickMode .bfNextButton, .bfQuickMode .bfSubmitButton, .bfQuickMode .bfCancelButton {
+    float: right;
+}
+
+.bfQuickMode .bfPrevButton {
+    float: left
+}
+
+.bfQuickMode button.bfCalendar {
+    height: 21px;
+    margin: 0px 0px 0px 5px;
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 495px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 422px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 365px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 280px;
+	}
+}

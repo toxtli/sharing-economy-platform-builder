@@ -49,6 +49,7 @@ final class WP_Customize_Nav_Menus {
 		add_action( 'customize_register', array( $this, 'customize_register' ), 11 );
 		add_filter( 'customize_dynamic_setting_args', array( $this, 'filter_dynamic_setting_args' ), 10, 2 );
 		add_filter( 'customize_dynamic_setting_class', array( $this, 'filter_dynamic_setting_class' ), 10, 3 );
+		add_action( 'customize_save_nav_menus_created_posts', array( $this, 'save_nav_menus_created_posts' ) );
 
 		// Skip remaining hooks when the user can't manage nav menus anyway.
 		if ( ! current_user_can( 'edit_theme_options' ) ) {
@@ -64,7 +65,6 @@ final class WP_Customize_Nav_Menus {
 		add_action( 'customize_controls_print_footer_scripts', array( $this, 'available_items_template' ) );
 		add_action( 'customize_preview_init', array( $this, 'customize_preview_init' ) );
 		add_action( 'customize_preview_init', array( $this, 'make_auto_draft_status_previewable' ) );
-		add_action( 'customize_save_nav_menus_created_posts', array( $this, 'save_nav_menus_created_posts' ) );
 
 		// Selective Refresh partials.
 		add_filter( 'customize_dynamic_partial_args', array( $this, 'customize_dynamic_partial_args' ), 10, 2 );
@@ -414,6 +414,7 @@ final class WP_Customize_Nav_Menus {
 				'page_label'             => get_post_type_object( 'page' )->labels->singular_name,
 				/* translators: %s:      menu location */
 				'menuLocation'           => _x( '(Currently set to: %s)', 'menu' ),
+				'locationsTitle'         => 1 === $num_locations ? __( 'Menu Location' ) : __( 'Menu Locations' ),
 				'locationsDescription'   => $locations_description,
 				'menuNameLabel'          => __( 'Menu Name' ),
 				'newMenuNameDescription' => __( 'If your theme has multiple menus, giving them clear names will help you manage them.' ),
@@ -528,10 +529,11 @@ final class WP_Customize_Nav_Menus {
 	 * @since 4.3.0
 	 */
 	public function customize_register() {
+		$changeset = $this->manager->unsanitized_post_values();
 
 		// Preview settings for nav menus early so that the sections and controls will be added properly.
 		$nav_menus_setting_ids = array();
-		foreach ( array_keys( $this->manager->unsanitized_post_values() ) as $setting_id ) {
+		foreach ( array_keys( $changeset ) as $setting_id ) {
 			if ( preg_match( '/^(nav_menu_locations|nav_menu|nav_menu_item)\[/', $setting_id ) ) {
 				$nav_menus_setting_ids[] = $setting_id;
 			}
@@ -555,7 +557,7 @@ final class WP_Customize_Nav_Menus {
 		$description = '<p>' . __( 'This panel is used for managing navigation menus for content you have already published on your site. You can create menus and add items for existing content such as pages, posts, categories, tags, formats, or custom links.' ) . '</p>';
 		if ( current_theme_supports( 'widgets' ) ) {
 			/* translators: URL to the widgets panel of the customizer */
-			$description .= '<p>' . sprintf( __( 'Menus can be displayed in locations defined by your theme or in <a href="%s">widget areas</a> by adding a &#8220;Custom Menu&#8221; widget.' ), "javascript:wp.customize.panel( 'widgets' ).focus();" ) . '</p>';
+			$description .= '<p>' . sprintf( __( 'Menus can be displayed in locations defined by your theme or in <a href="%s">widget areas</a> by adding a &#8220;Navigation Menu&#8221; widget.' ), "javascript:wp.customize.panel( 'widgets' ).focus();" ) . '</p>';
 		} else {
 			$description .= '<p>' . __( 'Menus can be displayed in locations defined by your theme.' ) . '</p>';
 		}
@@ -579,14 +581,14 @@ final class WP_Customize_Nav_Menus {
 
 		if ( current_theme_supports( 'widgets' ) ) {
 			/* translators: URL to the widgets panel of the customizer */
-			$description .= '<p>' . sprintf( __( 'If your theme has widget areas, you can also add menus there. Visit the <a href="%s">Widgets panel</a> and add a &#8220;Custom Menu widget&#8221; to display a menu in a sidebar or footer.' ), "javascript:wp.customize.panel( 'widgets' ).focus();" ) . '</p>';
+			$description .= '<p>' . sprintf( __( 'If your theme has widget areas, you can also add menus there. Visit the <a href="%s">Widgets panel</a> and add a &#8220;Navigation Menu widget&#8221; to display a menu in a sidebar or footer.' ), "javascript:wp.customize.panel( 'widgets' ).focus();" ) . '</p>';
 		}
 
 		$this->manager->add_section( 'menu_locations', array(
-			'title'       	=> __( 'View All Locations' ),
-			'panel'       	=> 'nav_menus',
-			'priority'    	=> 30,
-			'description' 	=> $description
+			'title'       => 1 === $num_locations ? _x( 'View Location', 'menu locations' ) : _x( 'View All Locations', 'menu locations' ),
+			'panel'       => 'nav_menus',
+			'priority'    => 30,
+			'description' => $description,
 		) );
 
 		$choices = array( '0' => __( '&mdash; Select &mdash;' ) );
@@ -597,7 +599,14 @@ final class WP_Customize_Nav_Menus {
 		// Attempt to re-map the nav menu location assignments when previewing a theme switch.
 		$mapped_nav_menu_locations = array();
 		if ( ! $this->manager->is_theme_active() ) {
-			$mapped_nav_menu_locations = wp_map_nav_menu_locations( get_nav_menu_locations(), $this->original_nav_menu_locations );
+			$theme_mods = get_option( 'theme_mods_' . $this->manager->get_stylesheet(), array() );
+
+			// If there is no data from a previous activation, start fresh.
+			if ( empty( $theme_mods['nav_menu_locations'] ) ) {
+				$theme_mods['nav_menu_locations'] = array();
+			}
+
+			$mapped_nav_menu_locations = wp_map_nav_menu_locations( $theme_mods['nav_menu_locations'], $this->original_nav_menu_locations );
 		}
 
 		foreach ( $locations as $location => $description ) {
@@ -619,7 +628,7 @@ final class WP_Customize_Nav_Menus {
 			}
 
 			// Override the assigned nav menu location if mapped during previewed theme switch.
-			if ( isset( $mapped_nav_menu_locations[ $location ] ) ) {
+			if ( empty( $changeset[ $setting_id ] ) && isset( $mapped_nav_menu_locations[ $location ] ) ) {
 				$this->manager->set_post_value( $setting_id, $mapped_nav_menu_locations[ $location ] );
 			}
 
@@ -753,7 +762,7 @@ final class WP_Customize_Nav_Menus {
 		 * @since 4.3.0
 		 * @since 4.7.0  Each array item now includes a `$type_label` in addition to `$title`, `$type`, and `$object`.
 		 *
-		 * @param array $item_types Custom menu item types.
+		 * @param array $item_types Navigation menu item types.
 		 */
 		$item_types = apply_filters( 'customize_nav_menu_available_item_types', $item_types );
 
@@ -786,6 +795,10 @@ final class WP_Customize_Nav_Menus {
 			return new WP_Error( 'status_forbidden', __( 'Status is forbidden' ) );
 		}
 
+		/*
+		 * If the changeset is a draft, this will change to draft the next time the changeset
+		 * is updated; otherwise, auto-draft will persist in autosave revisions, until save.
+		 */
 		$postarr['post_status'] = 'auto-draft';
 
 		// Auto-drafts are allowed to have empty post_names, so it has to be explicitly set.
@@ -796,6 +809,7 @@ final class WP_Customize_Nav_Menus {
 			$postarr['meta_input'] = array();
 		}
 		$postarr['meta_input']['_customize_draft_post_name'] = $postarr['post_name'];
+		$postarr['meta_input']['_customize_changeset_uuid'] = $this->manager->changeset_uuid();
 		unset( $postarr['post_name'] );
 
 		add_filter( 'wp_insert_post_empty_content', '__return_false', 1000 );
@@ -933,16 +947,22 @@ final class WP_Customize_Nav_Menus {
 		</script>
 
 		<script type="text/html" id="tmpl-nav-menu-submit-new-button">
-			<p id="customize-new-menu-submit-description"><?php _e( 'Click "next" to start adding links to your new menu.' ); ?></p>
+			<p id="customize-new-menu-submit-description"><?php _e( 'Click &#8220;Next&#8221; to start adding links to your new menu.' ); ?></p>
 			<button id="customize-new-menu-submit" type="button" class="button" aria-describedby="customize-new-menu-submit-description"><?php _e( 'Next' ); ?></button>
 		</script>
 
 		<script type="text/html" id="tmpl-nav-menu-locations-header">
-			<span class="customize-control-title customize-section-title-menu_locations-heading"><?php _e( 'Menu Locations' ); ?></span>
+			<span class="customize-control-title customize-section-title-menu_locations-heading">{{ data.l10n.locationsTitle }}</span>
 			<p class="customize-control-description customize-section-title-menu_locations-description">{{ data.l10n.locationsDescription }}</p>
 		</script>
 
 		<script type="text/html" id="tmpl-nav-menu-create-menu-section-title">
+			<p class="add-new-menu-notice">
+				<?php _e( 'It doesn&#8217;t look like your site has any menus yet. Want to build one? Click the button to start.' ); ?>
+			</p>
+			<p class="add-new-menu-notice">
+				<?php _e( 'You&#8217;ll create a menu, assign it a location, and add menu items like links to pages and categories. If your theme has multiple menu areas, you might need to create more than one.' ); ?>
+			</p>
 			<h3>
 				<button type="button" class="button customize-add-menu-button">
 					<?php _e( 'Create New Menu' ); ?>
@@ -1158,7 +1178,7 @@ final class WP_Customize_Nav_Menus {
 	}
 
 	/**
-	 * Sanitize post IDs for auto-draft posts created for nav menu items to be published.
+	 * Sanitize post IDs for posts created for nav menu items to be published.
 	 *
 	 * @since 4.7.0
 	 *
@@ -1172,7 +1192,7 @@ final class WP_Customize_Nav_Menus {
 				continue;
 			}
 			$post = get_post( $post_id );
-			if ( 'auto-draft' !== $post->post_status ) {
+			if ( 'auto-draft' !== $post->post_status && 'draft' !== $post->post_status ) {
 				continue;
 			}
 			$post_type_obj = get_post_type_object( $post->post_type );
@@ -1203,6 +1223,13 @@ final class WP_Customize_Nav_Menus {
 		$post_ids = $setting->post_value();
 		if ( ! empty( $post_ids ) ) {
 			foreach ( $post_ids as $post_id ) {
+
+				// Prevent overriding the status that a user may have prematurely updated the post to.
+				$current_status = get_post_status( $post_id );
+				if ( 'auto-draft' !== $current_status && 'draft' !== $current_status ) {
+					continue;
+				}
+
 				$target_status = 'attachment' === get_post_type( $post_id ) ? 'inherit' : 'publish';
 				$args = array(
 					'ID' => $post_id,

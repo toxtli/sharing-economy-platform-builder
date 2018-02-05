@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 650px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 530px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 425px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.wcfm-collapse .wcfm-container { 
+		width: 346px;
+		padding: 10px;
+	}
+	
+	div.wcfm-content {
+		max-width: 310px;
+	}
+}

@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Post Page Clone\n"
+"POT-Creation-Date: 2017-02-09\n"
+"PO-Revision-Date: 2017-02-09\n"
+"Last-Translator: \n"
+"Language-Team: Gaurang Sondagar <gaurangsondagar@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x;_ex;_nx;esc_attr_e;"
+"_n_noop:1,2;esc_attr__;esc_attr_x;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: wp-content/plugins/wp-post-page-clone\n"
+
+#: wp-post-page-clone/wp-post-page-clone.php:103
+msgid "Post or Page creation failed, could not find original post:"
+msgstr ""
+
+#: wp-post-page-clone/wp-post-page-clone.php:123
+msgid "Clone Post and Page"
+msgstr ""
+
+#: wp-post-page-clone/wp-post-page-clone.php:123
+msgid "Click To Clone"
+msgstr ""

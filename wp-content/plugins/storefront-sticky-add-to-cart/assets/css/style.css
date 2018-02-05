@@ -1,0 +1,74 @@
+.ssatc-sticky-add-to-cart {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  @keyframes slideInDown {
+    from {
+      transform: translate3d(0, -100%, 0);
+      visibility: visible; }
+    to {
+      transform: translate3d(0, 0, 0); } }
+  .slideInDown {
+    animation-name: slideInDown; }
+
+  @keyframes slideOutUp {
+    from {
+      transform: translate3d(0, 0, 0); }
+    to {
+      visibility: hidden;
+      transform: translate3d(0, -100%, 0); } }
+  .slideOutUp {
+    animation-name: slideOutUp; }
+
+  .animated {
+    animation-duration: .5s;
+    animation-fill-mode: both; }
+
+  .animated.infinite {
+    animation-iteration-count: infinite; }
+
+  .ssatc-sticky-add-to-cart {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+    transform: translate3d(0, -100%, 0);
+    padding: 1.618em;
+    overflow: hidden;
+    zoom: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+    .ssatc-sticky-add-to-cart img {
+      max-height: 3.631em;
+      width: auto;
+      float: left;
+      margin: 0 2em 0 0;
+      padding: 3px;
+      border: 1px solid rgba(0, 0, 0, 0.1); }
+    .ssatc-sticky-add-to-cart .ssatc-content {
+      position: relative;
+      line-height: 1.387; }
+    .ssatc-sticky-add-to-cart .star-rating {
+      font-size: .75em;
+      margin-right: 1em;
+      -webkit-transform: translateY(1px);
+      -moz-transform: translateY(1px);
+      -ms-transform: translateY(1px);
+      -o-transform: translateY(1px);
+      transform: translateY(1px); }
+    .ssatc-sticky-add-to-cart .price,
+    .ssatc-sticky-add-to-cart .stock {
+      font-size: .857em;
+      opacity: 0.5; }
+    .ssatc-sticky-add-to-cart .button.variable:after {
+      content: "\f106";
+      font-family: "FontAwesome";
+      margin-left: .53em; }
+    .ssatc-sticky-add-to-cart .price {
+      margin-right: 1em; }
+
+  .ssatc-sticky-add-to-cart .button {
+    position: absolute;
+    top: 0;
+    right: 0; } }

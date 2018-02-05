@@ -136,7 +136,7 @@ class WP_Site_Query {
 	 *     @type string       $search            Search term(s) to retrieve matching sites for. Default empty.
 	 *     @type array        $search_columns    Array of column names to be searched. Accepts 'domain' and 'path'.
 	 *                                           Default empty array.
-	 *     @type bool         $update_site_cache Whether to prime the cache for found sites. Default false.
+	 *     @type bool         $update_site_cache Whether to prime the cache for found sites. Default true.
 	 * }
 	 */
 	public function __construct( $query = '' ) {
@@ -211,7 +211,8 @@ class WP_Site_Query {
 	 * @since 4.6.0
 	 *
 	 * @param string|array $query Array or URL query string of parameters.
-	 * @return array|int List of WP_Site objects, or number of sites when 'count' is passed as a query var.
+	 * @return array|int List of WP_Site objects, a list of site ids when 'fields' is set to 'ids',
+	 *                   or the number of sites when 'count' is passed as a query var.
 	 */
 	public function query( $query ) {
 		$this->query_vars = wp_parse_args( $query );
@@ -224,7 +225,8 @@ class WP_Site_Query {
 	 *
 	 * @since 4.6.0
 	 *
-	 * @return array|int List of WP_Site objects, or number of sites when 'count' is passed as a query var.
+	 * @return array|int List of WP_Site objects, a list of site ids when 'fields' is set to 'ids',
+	 *                   or the number of sites when 'count' is passed as a query var.
 	 */
 	public function get_sites() {
 		$this->parse_query();

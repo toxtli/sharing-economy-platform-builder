@@ -223,6 +223,26 @@ if ( $can_publish ) : // Contributors don't get to choose the date of publish ?>
 </div><?php // /misc-pub-section ?>
 <?php endif; ?>
 
+<?php if ( 'draft' === $post->post_status && get_post_meta( $post->ID, '_customize_changeset_uuid', true ) ) : ?>
+	<div class="notice notice-info notice-alt inline">
+		<p>
+			<?php
+			echo sprintf(
+				/* translators: %s: URL to the Customizer */
+				__( 'This draft comes from your <a href="%s">unpublished customization changes</a>. You can edit, but there&#8217;s no need to publish now. It will be published automatically with those changes.' ),
+				esc_url(
+					add_query_arg(
+						'changeset_uuid',
+						rawurlencode( get_post_meta( $post->ID, '_customize_changeset_uuid', true ) ),
+						admin_url( 'customize.php' )
+					)
+				)
+			);
+			?>
+		</p>
+	</div>
+<?php endif; ?>
+
 <?php
 /**
  * Fires after the post time/date setting in the Publish meta box.
@@ -269,8 +289,8 @@ if ( current_user_can( "delete_post", $post->ID ) ) {
 if ( !in_array( $post->post_status, array('publish', 'future', 'private') ) || 0 == $post->ID ) {
 	if ( $can_publish ) :
 		if ( !empty($post->post_date_gmt) && time() < strtotime( $post->post_date_gmt . ' +0000' ) ) : ?>
-		<input name="original_publish" type="hidden" id="original_publish" value="<?php esc_attr_e('Schedule') ?>" />
-		<?php submit_button( __( 'Schedule' ), 'primary large', 'publish', false ); ?>
+		<input name="original_publish" type="hidden" id="original_publish" value="<?php echo esc_attr_x( 'Schedule', 'post action/button label' ); ?>" />
+		<?php submit_button( _x( 'Schedule', 'post action/button label' ), 'primary large', 'publish', false ); ?>
 <?php	else : ?>
 		<input name="original_publish" type="hidden" id="original_publish" value="<?php esc_attr_e('Publish') ?>" />
 		<?php submit_button( __( 'Publish' ), 'primary large', 'publish', false ); ?>
@@ -313,15 +333,19 @@ function attachment_submit_meta_box( $post ) {
 
 
 <div id="misc-publishing-actions">
-	<?php
-	/* translators: Publish box date format, see https://secure.php.net/date */
-	$datef = __( 'M j, Y @ H:i' );
-	/* translators: Attachment information. 1: Date the attachment was uploaded */
-	$stamp = __('Uploaded on: <b>%1$s</b>');
-	$date = date_i18n( $datef, strtotime( $post->post_date ) );
-	?>
 	<div class="misc-pub-section curtime misc-pub-curtime">
-		<span id="timestamp"><?php printf($stamp, $date); ?></span>
+		<span id="timestamp"><?php
+			$date = date_i18n(
+				/* translators: Publish box date format, see https://secure.php.net/date */
+				__( 'M j, Y @ H:i' ),
+				strtotime( $post->post_date )
+			);
+			printf(
+				/* translators: Attachment information. %s: Date the attachment was uploaded */
+				__( 'Uploaded on: %s' ),
+				'<b>' . $date . '</b>'
+			);
+		?></span>
 	</div><!-- .misc-pub-section -->
 
 	<?php
@@ -879,7 +903,7 @@ $default_title = apply_filters( 'default_page_template_title',  __( 'Default Tem
 /**
  * Fires before the help hint text in the 'Page Attributes' meta box.
  *
- * @since 4.8.0
+ * @since 4.9.0
  *
  * @param WP_Post $post The current post.
  */
@@ -974,7 +998,7 @@ function link_categories_meta_box($link) {
 <div id="taxonomy-linkcategory" class="categorydiv">
 	<ul id="category-tabs" class="category-tabs">
 		<li class="tabs"><a href="#categories-all"><?php _e( 'All Categories' ); ?></a></li>
-		<li class="hide-if-no-js"><a href="#categories-pop"><?php _e( 'Most Used' ); ?></a></li>
+		<li class="hide-if-no-js"><a href="#categories-pop"><?php _ex( 'Most Used', 'categories' ); ?></a></li>
 	</ul>
 
 	<div id="categories-all" class="tabs-panel">

@@ -1100,6 +1100,11 @@ function wp_ajax_replyto_comment( $action ) {
 	}
 
 	$comment_id = wp_new_comment( $commentdata );
+
+	if ( is_wp_error( $comment_id ) ) {
+		wp_die( $comment_id->get_error_message() );
+	}
+
 	$comment = get_comment($comment_id);
 	if ( ! $comment ) wp_die( 1 );
 
@@ -2988,15 +2993,22 @@ function wp_ajax_query_themes() {
  * @global WP_Post    $post       Global $post.
  * @global WP_Embed   $wp_embed   Embed API instance.
  * @global WP_Scripts $wp_scripts
+ * @global int        $content_width
  */
 function wp_ajax_parse_embed() {
-	global $post, $wp_embed;
+	global $post, $wp_embed, $content_width;
 
-	if ( ! $post = get_post( (int) $_POST['post_ID'] ) ) {
+	if ( empty( $_POST['shortcode'] ) ) {
 		wp_send_json_error();
 	}
-
-	if ( empty( $_POST['shortcode'] ) || ! current_user_can( 'edit_post', $post->ID ) ) {
+	$post_id = isset( $_POST[ 'post_ID' ] ) ? intval( $_POST[ 'post_ID' ] ) : 0;
+	if ( $post_id > 0 ) {
+		$post = get_post( $post_id );
+		if ( ! $post || ! current_user_can( 'edit_post', $post->ID ) ) {
+			wp_send_json_error();
+		}
+		setup_postdata( $post );
+	} elseif ( ! current_user_can( 'edit_posts' ) ) { // See WP_oEmbed_Controller::get_proxy_item_permissions_check().
 		wp_send_json_error();
 	}
 
@@ -3013,9 +3025,16 @@ function wp_ajax_parse_embed() {
 	}
 
 	$parsed = false;
-	setup_postdata( $post );
-
 	$wp_embed->return_false_on_fail = true;
+
+	if ( 0 === $post_id ) {
+		/*
+		 * Refresh oEmbeds cached outside of posts that are past their TTL.
+		 * Posts are excluded because they have separate logic for refreshing
+		 * their post meta caches. See WP_Embed::cache_oembed().
+		 */
+		$wp_embed->usecache = false;
+	}
 
 	if ( is_ssl() && 0 === strpos( $url, 'http://' ) ) {
 		// Admin is ssl and the user pasted non-ssl URL.
@@ -3025,6 +3044,15 @@ function wp_ajax_parse_embed() {
 
 		if ( ! $parsed ) {
 			$no_ssl_support = true;
+		}
+	}
+
+	// Set $content_width so any embeds fit in the destination iframe.
+	if ( isset( $_POST['maxwidth'] ) && is_numeric( $_POST['maxwidth'] ) && $_POST['maxwidth'] > 0 ) {
+		if ( ! isset( $content_width ) ) {
+			$content_width = intval( $_POST['maxwidth'] );
+		} else {
+			$content_width = min( $content_width, intval( $_POST['maxwidth'] ) );
 		}
 	}
 

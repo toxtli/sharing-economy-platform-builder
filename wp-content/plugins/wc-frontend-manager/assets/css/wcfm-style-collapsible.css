@@ -1,0 +1,95 @@
+.page_collapsible {
+	margin: 0;
+	padding:10px;
+	margin-top: 5px;
+	min-height:20px;
+
+	border: #f0f0f0 1px solid;
+	background: #2a3344;
+
+	text-decoration:none;
+	text-transform:uppercase;
+	color: #b0bec5;
+	font-size:1em;
+	font-weight: 500;
+	box-sizing: content-box;
+	white-space: nowrap;
+	
+	-moz-border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	
+	position: relative;
+	cursor: pointer;
+}
+
+.page_collapsible::before {
+	position: absolute;
+	width: 30%;
+	left: 0;
+	bottom: 0;
+	content : "";
+	height  : 1px;
+	border-bottom: 1px solid #00897b;
+}
+
+.page_collapsible_content_holder {
+	float: left;
+}
+
+.page_collapsible .fa { 
+  padding-right: 5px;
+}
+
+.collapse-open {
+	background: #2a3344;
+	color: #ffffff;
+}
+
+.page_collapsible:hover label, .page_collapsible.collapse-open label {
+	color: #ffffff;
+}
+
+.collapse-open span {
+	display:block;
+	float:right;
+	padding:10px;
+}
+
+.collapse-close span {
+	display:none; 
+}
+
+.page_collapsible span.block-indicator {
+	float: right;
+	padding: 5px;
+	display: inline-block;
+}
+
+div.wcfm-container {
+    padding: 1px;
+    margin:0;
+    background: #f1f1f1;
+}
+
+div.wcfm-content {
+    background:#ffffff;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    font-size:.9em;
+    line-height:1.5em;
+}
+
+div.wcfm-content ul, div.wcfm-content p {
+    margin:0;
+    padding:3px;
+}
+
+div.wcfm-content ul li {
+    list-style-position:inside;
+    line-height:25px;
+}
+
+div.wcfm-content ul li a {
+    color:#555555;
+}

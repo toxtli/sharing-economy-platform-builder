@@ -1,0 +1,91 @@
+.page_collapsible { cursor: pointer; }
+.page_collapsible .fa { margin-right: 5px; }
+
+.coupon-types {
+	padding: 4px 4px;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 12px;
+	line-height: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.coupon-types-percent { background-color: #73a724; }
+.coupon-types-fixed_cart { background-color: #FF7400; }
+.coupon-types-fixed_product { background-color: #4096EE; }
+
+p.description {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p.wcfm_title {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+	font-style: normal;
+	width: 35%;
+	display: inline-block;
+}
+
+#wcfm-main-contentainer input.wcfm-checkbox, .wcfm-tabWrap input[type="checkbox"] {
+	margin-right: 55%;
+}
+
+.select2-container {
+	margin-bottom: 5px;
+}
+
+input[type="number"].wcfm-text {
+	padding: 2px;
+}
+
+@media only screen and (max-width: 640px) {
+	#wcfm-main-contentainer input.wcfm-checkbox {
+		margin-right: 5%;
+	}
+}
+
+@media screen and (min-width:641px) {
+	
+	.page_collapsible {
+		width: 20%;
+		display: block; 
+		overflow: hidden;
+		border-right: 1px solid #cccccc;
+		margin-top: 0px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+	}
+	.wcfm-tabWrap {
+			position: relative; 
+			display: inline-block;
+			width: 100%;
+			background: #fff;
+			overflow:hidden;
+			height: 500px;
+	}
+	.page_collapsible + .wcfm-container {
+			width: 75%;
+			position: absolute;
+			right: 0;
+			top: 0;
+	}
+	html[dir="rtl"] .page_collapsible + .wcfm-container {
+		left: 0;
+		right: auto;
+	}
+	#wcfm_products_simple_submit {
+		overflow:hidden;
+	}
+	.wcfm-collapse .wcfm-tabWrap .wcfm-container {
+		border: none;
+		box-shadow: none;
+	}
+}
+.wcfm-collapse .wcfm-container{
+	max-width: 100%;
+}

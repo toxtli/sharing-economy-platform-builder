@@ -1,0 +1,131 @@
+#wcfm-main-contentainer .wcfm-page-headig {
+  padding-right: 20px;	
+}
+
+#wcfm_menu .wcfm_menu_items a.wcfm_menu_item {
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+#wcfm_menu span.wcfm_sub_menu_items {
+	left: 0%;
+	right: 100%;
+	margin-left: 0px;
+	margin-right: 2px;
+}
+
+#wcfm_menu .wcfm_menu_items a.active::after {
+	left: 0px;
+	border-left-color: #f7f7f7;
+	border-right: 0px;
+  right: auto;
+}
+
+.img_tip {
+	margin-right: 5px;
+}
+
+#wcfm-main-contentainer .wcfm_dashboard_welcome_avatar, #wcfm-main-contentainer .wcfm_dashboard_welcome_content::before, #wcfm-main-contentainer .wcfm-page-headig::before, #wcfm-main-contentainer #wcfm_menu .wcfm_menu_items a.wcfm_menu_item::before {
+	right: 0;
+	left: auto;
+}
+
+#wcfm-main-contentainer .wcfm_dashboard_welcome_container {
+	margin-left: 0px;
+	margin-right: 75px;
+}
+
+#wcfm-main-contentainer .wcfm_dashboard_welcome_content {
+	padding-left: 0px;
+	padding-right: 80px;
+}
+
+#wcfm-main-contentainer div.wcfm-collapse-content h2 {
+	float: right;
+}
+
+#wcfm-main-contentainer .wcfm_header_panel {
+	float: left;
+}
+
+#wcfm-main-contentainer ul.wcfm_products_menus, #wcfm-main-contentainer ul.wcfm_listings_menus, #wcfm-main-contentainer ul.wcfm_orders_menus {
+	float: right !important;
+}
+
+#wcfm-main-contentainer a.wcfm_submit_button, #wcfm-main-contentainer .wcfm_add_attribute_term, #wcfm-main-contentainer .wcfm_screen_manager_dummy, #wcfm-main-contentainer .wcfm_screen_manager, #wcfm-main-contentainer .wcfm_wp_admin_view, #wcfm-main-contentainer a.add_new_wcfm_ele_dashboard, #wcfm-main-contentainer a.wcfm_import_export, #wcfm-main-contentainer #order_quick_actions, #wcfm-main-contentainer input.wcfm_submit_button, #wcfm-main-contentainer input.upload_button, #wcfm-main-contentainer input.remove_button, #wcfm-main-contentainer .multi_input_block_manupulate, #wcfm-main-contentainer .wcfm_gloabl_settings {
+	float: left !important;
+}
+
+#wcfm-main-contentainer .onoffswitch-inner {
+	margin-right: -100%;
+	margin-left: auto;
+}
+
+#wcfm-main-contentainer .onoffswitch-inner:before, #wcfm-main-contentainer .onoffswitch-inner:after {
+  float: right;	
+}
+
+#wcfm-main-contentainer .onoffswitch-inner:after {
+	text-align: left;
+	padding-left: 25px;
+}
+
+#wcfm-main-contentainer .onoffswitch-inner:before {
+	text-align: left;
+}
+
+#wcfm-main-contentainer .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+	margin-right: 0;
+}
+
+#wcfm-main-contentainer .page_collapsible .fa {
+	padding-left: 5px;
+	margin-left: 5px;
+	float: right;
+}
+
+#wcfm-main-contentainer .page_collapsible_content_holder {
+	float: right;
+}
+
+.page_collapsible::before {
+	left:auto;
+	right: 0;
+}
+
+#wcfm-main-contentainer .wcfm-tabWrap .fa-arrow-circle-o-right {
+	float: left !important;
+}
+
+#wcfm-main-contentainer .wcfm-tabWrap .fa-arrow-circle-o-right:before {
+	content: "\f190";
+}
+
+#wcfm-main-contentainer div.wcfm-content {
+	padding-right: 20px;
+	padding-left: 0px;
+}
+
+.fields_collapser {
+	margin-right: 10px; 
+}
+
+.wcfm-tabWrap input[type="checkbox"] {
+	margin-right: 0px;
+	margin-left: 40%;
+}
+
+.sub_checklist_toggler {
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+.fa-arrow-circle-right:before {
+	content: "\f0a8";
+}
+
+#wcfm-main-contentainer fieldset.wcfm-checklist-group input[type="checkbox"] {
+	margin-left: 5px !important;
+	margin-right: 0px !important;
+}

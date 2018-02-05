@@ -1,0 +1,102 @@
+.wcfm-collapse-content h3 {
+	font-size: 1.5em;
+	clear: both;
+	font-weight: 500;
+	margin: 0 0 .5407911001em;
+	color: #555555;
+}
+
+#wcfm_messages_listing_expander { 
+  min-height: 250px;
+  padding: 10px;
+}
+
+#wcfm_messages_users_block, #wcfm_messages_submit {
+	display: inline-block;
+}
+
+#wcfm_messages_users_block {
+	width: 50%;
+	margin-top: 20px;
+}
+
+#wcfm_messages_submit {
+	float: right;
+}
+
+p.wcfm_title {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+	font-style: normal;
+	width: 35%;
+	display: inline-block;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+	width: 120px;
+	height: 30px;
+}
+
+.dataTables_wrapper select {
+	font-size: 15px;
+}
+
+.order-status {
+  font-size: 20px;	
+}
+
+#wcfm-messages_length { margin-top: 4px !important; }
+#wcfm-messages_filter input { margin-bottom: 10px; }
+
+#wcfm-messages_length select {
+	max-width: 75px;
+	width: 60px;
+}
+
+.wcfm-wp-fields-uploader .placeHolderDocs {
+  background: url('../images/document_icon.png');
+  background: url(../images/document_icon.png) no-repeat center center / 32px 32px;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/document_icon.png', sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/document_icon.png', sizingMethod='scale');
+  width : 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+#wcfm-main-contentainer input.wcfm_bulk_mark_read {
+	margin: 0px 0px 0px 10px !important;
+	padding: 8px !important;
+	vertical-align: top;
+}
+
+#wcfm-main-contentainer .dataTables_wrapper { text-align: center; }
+
+table.dataTable.display tr td:nth-child(1), 
+table.dataTable.display tr td:nth-child(2), 
+table.dataTable.display tr td:nth-child(4), 
+table.dataTable.display tr td:nth-child(5), 
+table.dataTable.display tr td:nth-child(6),
+table.dataTable.display tr td:nth-child(7),
+table.dataTable.display tr th:nth-child(2), 
+table.dataTable.display tr th:nth-child(3),
+table.dataTable.display tr th:nth-child(4),
+table.dataTable.display tr th:nth-child(5),
+table.dataTable.display tr th:nth-child(6),
+table.dataTable.display tr th:nth-child(7) {
+	text-align: center;
+}
+
+.wcfm_messages_filter_wrap #dummy-filter-by-type { opacity: .5; }
+
+@media only screen and (max-width: 640px) {
+	.wcfm_messages_filter_wrap { width: 100%; }
+	#wcfm-main-contentainer input.wcfm_bulk_mark_read { float: none; }
+}
+
+@media only screen and (max-width: 414px) {
+	#wcfm-main-contentainer input.wcfm_bulk_mark_read { display: none; }
+}

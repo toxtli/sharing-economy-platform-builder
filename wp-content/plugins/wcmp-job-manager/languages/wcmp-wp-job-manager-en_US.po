@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WCMp Job Manager\n"
+"POT-Creation-Date: 2017-02-22 12:36+0530\n"
+"PO-Revision-Date: 2017-02-22 12:36+0530\n"
+"Last-Translator: Dualcube <admin@dualcube.com>\n"
+"Language-Team: Dualcube <admin@dualcube.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/"
+"trunk\n"
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/classes/class-wcmp-wp-job-manager-admin.php:24
+msgid "WP Job Manager "
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/classes/class-wcmp-wp-job-manager-admin.php:26
+msgid "Manage Job Listings"
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/classes/class-wcmp-wp-job-manager-admin.php:26
+msgid "Allow vendors to Manage Job Listings."
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/classes/class-wcmp-wp-job-manager-admin.php:27
+msgid "Job Listing"
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/classes/class-wcmp-wp-job-manager-admin.php:27
+msgid "Allow vendors to Job Listing."
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/classes/class-wcmp-wp-job-manager-admin.php:57
+msgid "Job Package"
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/includes/wcmp-wp-job-manager-core-functions.php:7
+#, php-format
+msgid ""
+"%sWCMp Job Manager is inactive.%s The %sWooCommerce plugin%s must be active "
+"for the WCMp Job Manager to work. Please %sinstall & activate WooCommerce%s"
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/includes/wcmp-wp-job-manager-core-functions.php:17
+#, php-format
+msgid ""
+"%sWCMp Job Manager is inactive.%s The %sWC Marketplace%s must be active for "
+"the WCMp Job Manager to work. Please %sinstall & activate WC Marketplace%s"
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/includes/wcmp-wp-job-manager-core-functions.php:26
+#, php-format
+msgid ""
+"%sWCMp Job Manager is inactive.%s The %sWP Job Manager%s must be active for "
+"the WCMp Job Manager to work. Please %sinstall & activate WP Job Manager%s"
+msgstr ""
+
+#: /home/pgadmin214/dualcube_plugins/wcmp-job-manager/trunk/includes/wcmp-wp-job-manager-core-functions.php:36
+#, php-format
+msgid ""
+"%sWCMp Job Manager is inactive.%s The %sWP Job Manager - WooCommerce Paid "
+"Listings%s must be active for the WCMp Job Manager to work. Please %sinstall "
+"& activate WP Job Manager - WooCommerce Paid Listings%s"
+msgstr ""

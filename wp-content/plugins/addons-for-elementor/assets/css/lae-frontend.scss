@@ -1,0 +1,612 @@
+@import "bourbon";
+@import "neat";
+@import "grid-settings";
+@import "lae-lib";
+
+/* --------------- Reset styles --------- */
+
+.panel-grid .widget {
+  overflow: initial;
+  }
+.lae-container, .lae-grid-container {
+  box-sizing: border-box;
+  *, *::after, *::before {
+    box-sizing: inherit;
+    }
+  ol, ul, ol > li, ul > li, ol:hover, ul:hover, ul > li:hover, ol > li:hover, ol > li > a, ul > li > a, ol > li > a:hover, ul > li > a:hover, img {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    list-style: none;
+    background: none;
+    &:before, &:after {
+      display: none;
+      }
+    }
+  a {
+    text-decoration: initial;
+    }
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    }
+  }
+/* ------- General styles ------------ */
+
+.lae-container {
+  @include lae-container;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.panel-grid .widget {
+  border: 0;
+  }
+.lae-center {
+  text-align: center;
+  }
+.lae-grid-container {
+  @include grid-container;
+  @include grid-collapse();
+
+  .lae-onecol, .lae-twocol, .lae-threecol, .lae-fourcol, .lae-fivecol, .lae-sixcol, .lae-sevencol, .lae-eightcol, .lae-ninecol, .lae-tencol, .lae-elevencol, .lae-twelvecol {
+    min-height: 1px; /* Prevents columns from collapsing when housing absolute elements or when lazy loading content */
+    }
+
+  .lae-onecol, .lae-twocol {
+    @include grid-column(1, $lae-mobile-grid);
+    }
+
+  .lae-threecol, .lae-fourcol, .lae-fivecol, .lae-sixcol, .lae-sevencol, .lae-eightcol, .lae-ninecol, .lae-tencol, .lae-elevencol, .lae-twelvecol {
+    @include grid-column(2, $lae-mobile-grid);
+    }
+
+  @include grid-media($lae-mobile-only-grid) {
+
+    .lae-onecol, .lae-twocol {
+      @include omega(2n);
+      }
+    }
+
+  @include grid-media($lae-tablet-grid) {
+
+    .lae-onecol, .lae-twocol {
+      @include grid-column(2);
+      }
+
+    .lae-threecol, .lae-fourcol, .lae-fivecol, .lae-sixcol, .lae-sevencol, .lae-eightcol, .lae-ninecol {
+      @include grid-column(3);
+      }
+
+    .lae-tencol, .lae-elevencol {
+      @include grid-column(4);
+      }
+
+    .lae-twelvecol {
+      @include grid-column(6);
+      }
+    }
+
+  @include grid-media($lae-tablet-only-grid) {
+
+    .lae-onecol, .lae-twocol {
+      @include omega(3n);
+      }
+
+    .lae-threecol, .lae-fourcol, .lae-fivecol, .lae-sixcol, .lae-sevencol, .lae-eightcol, .lae-ninecol {
+      @include omega(2n);
+      }
+    }
+
+  @include grid-media($lae-desktop-grid) {
+
+    .lae-onecol {
+      @include grid-column(1);
+      @include omega(12n);
+      }
+
+    .lae-twocol {
+      @include grid-column(2);
+      @include omega(6n);
+      }
+
+    .lae-threecol {
+      @include grid-column(3);
+      @include omega(4n);
+      }
+
+    .lae-fourcol {
+      @include grid-column(4);
+      @include omega(3n);
+      }
+
+    .lae-fivecol {
+      @include grid-column(5);
+      }
+
+    .lae-sixcol {
+      @include grid-column(6);
+      @include omega(2n);
+      }
+
+    .lae-sevencol {
+      @include grid-column(7);
+      }
+
+    .lae-eightcol {
+      @include grid-column(8);
+      }
+
+    .lae-ninecol {
+      @include grid-column(9);
+      }
+
+    .lae-tencol {
+      @include grid-column(10);
+      }
+
+    .lae-elevencol {
+      @include grid-column(11);
+      }
+
+    .lae-twelvecol {
+      @include grid-column(12);
+      }
+    }
+
+  }
+/*--------- Support for 5 column grid ----*/
+
+.lae-grid-container {
+
+  .lae-onefifth {
+    min-height: 1px;
+    }
+
+  .lae-onefifth {
+    @include grid-column(2, $lae-mobile-grid);
+    }
+
+  @include grid-media($lae-tablet-grid) {
+
+    .lae-onefifth {
+      @include grid-column(3);
+      }
+
+    }
+  @include grid-media($lae-tablet-only-grid) {
+
+    .lae-onefifth {
+      @include omega(2n);
+      }
+
+    }
+
+  @include grid-media($lae-five-col-grid) {
+
+    .lae-onefifth {
+      @include grid-column(1);
+      @include omega(5n);
+      }
+    }
+  }
+
+/*--------- Gapless grid columns ----*/
+
+.lae-gapless-grid {
+
+  &.lae-grid-container, & .lae-grid-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    }
+
+  .lae-onecol, .lae-twocol {
+    @include grid-column(1, $lae-gapless-mobile-grid);
+    }
+
+  .lae-threecol, .lae-fourcol, .lae-fivecol, .lae-sixcol, .lae-sevencol, .lae-eightcol, .lae-ninecol, .lae-tencol, .lae-elevencol, .lae-twelvecol, .lae-onefifth {
+    @include grid-column(2, $lae-gapless-mobile-grid);
+    }
+
+  @include grid-media($lae-gapless-tablet-grid) {
+
+    .lae-onecol, .lae-twocol {
+      @include grid-column(2);
+      }
+
+    .lae-threecol, .lae-fourcol, .lae-fivecol, .lae-sixcol, .lae-sevencol, .lae-eightcol, .lae-ninecol, .lae-onefifth {
+      @include grid-column(3);
+      }
+
+    .lae-tencol, .lae-elevencol {
+      @include grid-column(4);
+      }
+
+    .lae-twelvecol {
+      @include grid-column(6);
+      }
+    }
+
+  @include grid-media($lae-gapless-desktop-grid) {
+
+    .lae-onecol {
+      @include grid-column(1);
+      }
+
+    .lae-twocol {
+      @include grid-column(2);
+      }
+
+    .lae-threecol {
+      @include grid-column(3);
+      }
+
+    .lae-fourcol {
+      @include grid-column(4);
+      }
+
+    .lae-fivecol {
+      @include grid-column(5);
+      }
+
+    .lae-sixcol {
+      @include grid-column(6);
+      }
+
+    .lae-sevencol {
+      @include grid-column(7);
+      }
+
+    .lae-eightcol {
+      @include grid-column(8);
+      }
+
+    .lae-ninecol {
+      @include grid-column(9);
+      }
+
+    .lae-tencol {
+      @include grid-column(10);
+      }
+
+    .lae-elevencol {
+      @include grid-column(11);
+      }
+
+    .lae-twelvecol {
+      @include grid-column(12);
+      }
+    }
+
+
+  @include grid-media($lae-gapless-five-col-grid) {
+
+    .lae-onefifth {
+      @include grid-column(1);
+      }
+    }
+
+  }
+
+/* --------------- Flexslider Styles -------------- */
+
+.lae-container {
+  .lae-thumbnailslider.lae-flexslider {
+    margin-top: 15px;
+    .lae-slide {
+      margin: 0 5px 0 0;
+      img {
+        display: block;
+        opacity: .5;
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+          }
+        }
+      &.lae-flex-active-slide img {
+        opacity: 1;
+        cursor: default;
+        }
+      }
+    }
+  .lae-flex-direction-nav {
+    padding: 0 !important;
+    margin: 0 !important;
+    }
+  .lae-flex-direction-nav li {
+    position: initial;
+    }
+  .lae-flex-direction-nav a, .lae-flex-direction-nav a:hover {
+    opacity: 1;
+    text-shadow: none;
+    background: none;
+    color: #888;
+    @include lae-icon-font();
+    font-size: 24px;
+    width: 28px;
+    height: 28px;
+    margin: -14px 0 0;
+    bottom: initial;
+    left: initial;
+    right: initial;
+    top: 50%;
+    text-indent: 0;
+    text-align: center;
+    color: #aaa;
+    transition: all 0.3s ease-in-out 0s;
+    outline: none;
+    &:before {
+      margin: 2px;
+      vertical-align: middle;
+      display: inline;
+      font-family: inherit !important;
+      opacity: 1;
+      }
+    .lae-dark-bg & {
+      color: #888;
+      &:hover {
+        color: #aaa;
+        }
+      }
+    @include respond-to-max(960) {
+      display: none; /* Let users navigate via touch */
+      }
+    }
+  .lae-flex-direction-nav a.lae-flex-prev {
+    left: -30px;
+    &:before {
+      content: "\e900";
+      }
+    }
+  .lae-flex-direction-nav a.lae-flex-next {
+    right: -30px;
+    &:before {
+      content: "\e901";
+      }
+    }
+  .lae-flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    li, li:hover {
+      margin: 0 8px 0 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      }
+    li a, li a:hover {
+      background: #aaa;
+      border: 1px solid #aaa;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      box-shadow: none;
+      transition: all 0.2s ease-in 0s;
+      display: inline-block;
+      vertical-align: middle;
+      outline: none;
+      .lae-dark-bg & {
+        background: #ccc;
+        border-color: #ccc;
+        }
+      }
+    li a.lae-flex-active, li a:hover.lae-flex-active, li a:hover {
+      background: none;
+      }
+    li a.lae-flex-active, li a:hover.lae-flex-active {
+      width: 14px;
+      height: 14px;
+      }
+    }
+  .lae-flex-control-thumbs {
+    bottom: -120px;
+    @include respond-to-max(600) {
+      bottom: -80px;
+      }
+    li {
+      width: auto;
+      float: none;
+      img {
+        max-width: 100%;
+        width: 150px;
+        @include respond-to-max(600) {
+          width: 100px;
+          }
+        }
+      }
+    }
+  }
+/* Sleek Carousel Styles */
+
+.slick-loading .slick-list {
+  background: #fff url('./ajax-loader.gif') center center no-repeat;
+  }
+.lae-container {
+
+  button.slick-prev, button.slick-next {
+    position: absolute;
+    bottom: initial;
+    left: initial;
+    right: initial;
+    top: 50%;
+    width: 28px;
+    height: 28px;
+    margin: -14px 0 0;
+    &, &:before, &:after {
+      text-shadow: none;
+      background: none !important;
+      border: none;
+      padding: 0;
+      opacity: 1;
+      @include lae-icon-font();
+      font-size: 24px;
+      color: #aaa !important;
+      overflow: hidden;
+      box-shadow: none;
+      outline: none;
+      text-indent: 0;
+      text-align: center;
+      transition: all 0.3s ease-in-out 0s;
+      }
+    &:before {
+      margin: 2px;
+      vertical-align: middle;
+      }
+    &:hover {
+      &:before, &:after {
+        color: #888 !important;
+        }
+      }
+    .lae-dark-bg & {
+      &:before, &:after {
+        color: #888 !important;
+        }
+      &:hover {
+        &:before, &:after {
+          color: #aaa !important;
+          background: none !important;
+          }
+        }
+      }
+    @include respond-to-max(1024) {
+      display: none !important; /* Let users navigate via touch */
+      }
+    }
+  button.slick-prev {
+    left: -40px;
+    &:before {
+      content: "\e900";
+      }
+    }
+  button.slick-next {
+    right: -40px;
+    &:before {
+      content: "\e901";
+      }
+    }
+  ul.slick-dots {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    li {
+      margin: 0 8px 0 0 !important;
+      padding: 0 !important;
+      display: inline-block;
+      font-size: 0;
+      }
+    li button {
+      padding: 0;
+      background: #aaa;
+      border: 1px solid #aaa;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      box-shadow: none;
+      transition: background 0.3s ease-in-out 0s;
+      font-size: 0;
+      outline: none;
+      .lae-dark-bg & {
+        background: #888 !important;
+        border-color: #888 !important;
+        }
+      }
+    li button:hover, li.slick-active button {
+      background: none !important;
+      border-color: #aaa !important;
+      }
+    li.slick-active button {
+      width: 14px;
+      height: 14px;
+      }
+    }
+  }
+/* -------- Widget separator headline ------------ */
+
+.lae-widget-heading {
+  @include lae-heading-style();
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  @include respond-to-max(767) {
+    font-size: 32px;
+    line-height: 44px;
+    }
+  }
+
+/* --------------- Button CSS -------------------- */
+
+input.lae-button, button.lae-button, a.lae-button, .lae-button:active, .lae-button:visited {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 16px 40px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #f94213;
+  color: #fefefe;
+  outline: none;
+  transition: all 0.4s ease-in-out 0s;
+  &.lae-rounded {
+    border-radius: 999px;
+    }
+  &.lae-large {
+    padding: 20px 60px;
+    }
+  &.lae-small {
+    padding: 12px 25px;
+    font-size: 11px;
+    }
+  &:hover {
+    background-color: #f9633e;
+    color: #fefefe;
+    }
+  }
+$skin-names: ("black", "blue", "cyan", "green", "orange", "pink", "red", "teal");
+$color-collection: (#363636, #46a5d5, #57c0dc, #00a57d, #e87151, #dd5679, #da4f49, #28c2ba);
+
+@for $i from 0 to length($skin-names) {
+  $skin-name: nth($skin-names, $i+1);
+  $skin-color: nth($color-collection, $i+1);
+  .lae-button.lae-#{$skin-name} {
+    background-color: $skin-color;
+    }
+  .lae-button.lae-#{$skin-name}:hover {
+    background-color: lighten($skin-color, 5%);
+    }
+  }
+.lae-button.lae-trans {
+  color: #333;
+  background-color: transparent; /* IE */
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #a5a5a5;
+  &:hover {
+    background-color: #fff;
+    color: #333 !important;
+    border-color: #fff;
+    }
+  }
+.lae-button.lae-semitrans {
+  color: #fff;
+  background-color: transparent; /* IE */
+  background-color: rgba(125, 125, 125, 0.5);
+  &:hover {
+    background-color: #fff;
+    color: #333 !important;
+    }
+  }

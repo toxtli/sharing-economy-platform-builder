@@ -1,0 +1,321 @@
+.clear{
+    clear: both;
+}
+.w3eden .form-control{
+    box-shadow: none !important;
+}
+
+.w3eden .ui-state-highlight{
+    border: 0 !important;
+    background: none !important;
+}
+
+.w3eden #selectedfields .list-group-item a .glyphicon{
+    margin-top: 1px;
+}
+
+.w3eden #selectedfields .list-group-item a.remove,
+.w3eden #selectedfields .list-group-item a.cog-trigger{
+    visibility: hidden;
+}
+
+.w3eden #selectedfields:hover .list-group-item a.remove,
+.w3eden #selectedfields:hover .list-group-item a.cog-trigger{
+    visibility: visible;
+}
+
+.w3eden .list-group-item .cog h5{
+    padding: 10px 15px 10px 15px;
+    border-radius: 2px;
+    background: rgba(215, 149, 36, 0.23);
+    margin: 0 0 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.w3eden .list-group-item .add .glyphicon{
+    top: 3px;
+}
+
+.panel-body-np{
+    background: #eee;
+}
+
+.panel-body-np .nav-pills a{
+    border-radius: 2px !important;
+    font-size: 9pt;
+    letter-spacing: normal;
+}
+
+.panel-body-np .nav-pills{
+    padding: 15px 0 15px 15px;
+}
+
+.panel-body-np .col-md-9{
+    background: #ffffff;
+    border-left: 1px solid #cccccc;
+}
+
+.panel-body-np .tab-content h3{
+    margin: 10px 0;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.panel .panel-heading a{
+    text-decoration: none;
+    outline: none;
+}
+.panel .panel-heading{
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+}
+.panel-settings .panel-title{
+    font-weight: 600 !important;
+    padding: 3px 0;
+    letter-spacing: 0.5px;
+}
+
+.w3eden .panel-settings{
+    border: 0 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.w3eden #submit{
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+input.shortcode-code.input-lg{
+    font-size: 12pt !important;
+    font-weight: 200;
+    font-family: 'Courier New';
+    cursor: copy !important;
+    letter-spacing: 1px;
+}
+
+.col-md-9 .tab-content{
+    min-height: 400px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.nav-pills a{
+    outline: none !important;
+}
+.form-group .description{
+    font-size: 8pt;
+}
+
+.w3eden #allformfields .panel-default .panel-title,
+.w3eden #allformfields .panel-default .panel-title:focus,
+.w3eden #allformfields .panel-default .panel-title:active,
+.w3eden #allformfields .panel-default .panel-title:hover{
+    box-shadow: none;
+    background-image: none;
+}
+.ui-draggable-handle{
+    cursor: move;
+}
+#content-tabs{
+    border:1px solid #dddddd;
+    margin-top: -1px;
+    padding-bottom: 20px;
+}
+
+a:focus,
+a:active{
+    outline:  none !important;
+}
+
+.list-group-item.ui-draggble{
+    z-index: 9999999 !important;
+}
+
+
+.list-group.ui-droppable{
+   min-height: 100px;
+}
+
+.panel{
+    box-shadow: none;
+}
+
+.panel-body .list-group-item{
+    border-radius: 3px !important;
+    margin-bottom: 3px !important;
+}
+
+#selectedfields{
+    box-shadow: none !important;
+}
+#selectedfields .list-group-item{
+    border-color: transparent;
+}
+
+#selectedfields.ui-state-highlight .list-group-item,
+#selectedfields:hover .list-group-item{
+    border-color: #dddddd !important;
+}
+
+#selectedfields:hover .list-group-item:hover{
+    border-color: #aaaaaa !important;
+}
+
+.availablefields{
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+}
+
+
+.availablefields .list-group-item:hover{
+    color: #555;
+    background-color: #ebebeb;
+    border-color: #c2c2c2;
+
+}
+
+.w3eden .panel a.panel-title{
+    font-size: 10pt !important;
+}
+.w3eden .ui-draggable-dragging{
+    width: 80%;
+}
+
+.text-icon {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+div.field-preview,
+div.cog fieldset{
+    width: 100%;
+    display: block;
+    clear: both;
+}
+div.cog fieldset{
+    padding: 15px;  border-radius: 3px;  background: rgb(245, 245, 245) none repeat scroll 0px 0px;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+.cog-trigger .fa.fa-wrench{
+    color: rgb(67, 207, 55);
+}
+.remove .fa.fa-trash-o{
+    color: #f64f6c;
+}
+
+#allformfields .list-group-item,
+#allformfields .list-group-item *{
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    color:  #ffffff !important;
+    font-weight: 300;
+}
+#allformfields .list-group-item{
+    border: 0 !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    float: left;
+    margin: 5px;
+    width: calc(50% - 10px);
+}
+
+#commonfields .list-group-item {
+    background: #45ac61;
+}
+#commonfields .list-group-item:hover{
+    background: #4dc06c;
+}
+#commonfields .list-group-item:focus,
+#commonfields .list-group-item:active{
+    background: #3b9353;
+    box-shadow: inset;
+}
+
+#genericfields .list-group-item {
+    background: #7359a4;
+}
+#genericfields .list-group-item:hover{
+    background: #8264b9;
+}
+#genericfields .list-group-item:focus,
+#genericfields .list-group-item:active{
+    background: #5c4783;
+    box-shadow: inset;
+}
+
+#advancedfields .list-group-item {
+    background: #4a81c8;
+}
+#advancedfields .list-group-item:hover{
+    background: #2a8cef;
+}
+#advancedfields .list-group-item:focus,
+#advancedfields .list-group-item:active{
+    background: #206cb8;
+    box-shadow: inset;
+}
+#allformfields #accordion{
+    width: 340px;
+}
+.lfi{
+    margin-right: 7px;
+}
+#allformfields .lfi .fa{
+    transform: scale(1.3);
+    color: rgba(255,255,255,0.5) !important;
+}
+
+.w3eden .panel{
+    border-radius: 3px !important;
+}
+.w3eden .panel-heading {
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+}
+
+.w3eden input[type="radio"], .w3eden input[type="checkbox"] {
+    margin: 0 3px 1px 0 !important;
+}
+
+#allformfields .panel{
+    border-color: #e3e3e3 !important;
+    box-shadow: none;
+}
+#allformfields .panel .panel-heading{
+    background-color: #fafafa !important;
+    border-color: #e5e5e5 !important;
+    border: 0 !important;
+}
+.form-control.text-center.shortcode-code.input-lg {
+    background: #fafafa none repeat scroll 0 0;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#settings-tabs a{
+    box-shadow: none !important;
+}
+
+.panel-title.active{
+    color: #3C7DCC;
+}
+.w3eden .field-preview.address .row{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+.w3eden .btn-sm, .w3eden .btn-group-sm > .btn{
+    padding: 5px 8px !important;
+}
+.w3eden .add-cond-option,
+.w3eden .del-cond-option{
+    display: inline-block;
+    margin: 0 -1px;
+    line-height: 30px;
+}
+.w3eden .add-cond-option i,
+.w3eden .del-cond-option i{
+    line-height: 30px;
+    display: inline-block;
+}

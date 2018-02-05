@@ -1,6 +1,6 @@
 #customize-theme-controls #accordion-section-menu_locations {
 	position: relative;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
 #customize-theme-controls #accordion-section-menu_locations > .accordion-section-title {
@@ -32,8 +32,9 @@
 	color: #555;
 }
 
-/* The `edit-menu` button uses also the `button-link` class. */
-.customize-control-nav_menu_location .edit-menu {
+/* The `edit-menu` and `create-menu` buttons also use the `button-link` class. */
+.customize-control-nav_menu_location .edit-menu,
+.customize-control-nav_menu_location .create-menu {
 	margin-left: 6px;
 	vertical-align: middle;
 	line-height: 28px;
@@ -50,10 +51,6 @@
 #customize-new-menu-submit {
 	float: right;
 	min-width: 85px;
-}
-
-#customize-new-menu-submit-description {
-	margin: 0;
 }
 
 .wp-customizer .menu-item-bar .menu-item-handle,
@@ -212,18 +209,23 @@
 .wp-customizer .control-section-nav_menu .menu-location-settings {
 	margin-top: 24px;
 	border-top: 1px solid #ddd;
+}
+
+.wp-customizer .control-section-nav_menu .menu-location-settings,
+.customize-control-nav_menu_auto_add {
 	padding-top: 12px;
 }
 
-.menu-settings .customize-control-checkbox label,
-.menu-location-settings .customize-control-checkbox label {
+.menu-location-settings .customize-control-checkbox .theme-location-set {
 	line-height: 1;
 }
 
-/* @todo update selector or potentially remove */
-.menu-settings .customize-control.customize-control-checkbox,
-.menu-location-settings .customize-control.customize-control-checkbox {
-	margin-bottom: 8px; /* Override collapsing at smaller viewports. */
+.customize-control-nav_menu_auto_add label {
+	vertical-align: top;
+}
+
+.menu-location-settings .new-menu-locations-widget-note {
+	display: block;
 }
 
 .customize-control-menu {
@@ -780,6 +782,9 @@ body.adding-menu-items #customize-preview iframe {
 /* @todo update selector */
 #accordion-section-add_menu {
 	margin: 15px 12px;
+}
+
+#accordion-section-add_menu h3 {
 	text-align: right;
 }
 

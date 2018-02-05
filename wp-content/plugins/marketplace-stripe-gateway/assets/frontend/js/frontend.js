@@ -1,0 +1,1 @@
+//Fronend js content

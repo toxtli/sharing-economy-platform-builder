@@ -1,0 +1,64 @@
+$neat-grid: (
+        columns: 12,
+        gutter: 20px,
+        direction: ltr,
+);
+
+$lae-desktop-grid: (
+        columns: 12,
+        gutter: 20px,
+        media: 801px,
+);
+
+$lae-tablet-grid: (
+        columns: 6,
+        gutter: 20px,
+        media: 480px,
+);
+
+$lae-mobile-grid: (
+        columns: 2,
+        gutter: 20px,
+);
+
+
+$lae-gapless-grid: (
+        gutter: 0px,
+);
+
+$lae-gapless-desktop-grid: (
+        columns: 12,
+        gutter: 0px,
+        media: 801px,
+);
+
+$lae-gapless-tablet-grid: (
+        columns: 6,
+        gutter: 0px,
+        media: 480px,
+);
+
+$lae-gapless-mobile-grid: (
+        columns: 2,
+        gutter: 0px,
+);
+
+$lae-five-col-grid: (
+        columns: 5,
+        gutter: 20px,
+        media: 801px,
+);
+
+$lae-gapless-five-col-grid: (
+        columns: 5,
+        gutter: 0px,
+        media: 801px,
+);
+
+$lae-mobile-only-grid: (
+        media: "(max-width: 479px)",
+);
+
+$lae-tablet-only-grid: (
+        media: "(min-width:480px) and (max-width: 800px)",
+);

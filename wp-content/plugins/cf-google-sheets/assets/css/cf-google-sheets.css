@@ -1,0 +1,75 @@
+.loading{
+   background-image: url( "../img/ajax-loader.gif");
+   background-position: 50% 80%;
+   background-repeat: no-repeat;
+   width:10px;
+}
+.inside label {
+   line-height: 1.3;
+   font-weight: 600;
+   color: #23282d;
+   font-size: 14px;
+   margin-right: 20px;
+}
+#gs-code {
+   width: 18em;
+}
+.gs-alert {
+   color: red;
+}
+.gs-valid-message {
+   font-weight: bold;
+   color: green;
+}
+.debug-view {
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: bold;
+}
+.gs-name span {
+   display:none;
+   position: absolute;
+   border-radius: 5px 5px; 
+   left: 350px;
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px;
+   font-family: Calibri, Tahoma, Geneva, sans-serif;
+   margin-left: 0;
+   z-index: 999;
+
+}
+.gs-name:hover {
+   color: #00a0d2;
+}
+.gs-name:hover span {
+   display:inline-block;
+   width: 300px;
+   margin-top: 20px;
+   z-index: 1001;
+}
+.hover-data { 
+   padding: 5px;
+   background:  #333;
+   background: rgba(0,0,0,.8);
+   color: #fff;
+}
+.gs-fields {
+   position: relative;
+   min-width: 255px;
+   border: 1px solid #e5e5e5;
+   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+   box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+   background: #fff;
+}
+.gs-fields label {
+   margin: 0 25px 0 25px;
+   float: left;
+   width: 22%;
+   font-size: 14px;
+}
+.gs-fields input {
+   width: 250px;
+}
+.gs-fields span {
+   margin: 20px 0 20px 10px;
+}

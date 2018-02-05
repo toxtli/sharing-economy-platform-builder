@@ -1,0 +1,967 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Catalog Enquiry\n"
+"POT-Creation-Date: 2018-01-15 04:50+0000\n"
+"PO-Revision-Date: 2018-01-15 04:50+0000\n"
+"Last-Translator: admin <khokan@dualcube.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: /var/www/html/catalog_pro/wp-content/plugins/woocommerce-"
+"catalog-enquiry/\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"Plural-Forms: nplurals=2; plural=n != 1"
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:262
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:264
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:279
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:361
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:363
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:379
+msgid "Send an enquiry"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:292
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:395
+msgid "Enquiry about "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:303
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:406
+msgid "Enter your name : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:306
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:409
+msgid "Enter your Email Id : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:310
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:413
+msgid "Enter enquiry subject : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:311
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:414
+msgid "Enquiry about"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:314
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:417
+msgid "Enter your phone no : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:318
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:421
+msgid "Enter your address : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:322
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:425
+msgid "Enter your Message : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:326
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:429
+msgid "Upload your File : "
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:332
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:435
+msgid "Security Code"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:333
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:436
+msgid "Enter the security code shown above"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:342
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:446
+msgid "Send"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:445
+msgid "Close"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:716
+msgid "Name is required field"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:717
+msgid "Email is required field"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:718
+msgid "Please Enter Valid Email Id"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:719
+msgid "Please enter the security code"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:720
+msgid "Please enter the valid seurity code"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:721
+msgid "Error in system please try later"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:722
+msgid "Invalid file format."
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:723
+msgid "Exceeded filesize limit."
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-frontend.php:744
+msgid "Enquiry sent successfully"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:29
+msgid "Powered by"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:29
+msgid "WC Marketplace"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:96
+msgid "Enter product external link"
+msgstr ""
+
+#: classes/class-wc-Woocommerce-Catalog-Enquiry-admin.php:97
+msgid "https://www.google.com"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:28
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:46
+msgid "Woocommerce Catalog Enquiry Settings"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:75
+msgid "Enable Exclusion List"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:75
+msgid "Enable the exclusion list"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:76
+msgid "User List Excluded from catalog"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:76
+msgid "select the user who can puchase from website"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:76
+msgid "select the user who can puchase from website."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:77
+msgid "Product List Excluded from catalog"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:78
+msgid "select the products will be excluted from catalog list"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:78
+msgid "select the products will be excluted from catalog list."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:78
+msgid "Category List Excluded from catalog"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:123
+msgid "Exclusion settings updated"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_exclusion.php:136
+msgid "Configure the exclusion list"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:28
+msgid "WC Catalog Enquiry"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:35
+msgid "Woocommerce Catalog Enquiry General"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:36
+msgid "Woocommerce Catalog Enquiry Exclusion Settings"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings.php:37
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:41
+msgid "Woocommerce Catalog Enquiry Button Settings"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:47
+msgid "Catalog Enable?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:47
+msgid "Just Checked this checkbox for woocommerce catalog mode on"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:47
+msgid "Check this for active the catalog functionality."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:48
+msgid "Load Wordpress JS Library?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:48
+msgid ""
+"Just Checked this checkbox for load Wordpress JS Library, if your theme has "
+"own JS lib then ingnore it"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:48
+msgid "Check this for load Wordpress js lib."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:49
+msgid "Applicable For"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:49
+msgid "Method applicable for only secleted user group default all."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:49
+msgid "Select the user type where this catalog is applicable."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:50
+msgid "Enquiry Top content"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:50
+msgid "Put your content if you want to top of enquiry form"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:51
+msgid "Enquiry Bottom content"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:51
+msgid "Put your content if you want to bottom of enquiry form"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:52
+msgid "Product Enquiry Enable?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:52
+msgid "Just Checked this checkbox for product page enquiry form enable"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:52
+msgid "Check this for active the form functionality."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:53
+msgid "Enquiry Popup Backdrop Disable?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:53
+msgid "Just Checked this checkbox if you want to disable popup backdrop"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:53
+msgid "Check this for deactive the popup backdrop."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:54
+msgid "Enquiry Popup Disable?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:54
+msgid ""
+"Just Checked this checkbox if you want to enquiry form in the same page "
+"below the short description"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:54
+msgid "Check this for deactive the popup."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:55
+msgid "Override Form Heading?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:55
+msgid ""
+"Just Checked this checkbox if you want to override dynamic heading with your "
+"static heading"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:55
+msgid "Check this for override dynamic heading."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:56
+msgid "Custom Form Heading"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:56
+msgid "Please Enter your custom Heading insteed of dynamic form heading"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:57
+msgid "Remove Price?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:57
+msgid "Just Checked this checkbox for remove the price from catalog"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:57
+msgid "Check this for remove the price from product list."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:58
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:58
+msgid ""
+"Put your custom css in this box for product page there is no need to put the "
+"style Tag"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:59
+msgid "Want a custom Button?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:59
+msgid ""
+"Do you want a custom Button at the Place of add to cart button then checked "
+"here"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:59
+msgid "Check this if you want custom button at the place of add to cart."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:60
+msgid "Hide Cart Chackout Page?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:60
+msgid ""
+"Do you want to redirect to home if any one click on the cart or checkout "
+"page link"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:60
+msgid ""
+"Do you want to redirect to home page if any one click on the cart or "
+"checkout page link."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:62
+msgid "Choose your button type"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:62
+msgid "Choose your preferred button type."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:62
+msgid "By default Read More Button."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:63
+msgid "Button Link"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:63
+msgid ""
+"Applicable only when you choose custom link for all products in button type"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:63
+msgid ""
+"Button link applicable only if you choose button type Custom Link For All "
+"Products "
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:70
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:43
+msgid "Custom button label"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:70
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:43
+msgid "Give your custom button Text"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:71
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:44
+msgid "Choose Button Text Color"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:71
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:44
+msgid "Choose your button text color here."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:71
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:44
+msgid "This is button text color will be appear in the custom button ."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:72
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:45
+msgid "Choose Button Background Color"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:72
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:45
+msgid "Choose your button background color here."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:72
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:45
+msgid "This is button background color will be appear in the custom button ."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:73
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:46
+msgid "Choose Button Text Color Hover"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:73
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:46
+msgid "Choose your button text color on hover here."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:73
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:46
+msgid ""
+"This is button text color on hover will be appear in the custom button ."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:47
+msgid "Choose Button background Color Hover"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:47
+msgid "Choose your button background color on hover here."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:74
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:47
+msgid ""
+"This is button background color on hover will be appear in the custom button "
+"."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:75
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:48
+msgid "Custom button Width"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:75
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:48
+msgid "Give your custom button Width in px"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:76
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:49
+msgid "Custom button Height"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:76
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:49
+msgid "Give your custom button Height"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:50
+msgid "Custom button Padding"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:77
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:50
+msgid "Give your custom button Padding"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:78
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:51
+msgid "Custom button Border"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:78
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:51
+msgid "Give your custom button border size"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:79
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:52
+msgid "Custom button Font size"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:79
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:52
+msgid "Give your custom button Font Size"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:80
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:53
+msgid "Custom button border redius"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:80
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:53
+msgid "Give your custom button border redius"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:81
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:54
+msgid "Choose Button Border Color"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:81
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:54
+msgid "Choose your button border color."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:81
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:54
+msgid "This is button border color which will be appear in the custom button ."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:82
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:55
+msgid "Custom button margin top"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:82
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:55
+msgid "Give your custom button top margin"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:83
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:56
+msgid "Custom button margin bottom"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:83
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:56
+msgid "Give your custom button bottom margin"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:87
+msgid "Captcha Enable ?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:87
+msgid "Do you want Captcha in for enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:87
+msgid "Check this if you want captcha in the enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:88
+msgid "Subject Field Enable ?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:88
+msgid "Do you want Subject field in for enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:88
+msgid "Check this if you want subject field in the enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:89
+msgid "Phone Field Enable ?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:89
+msgid "Do you want Phone field in for enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:89
+msgid "Check this if you want to Phone field in the enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:90
+msgid "Address Field Enable ?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:90
+msgid "Do you want Address field in for enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:90
+msgid "Check this if you want address field in the enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:91
+msgid "Comment Field Enable ?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:91
+msgid "Do you want Comment field in for enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:91
+msgid "Check this if you want comment field in the enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:92
+msgid "File Upload Field Enable ?"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:92
+msgid "Do you want File Upload field in enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:92
+msgid "Check this if you want file upload field in the enquiry form."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:93
+msgid "File Upload Size Limit"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:93
+msgid "Enter File Upload size limit in MB."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:93
+msgid "add maximum upload file size limit in MB."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:98
+msgid "Custom label for name"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:98
+msgid "Given label will shown in the frontend form field in the place of Name."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:98
+msgid "Enter custom label for Name."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:99
+msgid "Custom label for email"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:99
+msgid ""
+"Given label will shown in the frontend form field in the place of Email."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:99
+msgid "Enter custom label for Email."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:100
+msgid "Custom label for subject"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:100
+msgid ""
+"Given label will shown in the frontend form field in the place of Subject."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:100
+msgid "Enter custom label for Subject."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:101
+msgid "Custom label for phone"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:101
+msgid ""
+"Given label will shown in the frontend form field in the place of Phone."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:101
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:102
+msgid "Enter custom label for Phone."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:102
+msgid "Custom label for address"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:102
+msgid ""
+"Given label will shown in the frontend form field in the place of Address."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:103
+msgid "Custom label for comment"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:103
+msgid ""
+"Given label will shown in the frontend form field in the place of Comment."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:103
+msgid "Enter custom label for Comment."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:104
+msgid "Custom label for file upload"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:104
+msgid ""
+"Given label will shown in the frontend form field in the place of File "
+"Upload."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:104
+msgid "Enter custom label for File Upload."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:105
+msgid "Custom label for captcha"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:105
+msgid ""
+"Given label will shown in the frontend form field in the place of Captcha."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:105
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:106
+msgid "Enter custom label for Captcha."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:106
+msgid "Custom label for captcha Input"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:106
+msgid ""
+"Given label will shown in the frontend form field in the place of Captcha "
+"Input."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:109
+msgid "Other Emails (commma seperated)"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:109
+msgid ""
+"Enter email address if you want to receive enquiry mail along with admin "
+"mail."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:109
+msgid ""
+"if you add more than one email then you have to put comma seperated email id "
+"no space please."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:110
+msgid "Remove admin email"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:110
+msgid "Do you want remove admin email from reciever list."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:110
+msgid "Check this if you want to remove admin email from reciever list."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:111
+msgid "Enter mail id who get the email"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:111
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:111
+msgid "Enter mail id who get the email insteed of admin."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:114
+msgid "Redirect to other page"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:114
+msgid "Do you want to redirect to other page after enquiry successful."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:114
+msgid ""
+"Check this if you want to redirect to other page after successful enquiry."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:115
+msgid "Select Redirect page"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:115
+msgid "Select page where will be redirected after enquiry successful."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:115
+msgid "Select Redirection page."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:304
+msgid "General settings updated"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:317
+msgid "Enter your default settings below"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:325
+msgid "Configure your button layout settings below"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:333
+msgid "Configure your enquiry form settings below"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:338
+msgid "Override the email settings for enquiry email reciever"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:343
+msgid "Redirect page settings."
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_general.php:348
+msgid "Configure your enquiry form Labels"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:42
+msgid "Your own button style"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:42
+msgid "Enable the custom design for enquiry button"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:161
+msgid "Enquiry Button settings updated"
+msgstr ""
+
+#: admin/class-wc-Woocommerce-Catalog-Enquiry-settings-wc_Woocommerce_Catalog_Enquiry_button.php:174
+msgid "Configure the Enquiry Button"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:15
+#: templates/emails/plain/wc_catalog_enquiry_admin.php:14
+msgid "Dear Admin"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:16
+#: templates/emails/plain/wc_catalog_enquiry_admin.php:15
+msgid "Please find the product enquiry, details are given below"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:22
+msgid "Product Details"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:26
+msgid "Product"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:27
+msgid "Product Url"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:29
+msgid "Product SKU"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:61
+msgid "Customer Details"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:63
+msgid "Name"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:67
+msgid "Email"
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:72
+msgid "User Phone : "
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:78
+msgid "User Address : "
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:84
+msgid "User Subject : "
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:90
+msgid "User Comments : "
+msgstr ""
+
+#: templates/emails/wc_catalog_enquiry_admin.php:99
+#: templates/emails/plain/wc_catalog_enquiry_admin.php:61
+#, php-format
+msgid "%s - Powered by WC Catalog Enquiry"
+msgstr ""
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:36
+msgid "WC Catalog Enquiry admin"
+msgstr ""
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:37
+msgid "Admin will get an email when customer enquiry about a product"
+msgstr ""
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:91
+msgid "Product Enquiry for {PRODUCT_NAME} by {USER_NAME}"
+msgstr ""
+
+#: classes/emails/class-wc-catalog-enquiry-email.php:101
+msgid "Enquiry for {PRODUCT_NAME}"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Catalog Enquiry"
+msgstr ""
+
+#. Description of the plugin
+msgid "Convert your WooCommerce store into a catalog website in a click"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wc-marketplace.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WC Marketplace, The Grey Parrots"
+msgstr ""

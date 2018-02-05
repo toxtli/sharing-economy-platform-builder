@@ -1,0 +1,75 @@
+#wcfm-main-contentainer #_wc_booking_duration_type {
+	width: 25%;
+}
+
+#wcfm-main-contentainer #_wc_booking_duration {
+	width: 10%;
+	margin-left: 10px;
+}
+
+#wcfm-main-contentainer #_wc_booking_duration_unit, #wcfm-main-contentainer #_wc_booking_cancel_limit_unit, #wcfm-main-contentainer #_wc_booking_min_date_unit, #wcfm-main-contentainer #_wc_booking_max_date_unit, 
+#wcfm-main-contentainer #_wc_accommodation_booking_cancel_limit_unit, #wcfm-main-contentainer #_wc_accommodation_booking_min_date_unit, #wcfm-main-contentainer #_wc_accommodation_booking_max_date_unit  {
+	width: 22%;
+	margin-left: 10px;
+}
+
+#wcfm-main-contentainer #_wc_booking_cancel_limit, #wcfm-main-contentainer #_wc_booking_min_date, #wcfm-main-contentainer #_wc_booking_max_date, #wcfm-main-contentainer #_wc_booking_buffer_period, 
+#wcfm-main-contentainer #_wc_accommodation_booking_cancel_limit, #wcfm-main-contentainer #_wc_accommodation_booking_min_date, #wcfm-main-contentainer #_wc_accommodation_booking_max_date { 
+  width: 10%; 
+}
+
+#wcfm-main-contentainer #_wc_booking_first_block_time { width: 20%; }
+
+p.description {
+	display: inline-block;
+	width: 30%;
+}
+
+p.in_the_future { width: 20%; }
+
+@media only screen and (max-width: 768px) {
+	#wcfm-main-contentainer #_wc_booking_duration_unit {
+		width: 20%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	#wcfm-main-contentainer #_wc_booking_duration_type {
+		width: 45%;
+	}
+	#wcfm-main-contentainer #_wc_booking_duration {
+	  width: 20%;
+	}
+	
+	#wcfm-main-contentainer #_wc_booking_duration_unit, #wcfm-main-contentainer #_wc_booking_cancel_limit_unit, #wcfm-main-contentainer #_wc_accommodation_booking_cancel_limit_unit {
+		width: 25%;
+	}
+	
+	#_wc_booking_min_date_unit, #_wc_booking_max_date_unit {
+		width: 35%;
+	}
+	
+	#wcfm-main-contentainer #_wc_booking_cancel_limit, #wcfm-main-contentainer #_wc_booking_min_date, #wcfm-main-contentainer #_wc_booking_max_date, #wcfm-main-contentainer #_wc_booking_buffer_period, #wcfm-main-contentainer #_wc_accommodation_booking_cancel_limit { width: 20%; }
+	
+	p.description {
+		width: 50%;
+	}
+	
+	p.in_the_future { width: 30%; }
+	
+	#wcfm-main-contentainer #_wc_booking_first_block_time { width: 40%; }
+}
+
+@media only screen and (max-width: 320px) {
+	#_wc_booking_duration_type {
+		width: 60%;
+	}
+	
+	#wcfm-main-contentainer #_wc_booking_duration_unit, #wcfm-main-contentainer #_wc_booking_cancel_limit_unit, #wcfm-main-contentainer #_wc_accommodation_booking_cancel_limit_unit {
+		width: 60%;
+	}
+	
+	p.description {
+		width: 75%;
+	}
+}

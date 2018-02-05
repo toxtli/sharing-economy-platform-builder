@@ -4,6 +4,16 @@
 	background-image: none;
 }
 
+.wp-core-ui .CodeMirror-lint-marker-error,
+.wp-core-ui .CodeMirror-lint-marker-warning {
+	cursor: help;
+}
+
+.wrap .CodeMirror-lint-marker-multiple {
+	position: absolute;
+	top: 0;
+}
+
 .wrap [class*="CodeMirror-lint-marker"]:before {
 	font: normal 18px/1 dashicons;
 	position: relative;

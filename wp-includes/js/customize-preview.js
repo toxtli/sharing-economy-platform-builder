@@ -36,7 +36,7 @@
 			newQueryParams = api.utils.parseQueryString( urlParser.search.substr( 1 ) );
 
 			newQueryParams.customize_changeset_uuid = oldQueryParams.customize_changeset_uuid;
-			if ( api.settings.changeset.autosaved ) {
+			if ( oldQueryParams.customize_autosaved ) {
 				newQueryParams.customize_autosaved = 'on';
 			}
 			if ( oldQueryParams.customize_theme ) {
@@ -451,6 +451,10 @@
 			if ( ! api.settings.theme.active ) {
 				queryParams.customize_theme = api.settings.theme.stylesheet;
 			}
+
+			// Ensure preview nonce is included with every customized request, to allow post data to be read.
+			queryParams.customize_preview_nonce = api.settings.nonce.preview;
+
 			urlParser.search = $.param( queryParams );
 			options.url = urlParser.href;
 		};

@@ -1,0 +1,85 @@
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#loader_after_sumitting_the_form {
+	display:none;
+}
+.catalog_enquiry_form{display:none;}
+
+#woo_catalog .modal-content{
+	background-color: #fefefe;
+	margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+#woo_catalog .modal-content .modal-header .close {
+    margin-top: 2px;
+}
+
+#woo_catalog .modal-content button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+#woo_catalog .modal-content .close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+#woo_catalog .modal-content .btn-default{
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+
+#woo_catalog .modal-content .modal-header {
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#woo_catalog .modal-content .modal-body {padding: 2px 16px;max-height: 640px; overflow: auto;}
+
+#woo_catalog .modal-content .modal-body .row-fluid p input{width: 100%;}
+
+#woo_catalog .modal-content .modal-footer {
+    padding: 14px 15px 15px;
+    margin-bottom: 0;
+    text-align: right;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}

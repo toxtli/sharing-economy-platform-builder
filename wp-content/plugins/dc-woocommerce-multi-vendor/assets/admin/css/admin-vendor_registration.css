@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jul, 2016, 12:52:16 PM
+    Author     : Dualcube
+*/
+
+#menu-settings-column .button-controls {
+    clear: none;
+    /*    margin: 0 2% 3px !important;*/
+    padding: 0;
+    width: 100%;
+}
+#menu-settings-column .button-controls a{
+    width: 100%;
+    text-align: center;
+}
+.menu-item-handle {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px 5px 10px 10px;
+}
+#post-body-content .menu-item-handle {
+    width: 510px;
+}
+.menu-item-bar .menu-item-handle {
+    line-height : 20px !important;
+}
+.wcmp-vendor-form-field-content{
+    background: #fff none repeat scroll 0 0;
+    padding: 3px;
+    width: 80%;
+}
+.wcmp-vendor-form-input-field{
+    width: 100%;
+}
+.wcmp-vendor-form-input-field-container{
+    padding: 5px;
+}
+.wcmp-remove-form-field{
+    padding-left: 2px;
+    color: red;
+}
+.wcmp-vendor-form-input-field-container ul li a {
+    display: inline-block;
+    line-height: 18px;
+    text-decoration: none !important;
+}
+.field-selectbox-options{
+    padding-top: 10px;
+}
+.field-selectbox-options li{
+    background: #fcfcfc none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    padding: 2px 10px;
+    cursor: move;
+}
+
+
+
+.wcmp-form-empty-container {
+    border: 3px dashed #bbb;
+    color: #ccc;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 100px 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.wcmp-form-field {
+    border-bottom: 1px solid #f6f6f6;
+    padding: 5px;
+    width: 100%;
+}
+
+
+.wcmp-form-field > label {
+    color: #666;
+    display: inline-block;
+    font-size: 13px;
+    width: 20%;
+}
+
+
+.wcmp-form-field > span {
+    color: #222;
+}

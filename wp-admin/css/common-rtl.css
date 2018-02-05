@@ -860,7 +860,7 @@ hr {
 #media-items a.delete,
 #media-items a.delete-permanently,
 #nav-menu-footer .menu-delete,
-#delete-link a.delete  {
+#delete-link a.delete {
 	color: #a00;
 }
 
@@ -962,6 +962,11 @@ span.required,
 td.action-links,
 th.action-links {
 	text-align: left;
+}
+
+#misc-publishing-actions .notice {
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 /* Filter bar */
@@ -1183,9 +1188,17 @@ th.action-links {
 
 .filter-drawer .filter-group-feature input,
 .filter-drawer .filter-group-feature label {
-	display: inline-block;
-	margin: 7px 0 7px 4px;
 	line-height: 16px;
+}
+
+.filter-drawer .filter-group-feature input {
+	position: absolute;
+	margin: 0;
+}
+
+.filter-group .filter-group-feature label {
+	display: block;
+	margin: 14px 23px 14px 0px;
 }
 
 .filter-drawer .buttons {
@@ -1466,17 +1479,17 @@ div.error {
 .wrap #templateside .notice {
 	display: block;
 	margin: 0;
-	padding: 5px 12px;
+	padding: 5px 8px;
 	font-weight: 600;
 	text-decoration: none;
 }
 
 .wrap #templateside span.notice {
-  margin-right: -12px;
+	margin-right: -12px;
 }
 
 #templateside li.notice a {
-  padding: 0;
+	padding: 0;
 }
 
 /* Update icon. */
@@ -1695,7 +1708,7 @@ form.upgrade .hint {
 
 .toggle-arrow {
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: top right;
 	background-color: transparent;
 	height: 22px;
 	line-height: 22px;
@@ -1703,7 +1716,7 @@ form.upgrade .hint {
 }
 
 .toggle-arrow-active {
-	background-position: bottom left;
+	background-position: bottom right;
 }
 
 #screen-options-wrap h5, /* Back-compat for old plugins */
@@ -2215,7 +2228,7 @@ h1.nav-tab-wrapper, /* Back-compat for pre-4.4 */
 }
 
 #template > div {
-	margin-left: 190px;
+	margin-left: 16em;
 }
 #template .notice {
 	margin-top: 1em;
@@ -3033,13 +3046,147 @@ img {
 
 #template textarea,
 #template .CodeMirror {
-	width: 97%;
-	height: calc( 100vh - 280px );
+	width: 100%;
+	min-height: 60vh;
+	height: calc( 100vh - 295px );
+	border: 1px solid #ddd;
+	box-sizing: border-box;
 }
-#templateside {
-	margin-top: 31px;
-	overflow: scroll;
+
+#templateside > h2 {
+	padding-top: 6px;
+	padding-bottom: 7px;
+	margin: 0;
 }
+
+#templateside ol,
+#templateside ul {
+	margin: 0;
+	padding: 0;
+}
+#templateside > ul {
+	box-sizing: border-box;
+	margin-top: 0;
+	overflow: auto;
+	padding: 0;
+	min-height: 60vh;
+	height: calc(100vh - 295px);
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	border-right: none;
+}
+#templateside ul ul {
+	padding-right: 12px;
+}
+#templateside > ul > li > ul[role=group] {
+	padding-right: 0;
+}
+
+/*
+ * Styles for Theme and Plugin editors.
+ */
+
+/* Hide collapsed items. */
+[role="treeitem"][aria-expanded="false"] > ul {
+	display: none;
+}
+
+/* Use arrow dashicons for folder states, but hide from screen readers. */
+[role="treeitem"] span[aria-hidden] {
+	display: inline;
+	font-family: dashicons;
+	font-size: 20px;
+	position: absolute;
+	pointer-events: none;
+}
+[role="treeitem"][aria-expanded="false"] > .folder-label .icon:after {
+	content: "\f141";
+}
+[role="treeitem"][aria-expanded="true"] > .folder-label .icon:after {
+	content: "\f140";
+}
+[role="treeitem"] .folder-label {
+	display: block;
+	padding: 3px 12px 3px 3px;
+	cursor: pointer;
+}
+
+/* Remove outline, and create our own focus and hover styles */
+[role="treeitem"] {
+	outline: 0;
+}
+[role="treeitem"] .folder-label.focus {
+	color: #124964;
+	box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, .8);
+}
+[role="treeitem"].hover,
+[role="treeitem"] .folder-label.hover {
+	background-color: #eaeaea;
+}
+
+.tree-folder {
+	margin: 0;
+	position: relative;
+}
+[role="treeitem"] li {
+	position: relative;
+}
+
+/* Styles for folder indicators/depth */
+.tree-folder .tree-folder::after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	right: 2px;
+	border-right: 1px solid #ccc;
+	top: -13px;
+	bottom: 10px;
+}
+.tree-folder > li::before {
+	content: ' ';
+	position: absolute;
+	display: block;
+	border-right: 1px solid #ccc;
+	right: 2px;
+	top: -5px;
+	height: 18px;
+	width: 7px;
+	border-bottom: 1px solid #ccc;
+}
+.tree-folder > li::after {
+	content: ' ';
+	position: absolute;
+	display: block;
+	border-right: 1px solid #ccc;
+	right: 2px;
+	bottom: -7px;
+	top: 0;
+}
+
+/* current-file needs to adjustment for .notice styles */
+#templateside .current-file {
+	margin: -4px 0 -2px;
+}
+.tree-folder > .current-file::before {
+	right: 4px;
+	height: 15px;
+	width: 0px;
+	border-right: none;
+	top: 3px;
+}
+.tree-folder > .current-file::after {
+	bottom: -4px;
+	height: 7px;
+	right: 2px;
+	top: auto;
+}
+
+/* Lines shouldn't continue on last item */
+.tree-folder > li:last-child::after,
+.tree-folder li:last-child > .tree-folder::after {
+	display: none;
+}
+
 
 #theme-plugin-editor-label {
 	display: inline-block;
@@ -3086,11 +3233,10 @@ img {
 }
 #templateside {
 	float: left;
-	width: 190px;
+	width: 16em;
 	word-wrap: break-word;
 }
 
-#templateside h2,
 #postcustomstuff p.submit {
 	margin: 0;
 }
@@ -3099,21 +3245,23 @@ img {
 	margin: 1em 0 0;
 }
 
-#templateside ol,
-#templateside ul {
-	margin: .5em 0;
-	padding: 0;
-}
-
 #templateside li {
 	margin: 4px 0;
 }
 
-#templateside li a,
+#templateside li:not(.howto) a,
 .theme-editor-php .highlight {
 	display: block;
-	padding: 3px 12px 3px 3px;
+	padding: 3px 12px 3px 0;
 	text-decoration: none;
+}
+
+#templateside li:not(.howto) > a:first-of-type {
+	padding-top: 0;
+}
+
+#templateside li.howto {
+	padding: 6px 12px 12px 12px;
 }
 
 .theme-editor-php .highlight {
@@ -3301,7 +3449,7 @@ img {
 
 .control-section .accordion-section-title:after,
 .customize-pane-child .accordion-section-title:after {
-	top: 11px;
+	top: calc(50% - 10px); /* Arrow height is 20px, so use half of that to vertically center */
 }
 
 .js .control-section:hover .accordion-section-title,
@@ -3590,7 +3738,7 @@ img {
 	}
 
 	.wp-responsive-open #wpbody {
-		left: -190px;
+		left: -16em;
 	}
 
 	code {
@@ -3621,18 +3769,31 @@ img {
 	}
 
 	/* Theme/Plugin File Editor */
+
+	#template textarea,
+	#template .CodeMirror {
+		box-sizing: border-box;
+	}
+
 	#templateside {
 		float: none;
 		width: auto;
+	}
+
+	#templateside > ul {
+		border-right: 1px solid #ddd;
 	}
 
 	#templateside li {
 		margin: 0;
 	}
 
-	#templateside li a {
+	#templateside li:not(.howto) a {
 		display: block;
 		padding: 5px;
+	}
+	#templateside li.howto {
+		padding: 12px;
 	}
 
 	#templateside .highlight {
@@ -3653,8 +3814,70 @@ img {
 		width: 100%;
 	}
 
+	#templateside ul ul {
+		padding-right: 1.5em;
+	}
+	[role="treeitem"] .folder-label {
+		display: block;
+		padding: 5px;
+	}
+	.tree-folder > li::before,
+	.tree-folder > li::after,
+	.tree-folder .tree-folder::after {
+		right: -8px;
+	}
+	.tree-folder > li::before {
+		top: 0px;
+		height: 13px;
+	}
+	.tree-folder > .current-file::before {
+		right: -5px;
+		top: 7px;
+		width: 4px;
+	}
+	.tree-folder > .current-file::after {
+		height: 9px;
+		right: -8px;
+	}
+	.wrap #templateside span.notice {
+		margin-right: -5px;
+		width: 100%;
+	}
+
 	.fileedit-sub .alignright {
+		float: right;
 		margin-top: 15px;
+		width: 100%;
+		text-align: right;
+	}
+
+	.fileedit-sub .alignright label {
+		display: block;
+	}
+
+	.fileedit-sub #theme,
+	.fileedit-sub #plugin {
+		margin-right: 0;
+		max-width: 70%;
+	}
+
+	.fileedit-sub input[type="submit"] {
+		margin-bottom: 0px;
+		padding: 8px 18px;
+	}
+
+	#documentation label[for="docs-list"] {
+		display: block;
+	}
+
+	#documentation select[name="docs-list"] {
+		margin-right: 0;
+		max-width: 60%;
+	}
+
+	#documentation input[type="button"] {
+		margin-bottom: 0;
+		padding: 8px 18px;
 	}
 
 	#wpfooter {
@@ -3672,6 +3895,10 @@ img {
 	.filter-drawer .filter-group-feature input,
 	.filter-drawer .filter-group-feature label {
 		line-height: 25px;
+	}
+
+	.filter-drawer .filter-group-feature label {
+		margin-right: 32px;
 	}
 
 	.wp-filter .button.drawer-toggle {
@@ -3713,6 +3940,23 @@ img {
 	h3 .nav-tab {
 		margin: 10px 0 0 10px;
 		border-bottom: 1px solid #ccc;
+	}
+}
+
+.options-media-php br {
+	display: none;
+}
+
+@media screen and (max-width: 375px) {
+	.options-media-php input[type="number"][name*="_size_"] {
+		margin: 5px 0;
+	}
+	.options-media-php label[for*="_size_h"]:before {
+		content: '';
+		display: block;
+	}
+	.options-media-php br {
+		display: block;
 	}
 }
 

@@ -1,0 +1,36 @@
+.toggle_option_row {
+  margin: 4px 0;
+}
+
+.toggle_option_row input{
+	display: inline-block;
+}
+
+.toggle_option_row .dashicons-sort{ cursor: move;}
+
+.toggle_option_row .toggle_value_field,
+.toggle_option_row .toggle_label_field{
+	width: 136px;
+	line-height: 20px;
+}
+
+.toggle_option_preview .button {
+  border-radius: 0;
+  margin-right: -5px;
+}
+.toggle_option_preview .button:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.toggle_option_preview .button:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.toggle_option_preview.toggle_vertical .button{
+	width: 100%;
+}
+.toggle_option_preview.toggle_vertical .button:first-child {
+  border-radius: 3px 3px 0 0;
+}
+.toggle_option_preview.toggle_vertical .button:last-child {
+  border-radius: 0 0 3px 3px;
+}

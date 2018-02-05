@@ -1,0 +1,7 @@
+.saved_card_title{ margin-top:40px; }
+.wcmp_stripe_connect{
+    padding: 23px;
+}
+.wcmp_stripe_connect input[type='submit']{
+    background: #fc482f !important;
+}

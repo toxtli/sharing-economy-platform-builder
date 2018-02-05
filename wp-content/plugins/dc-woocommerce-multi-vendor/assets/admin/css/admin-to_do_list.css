@@ -1,0 +1,87 @@
+.wcmp_vendors_settings #submit {
+ display : none;
+} 
+.wcmp_vendors_settings .form-table th {	
+	padding-bottom: 17px !important;
+    padding-top: 17px !important;
+}
+.wcmp_vendors_settings .form-table {
+	box-shadow: 0 3px 0 #dbdbdb;
+	border-color: #d2d2d2;
+	position:relative;
+}
+
+.wcmp_vendors_settings .form-table:before {
+	background: url(../../images/img-table-top-left.jpg) no-repeat;
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	height:10px;
+	width:10px;
+}
+
+.wcmp_vendors_settings .form-table:after {
+	background: url(../../images/img-table-top-right.jpg) no-repeat;
+	position:absolute;
+	top:0;
+	right:0;
+	content:"";
+	height:10px;
+	width:10px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {    
+	.wcmp_vendors_settings .form-table:after {
+		top:1px;
+		right:-1px;
+}    
+}
+
+.wcmp_vendors_settings .form-table a {
+	color: #e67853;
+	text-decoration:none;
+}
+
+.wcmp_vendors_settings #to_do_list tbody tr:last-child {
+	border:none;	
+}
+.wcmp_vendors_settings #to_do_list tbody tr:first-child {
+	border-bottom:solid 1px #d2d2d2;	
+	border-top: solid 1px #d2d2d2;	
+}
+.wcmp_vendors_settings #to_do_list tbody tr td, .wcmp_vendors_settings #to_do_list tbody tr th {
+    padding-left: 20px;
+}
+.vendor_edit_button, .activate_vendor, .reject_vendor, .vendor_dismiss_button, .vendor_transaction_done_button {
+	width:35px;
+	height:35px;
+	border-radius:5px;
+	border-top: solid 1px #d6c9c6;
+	border-left: solid 1px #d6c9c6;
+	border-right: solid 2px #d6c9c6;
+	border-bottom: solid 3px #d6c9c6;
+	text-indent:-99999px;
+}
+.vendor_edit_button:hover, .activate_vendor:hover, .reject_vendor:hover, .vendor_dismiss_button:hover, .vendor_transaction_done_button:hover {
+	cursor:pointer;
+	 border-color: #beaba6;
+}
+.vendor_edit_button {
+	background: url(../../images/icon-vendor-edit.png ) -2px -2px ;
+}
+
+.activate_vendor {
+	background: url(../../images/icon-vendor-activate.png) -2px -2px ;
+}
+
+.reject_vendor {
+	background: url(../../images/icon-vendor-reject.png) -2px -2px;
+}
+
+.vendor_dismiss_button {
+	background: url(../../images/icon-vendor-dismiss.png) -2px -2px ;
+}
+
+.vendor_transaction_done_button {
+	background: url(../../images/icon-vendor-notify.png) -2px -2px ;
+}

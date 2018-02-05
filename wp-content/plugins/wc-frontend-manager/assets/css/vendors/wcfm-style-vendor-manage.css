@@ -1,0 +1,79 @@
+#wcfm-main-contentainer #vendors_manage_general_expander input[type="text"].wcfm-text, #wcfm-main-contentainer #vendors_manage_general_expander textarea {
+	border: 0px !important;
+}
+
+#wcfm-main-contentainer img.vendor_store_logo {
+	display: table-cell;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	max-width: 50px;
+}
+
+#wcfm-main-contentainer .wcfm_vendor_manage_change_vendor {
+	display: inline-block;
+	float: none;
+	margin-left: -100px;
+}
+
+#wcfm-main-contentainer .wcfm_vendor_manage_change_vendor .select2-container { margin-bottom: 10px; }
+#wcfm-main-contentainer .wcfm_vendor_manage_change_vendor .select2-container, #wcfm-main-contentainer .wcfm_vendor_manage_change_vendor .select2-container .select2-selection { min-height: 35px !important; }
+#wcfm-main-contentainer .wcfm_vendor_manage_change_vendor .select2-container--default .select2-selection--single .select2-selection__rendered, #wcfm-main-contentainer .select2-search input { padding-top: 0px !important; padding-bottom: 0px !important; line-height: 2.407em !important; }
+
+#wcfm-main-contentainer #wcfm_modify_vendor_membership {
+	float: right;
+	margin-top: 2px;
+	margin-left: 10px;
+	
+	background: #1a1a1a none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em !important;
+	text-transform: uppercase;
+}
+
+#wcfm-main-contentainer #wcfm_modify_vendor_membership:hover {
+	background: #00897b none repeat scroll 0 0;
+}
+
+#wcfm-main-contentainer #wcfm_modify_vendor_membership {
+	color: #ffffff !important;
+	float: none;
+	padding: 4px;
+}
+
+.wcfm_vendor_store a {
+	color: #FF7400;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 640px) {
+	#wcfm-main-contentainer .wcfm_vendor_manage_change_vendor {
+		margin-left: -50px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	div.wcfm-collapse-content h2 {
+		display: table-cell;
+		width: auto;
+	}
+	
+	#wcfm-main-contentainer .wcfm_vendor_manage_change_vendor {
+		display: block;
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	div.wcfm-collapse-content h2 {
+		display: table-cell;
+		width: auto;
+	}
+}

@@ -1,0 +1,35 @@
+.subscription_price_ele {
+  width: 18% !important;
+  margin-right: 8px;
+}
+
+.subscription_trial_ele {
+	width: 28% !important;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+	#_subscription_trial_length {
+		width: 20% !important;
+	}
+	
+	#_subscription_price { width: 20% !important; }
+	
+	#_subscription_trial_period, #_subscription_period_interval, #_subscription_period {
+		width: 34% !important;
+	}
+	
+	._subscription_price, ._subscription_sign_up_fee, #_subscription_sign_up_fee, ._subscription_length_day, ._subscription_length_week, ._subscription_length_month, ._subscription_length_year, #_subscription_length_day, #_subscription_length_week, #_subscription_length_month, #_subscription_length_year {
+		width: 98% !important;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	.subscription_price_ele {
+		width: 28% !important;
+	}
+	
+	.subscription_trial_ele {
+	  width: 45% !important;
+	}
+}

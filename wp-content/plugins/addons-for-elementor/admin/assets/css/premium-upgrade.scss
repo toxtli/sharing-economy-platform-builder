@@ -1,0 +1,699 @@
+/* -------------------- Pricing Plan ------------ */
+
+.clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+
+.clear {
+  display: inline-table;
+  clear: both;
+  }
+
+* html .clear {
+  height: 1%;
+  }
+
+.clear {
+  display: block;
+  }
+
+.hide {
+  display: none !important;
+  }
+
+.flex-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  }
+
+.flex-col {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  }
+
+.btn {
+  line-height: 20px;
+  display: block;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding: 13px 20px;
+  font-size: 0.9375em;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-image-width: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  }
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
+  color: #fff;
+  text-decoration: none;
+  }
+
+.btn {
+  background-color: #00bcd4;
+  }
+
+.btn:hover {
+  background-color: #26c6da;
+  }
+
+.btn:focus,
+.btn:active {
+  background-color: #05a7bd;
+  }
+
+.m0 {
+  margin: 0 !important;
+  }
+
+.mb0 {
+  margin-bottom: 0 !important;
+  }
+
+.mb1 {
+  margin-bottom: 1px !important;
+  }
+
+.mb5 {
+  margin-bottom: 5px !important;
+  }
+
+.mb10 {
+  margin-bottom: 10px !important;
+  }
+
+.mb15 {
+  margin-bottom: 15px !important;
+  }
+
+.mb20 {
+  margin-bottom: 20px !important;
+  }
+
+.mb30 {
+  margin-bottom: 30px !important;
+  }
+
+.c-wh {
+  color: #fff !important;
+  }
+.c-red {
+  color: #da4f49 !important;
+  }
+.c-mg {
+  color: #9e9e9e;
+  }
+.w100 {
+  width: 100% !important;
+  }
+
+.bg-cy {
+  background-color: #00bcd4;
+  }
+
+.bg-gr {
+  background-color: #8ac249;
+  }
+
+.pricing-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  }
+.pricing-content, .pricing-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  }
+.pricing-content p:empty {
+  display: none;
+  }
+
+div.plans-wrapper ul {
+  list-style-type: none;
+  margin: 0 0 15px 0;
+  }
+
+div#plans {
+  margin-top: 50px;
+  }
+
+div.plans-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #f5f8f9;
+  z-index: 4;
+  -webkit-box-shadow: 0 0 30px rgba(34, 44, 55, 0.15);
+  -moz-box-shadow: 0 0 30px rgba(34, 44, 55, 0.15);
+  box-shadow: 0 0 30px rgba(34, 44, 55, 0.15);
+  }
+
+div.plans-wrapper div.plan-intro div.w100 {
+  padding: 20px 30px 0 30px;
+  position: relative;
+  }
+
+div.plans-wrapper div.plan-intro {
+  width: 340px;
+  float: left;
+  padding: 30px 0;
+  position: relative;
+  z-index: 4;
+  }
+
+div.plans-wrapper div.plans {
+  width: 100%;
+  float: left;
+  margin: 0 0 0 -340px;
+  position: relative;
+  }
+
+div.plans-wrapper div.content-wrapper{
+  margin: 0 0 0 340px;
+  position: relative;
+  }
+
+div.plans-wrapper div.plan {
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  }
+
+div.plans-wrapper div.plan h3 {
+  color: #fff;
+  }
+
+div.plans-wrapper div.plan:last-child {
+  border-right: 0;
+  }
+
+div.plans-wrapper div.plan {
+  background: #222c37;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  transition: all .25s;
+  }
+
+div.plans-wrapper div.plan2,
+div.plans-wrapper div.plan4 {
+  background: #2d3741;
+  }
+
+div.plans-wrapper div.plan div.w100 {
+  position: relative;
+  padding: 40px 20px 80px 20px;
+  }
+
+div.plans-wrapper div.plan-intro img {
+  width: 100%;
+  height: auto;
+  }
+
+div.plans-wrapper div.plan p {
+  font-size: 1.0625em;
+  color: #ccc;
+  backface-visibility: hidden;
+  }
+
+div.plans-wrapper div.plan .price {
+  position: relative;
+  display: inline-block;
+  font-size: 1.875em;
+  margin: 0 0 30px 0;
+  }
+
+div.plans-wrapper div.plan div.action {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  text-align: center;
+  }
+
+div.plans-wrapper div.plan div.action .btn {
+  width: 100%;
+  vertical-align: top;
+  }
+
+div.compare-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: #ececec;
+  position: relative;
+  }
+
+div.compare-wrapper div.benefits {
+  width: 340px;
+  float: left;
+  }
+
+div.compare-wrapper div.plans {
+  width: 100%;
+  float: left;
+  margin: 0 0 0 -340px;
+  position: relative;
+  }
+
+div.compare-wrapper div.content-wrapper{
+  margin: 0 0 0 340px;
+  position: relative;
+  }
+
+div.compare-wrapper div.plan {
+  width: 50%;
+  float: left;
+  padding: 30px 0 0 0;
+  text-align: center;
+  background: #f5f8f9;
+  }
+
+div.compare-wrapper div.plan.even {
+  background: #ececec;
+  }
+
+div.compare-wrapper div.tooltip {
+  padding: 20px;
+  background: #fff;
+  position: absolute;
+  border-bottom: #37BF91 5px solid;
+  top: 48px;
+  left: 10px;
+  right: 10px;
+  font-weight: 300;
+  z-index: 999;
+  text-align: left;
+  -webkit-box-shadow: 0 1px 20px rgba(34, 44, 55, 0.3);
+  -moz-box-shadow: 0 1px 20px rgba(34, 44, 55, 0.3);
+  box-shadow: 0 1px 20px rgba(34, 44, 55, 0.3);
+  }
+
+div.compare-wrapper div.tooltip:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -19px;
+  right: 21px;
+  z-index: 18;
+  border: transparent 10px solid;
+  border-bottom-color: #fff;
+  }
+
+div.compare-wrapper div.tooltip p {
+  font-size: 1em;
+  margin: 0;
+  }
+
+div.compare-wrapper div.action {
+  padding: 30px;
+  background: #f0f3f4;
+  }
+
+div.compare-wrapper div.plan.even div.action {
+  background: #e7e7e7;
+  }
+
+div.compare-wrapper div.action .btn {
+  width: 100%;
+  vertical-align: top;
+  }
+
+div.compare-wrapper div.benefits h4 {
+  margin: 0;
+  padding: 30px;
+  background: #f5f8f9;
+  position: relative;
+  z-index: 3;
+  }
+
+div.compare-wrapper div.benefits ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  z-index: 4;
+  }
+
+div.compare-wrapper div.benefits ul li {
+  height: 50px;
+  padding: 0 30px !important;
+  margin: 0 !important;
+  text-align: left;
+  font-size: 0.9375em;
+  font-weight: 400;
+  position: relative;
+  background: #f5f8f9;
+  }
+
+div.compare-wrapper div.benefits ul li div.text {
+  vertical-align: middle;
+  display: table-cell;
+  height: 50px;
+  }
+
+div.compare-wrapper div.benefits ul li:nth-child(odd) {
+  background: #ececec;
+  }
+
+div.compare-wrapper div.benefits ul li:before {
+  display: none;
+  }
+
+div.compare-wrapper div.benefits ul li span.dashicons-editor-help {
+  line-height: 22px;
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  cursor: pointer;
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 32px;
+  line-height: 1;
+  }
+
+div.compare-wrapper div.benefits ul li span.dashicons-editor-help:before {
+  font-size: 85%;
+  }
+
+div.compare-wrapper div.plan h4 {
+  color: #222c37;
+  margin: 0 0 30px 0;
+  }
+
+div.compare-wrapper div.plan ul {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  }
+
+div.compare-wrapper div.plan ul li {
+  position: relative;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px 20px !important;
+  margin: 0 !important;
+  text-align: center;
+  font-size: 0.9375em;
+  }
+
+div.compare-wrapper div.plan ul li:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.02);
+  }
+
+div.compare-wrapper div.plan ul li:before {
+  display: none;
+  }
+
+div.compare-wrapper div.plan ul li span.dashicons-editor-help {
+  font-size: 24px;
+  vertical-align: top;
+  line-height: 1;
+  color: #9e9e9e;
+  margin: 0 0 0 2px;
+  cursor: pointer;
+  }
+
+div.compare-wrapper div.plan ul li span.pay {
+  font-weight: 700;
+  }
+
+div.compare-wrapper div.plan ul li div.tooltip:before {
+  right: 50%;
+  margin: 0 -10px 0 0;
+  }
+div.compare-wrapper div.plan ul li div.dashicons-no-alt {
+  color: #da4f49;
+  }
+div.compare-wrapper div.plan1 ul li div.dashicons-yes {
+  color: #8ac249;
+  }
+
+div.compare-wrapper div.plan2 ul li div.dashicons-yes {
+  color: #00bcd4;
+  }
+
+div.compare-wrapper div.plan3 ul li div.dashicons-yes {
+  color: #37BF91;
+  }
+
+div.compare-wrapper div.plan4 ul li div.dashicons-yes {
+  color: #009688;
+  }
+
+div.compare-wrapper .dashicons {
+  font-size: 28px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+  }
+
+div.compare-wrapper div.plan1 ul li div.tooltip {
+  border-color: #8ac249;
+  }
+
+div.compare-wrapper div.plan2 ul li div.tooltip {
+  border-color: #00bcd4;
+  }
+
+div.compare-wrapper div.plan3 ul li div.tooltip {
+  border-color: #37BF91;
+  }
+
+div.compare-wrapper div.plan4 ul li div.tooltip {
+  border-color: #009688;
+  }
+
+div.compare-wrapper div.plan ul li .m {
+  display: none;
+  }
+
+
+@media only screen and (min-width:150px) and (max-width:1380px) {
+  div#plans {
+    margin-bottom: 40px;
+    }
+  div.plans-wrapper div.plan-intro {
+    display: none;
+    }
+  div.plans-wrapper div.plans {
+    margin: 0;
+    }
+  div.plans-wrapper div.content-wrapper{
+    margin: 0;
+    }
+  div.compare-wrapper {
+    background: transparent;
+    }
+  div.compare-wrapper div.benefits {
+    width: 100%;
+    margin: 0 0 30px 0;
+    }
+  div.compare-wrapper div.benefits h4 {
+    padding: 0;
+    background: transparent;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 100;
+    color: #222c37;
+    }
+  div.compare-wrapper div.benefits ul {
+    display: none;
+    }
+  div.compare-wrapper div.plans {
+    margin: 0;
+    }
+  div.compare-wrapper div.content-wrapper{
+    margin: 0;
+    }
+  div.compare-wrapper div.plan h4 {
+    color: #fff;
+    margin: 0;
+    padding: 15px 20px;
+    background: #222c37;
+    }
+  div.compare-wrapper div.plan {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 15px 0;
+    text-align: left;
+    background: #f5f8f9 !important;
+    }
+  div.compare-wrapper div.plan ul {
+    width: 100%;
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }
+  div.compare-wrapper div.plan ul li {
+    width: 50%;
+    height: auto;
+    float: left;
+    line-height: 20px;
+    padding: 15px 20px 15px 40px !important;
+    text-align: left;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    }
+  div.compare-wrapper div.plan ul li:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.0);
+    }
+  div.compare-wrapper div.plan ul li:nth-child(2),
+  div.compare-wrapper div.plan ul li:nth-child(3),
+  div.compare-wrapper div.plan ul li:nth-child(6),
+  div.compare-wrapper div.plan ul li:nth-child(7),
+  div.compare-wrapper div.plan ul li:nth-child(10),
+  div.compare-wrapper div.plan ul li:nth-child(11),
+  div.compare-wrapper div.plan ul li:nth-child(14),
+  div.compare-wrapper div.plan ul li:nth-child(15),
+  div.compare-wrapper div.plan ul li:nth-child(18),
+  div.compare-wrapper div.plan ul li:nth-child(19),
+  div.compare-wrapper div.plan ul li:nth-child(22),
+  div.compare-wrapper div.plan ul li:nth-child(23) {
+    background: rgba(0, 0, 0, 0.02);
+    }
+  div.compare-wrapper div.plan ul li span.message {
+    display: none;
+    }
+  div.compare-wrapper div.plan ul li .m {
+    display: inline-block;
+    }
+  div.compare-wrapper div.plan ul li div.dashicons-yes,
+  div.compare-wrapper div.plan ul li div.dashicons-no-alt {
+    position: absolute;
+    top: 13px;
+    left: 8px;
+    }
+  div.compare-wrapper div.plan ul li div.dashicons-no-alt {
+    top: 16px;
+    }
+  div.compare-wrapper div.plan ul li span.m-message {
+    display: inline-block;
+    }
+  div.compare-wrapper div.action {
+    padding: 15px;
+    background: #e7e7e7;
+    }
+  div.compare-wrapper div.plan.even div.action {
+    background: #e7e7e7;
+    }
+  div.compare-wrapper div.action .btn {
+    width: auto;
+    }
+  }
+
+@media only screen and (min-width:150px) and (max-width:1023px) {
+
+  div#plans {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+  div.plans-wrapper div.plan {
+    width: 50%;
+    }
+  div#compare {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+  }
+
+@media only screen and (min-width:150px) and (max-width:767px) {
+  div#plans {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+  div.plans-wrapper {
+    background: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    }
+  div.plans-wrapper div.plan {
+    width: 100%;
+    margin: 0 0 15px 0;
+    -webkit-box-shadow: 0 0 30px rgba(34, 44, 55, 0.15);
+    -moz-box-shadow: 0 0 30px rgba(34, 44, 55, 0.15);
+    box-shadow: 0 0 30px rgba(34, 44, 55, 0.15);
+    }
+  div.plans-wrapper div.plan div.icon {
+    display: none;
+    }
+  div.plans-wrapper div.plan p.text {
+    height: auto !important;
+    }
+  div#compare {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+  div.compare-wrapper div.plan ul li {
+    width: 100%;
+    }
+  div.compare-wrapper div.plan ul li:nth-child(2),
+  div.compare-wrapper div.plan ul li:nth-child(3),
+  div.compare-wrapper div.plan ul li:nth-child(6),
+  div.compare-wrapper div.plan ul li:nth-child(7),
+  div.compare-wrapper div.plan ul li:nth-child(10),
+  div.compare-wrapper div.plan ul li:nth-child(11),
+  div.compare-wrapper div.plan ul li:nth-child(14),
+  div.compare-wrapper div.plan ul li:nth-child(15),
+  div.compare-wrapper div.plan ul li:nth-child(18),
+  div.compare-wrapper div.plan ul li:nth-child(19),
+  div.compare-wrapper div.plan ul li:nth-child(22),
+  div.compare-wrapper div.plan ul li:nth-child(23) {
+    background: rgba(0, 0, 0, 0.0);
+    }
+  div.compare-wrapper div.plan ul li:nth-child(even) {
+    background: rgba(0, 0, 0, 0.02) !important;
+    }
+  div.faq-wrapper div.g12 {
+    padding-bottom: 15px !important;
+    }
+  div.faq-wrapper div.g4 {
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 0;
+    }
+  }
+
+@media only screen and (min-width:150px) and (max-width:479px) {
+  div#plans {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+  div#compare {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+  }
+
+/* ------- END: Pricing Plan --------- */

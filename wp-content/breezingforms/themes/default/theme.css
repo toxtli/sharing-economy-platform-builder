@@ -1,0 +1,131 @@
+/*
+ ########## BreezingForms 1.6.5 QuickMode ##########
+ @autor crosstec.de
+ @copyright Copyright (C) 2009 crosstec.de. All rights reserved.
+ ########################################
+*/
+.bfElementGroup input[type='radio']{
+    vertical-align: top;
+}
+.bfElementGroupNoWrap input[type='radio']{
+    vertical-align: top;
+}
+.bfElementGroup input[type='checkbox']{
+    vertical-align: top;
+}
+.bfElementGroupNoWrap input[type='checkbox']{
+    vertical-align: top;
+}
+/* ##### General BreezingForms styles ##### */
+
+.bfQuickMode {
+
+}
+
+.bfQuickMode fieldset {
+
+}
+
+.bfQuickMode legend {
+
+}
+
+.bfQuickMode p.bfElemWrap {
+
+}
+
+.bfQuickMode span.bfElemWrap {
+
+}
+
+/* ##### inline ##### */
+
+.bfQuickMode fieldset fieldset legend {
+
+}
+
+.bfQuickMode fieldset.bfInline {
+
+}
+
+.bfQuickMode fieldset.bfInline p {
+
+}
+
+/* ##### Input Fields ##### */
+
+.bfQuickMode input[type=text], .bfQuickMode input[type=password], .bfQuickMode textarea, .bfQuickMode select {
+
+}
+
+.bfQuickMode textarea:hover, .bfQuickMode input[type='text']:hover, .bfQuickMode input[type='password']:hover, .bfQuickMode select:hover {
+
+}
+
+.bfQuickMode textarea:focus, .bfQuickMode input[type='text']:focus, .bfQuickMode input[type='password']:focus, .bfQuickMode select:focus {
+
+}
+
+.bfQuickMode input[type='button'], .bfQuickMode input[type='submit'], .bfQuickMode input[type='checkbox'], .bfQuickMode input[type='image'], .bfQuickMode input[type='radio'], .bfQuickMode input[type='reset'], .bfQuickMode select, .bfQuickMode button {
+
+}
+
+.bfQuickMode input[type='hidden'] { display: none; }
+
+/* ##### page intro ##### */
+
+.bfQuickMode .bfPageIntro {
+
+}
+
+/* ##### error messages #####*/
+
+.bfQuickMode .bfErrorMessage {
+
+}
+
+/* ##### max length message ##### */
+
+.bfMaxLengthCounter {
+    color: #666;
+}
+
+/* ##### tooltip ##### */
+
+.bfQuickMode span.hasTip {
+    background: transparent url('img/icon_info.png') right top no-repeat;
+}
+
+/* ##### Section Description #####*/
+
+.bfQuickMode .bfSectionDescription {
+
+}
+
+.bfQuickMode .bfSectionDescription p {
+
+}
+
+/* ##### required ##### */
+
+.bfQuickMode .bfRequired {
+
+}
+
+/* ##### buttons ##### */
+
+.bfQuickMode input[type='submit'], .bfQuickMode input[type='reset']  {
+
+}
+
+.bfQuickMode .bfNextButton, .bfQuickMode .bfSubmitButton, .bfQuickMode .bfCancelButton {
+
+}
+
+.bfQuickMode .bfPrevButton {
+
+}
+
+.bfQuickMode input.bfCalendar {
+
+}

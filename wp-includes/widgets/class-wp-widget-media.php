@@ -127,7 +127,7 @@ abstract class WP_Widget_Media extends WP_Widget {
 	 * @return array Schema for properties.
 	 */
 	public function get_instance_schema() {
-		return array(
+		$schema = array(
 			'attachment_id' => array(
 				'type' => 'integer',
 				'default' => 0,
@@ -149,6 +149,18 @@ abstract class WP_Widget_Media extends WP_Widget {
 				'should_preview_update' => false,
 			),
 		);
+
+		/**
+		 * Filters the media widget instance schema to add additional properties.
+		 *
+		 * @since 4.9.0
+		 *
+		 * @param array           $schema Instance schema.
+		 * @param WP_Widget_Media $this   Widget object.
+		 */
+		$schema = apply_filters( "widget_{$this->id_base}_instance_schema", $schema, $this );
+
+		return $schema;
 	}
 
 	/**
@@ -213,10 +225,10 @@ abstract class WP_Widget_Media extends WP_Widget {
 
 		echo $args['before_widget'];
 
-		if ( $instance['title'] ) {
+		/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
+		$title = apply_filters( 'widget_title', $instance['title'], $instance, $this->id_base );
 
-			/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
-			$title = apply_filters( 'widget_title', $instance['title'], $instance, $this->id_base );
+		if ( $title ) {
 			echo $args['before_title'] . $title . $args['after_title'];
 		}
 

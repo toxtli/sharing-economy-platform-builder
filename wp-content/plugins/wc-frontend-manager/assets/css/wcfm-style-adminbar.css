@@ -1,0 +1,192 @@
+.wcfm-admin-menu-head {
+	background: #f1f1f1;
+	padding: 0 2px 0 2px !important;
+	height: 32px !important;
+}
+
+.wcfm-admin-menu span {
+	font-size: 15px;
+	padding: 0 4px 0 2px !important;
+}
+
+.wcfm_addon_inactive_notice_box {
+	background-color: #6dc7be;
+	border-left: 0px;
+	padding-left: 97px;
+	min-height: 100px;
+}
+
+.wcfm_addon_inactive_notice_box a.promo-btn {
+	background: #fff;
+	border-color: #fafafa #fafafa #fafafa;
+	box-shadow: 0 1px 0 #fafafa;
+	color: #FF1A00;
+	text-decoration: none;
+	text-shadow: none;
+	position: absolute;
+	top: 30px;
+	right: 26px;
+	height: 40px;
+	line-height: 40px;
+	width: 130px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.wcfm_addon_inactive_notice_box h2 {
+	font-size: 18px;
+	width: 80%;
+	color: rgba(250, 250, 250, 1);
+	margin-bottom: 8px;
+	font-weight: normal;
+	margin-top: 15px;
+	-webkit-text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	-moz-text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	-o-text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	font-weight: 600;
+}
+
+.wcfm_addon_inactive_notice_box img {
+	position: absolute;
+	width: 80px;
+	top: 10px;
+	left: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.wcfm_addon_inactive_notice_box h2 span {
+	position: relative;
+	top: -1px;
+}
+
+.wcfm_addon_inactive_notice_box p {
+	width: 80%;
+	color: rgba(250, 250, 250, 0.77);
+	font-size: 14px;
+	margin-bottom: 10px;
+	-webkit-text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	-moz-text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	-o-text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+	text-shadow: 0.1px 0.1px 0px rgba(250, 250, 250, 0.24);
+}
+
+.wcfm_addon_inactive_notice_box p strong.highlight-text {
+	color: #fff;
+}
+
+.wcfm_addon_inactive_notice_box p a {
+	color: #fafafa;
+}
+
+.wcfm_addon_inactive_notice_box .notice-dismiss:before {
+	color: #fff;
+}
+
+.wcfm_addon_inactive_notice_box span.dashicons-megaphone, .wcfm_addon_inactive_notice_box span.dashicons-groups {
+	position: absolute;
+	top: 16px;
+	right: 248px;
+	color: rgba(253, 253, 253, 0.29);
+	font-size: 96px;
+	transform: rotate(-21deg);
+}
+
+#wcfm-membership-notice {
+	background-color: #b198dc;
+}
+
+#wcfm-groups-sttafs-notice {
+	background-color: #ff8761;
+}
+
+.wcfm_setting_help_box {
+	background: #fff;
+	border-left: 4px solid #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	margin: 5px 1px 2px;
+	padding: 1px 12px;
+	border-left-color: #46b450;
+}
+
+.wcfm_admin_message_wrapper {
+	float: right;
+	width: 30%;
+}
+
+.wcfm_admin_message {
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0px 2px 1px #555;
+	box-shadow: 0px 1px 1px #555;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.wcfm_admin_help_docs a, .wcfm_admin_support_docs a {
+	text-decoration: none;
+	color: #D15600;
+	font-weight: 500;
+}
+
+.wcfm_admin_support_docs a {
+	color: #FF0084;
+}
+
+.wcfm_admin_help_docs a:hover, .wcfm_admin_support_docs a:hover {
+	text-decoration: underline;
+}
+
+.wcfm_admin_message p {
+	padding: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	color: #555;
+}
+
+.wcfm_admin_message ul li {
+}
+
+.wcfm_admin_message .primary {
+	background: #00897b;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 6px;
+	border-radius: 5px;
+	color: #fff;
+	border: 1px solid #00897b;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 2px 1px #555;
+	box-shadow: 0px 2px 1px #555;
+	text-align: center;
+	display: block;
+}
+
+.wcfm_admin_message .membership_btn {
+	background-color: #D01F3C; 
+	border-color: #D01F3C;
+}
+
+.wcfm_admin_message .primary:hover {
+	border: 1px solid #2a3344;
+  background: #2a3344; 
+}
+
+@media only screen and (max-width: 782px) {
+	#wpadminbar #wp-admin-bar-wcfm-menu {
+    display: block;
+    position: static;
+  }
+  
+  .wcfm-admin-menu-head { 
+  	padding: 6px 2px 6px 2px !important;
+  }
+}

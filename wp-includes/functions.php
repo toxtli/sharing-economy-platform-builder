@@ -1646,7 +1646,7 @@ function wp_mkdir_p( $target ) {
 }
 
 /**
- * Test if a give filesystem path is absolute.
+ * Test if a given filesystem path is absolute.
  *
  * For example, '/foo/bar', or 'c:\windows'.
  *
@@ -2449,6 +2449,7 @@ function wp_get_mime_types() {
 	'ra|ram' => 'audio/x-realaudio',
 	'wav' => 'audio/wav',
 	'ogg|oga' => 'audio/ogg',
+	'flac' => 'audio/flac',
 	'mid|midi' => 'audio/midi',
 	'wma' => 'audio/x-ms-wma',
 	'wax' => 'audio/x-ms-wax',
@@ -2534,7 +2535,7 @@ function wp_get_ext_types() {
 	 */
 	return apply_filters( 'ext2type', array(
 		'image'       => array( 'jpg', 'jpeg', 'jpe',  'gif',  'png',  'bmp',   'tif',  'tiff', 'ico' ),
-		'audio'       => array( 'aac', 'ac3',  'aif',  'aiff', 'm3a',  'm4a',   'm4b',  'mka',  'mp1',  'mp2',  'mp3', 'ogg', 'oga', 'ram', 'wav', 'wma' ),
+		'audio'       => array( 'aac', 'ac3',  'aif',  'aiff', 'flac', 'm3a',  'm4a',   'm4b',  'mka',  'mp1',  'mp2',  'mp3', 'ogg', 'oga', 'ram', 'wav', 'wma' ),
 		'video'       => array( '3g2',  '3gp', '3gpp', 'asf', 'avi',  'divx', 'dv',   'flv',  'm4v',   'mkv',  'mov',  'mp4',  'mpeg', 'mpg', 'mpv', 'ogm', 'ogv', 'qt',  'rm', 'vob', 'wmv' ),
 		'document'    => array( 'doc', 'docx', 'docm', 'dotm', 'odt',  'pages', 'pdf',  'xps',  'oxps', 'rtf',  'wp', 'wpd', 'psd', 'xcf' ),
 		'spreadsheet' => array( 'numbers',     'ods',  'xls',  'xlsx', 'xlsm',  'xlsb' ),
@@ -2561,8 +2562,9 @@ function get_allowed_mime_types( $user = null ) {
 	if ( function_exists( 'current_user_can' ) )
 		$unfiltered = $user ? user_can( $user, 'unfiltered_html' ) : current_user_can( 'unfiltered_html' );
 
-	if ( empty( $unfiltered ) )
-		unset( $t['htm|html'] );
+	if ( empty( $unfiltered ) ) {
+		unset( $t['htm|html'], $t['js'] );
+	}
 
 	/**
 	 * Filters list of allowed mime types and file extensions.
@@ -4238,29 +4240,41 @@ function iis7_supports_permalinks() {
 }
 
 /**
- * File validates against allowed set of defined rules.
+ * Validates a file name and path against an allowed set of rules.
  *
- * A return value of '1' means that the $file contains either '..' or './'. A
- * return value of '2' means that the $file contains ':' after the first
- * character. A return value of '3' means that the file is not in the allowed
- * files list.
+ * A return value of `1` means the file path contains directory traversal.
+ *
+ * A return value of `2` means the file path contains a Windows drive path.
+ *
+ * A return value of `3` means the file is not in the allowed files list.
  *
  * @since 1.2.0
  *
- * @param string $file File path.
- * @param array  $allowed_files List of allowed files.
+ * @param string $file          File path.
+ * @param array  $allowed_files Optional. List of allowed files.
  * @return int 0 means nothing is wrong, greater than 0 means something was wrong.
  */
-function validate_file( $file, $allowed_files = '' ) {
-	if ( false !== strpos( $file, '..' ) )
+function validate_file( $file, $allowed_files = array() ) {
+	// `../` on its own is not allowed:
+	if ( '../' === $file ) {
 		return 1;
+	}
 
-	if ( false !== strpos( $file, './' ) )
+	// More than one occurence of `../` is not allowed:
+	if ( preg_match_all( '#\.\./#', $file, $matches, PREG_SET_ORDER ) && ( count( $matches ) > 1 ) ) {
 		return 1;
+	}
 
+	// `../` which does not occur at the end of the path is not allowed:
+	if ( false !== strpos( $file, '../' ) && '../' !== mb_substr( $file, -3, 3 ) ) {
+		return 1;
+	}
+
+	// Files not in the allowed file list are not allowed:
 	if ( ! empty( $allowed_files ) && ! in_array( $file, $allowed_files ) )
 		return 3;
 
+	// Absolute Windows drive paths are not allowed:
 	if (':' == substr( $file, 1, 1 ) )
 		return 2;
 
@@ -4423,7 +4437,7 @@ function is_main_site( $site_id = null, $network_id = null ) {
  */
 function get_main_site_id( $network_id = null ) {
 	if ( ! is_multisite() ) {
-		return 1;
+		return get_current_blog_id();
 	}
 
 	$network = get_network( $network_id );
@@ -4431,51 +4445,7 @@ function get_main_site_id( $network_id = null ) {
 		return 0;
 	}
 
-	/**
-	 * Filters the main site ID.
-	 *
-	 * Returning anything other than null will effectively short-circuit the function, returning
-	 * the result parsed as an integer immediately.
-	 *
-	 * @since 4.9.0
-	 *
-	 * @param int|null $main_site_id If anything other than null is returned, it is interpreted as the main site ID.
-	 * @param int $network_id The ID of the network for which the main site was detected.
-	 */
-	$main_site_id = apply_filters( 'pre_get_main_site_id', null, $network->id );
-	if ( null !== $main_site_id ) {
-		return (int) $main_site_id;
-	}
-
-	if ( ( defined( 'DOMAIN_CURRENT_SITE' ) && defined( 'PATH_CURRENT_SITE' ) && $network->domain === DOMAIN_CURRENT_SITE && $network->path === PATH_CURRENT_SITE )
-	     || ( defined( 'SITE_ID_CURRENT_SITE' ) && $network->id == SITE_ID_CURRENT_SITE ) ) {
-		if ( defined( 'BLOG_ID_CURRENT_SITE' ) ) {
-			return BLOG_ID_CURRENT_SITE;
-		} elseif ( defined( 'BLOGID_CURRENT_SITE' ) ) { // deprecated.
-			return BLOGID_CURRENT_SITE;
-		}
-	}
-
-	$site = get_site();
-	if ( $site->domain === $network->domain && $site->path === $network->path ) {
-		$main_site_id = (int) $site->id;
-	} else {
-		$main_site_id = wp_cache_get( 'network:' . $network->id . ':main_site', 'site-options' );
-		if ( false === $main_site_id ) {
-			$_sites = get_sites( array(
-				'fields'     => 'ids',
-				'number'     => 1,
-				'domain'     => $network->domain,
-				'path'       => $network->path,
-				'network_id' => $network->id,
-			) );
-			$main_site_id = ! empty( $_sites ) ? array_shift( $_sites ) : 0;
-
-			wp_cache_add( 'network:' . $network->id . ':main_site', $main_site_id, 'site-options' );
-		}
-	}
-
-	return (int) $main_site_id;
+	return $network->site_id;
 }
 
 /**
@@ -5121,7 +5091,9 @@ function wp_allowed_protocols() {
 
 	if ( empty( $protocols ) ) {
 		$protocols = array( 'http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet', 'mms', 'rtsp', 'svn', 'tel', 'fax', 'xmpp', 'webcal', 'urn' );
+	}
 
+	if ( ! did_action( 'wp_loaded' ) ) {
 		/**
 		 * Filters the list of protocols allowed in HTML attributes.
 		 *
@@ -5129,7 +5101,7 @@ function wp_allowed_protocols() {
 		 *
 		 * @param array $protocols Array of allowed protocols e.g. 'http', 'ftp', 'tel', and more.
 		 */
-		$protocols = apply_filters( 'kses_allowed_protocols', $protocols );
+		$protocols = array_unique( (array) apply_filters( 'kses_allowed_protocols', $protocols ) );
 	}
 
 	return $protocols;
